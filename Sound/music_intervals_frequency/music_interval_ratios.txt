@@ -1,0 +1,80 @@
+0.00	1/1	Unison
+0.40	4375/4374	Ragisma
+0.72	2401/2400	Breedsma
+1.00	2^(1/1200)/1	Cent (music)
+1.20	2 ^(1/1000)/1	Millioctave
+1.95	32805/32768	Schisma
+3.99	1 + (1/100)*log(2)/log(10)/1	Savart
+7.71	225/224	Septimal kleisma or marvel comma
+8.11	15625/15552	Kleisma
+13.79	126/125	Septimal semicomma or starling comma
+14.37	121/120	Difference between greater (11/10) and lesser (12/10) undecimal neutral second
+19.55	2048/2025	Diaschisma or minor comma
+21.51	81/80	Syntonic comma, major comma, komma, or comma of Didymus
+22.64	2^(1/53)/1	Arabian comma or Holder's comma
+23.46	3^(12)/2^(19)	Pythagorean comma
+27.26	64/63	Septimal comma or comma of Archytas
+31.19	56/55	Difference between (11/8) and (7/5) tritone
+34.98	50/49	Septimal sixth-tone or jubilisma
+35.70	49/48	Septimal diesis or slendro diesis
+41.06	128/125	Enharmonic (5-limit) Diesis or Limma
+48.77	36/35	Septimal quarter tone
+50.00	2^(1/24)/1	Equal-tempered quarter tone
+70.67	25/24	Just chromatic semitone, lesser chromatic semitone, minor semitone, or chromatic diesis
+84.47	21/20	Septimal chromatic semitone
+90.22	256/243	Pythagorean limma or Pythagorean minor semitone
+92.18	135/128	Greater chromatic semitone, chromatic semitone, semitone medius
+100.00	2^(1/12)/1	Equal-tempered minor second
+111.73	16/15	Just diatonic semitone, major semitone, or limma
+113.69	2187/2048	Pytharorean apotome or major semitone
+119.44	15/14	Septimal diatonic semitone
+133.24	27/25	Minor second or semitone Maximus
+150.64	12/11	Lesser undecimal neutral second
+165.00	11/10	Greater undecimal neutral second
+182.40	10/9	Just minor tone
+200.00	2^(1/6)/1	Equal-tempered major second
+203.91	9/8	Just major tone or tonus
+231.17	8/7	Septimal major second
+266.87	7/6	Septimal minor third or subminor third
+294.13	32/27	Pythagorean minor third
+300.00	2^(1/4)/1	Equal-tempered minor third
+315.64	6/5	Just minor third or semiditonus
+347.41	11/9	Undecimal neutral third
+386.31	5/4	Just major third or ditonus
+400.00	2^(1/3)/1	Equal-tempered major third
+407.82	81/64	Pythagorean major third or ditone
+417.51	14/11	Undecimal major third
+435.08	9/7	Septimal major third or supermajor third
+498.04	4/3	Just perfect fourth or diatessaron
+500.00	2^(5/12)/1	Equal-tempered perfect fourth
+519.55	27/20	5-limit wolf fourth
+551.32	11/8	Eleventh harmonic
+582.51	7/5	Lesser septimal tritone
+600.00	2^(1/2)/1	Equal-tempered tritone
+617.49	10/7	Greater septimal tritone
+648.68	16/11	Inversion of eleventh harmonic
+680.45	40/27	5-limit (music)|limit wolf interval|wolf fifth
+700.00	2^(7/12)/1	Equal-tempered perfect fifth
+701.96	3/2	Just perfect fifth or diapente
+764.92	14/9	Septimal minor sixth
+782.49	11/7	Undecimal minor sixth
+792.18	128/81	Pythagorean minor sixth
+800.00	2^(2/3)/1	Equal-tempered minor sixth
+813.69	8/5	Just minor sixth
+852.59	18/11	Undecimal neutral sixth
+884.36	5/3	Just major sixth
+900.00	2^(3/4)/1	Equal-tempered major sixth
+905.87	27/16	Pythagorean major sixth
+933.13	12/7	Septimal major sixth
+968.83	7/4	Septimal minor seventh, harmonic seventh
+996.09	16/9	Lesser just minor seventh
+1000.00	2^(5/6)/1	Equal-tempered minor seventh
+1017.60	9/5	Greater just minor seventh
+1035.00	20/11	Lesser undecimal neutral seventh
+1049.36	11/6	Greater undecimal neutral seventh
+1088.27	15/8	Just major seventh
+1100.00	2^(11/12)/1	Equal-tempered major seventh
+1109.78	243/128	Pythagorean major 7th
+1200.00	2/1	Octave or diapason
+1901.96	3/1	Tritave or just perfect twelfth
+2400.00	4/1	Fifteenth or two octaves
