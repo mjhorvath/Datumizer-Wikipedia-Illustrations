@@ -1,0 +1,38 @@
+\documentclass[pstricks,preview,margin=0pt]{standalone}
+\usepackage{pst-plot,graphicx}
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+\begin{document}
+  \psset{linecolor=gray,unit=0.75bp}
+    \begin{pspicture}(-352,-352)(352,352)
+    \psrotate(0,0){285}{\rput[B]{0}(0,-280){\color{gray}{\large\itshape{H}}}}
+    \psset{linewidth=2pt}
+    \psarc[]{-}(0,0){256}{0}{360}
+    \psset{linewidth=0.5pt}
+    \psrotate(0,0){  0}{\rput[B]{0}(0,-276){{\color{gray}{0}}}}
+    \psrotate(0,0){ 30}{\rput[B]{0}(0,-276){{\color{gray}{30}}}}
+    \psrotate(0,0){ 60}{\rput[B]{0}(0,-276){{\color{gray}{60}}}}
+    \psrotate(0,0){ 90}{\rput[B]{0}(0,-276){{\color{gray}{90}}}}
+    \psrotate(0,0){120}{\rput[B]{0}(0,-276){{\color{gray}{120}}}}
+    \psrotate(0,0){150}{\rput[B]{0}(0,-276){{\color{gray}{150}}}}
+    \psrotate(0,0){180}{\rput[B]{0}(0,-276){{\color{gray}{180}}}}
+    \psrotate(0,0){210}{\rput[B]{0}(0,-276){{\color{gray}{210}}}}
+    \psrotate(0,0){240}{\rput[B]{0}(0,-276){{\color{gray}{240}}}}
+%    \psrotate(0,0){270}{\rput[B]{0}(0,-276){{\color{gray}{270}}}}
+    \psrotate(0,0){300}{\rput[B]{0}(0,-276){{\color{gray}{300}}}}
+    \psrotate(0,0){330}{\rput[B]{0}(0,-276){{\color{gray}{330}}}}
+    \psrotate(0,0){  0}{\psline(0,252)(0,260)}
+    \psrotate(0,0){ 30}{\psline(0,252)(0,260)}
+    \psrotate(0,0){ 60}{\psline(0,252)(0,260)}
+    \psrotate(0,0){ 90}{\psline(0,252)(0,260)}
+    \psrotate(0,0){120}{\psline(0,252)(0,260)}
+    \psrotate(0,0){150}{\psline(0,252)(0,260)}
+    \psrotate(0,0){180}{\psline(0,252)(0,260)}
+    \psrotate(0,0){210}{\psline(0,252)(0,260)}
+    \psrotate(0,0){240}{\psline(0,252)(0,260)}
+    \psrotate(0,0){270}{\psline(0,252)(0,260)}
+    \psrotate(0,0){300}{\psline(0,252)(0,260)}
+    \psrotate(0,0){330}{\psline(0,252)(0,260)}
+  \end{pspicture}
+\end{document}

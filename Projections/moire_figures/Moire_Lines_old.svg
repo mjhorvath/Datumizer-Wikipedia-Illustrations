@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-2.4 -2.1 4.8 4.2" width="800" height="700">
+
+	<title>Line Moire</title>
+	<defs>
+		<path id="moire_arc_single" d="M 0,0 L 0,2 A 2,2 0 0,0 0.10467,1.99726 L -0.10467,-1.99726 A 2,2 0 0,1 0,-2 L 0,0" stroke="none" fill="black" />
+		<g id="moire_arc_group_a">
+			<use xlink:href="#moire_arc_single" transform="rotate(000)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(006)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(012)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(018)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(024)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(030)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(036)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(042)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(048)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(054)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(060)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(066)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(072)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(078)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(084)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(090)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(096)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(102)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(108)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(114)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(120)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(126)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(132)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(138)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(144)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(150)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(156)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(162)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(168)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(174)" />
+			<animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="24s" repeatCount="indefinite"/>
+		</g>
+		<g id="moire_arc_group_b">
+			<use xlink:href="#moire_arc_single" transform="rotate(000)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(006)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(012)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(018)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(024)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(030)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(036)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(042)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(048)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(054)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(060)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(066)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(072)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(078)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(084)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(090)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(096)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(102)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(108)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(114)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(120)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(126)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(132)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(138)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(144)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(150)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(156)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(162)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(168)" />
+			<use xlink:href="#moire_arc_single" transform="rotate(174)" />
+			<animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/>
+		</g>
+	</defs>
+
+	<use xlink:href="#moire_arc_group_a" transform="translate(0.2 0)" />
+	<use xlink:href="#moire_arc_group_b" transform="translate(-0.2 0)" />
+</svg>

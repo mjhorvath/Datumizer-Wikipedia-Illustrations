@@ -1,0 +1,300 @@
+<html>
+<head>
+<title>GeoGebra JavaScript evaluation and XML modification demonstration</title>
+<meta name="keywords" content="java,applet,geogebra,dynamic worksheet,interactive,javascript,xml" />
+<meta name="generator" content="GeoGebra">
+<style type="text/css">
+<!--
+td	{padding:0px;}
+body	{font-family:Helvetica,sans-serif;}
+form,applet	{clear:all;}
+.pan	{padding-bottom:4px;}
+.tab	{background:#c0c0ff;padding:2px;cursor:default;width:128px;text-align:center;margin-bottom:2px;float:right;clear:both;}
+.frm	{background:#f0f0ff;border-top:solid thin #c0c0ff;clear:all;margin-bottom:2px;padding-left:4px;}
+-->
+</style>
+<script src="https://web.geogebra.org/static/js/rebootggb.js"></script>
+<script type="text/javascript">
+<!--
+
+function getsource()
+{
+	document.xmlsource.xmlcode.value = document.ggbApplet.getXML()
+}
+
+function clearsource()
+{
+	document.xmlsource.xmlcode.value = ''
+}
+
+function givesource()
+{
+	document.ggbApplet.setXML(document.xmlsource.xmlcode.value) 
+}
+
+function doscript()
+{
+	eval(document.evaljscript.jscriptcode.value)
+}
+
+function clearscript()
+{
+	document.evaljscript.jscriptcode.value = ''
+}
+
+function getggbfile()
+{
+	document.ggbApplet.openFile(document.getfile.inputfile.value)
+}
+
+function toggledescript()
+{
+	var docelem = document.getElementById('descriptpanel')
+	var butelem = document.getElementById('descripthide')
+	if (docelem.style.display == 'none')
+	{
+		docelem.style.display = 'block'
+		butelem.firstChild.nodeValue = 'Hide Description'
+	}
+	else
+	{
+		docelem.style.display = 'none'
+		butelem.firstChild.nodeValue = 'Show Description'
+	}
+}
+
+function togglejscript()
+{
+	var docelem = document.evaljscript
+	var butelem = document.getElementById('jscripthide')
+	if (docelem.style.display == 'none')
+	{
+		docelem.style.display = 'block'
+		butelem.firstChild.nodeValue = 'Hide JavaScript'
+	}
+	else
+	{
+		docelem.style.display = 'none'
+		butelem.firstChild.nodeValue = 'Show JavaScript'
+	}
+}
+
+function togglexml()
+{
+	var docelem = document.xmlsource
+	var butelem = document.getElementById('xmlhide')
+	if (docelem.style.display == 'none')
+	{
+		docelem.style.display = 'block'
+		butelem.firstChild.nodeValue = 'Hide XML'
+	}
+	else
+	{
+		docelem.style.display = 'none'
+		butelem.firstChild.nodeValue = 'Show XML'
+	}
+}
+
+function toggleapplet()
+{
+	var docelem = document.getElementById('appletpanel')
+	var butelem = document.getElementById('applethide')
+	if (docelem.style.display == 'none')
+	{
+		docelem.style.display = 'block'
+		butelem.firstChild.nodeValue = 'Hide Applet'
+	}
+	else
+	{
+		docelem.style.display = 'none'
+		butelem.firstChild.nodeValue = 'Show Applet'
+	}
+}
+
+var istoolbar = false
+function toggletoolbar()
+{
+	if (istoolbar == true)
+	{
+		document.ggbApplet.showToolBar(false)
+		istoolbar = false
+	}
+	else
+	{
+		document.ggbApplet.showToolBar(true)
+		istoolbar = true
+	}
+}
+
+var ismenubar = false
+function togglemenubar()
+{
+	if (ismenubar == true)
+	{
+		document.ggbApplet.showMenuBar(false)
+		ismenubar = false
+	}
+	else
+	{
+		document.ggbApplet.showMenuBar(true)
+		ismenubar = true
+	}
+}
+
+function examplejscript()
+{
+	document.evaljscript.jscriptcode.value = document.getElementById('jscriptexample').firstChild.nodeValue
+}
+
+//-->
+</script>
+</head>
+<body>
+<h3>GeoGebra JavaScript evaluation and XML modification demonstration</h3>
+<table border="0" width="100%">
+<tr>
+<td>
+<div class="frm">
+<span id="descripthide" class="tab" onclick="toggledescript()">Hide Description</span>
+<p class="pan" id="descriptpanel">
+Edit the JavaScript and XML source code in the text fields. Press the various buttons to retrieve or update the XML source, as well as evaluate some JavaScript.
+<br/>
+<br/>
+A full list of Applet parameters for use within an HTML file can be found <a target="_blank" href="https://wiki.geogebra.org/en/Reference:Applet_Parameters">here</a>. A full list of JavaScript commands can be found <a target="_blank" href="http://wiki.geogebra.org/en/Reference:JavaScript">here</a>. A description of the GeoGebra XML file format can be found <a target="_blank" href="http://www.geogebra.org/source/program/xml_format/">here</a>.
+</p>
+</div>
+<div class="frm">
+<span id="applethide" class="tab" onclick="toggleapplet()">Hide Applet</span>
+<form class="pan" id="appletpanel">
+<applet name="ggbApplet" code="geogebra.GeoGebraApplet" codebase="./" archive="http://www.geogebra.org/webstart/geogebra.jar" width="1024" height="576">
+<param name="framePossible" value="false">
+<param name="showResetIcon" value="true">
+<param name="enableRightClick" value="true">
+<param name="showMenuBar" value="false">
+<param name="showToolBar" value="false">
+<param name="showToolBarHelp" value="false">
+<param name="showAlgebraInput" value="false">
+<param name="allowStyleBar" value="false">
+Sorry, the GeoGebra Applet could not be started. Please make sure that Java 1.4.2 (or later) is installed and active in your browser (<a href="http://java.sun.com/getjava">Click here to install Java now</a>)
+</applet>
+<br/><br/><br/><br/>
+<input type="button" value="Reset Document" onclick="ggbApplet.reset()"/>
+<input type="button" value="Toggle Toolbar" onclick="toggletoolbar()"/>
+<input type="button" value="Toggle Menubar" onclick="togglemenubar()"/>
+</form>
+</div>
+<div class="frm">
+<span id="jscripthide" class="tab" onclick="togglejscript()">Hide JavaScript</span>
+<form class="pan" name="evaljscript">
+<textarea name="jscriptcode" style="width:100%;height:400;overflow:auto;white-space:pre;"></textarea>
+<input type="button" value="Example JavaScript" onclick="examplejscript()"/>
+<input type="button" value="Evaluate JavaScript" onclick="doscript()"/>
+<input type="button" value="Clear JavaScript" onclick="clearscript()"/>
+</form>
+</div>
+<div class="frm">
+<span id="xmlhide" class="tab" onclick="togglexml()">Hide XML</span>
+<form class="pan" name="xmlsource">
+<textarea name="xmlcode" style="width:100%;height:400;overflow:auto;white-space:pre;"></textarea>
+<input type="button" value="Get XML source" onclick="getsource()"/>
+<input type="button" value="Set XML source" onclick="givesource()"/>
+<input type="button" value="Clear XML source" onclick="clearsource()"/>
+</form>
+</div>
+<p class="pan">
+<span class="frm" style="font-size:smaller;width:100%;text-align:right;"><a target="_blank" href="http://www.geocities.com/Area51/Quadrant/3864/active.htm">Michael Horvath</a>, Created with <a href="http://www.geogebra.org" target="_blank" >GeoGebra</a></span>
+</p>
+</td>
+</tr>
+</table>
+<pre id="jscriptexample" style="display:none;">
+var points =
+[
+["A_{real}", [0.316009,0.562224], [1.000000,0.000000,0.000000]],
+["A_{proj}", [0.679268,0.457783], [0.000000,1.000000,0.000000]],
+["A_{shad}", [0.319568,0.427011], [0.000000,0.000000,1.000000]],
+["B_{real}", [0.413747,0.639271], [1.000000,0.000000,0.000000]],
+["B_{proj}", [0.768373,0.542024], [0.000000,1.000000,0.000000]],
+["B_{shad}", [0.415360,0.507167], [0.000000,0.000000,1.000000]],
+["C_{real}", [0.411730,0.804594], [1.000000,0.000000,0.000000]],
+["C_{proj}", [0.774939,0.712558], [0.000000,1.000000,0.000000]],
+["C_{shad}", [0.415360,0.507167], [0.000000,0.000000,1.000000]],
+["D_{real}", [0.311549,0.731691], [1.000000,0.000000,0.000000]],
+["D_{proj}", [0.683821,0.632674], [0.000000,1.000000,0.000000]],
+["D_{shad}", [0.319568,0.427011], [0.000000,0.000000,1.000000]],
+["E_{real}", [0.159016,0.607361], [1.000000,0.000000,0.000000]],
+["E_{proj}", [0.679268,0.457783], [0.000000,1.000000,0.000000]],
+["E_{shad}", [0.165481,0.473956], [0.000000,0.000000,1.000000]],
+["F_{real}", [0.260135,0.681395], [1.000000,0.000000,0.000000]],
+["F_{proj}", [0.768373,0.542024], [0.000000,1.000000,0.000000]],
+["F_{shad}", [0.264533,0.551036], [0.000000,0.000000,1.000000]],
+["G_{real}", [0.254635,0.844401], [1.000000,0.000000,0.000000]],
+["G_{proj}", [0.774939,0.712558], [0.000000,1.000000,0.000000]],
+["G_{shad}", [0.264533,0.551036], [0.000000,0.000000,1.000000]],
+["H_{real}", [0.150919,0.774415], [1.000000,0.000000,0.000000]],
+["H_{proj}", [0.683821,0.632674], [0.000000,1.000000,0.000000]],
+["H_{shad}", [0.165481,0.473956], [0.000000,0.000000,1.000000]],
+["I_{real}", [0.597713,0.240601], [0.000000,0.000000,0.000000]],
+["J_{real}", [0.831486,0.474359], [0.000000,0.000000,0.000000]],
+["K_{real}", [0.852895,0.920156], [0.000000,0.000000,0.000000]],
+["L_{real}", [0.604701,0.717501], [0.000000,0.000000,0.000000]],
+["M_{real}", [0.777109,0.094179], [0.000000,0.000000,0.000000]],
+["N_{real}", [1.104433,0.466112], [0.000000,0.000000,0.000000]],
+["O_{real}", [0.283662,0.689637], [0.000000,0.000000,0.000000]],
+["P_{real}", [-0.124113,0.389816], [0.000000,0.000000,0.000000]]
+]
+
+for (var i = 0; i < 32; i++)
+{
+	var my_point = points[i];
+	var my_name = my_point[0];
+	var my_position = my_point[1];
+	var my_color = my_point[2];
+	document.ggbApplet.evalCommand(my_name + '=(' + my_position[0] + ',' + my_position[1] + ')');
+	document.ggbApplet.setLabelVisible(my_name, true)
+	document.ggbApplet.setColor(my_name,my_color[0]*255,my_color[1]*255,my_color[2]*255)
+}
+
+document.ggbApplet.setCoordSystem(-600, 6000, -65.406, 490.548)
+</pre>
+<!--
+//The following JavaScript plots a curve representing the harmonic series of the note, C1.
+//It also plots a series of points that correspond to the notes of the C major (Ionian) scale.
+//The units for the y-axis are hertz; the units for the x-axis are cents.
+
+var notes = ['C','Db','D','Eb','E','F','Gb','G','Ab','A','Bb','B']
+var ionian = [1,0,1,0,1,1,0,1,0,1,0,1]
+var harmonic_minor = [1,0,1,1,0,1,0,1,1,0,0,1]
+
+function PlotPoints(steptable, octaves, mode) {
+  var newcolor = [Math.floor(Math.random()*255),Math.floor(Math.random()*255),Math.floor(Math.random()*255)]
+  for (var j = 0; j < octaves; j++) {
+    for (var i = 0; i < steptable.length; i++) {
+      if (steptable[i] == 1) {
+        var notelabel = notes[i % notes.length]
+        var thisoctave = j + 1
+        var objectname = notelabel + '_{' + thisoctave + '}'
+        if (mode == 1) {
+          var xvalue = j * 1200 + i * 100
+          document.ggbApplet.evalCommand(objectname + '=(' + xvalue + ',h(' + xvalue + '))')
+          document.ggbApplet.setLabelVisible(objectname,true)
+          document.ggbApplet.setColor(objectname,newcolor[0],newcolor[1],newcolor[2])
+        }
+	else {
+          document.ggbApplet.deleteObject(objectname)
+        }
+      }
+    }
+  }
+}
+
+function PlotFunction() {
+  document.ggbApplet.setCoordSystem(-600, 6000, -65.406, 490.548)
+  document.ggbApplet.evalCommand('h(x) = 440 * 2^((x - 4500) / 1200)')
+}
+
+PlotFunction()
+PlotPoints(harmonic_minor, 4, 1)
+-->
+</body>
+</html>

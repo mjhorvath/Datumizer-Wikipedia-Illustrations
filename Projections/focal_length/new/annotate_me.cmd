@@ -1,0 +1,33 @@
+chcp 65001
+convert focal_length_new00.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "0°\n∞m" output00.png
+convert focal_length_new01.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "3°\n381.885m" output01.png
+convert focal_length_new02.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "6°\n190.811m" output02.png
+convert focal_length_new03.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "9°\n127.062m" output03.png
+convert focal_length_new04.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "12°\n95.144m" output04.png
+convert focal_length_new05.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "15°\n75.958m" output05.png
+convert focal_length_new06.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "18°\n63.138m" output06.png
+convert focal_length_new07.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "21°\n53.955m" output07.png
+convert focal_length_new08.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "24°\n47.046m" output08.png
+convert focal_length_new09.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "27°\n41.653m" output09.png
+convert focal_length_new10.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "30°\n37.321m" output10.png
+convert focal_length_new11.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "33°\n33.759m" output11.png
+convert focal_length_new12.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "36°\n30.777m" output12.png
+convert focal_length_new13.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "39°\n28.239m" output13.png
+convert focal_length_new14.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "42°\n26.051m" output14.png
+convert focal_length_new15.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "45°\n24.142m" output15.png
+convert focal_length_new16.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "48°\n22.460m" output16.png
+convert focal_length_new17.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "51°\n20.965m" output17.png
+convert focal_length_new18.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "54°\n19.626m" output18.png
+convert focal_length_new19.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "57°\n18.418m" output19.png
+convert focal_length_new20.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "60°\n17.321m" output20.png
+convert focal_length_new21.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "63°\n16.319m" output21.png
+convert focal_length_new22.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "66°\n15.399m" output22.png
+convert focal_length_new23.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "69°\n14.550m" output23.png
+convert focal_length_new24.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "72°\n13.764m" output24.png
+convert focal_length_new25.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "75°\n13.032m" output25.png
+convert focal_length_new26.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "78°\n12.349m" output26.png
+convert focal_length_new27.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "81°\n11.708m" output27.png
+convert focal_length_new28.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "84°\n11.106m" output28.png
+convert focal_length_new29.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "87°\n10.538m" output29.png
+convert focal_length_new30.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "90°\n10.000m" output30.png
+pause

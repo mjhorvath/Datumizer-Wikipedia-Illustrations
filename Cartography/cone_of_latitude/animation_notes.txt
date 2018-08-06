@@ -1,0 +1,6 @@
+NOTES
+* Start with the 48 frame POV-Ray render.
+* In Jasc Animation Shop, copy frames 25 to 48 and paste them at the end of the animation.
+* Take those same 24 frames and reverse their order, so that the animation runs backward for a short while.
+* Set the duration of each frame to 10/100 seconds.
+* Set the duration of frames 1 and 49 to 100/100 seconds.

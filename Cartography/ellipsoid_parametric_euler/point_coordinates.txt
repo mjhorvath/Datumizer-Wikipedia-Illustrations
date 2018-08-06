@@ -1,0 +1,27 @@
+C0_x = radius cos(theta) sin(phi) a11 + radius cos(phi) a12 + radius sin(theta) sin(phi) a13
+C0_y = radius cos(theta) sin(phi) a21 + radius cos(phi) a22 + radius sin(theta) sin(phi) a23
+C0_z = radius cos(theta) sin(phi) a31 + radius cos(phi) a32 + radius sin(theta) sin(phi) a33
+
+C1_x = 1 cos(0°) sin(90°) a11 + 1 cos(90°) a12 + 1 sin(0°) sin(90°) a13
+C1_y = 1 cos(0°) sin(90°) a21 + 1 cos(90°) a22 + 1 sin(0°) sin(90°) a23
+C1_z = 1 cos(0°) sin(90°) a31 + 1 cos(90°) a32 + 1 sin(0°) sin(90°) a33
+
+C2_x = 1 cos(0°) sin(180°) a11 + 1 cos(180°) a12 + 1 sin(0°) sin(180°) a13
+C2_y = 1 cos(0°) sin(180°) a21 + 1 cos(180°) a22 + 1 sin(0°) sin(180°) a23
+C2_z = 1 cos(0°) sin(180°) a31 + 1 cos(180°) a32 + 1 sin(0°) sin(180°) a33
+
+C3_x = 1 cos(0°) sin(270°) a11 + 1 cos(270°) a12 + 1 sin(0°) sin(270°) a13
+C3_y = 1 cos(0°) sin(270°) a21 + 1 cos(270°) a22 + 1 sin(0°) sin(270°) a23
+C3_z = 1 cos(0°) sin(270°) a31 + 1 cos(270°) a32 + 1 sin(0°) sin(270°) a33
+
+C4_x = 1 cos(0°) sin(360°) a11 + 1 cos(360°) a12 + 1 sin(0°) sin(360°) a13
+C4_y = 1 cos(0°) sin(360°) a21 + 1 cos(360°) a22 + 1 sin(0°) sin(360°) a23
+C4_z = 1 cos(0°) sin(360°) a31 + 1 cos(360°) a32 + 1 sin(0°) sin(360°) a33
+
+C5_x = 1 cos(90°) sin(90°) a11 + 1 cos(90°) a12 + 1 sin(90°) sin(90°) a13
+C5_y = 1 cos(90°) sin(90°) a21 + 1 cos(90°) a22 + 1 sin(90°) sin(90°) a23
+C5_z = 1 cos(90°) sin(90°) a31 + 1 cos(90°) a32 + 1 sin(90°) sin(90°) a33
+
+C6_x = 1 cos(270°) sin(90°) a11 + 1 cos(270°) a12 + 1 sin(270°) sin(90°) a13
+C6_y = 1 cos(270°) sin(90°) a21 + 1 cos(270°) a22 + 1 sin(270°) sin(90°) a23
+C6_z = 1 cos(270°) sin(90°) a31 + 1 cos(270°) a32 + 1 sin(270°) sin(90°) a33

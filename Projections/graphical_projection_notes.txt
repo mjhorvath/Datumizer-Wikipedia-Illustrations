@@ -1,0 +1,3 @@
+"Central projection" may be a synonym for "perspective projection". https://books.google.com/books?id=18hXAAAAYAAJ&pg=PA241&lpg=PA241&dq=axonometric+descriptive&source=bl&ots=2ZAsOiM_Ap&sig=s-P7fmFgKNTjPizvuxTYaDeSPaA&hl=en&sa=X&ved=0ahUKEwihs9DC4KrJAhUM0h4KHQ4AA5sQ6AEIUTAN#v=onepage&q=oblique&f=false
+"Paraline" may be a synonym for "parallel".
+"Auxiliary" is a synonym for what? Re-read multiview article on WP.

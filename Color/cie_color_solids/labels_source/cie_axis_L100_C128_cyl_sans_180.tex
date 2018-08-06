@@ -1,0 +1,14 @@
+\documentclass[pstricks,preview,margin=0pt]{standalone}
+\usepackage{pst-plot,graphicx,pstricks-add}
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+\begin{document}
+  \psset{linecolor=gray,linewidth=1pt,arrowsize=8pt,unit=0.75bp}
+    \begin{pspicture}(-48,-176)(304,176)
+    \psset{linewidth=2pt}
+    \psaxes[Dy=10,dy=25.6,Dx=16,dx=-32,Ox=128,labelFontSize=\color{gray},mathLabel=false,tickcolor=gray](0,-128)(0,-128)(256,128.01)
+    \rput(-36,0){\color{gray}\large\itshape L}
+    \rput(128,-164){\color{gray}\large\itshape C}
+  \end{pspicture}
+\end{document}

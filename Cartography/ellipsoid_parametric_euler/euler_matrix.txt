@@ -1,0 +1,9 @@
+a11 = cos(yaw_1) cos(yaw_2) - cos(pitch) sin(yaw_1) sin(yaw_2)
+a12 = sin(pitch) sin(yaw_2) squish
+a13 = cos(yaw_2) sin(yaw_1) + cos(yaw_1) cos(pitch) sin(yaw_2)
+a21 = sin(yaw_1) sin(pitch)
+a22 = cos(pitch) squish
+a23 = -cos(yaw_1) sin(pitch)
+a31 = -cos(pitch) cos(yaw_2) sin(yaw_1) - cos(yaw_1) sin(yaw_2)
+a32 = cos(yaw_2) sin(pitch) squish
+a33 = cos(yaw_1) cos(pitch) cos(yaw_2) - sin(yaw_1) sin(yaw_2)

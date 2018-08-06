@@ -1,0 +1,20 @@
+COORDINATE AXES IMAGES
++ Originally black, then lightened by +50% in XnView using HLS tool. The result 
+  is RGB(127,127,127).
++ The width of the axes images should be 1.375 times the width of the 
+  coordinate axes. This equals 352/256 units in TeX, or 1100/800 pixels at 
+  300dpi, or 440/320 units in POV-Ray.
+
+COMMANDS TO GENERATE SVG (KIND OF CONVOLUTED)
+1. latex Cartesian_coordinates_2D.tex
+2. dvips -E Cartesian_coordinates_2D.dvi
+3. ps2pdf -dAutoRotatePages#/None Cartesian_coordinates_2D.ps
+4. "E:\Programs Windows\pdf2svg-windows-master\dist-64bits\pdf2svg.exe" Cartesian_coordinates_2D.pdf Cartesian_coordinates_2D.svg
+
+OTHER
+* I am concerned over whether I got the handedness of the illustrations right. 
+  I.e. which axis is the x-axis, which axis is the y-axis, which axis is the 
+  z-axis. Hopefully they are configured correctly.
+* I've set tight limits on the size of the containers of the isosurfaces, but 
+  there is not always a clear reason why to do this. I.e. The isosurfaces might 
+  actually extend beyond these containers if allowed to.

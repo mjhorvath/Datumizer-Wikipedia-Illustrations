@@ -1,0 +1,15 @@
+\documentclass[pstricks,preview,margin=0pt]{standalone}
+\usepackage{pst-plot,graphicx}
+\def\pshlabel#1{\rotatebox{180}{#1}}
+\def\psvlabel#1{\rotatebox{180}{#1}}
+\begin{document}
+  \psset{linecolor=black,linewidth=1pt,arrowsize=8pt,unit=1bp}
+%,bgcolor=red
+  \begin{pspicture}(-176,-176)(176,176)
+    % Axes
+    \psset{linewidth=2pt}
+    \psaxes[Dx=32,Dy=32,labels=all,ticks=all,ticksize=-4pt 4pt,Ox=-128,Oy=-128]{-}(-128,-128)(-128,-128)(128,128)
+    \uput{10pt}[0](0,-160){{\large\itshape\rotatebox{180}{a}}}
+    \uput{10pt}[70](-160,0){{\large\itshape\rotatebox{180}{b}}}
+  \end{pspicture}
+\end{document}

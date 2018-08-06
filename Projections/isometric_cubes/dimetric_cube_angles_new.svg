@@ -1,0 +1,3675 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="25.118098316708235cm"
+   height="25.11809831670823cm"
+   viewBox="0 0 246 246"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="dimetric_cube_angles_new.svg">
+  <metadata
+     id="metadata1612">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs1610" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1838"
+     inkscape:window-height="1053"
+     id="namedview1608"
+     showgrid="false"
+     inkscape:zoom="0.53033029"
+     inkscape:cx="152.11461"
+     inkscape:cy="303.51119"
+     inkscape:window-x="73"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <title
+     id="title4" />
+  <g
+     id="g6608"
+     transform="translate(0,12.125019)">
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g8"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip14bcd634-5bea-48e0-9014-6c198a1f8518">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path11"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip1)"
+         id="g13">
+        <g
+           id="g15"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 17.401,0 0,887"
+             id="path17"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip1 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g19"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip9c05a709-10cc-4d5d-b00b-ccd8482b1dd5">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path22"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip2)"
+         id="g24">
+        <g
+           id="g26"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 17.401,0 0,887"
+             id="path28"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip2 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g30"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip9776138a-f2ec-4323-971a-4af03f4acd51">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path33"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip3)"
+         id="g35">
+        <g
+           id="g37"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 41.985,0 0,887"
+             id="path39"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip3 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g41"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip64da82d4-1d9c-4def-bc14-0d1fbb2f38ae">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path44"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip4)"
+         id="g46">
+        <g
+           id="g48"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 66.569,0 0,887"
+             id="path50"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip4 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g52"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipe7dcd285-9a24-4b7d-9bbc-e904e51ed980">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path55"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip5)"
+         id="g57">
+        <g
+           id="g59"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 91.153,0 0,887"
+             id="path61"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip5 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g63"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip41f6e08c-4b10-4ca4-921f-ae7909d96346">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path66"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip6)"
+         id="g68">
+        <g
+           id="g70"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 115.74,0 0,887"
+             id="path72"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip6 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g74"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipb0663f27-c06e-4058-9821-7ec795c2a990">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path77"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip7)"
+         id="g79">
+        <g
+           id="g81"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 140.32,0 0,887"
+             id="path83"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip7 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g85"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipb5c87642-3872-4fe8-a963-6e09def80029">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path88"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip8)"
+         id="g90">
+        <g
+           id="g92"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 164.9,0 0,887"
+             id="path94"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip8 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g96"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip2c494f37-8421-4615-9e50-91305b9a4fae">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path99"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip9)"
+         id="g101">
+        <g
+           id="g103"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 189.49,0 0,887"
+             id="path105"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip9 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g107"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip7e7568ac-83fc-435f-9e51-7fa50f410b00">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path110"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip10)"
+         id="g112">
+        <g
+           id="g114"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 214.07,0 0,887"
+             id="path116"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip10 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g118"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip1c6e7fdb-817b-47b8-bb84-b9657361d23e">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path121"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip11)"
+         id="g123">
+        <g
+           id="g125"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 238.66,0 0,887"
+             id="path127"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip11 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g129"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipc9652a4f-fd1e-4c6d-8144-c12440243eff">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path132"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip12)"
+         id="g134">
+        <g
+           id="g136"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 263.24,0 0,887"
+             id="path138"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip12 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g140"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip5c88392c-839d-46a4-aff7-2ea289b95242">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path143"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip13)"
+         id="g145">
+        <g
+           id="g147"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 287.82,0 0,887"
+             id="path149"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip13 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g151"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip0fcdfaea-0bc1-4f3a-a6a5-c8df1ef70cf9">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path154"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip14)"
+         id="g156">
+        <g
+           id="g158"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 312.41,0 0,887"
+             id="path160"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip14 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g162"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipec512942-d8f6-404d-abaa-03f69d70ec3d">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path165"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip15)"
+         id="g167">
+        <g
+           id="g169"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 336.99,0 0,887"
+             id="path171"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip15 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g173"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipf45a5a80-73d5-446f-96ca-1d6ece1aa5a8">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path176"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip16)"
+         id="g178">
+        <g
+           id="g180"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 361.58,0 0,887"
+             id="path182"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip16 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g184"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip86809072-2f97-493c-9610-307687d85de4">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path187"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip17)"
+         id="g189">
+        <g
+           id="g191"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 386.16,0 0,887"
+             id="path193"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip17 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g195"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip61414322-51bc-41f0-b5bb-e05f38f7d119">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path198"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip18)"
+         id="g200">
+        <g
+           id="g202"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 410.74,0 0,887"
+             id="path204"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip18 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g206"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip20797dac-c0a9-4180-91f8-491561218bc7">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path209"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip19)"
+         id="g211">
+        <g
+           id="g213"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 435.33,0 0,887"
+             id="path215"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip19 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g217"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipf05a53ac-2ffe-4464-a408-e833ef6251aa">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path220"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip20)"
+         id="g222">
+        <g
+           id="g224"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 459.91,0 0,887"
+             id="path226"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip20 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g228"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip0be82d68-eec0-4773-b6ab-32a6be1ea326">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path231"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip21)"
+         id="g233">
+        <g
+           id="g235"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 484.49,0 0,887"
+             id="path237"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip21 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g239"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipddbd57ad-ab70-4839-815d-5cb7b85e0452">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path242"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip22)"
+         id="g244">
+        <g
+           id="g246"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 509.08,0 0,887"
+             id="path248"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip22 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g250"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip99f4ccaf-b3c9-4af8-b840-0c1bc1dc9517">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path253"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip23)"
+         id="g255">
+        <g
+           id="g257"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 533.66,0 0,887"
+             id="path259"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip23 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g261"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip7fab4f8f-cfe2-4695-9fd4-ee2dbabc2767">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path264"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip24)"
+         id="g266">
+        <g
+           id="g268"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 558.25,0 0,887"
+             id="path270"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip24 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g272"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipa7c761ee-cef6-4d52-9f6c-f7083738381d">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path275"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip25)"
+         id="g277">
+        <g
+           id="g279"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 582.83,0 0,887"
+             id="path281"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip25 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g283"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="cliped528c95-4608-42f4-8f9d-5442a6e6abd6">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path286"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip26)"
+         id="g288">
+        <g
+           id="g290"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 607.41,0 0,887"
+             id="path292"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip26 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g294"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipa8c8a8b5-5426-499b-9046-6647ba5dd25c">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path297"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip27)"
+         id="g299">
+        <g
+           id="g301"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 632,0 0,887"
+             id="path303"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip27 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g305"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip946d6251-8769-4576-b15f-ef5e16ab1b11">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path308"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip28)"
+         id="g310">
+        <g
+           id="g312"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 656.58,0 0,887"
+             id="path314"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip28 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g316"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipedf7a5eb-60c3-4322-bd04-ba1ab0f72cf4">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path319"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip29)"
+         id="g321">
+        <g
+           id="g323"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 681.17,0 0,887"
+             id="path325"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip29 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g327"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipea6945d2-3b06-4b8c-a2e5-50bd5adcb126">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path330"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip30)"
+         id="g332">
+        <g
+           id="g334"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 705.75,0 0,887"
+             id="path336"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip30 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g338"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip2753a52f-6760-4965-be55-335abb82980a">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path341"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip31)"
+         id="g343">
+        <g
+           id="g345"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 730.33,0 0,887"
+             id="path347"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip31 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g349"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipc86d89d4-7547-4692-913e-265437a55891">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path352"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip32)"
+         id="g354">
+        <g
+           id="g356"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 754.92,0 0,887"
+             id="path358"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip32 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g360"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip67a83ce9-9f1a-406e-b7f6-5201b74275b8">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path363"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip33)"
+         id="g365">
+        <g
+           id="g367"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 779.5,0 0,887"
+             id="path369"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip33 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g371"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipc02cf9a8-b538-4fad-8df3-d3be69127c31">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path374"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip34)"
+         id="g376">
+        <g
+           id="g378"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 804.09,0 0,887"
+             id="path380"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip34 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g382"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip704aac59-7044-432e-b65f-b26c538cee43">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path385"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip35)"
+         id="g387">
+        <g
+           id="g389"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 828.67,0 0,887"
+             id="path391"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip35 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g393"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipbbd0c0c2-1aea-4033-8b0b-224b82184a5d">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path396"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip36)"
+         id="g398">
+        <g
+           id="g400"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 853.25,0 0,887"
+             id="path402"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip36 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g404"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipff24278c-32de-43ed-b4f7-f6f18c3b1c19">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path407"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip37)"
+         id="g409">
+        <g
+           id="g411"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 877.84,0 0,887"
+             id="path413"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip37 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g415"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip8a42fb81-29f8-4fb7-b199-51ac549969d5">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path418"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip38)"
+         id="g420">
+        <g
+           id="g422"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 902.42,0 0,887"
+             id="path424"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip38 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g426"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip693b2fb6-600a-4273-86c8-405f4d000f3e">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path429"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip39)"
+         id="g431">
+        <g
+           id="g433"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 927,0 0,887"
+             id="path435"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip39 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g437"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip2596d121-9487-459e-98f4-7faba54bd385">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path440"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip40)"
+         id="g442">
+        <g
+           id="g444"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 951.59,0 0,887"
+             id="path446"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip40 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g448"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip5fefd475-32b1-442e-b8b5-35b8dd17f3d4">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path451"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip41)"
+         id="g453">
+        <g
+           id="g455"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 976.17,0 0,887"
+             id="path457"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip41 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g459"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipb1e91830-f749-494c-bd63-220a051c4fc5">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path462"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip42)"
+         id="g464">
+        <g
+           id="g466"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1000.8,0 0,887"
+             id="path468"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip42 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g470"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipeeef916e-333d-4c2e-8d45-07e868da4295">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path473"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip43)"
+         id="g475">
+        <g
+           id="g477"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1025.3,0 0,887"
+             id="path479"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip43 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g481"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipb4800f6c-9e64-4bde-8ccf-76057e6427c6">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path484"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip44)"
+         id="g486">
+        <g
+           id="g488"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1049.9,0 0,887"
+             id="path490"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip44 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g492"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip34d4df67-7b17-42df-8795-cd1e8279fd81">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path495"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip45)"
+         id="g497">
+        <g
+           id="g499"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1074.5,0 0,887"
+             id="path501"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip45 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g503"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipbf6c4faf-afe4-44f7-8aae-d9362c5e061c">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path506"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip46)"
+         id="g508">
+        <g
+           id="g510"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1099.1,0 0,887"
+             id="path512"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip46 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g514"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip7a4a5632-6750-45ba-8c32-b3e348856067">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path517"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip47)"
+         id="g519">
+        <g
+           id="g521"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1123.7,0 0,887"
+             id="path523"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip47 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g525"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip27516d6f-3876-41b0-a119-5f69edf8848b">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path528"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip48)"
+         id="g530">
+        <g
+           id="g532"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1148.3,0 0,887"
+             id="path534"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip48 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g536"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipc26d0f7d-5274-4415-8dd2-0e65217efc28">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path539"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip49)"
+         id="g541">
+        <g
+           id="g543"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1172.8,0 0,887"
+             id="path545"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip49 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g547"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip868b0f5c-ca8d-4b3f-8e70-f67d83e607dd">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path550"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip50)"
+         id="g552">
+        <g
+           id="g554"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1197.4,0 0,887"
+             id="path556"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip50 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g558"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipbb361c7b-a688-40c4-8e47-8c5c790f9661">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path561"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip51)"
+         id="g563">
+        <g
+           id="g565"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1222,0 0,887"
+             id="path567"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip51 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g569"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip2f3db3cb-ccdb-4d2a-9817-6cd810cc31b5">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path572"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip52)"
+         id="g574">
+        <g
+           id="g576"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1246.6,0 0,887"
+             id="path578"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip52 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g580"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip692b0486-9d3f-44a6-bf56-c955d2d2b136">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path583"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip53)"
+         id="g585">
+        <g
+           id="g587"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1271.2,0 0,887"
+             id="path589"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip53 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g591"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip2c5ab4ad-636a-4492-81f0-cb47b8d28d13">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path594"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip54)"
+         id="g596">
+        <g
+           id="g598"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1295.8,0 0,887"
+             id="path600"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip54 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g602"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip4f9ed73f-1d5e-4e43-9cae-e269be39f91a">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path605"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip55)"
+         id="g607">
+        <g
+           id="g609"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1320.3,0 0,887"
+             id="path611"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip55 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g613"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipd1a7ef57-1b89-4663-8ee4-b531c812a74f">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path616"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip56)"
+         id="g618">
+        <g
+           id="g620"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1344.9,0 0,887"
+             id="path622"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip56 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g624"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipd0bc0ea6-be36-4339-9c0c-c38d6197d4a1">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path627"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip57)"
+         id="g629">
+        <g
+           id="g631"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1369.5,0 0,887"
+             id="path633"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip57 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g635"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip1e5f1d9c-f839-40d3-836a-e45750c55b41">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path638"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip58)"
+         id="g640">
+        <g
+           id="g642"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1394.1,0 0,887"
+             id="path644"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip58 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g646"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip6fed4bf5-e225-494b-a8a2-2bc739e93455">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path649"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip59)"
+         id="g651">
+        <g
+           id="g653"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1418.7,0 0,887"
+             id="path655"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip59 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g657"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipf6fd55ba-105b-4f28-850b-68e0308312a8">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path660"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip60)"
+         id="g662">
+        <g
+           id="g664"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1443.3,0 0,887"
+             id="path666"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip60 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g668"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip01586ac4-9ffe-4f66-9a3e-35262dd6acc8">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path671"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip61)"
+         id="g673">
+        <g
+           id="g675"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1467.8,0 0,887"
+             id="path677"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip61 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g679"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip7bbba469-d751-4abb-9460-4ce5f1b24e6b">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path682"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip62)"
+         id="g684">
+        <g
+           id="g686"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1492.4,0 0,887"
+             id="path688"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip62 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g690"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip8195d83f-845c-4698-8a79-2706ee5b4c5a">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path693"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip63)"
+         id="g695">
+        <g
+           id="g697"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1517,0 0,887"
+             id="path699"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip63 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g701"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip70268f2f-f077-464c-8942-9fef6b2b23b2">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path704"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip64)"
+         id="g706">
+        <g
+           id="g708"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1541.6,0 0,887"
+             id="path710"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip64 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g712"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip52714d86-8432-4dee-a8c4-6a209701c7e3">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path715"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip65)"
+         id="g717">
+        <g
+           id="g719"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1566.2,0 0,887"
+             id="path721"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip65 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g723"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip1f91a435-bf56-49f4-8f1d-062adf36d06d">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path726"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip66)"
+         id="g728">
+        <g
+           id="g730"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 1590.8,0 0,887"
+             id="path732"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip66 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g734"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip6fa22f85-0484-4038-9eca-6640054e2124">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path737"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip67)"
+         id="g739">
+        <g
+           id="g741"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,16.82 1604,0"
+             id="path743"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip67 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g745"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip919fdb9c-2560-4056-ba9c-71655bc26696">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path748"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip68)"
+         id="g750">
+        <g
+           id="g752"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,16.82 1604,0"
+             id="path754"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip68 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g756"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip458700c4-096b-4131-b601-7445e4640757">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path759"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip69)"
+         id="g761">
+        <g
+           id="g763"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,41.404 1604,0"
+             id="path765"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip69 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g767"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip48c53638-4e91-456a-9b16-06c97301a7c6">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path770"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip70)"
+         id="g772">
+        <g
+           id="g774"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,65.988 1604,0"
+             id="path776"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip70 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g778"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipd6885963-ed79-4e36-ad8b-1e2aaf84d75e">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path781"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip71)"
+         id="g783">
+        <g
+           id="g785"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,90.572 1604,0"
+             id="path787"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip71 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g789"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip25c84e03-939f-4b00-b253-ca8d990da6c5">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path792"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip72)"
+         id="g794">
+        <g
+           id="g796"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,115.16 1604,0"
+             id="path798"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip72 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g800"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip06938d38-cd9a-4155-be72-3a45cad98d34">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path803"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip73)"
+         id="g805">
+        <g
+           id="g807"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,139.74 1604,0"
+             id="path809"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip73 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g811"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipe5425276-a107-48ca-b1a1-74bb2f674066">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path814"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip74)"
+         id="g816">
+        <g
+           id="g818"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,164.32 1604,0"
+             id="path820"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip74 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g822"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip8c395d8b-38ba-4ec7-9d5d-e174e469cc24">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path825"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip75)"
+         id="g827">
+        <g
+           id="g829"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,188.91 1604,0"
+             id="path831"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip75 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g833"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipe649d6bd-48df-463b-be35-037f500eef4e">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path836"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip76)"
+         id="g838">
+        <g
+           id="g840"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,213.49 1604,0"
+             id="path842"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip76 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g844"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip36a0938d-70db-4e47-8b52-a00c44dbdf59">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path847"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip77)"
+         id="g849">
+        <g
+           id="g851"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,238.08 1604,0"
+             id="path853"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip77 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g855"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipe53e934f-6bd6-47e0-a051-beef1f7e4dbc">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path858"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip78)"
+         id="g860">
+        <g
+           id="g862"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,262.66 1604,0"
+             id="path864"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip78 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g866"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipea1e94b4-2062-48a7-acff-f91e1f26389d">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path869"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip79)"
+         id="g871">
+        <g
+           id="g873"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,287.24 1604,0"
+             id="path875"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip79 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g877"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip25406dde-b5e9-41a5-a90c-d0fef83e5e6b">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path880"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip80)"
+         id="g882">
+        <g
+           id="g884"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,311.83 1604,0"
+             id="path886"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip80 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g888"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipb9454272-b910-468a-acbb-8c9260898040">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path891"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip81)"
+         id="g893">
+        <g
+           id="g895"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,336.41 1604,0"
+             id="path897"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip81 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g899"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip4bf38099-1b75-4d13-adfe-953a706243d7">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path902"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip82)"
+         id="g904">
+        <g
+           id="g906"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,360.99 1604,0"
+             id="path908"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip82 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g910"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip6451f891-e869-49b8-97e0-56d8d3526670">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path913"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip83)"
+         id="g915">
+        <g
+           id="g917"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,385.58 1604,0"
+             id="path919"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip83 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g921"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip21c9b019-3b84-44cb-b901-216d7443a2cd">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path924"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip84)"
+         id="g926">
+        <g
+           id="g928"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,410.16 1604,0"
+             id="path930"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip84 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g932"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip3c34741f-7a79-4f8c-8a15-e61ee3a0962f">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path935"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip85)"
+         id="g937">
+        <g
+           id="g939"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,434.75 1604,0"
+             id="path941"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip85 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g943"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip07a53dcb-e1e4-430e-8448-ca71a40cdbb1">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path946"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip86)"
+         id="g948">
+        <g
+           id="g950"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,459.33 1604,0"
+             id="path952"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip86 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g954"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip74694776-92fc-48c7-b87a-ed8566533d98">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path957"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip87)"
+         id="g959">
+        <g
+           id="g961"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,483.91 1604,0"
+             id="path963"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip87 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g965"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip721c2f76-ad24-4d23-9c21-4ee0078d5d3a">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path968"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip88)"
+         id="g970">
+        <g
+           id="g972"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,508.5 1604,0"
+             id="path974"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip88 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g976"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipd84f640f-7799-4316-941d-ba504684fee9">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path979"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip89)"
+         id="g981">
+        <g
+           id="g983"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,533.08 1604,0"
+             id="path985"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip89 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g987"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip0c011324-cfcb-474b-b0b2-65a17b63b61b">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path990"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip90)"
+         id="g992">
+        <g
+           id="g994"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,557.67 1604,0"
+             id="path996"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip90 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g998"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipb23287b7-b1f3-4b02-9351-cc0f66b57e2a">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path1001"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip91)"
+         id="g1003">
+        <g
+           id="g1005"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,582.25 1604,0"
+             id="path1007"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip91 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g1009"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipe01e20f2-70bd-4105-9f3d-a9dc54e1dc14">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path1012"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip92)"
+         id="g1014">
+        <g
+           id="g1016"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,606.83 1604,0"
+             id="path1018"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip92 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g1020"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip847d6600-97f0-4bec-8554-c5ec1c318244">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path1023"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip93)"
+         id="g1025">
+        <g
+           id="g1027"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,631.42 1604,0"
+             id="path1029"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip93 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g1031"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipe55a4aa1-7402-4320-9691-87e544daecbb">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path1034"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip94)"
+         id="g1036">
+        <g
+           id="g1038"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,656 1604,0"
+             id="path1040"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip94 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g1042"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipe70cca0c-1d0e-4505-9495-7d9e89fceb4d">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path1045"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip95)"
+         id="g1047">
+        <g
+           id="g1049"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,680.58 1604,0"
+             id="path1051"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip95 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g1053"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip25afdfad-e804-41c5-9a2c-5f07559c0d53">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path1056"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip96)"
+         id="g1058">
+        <g
+           id="g1060"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,705.17 1604,0"
+             id="path1062"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip96 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g1064"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip9db5b3a4-ce1a-4760-9b57-ee77ba111075">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path1067"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip97)"
+         id="g1069">
+        <g
+           id="g1071"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,729.75 1604,0"
+             id="path1073"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip97 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g1075"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipeb3643c9-4c6c-4352-be98-5e59a9bbae02">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path1078"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip98)"
+         id="g1080">
+        <g
+           id="g1082"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,754.34 1604,0"
+             id="path1084"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip98 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g1086"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipa5377a98-fb31-4a72-91c8-73fd2f7fff86">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path1089"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip99)"
+         id="g1091">
+        <g
+           id="g1093"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,778.92 1604,0"
+             id="path1095"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip99 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g1097"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip1bfb0323-ac82-4735-adb8-cfd9698c091d">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path1100"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip100)"
+         id="g1102">
+        <g
+           id="g1104"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,803.5 1604,0"
+             id="path1106"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip100 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g1108"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clipb8e5a58c-1e0d-452d-8a30-d5b098a63384">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path1111"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip101)"
+         id="g1113">
+        <g
+           id="g1115"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,828.09 1604,0"
+             id="path1117"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip101 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g1119"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip8d2cf057-d291-4c5c-be53-8f1541c46c6a">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path1122"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip102)"
+         id="g1124">
+        <g
+           id="g1126"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,852.67 1604,0"
+             id="path1128"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip102 -->
+    </g>
+    <g
+       transform="translate(-533.66,-262.66)"
+       id="g1130"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <clipPath
+         id="clip901033f2-a1ae-49b2-ad54-c38d63916396">
+        <path
+           d="m 533.66,262.66 0,247 247,0 0,-247 z"
+           id="path1133"
+           inkscape:connector-curvature="0" />
+      </clipPath>
+      <g
+         clip-path="url(#clip103)"
+         id="g1135">
+        <g
+           id="g1137"
+           style="fill:none;stroke:#c0c0c0;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+          <path
+             d="m 0,877.26 1604,0"
+             id="path1139"
+             inkscape:connector-curvature="0" />
+        </g>
+        <!-- drawing style -->
+      </g>
+      <!-- clip103 -->
+    </g>
+    <g
+       id="misc"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0" />
+    <g
+       transform="translate(0,-11.310725)"
+       id="layer0"
+       style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0">
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1143">
+        <clipPath
+           id="clipac183022-9cf3-4daf-ad67-e829e4eb1a52">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1146"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip104)"
+           id="g1148">
+          <g
+             id="g1150"
+             style="fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:none">
+            <path
+               d="m 558.25,325.36 0,120.44 98.33,49.16 0,-120.43 z"
+               id="path1152"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1154">Quadrilateral poly1</title>
+            <desc
+               id="desc1156">Quadrilateral poly1: Polygon G, N, A'_1, B</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip104 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1158">
+        <clipPath
+           id="clip248078a6-2eaf-48e5-8b7c-acf848359aa1">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1161"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip105)"
+           id="g1163">
+          <g
+             id="g1165"
+             style="fill:#404040;fill-opacity:1;fill-rule:evenodd;stroke:none">
+            <path
+               d="m 656.58,494.96 98.34,-49.16 0,-120.44 -98.34,49.17 z"
+               id="path1167"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1169">Quadrilateral poly2</title>
+            <desc
+               id="desc1171">Quadrilateral poly2: Polygon A'_1, M, F, B</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip105 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1173">
+        <clipPath
+           id="clip47b01679-3e61-434b-bc67-7f3fdbc40c37">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1176"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip106)"
+           id="g1178">
+          <g
+             id="g1180"
+             style="fill:#c0c0c0;fill-opacity:1;fill-rule:evenodd;stroke:none">
+            <path
+               d="m 558.25,325.36 98.33,-49.17 98.34,49.17 -98.34,49.17 z"
+               id="path1182"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1184">Quadrilateral poly3</title>
+            <desc
+               id="desc1186">Quadrilateral poly3: Polygon G, A', F, B</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip106 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1188">
+        <clipPath
+           id="clip239bdb7e-62b8-428d-8525-a99d2d73daed">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1191"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip107)"
+           id="g1193">
+          <g
+             id="g1195"
+             style="fill:#006400;fill-opacity:0.09803898;fill-rule:nonzero;stroke:none">
+            <path
+               d="m 704.88,350.38 c -9.15,-18.3 -27.84,-29.85 -48.3,-29.85 -20.45,0 -39.15,11.55 -48.3,29.85 l 48.3,24.15 z"
+               id="path1197"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1199">Angle Î±</title>
+            <desc
+               id="desc1201">Angle Î±: Angle between F, B, G</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip107 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1203">
+        <clipPath
+           id="clipc0ab890d-b82e-416f-955a-22902c2f165c">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1206"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip108)"
+           id="g1208">
+          <g
+             id="g1210"
+             style="fill:none;stroke:#006400;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path
+               d="m 704.88,350.38 c -9.15,-18.3 -27.84,-29.85 -48.3,-29.85 -20.45,0 -39.15,11.55 -48.3,29.85 l 48.3,24.15 z"
+               id="path1212"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1214">Angle Î±</title>
+            <desc
+               id="desc1216">Angle Î±: Angle between F, B, G</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip108 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1218">
+        <clipPath
+           id="clip339a56b8-a1c7-4e3c-a7d5-0bbfa9dcde5d">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1221"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip109)"
+           id="g1223">
+          <g
+             id="g1225"
+             style="fill:#006400;fill-opacity:1;fill-rule:evenodd;stroke:none">
+            <path
+               d="m 608.28,350.38 4.89,-11.84 6.13,5.3 z"
+               id="path1227"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1229">Angle Î±</title>
+            <desc
+               id="desc1231">Angle Î±: Angle between F, B, G</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip109 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1233">
+        <clipPath
+           id="clip6dace9de-1acf-4375-bc3e-e492be14d4b7">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1236"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip110)"
+           id="g1238">
+          <g
+             id="g1240"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none">
+            <path
+               d="m 643.47,349 -1.05,0 0,-6.72 q -0.39,0.36 -1.01,0.73 -0.61,0.37 -1.1,0.54 l 0,-1.02 q 0.88,-0.42 1.54,-1.01 0.67,-0.58 0.95,-1.14 l 0.67,0 0,8.62 z m 8.25,-1.02 0,1.02 -5.69,0 q 0,-0.38 0.13,-0.73 0.22,-0.58 0.69,-1.15 0.48,-0.56 1.39,-1.29 1.4,-1.16 1.89,-1.83 0.5,-0.67 0.5,-1.27 0,-0.62 -0.46,-1.05 -0.45,-0.43 -1.17,-0.43 -0.76,0 -1.22,0.45 -0.45,0.46 -0.47,1.27 l -1.07,-0.11 q 0.11,-1.22 0.83,-1.85 0.73,-0.63 1.96,-0.63 1.24,0 1.96,0.68 0.72,0.69 0.72,1.71 0,0.51 -0.22,1 -0.21,0.5 -0.7,1.05 -0.49,0.56 -1.62,1.51 -0.95,0.79 -1.22,1.08 -0.28,0.29 -0.45,0.57 l 4.22,0 z m 6.6,-5.46 -1.05,0.07 q -0.14,-0.62 -0.39,-0.9 -0.44,-0.46 -1.06,-0.46 -0.5,0 -0.89,0.29 -0.49,0.37 -0.78,1.07 -0.29,0.69 -0.3,1.97 0.37,-0.58 0.93,-0.86 0.55,-0.28 1.16,-0.28 1.05,0 1.79,0.78 0.74,0.78 0.74,2 0,0.82 -0.35,1.51 -0.35,0.7 -0.96,1.06 -0.61,0.37 -1.37,0.37 -1.33,0 -2.16,-0.97 -0.83,-0.97 -0.83,-3.19 0,-2.5 0.92,-3.62 0.8,-0.98 2.16,-0.98 1.01,0 1.66,0.57 0.65,0.57 0.78,1.57 z m -4.3,3.7 q 0,0.55 0.23,1.04 0.22,0.49 0.64,0.76 0.41,0.26 0.88,0.26 0.66,0 1.14,-0.54 0.48,-0.54 0.48,-1.46 0,-0.89 -0.47,-1.4 -0.48,-0.52 -1.2,-0.52 -0.72,0 -1.21,0.52 -0.49,0.51 -0.49,1.34 z m 6.1,2.78 0,-1.2 1.2,0 0,1.2 -1.2,0 z m 4.36,-4.66 q -0.66,-0.25 -0.98,-0.69 -0.32,-0.45 -0.32,-1.06 0,-0.93 0.68,-1.57 0.68,-0.64 1.79,-0.64 1.13,0 1.81,0.65 0.69,0.66 0.69,1.59 0,0.6 -0.31,1.04 -0.31,0.43 -0.95,0.68 0.79,0.25 1.2,0.83 0.41,0.58 0.41,1.38 0,1.09 -0.78,1.84 -0.77,0.75 -2.05,0.75 -1.27,0 -2.05,-0.75 -0.78,-0.75 -0.78,-1.87 0,-0.85 0.43,-1.41 0.43,-0.56 1.21,-0.77 z m -0.22,-1.79 q 0,0.61 0.4,1 0.4,0.39 1.02,0.39 0.61,0 1,-0.39 0.39,-0.38 0.39,-0.94 0,-0.58 -0.4,-0.98 -0.41,-0.4 -1,-0.4 -0.61,0 -1.01,0.39 -0.4,0.4 -0.4,0.93 z m -0.33,3.97 q 0,0.45 0.21,0.87 0.22,0.42 0.64,0.66 0.42,0.23 0.9,0.23 0.75,0 1.25,-0.48 0.49,-0.49 0.49,-1.24 0,-0.76 -0.5,-1.26 -0.5,-0.5 -1.27,-0.5 -0.75,0 -1.23,0.49 -0.49,0.49 -0.49,1.23 z m 5.66,-4.99 0,-1.01 5.56,0 0,0.82 q -0.81,0.88 -1.61,2.32 -0.81,1.45 -1.25,2.98 -0.32,1.08 -0.4,2.36 l -1.1,0 q 0.02,-1.02 0.4,-2.45 0.39,-1.44 1.1,-2.77 0.71,-1.33 1.52,-2.25 l -4.22,0 z m 6.86,0.36 q 0,-0.67 0.48,-1.15 0.48,-0.47 1.15,-0.47 0.67,0 1.15,0.47 0.47,0.48 0.47,1.15 0,0.67 -0.47,1.15 -0.48,0.48 -1.15,0.48 -0.67,0 -1.15,-0.48 -0.48,-0.48 -0.48,-1.15 z m 0.64,0 q 0,0.41 0.29,0.7 0.29,0.29 0.7,0.29 0.4,0 0.69,-0.29 0.29,-0.29 0.29,-0.7 0,-0.42 -0.29,-0.71 -0.29,-0.29 -0.69,-0.29 -0.41,0 -0.7,0.29 -0.29,0.29 -0.29,0.71 z"
+               id="path1242"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1244">Angle Î±</title>
+            <desc
+               id="desc1246">Angle Î±: Angle between F, B, G</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip110 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1248">
+        <clipPath
+           id="clip5e5db802-675d-4de7-8c5b-5a5a3ef86d2a">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1251"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip111)"
+           id="g1253">
+          <g
+             id="g1255"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none">
+            <path
+               d="m 641.47,349 -1.05,0 0,-6.72 q -0.39,0.36 -1.01,0.73 -0.61,0.37 -1.1,0.54 l 0,-1.02 q 0.88,-0.42 1.54,-1.01 0.67,-0.58 0.95,-1.14 l 0.67,0 0,8.62 z m 8.25,-1.02 0,1.02 -5.69,0 q 0,-0.38 0.13,-0.73 0.22,-0.58 0.69,-1.15 0.48,-0.56 1.39,-1.29 1.4,-1.16 1.89,-1.83 0.5,-0.67 0.5,-1.27 0,-0.62 -0.46,-1.05 -0.45,-0.43 -1.17,-0.43 -0.76,0 -1.22,0.45 -0.45,0.46 -0.47,1.27 l -1.07,-0.11 q 0.11,-1.22 0.83,-1.85 0.73,-0.63 1.96,-0.63 1.24,0 1.96,0.68 0.72,0.69 0.72,1.71 0,0.51 -0.22,1 -0.21,0.5 -0.7,1.05 -0.49,0.56 -1.62,1.51 -0.95,0.79 -1.22,1.08 -0.28,0.29 -0.45,0.57 l 4.22,0 z m 6.6,-5.46 -1.05,0.07 q -0.14,-0.62 -0.39,-0.9 -0.44,-0.46 -1.06,-0.46 -0.5,0 -0.89,0.29 -0.49,0.37 -0.78,1.07 -0.29,0.69 -0.3,1.97 0.37,-0.58 0.93,-0.86 0.55,-0.28 1.16,-0.28 1.05,0 1.79,0.78 0.74,0.78 0.74,2 0,0.82 -0.35,1.51 -0.35,0.7 -0.96,1.06 -0.61,0.37 -1.37,0.37 -1.33,0 -2.16,-0.97 -0.83,-0.97 -0.83,-3.19 0,-2.5 0.92,-3.62 0.8,-0.98 2.16,-0.98 1.01,0 1.66,0.57 0.65,0.57 0.78,1.57 z m -4.3,3.7 q 0,0.55 0.23,1.04 0.22,0.49 0.64,0.76 0.41,0.26 0.88,0.26 0.66,0 1.14,-0.54 0.48,-0.54 0.48,-1.46 0,-0.89 -0.47,-1.4 -0.48,-0.52 -1.2,-0.52 -0.72,0 -1.21,0.52 -0.49,0.51 -0.49,1.34 z m 6.1,2.78 0,-1.2 1.2,0 0,1.2 -1.2,0 z m 4.36,-4.66 q -0.66,-0.25 -0.98,-0.69 -0.32,-0.45 -0.32,-1.06 0,-0.93 0.68,-1.57 0.68,-0.64 1.79,-0.64 1.13,0 1.81,0.65 0.69,0.66 0.69,1.59 0,0.6 -0.31,1.04 -0.31,0.43 -0.95,0.68 0.79,0.25 1.2,0.83 0.41,0.58 0.41,1.38 0,1.09 -0.78,1.84 -0.77,0.75 -2.05,0.75 -1.27,0 -2.05,-0.75 -0.78,-0.75 -0.78,-1.87 0,-0.85 0.43,-1.41 0.43,-0.56 1.21,-0.77 z m -0.22,-1.79 q 0,0.61 0.4,1 0.4,0.39 1.02,0.39 0.61,0 1,-0.39 0.39,-0.38 0.39,-0.94 0,-0.58 -0.4,-0.98 -0.41,-0.4 -1,-0.4 -0.61,0 -1.01,0.39 -0.4,0.4 -0.4,0.93 z m -0.33,3.97 q 0,0.45 0.21,0.87 0.22,0.42 0.64,0.66 0.42,0.23 0.9,0.23 0.75,0 1.25,-0.48 0.49,-0.49 0.49,-1.24 0,-0.76 -0.5,-1.26 -0.5,-0.5 -1.27,-0.5 -0.75,0 -1.23,0.49 -0.49,0.49 -0.49,1.23 z m 5.66,-4.99 0,-1.01 5.56,0 0,0.82 q -0.81,0.88 -1.61,2.32 -0.81,1.45 -1.25,2.98 -0.32,1.08 -0.4,2.36 l -1.1,0 q 0.02,-1.02 0.4,-2.45 0.39,-1.44 1.1,-2.77 0.71,-1.33 1.52,-2.25 l -4.22,0 z m 6.86,0.36 q 0,-0.67 0.48,-1.15 0.48,-0.47 1.15,-0.47 0.67,0 1.15,0.47 0.47,0.48 0.47,1.15 0,0.67 -0.47,1.15 -0.48,0.48 -1.15,0.48 -0.67,0 -1.15,-0.48 -0.48,-0.48 -0.48,-1.15 z m 0.64,0 q 0,0.41 0.29,0.7 0.29,0.29 0.7,0.29 0.4,0 0.69,-0.29 0.29,-0.29 0.29,-0.7 0,-0.42 -0.29,-0.71 -0.29,-0.29 -0.69,-0.29 -0.41,0 -0.7,0.29 -0.29,0.29 -0.29,0.71 z"
+               id="path1257"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1259">Angle Î±</title>
+            <desc
+               id="desc1261">Angle Î±: Angle between F, B, G</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip111 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1263">
+        <clipPath
+           id="clipe249b7b8-6241-4f6a-8e1b-a0a2e1741181">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1266"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip112)"
+           id="g1268">
+          <g
+             id="g1270"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none">
+            <path
+               d="m 642.47,350 -1.05,0 0,-6.72 q -0.39,0.36 -1.01,0.73 -0.61,0.37 -1.1,0.54 l 0,-1.02 q 0.88,-0.42 1.54,-1.01 0.67,-0.58 0.95,-1.14 l 0.67,0 0,8.62 z m 8.25,-1.02 0,1.02 -5.69,0 q 0,-0.38 0.13,-0.73 0.22,-0.58 0.69,-1.15 0.48,-0.56 1.39,-1.29 1.4,-1.16 1.89,-1.83 0.5,-0.67 0.5,-1.27 0,-0.62 -0.46,-1.05 -0.45,-0.43 -1.17,-0.43 -0.76,0 -1.22,0.45 -0.45,0.46 -0.47,1.27 l -1.07,-0.11 q 0.11,-1.22 0.83,-1.85 0.73,-0.63 1.96,-0.63 1.24,0 1.96,0.68 0.72,0.69 0.72,1.71 0,0.51 -0.22,1 -0.21,0.5 -0.7,1.05 -0.49,0.56 -1.62,1.51 -0.95,0.79 -1.22,1.08 -0.28,0.29 -0.45,0.57 l 4.22,0 z m 6.6,-5.46 -1.05,0.07 q -0.14,-0.62 -0.39,-0.9 -0.44,-0.46 -1.06,-0.46 -0.5,0 -0.89,0.29 -0.49,0.37 -0.78,1.07 -0.29,0.69 -0.3,1.97 0.37,-0.58 0.93,-0.86 0.55,-0.28 1.16,-0.28 1.05,0 1.79,0.78 0.74,0.78 0.74,2 0,0.82 -0.35,1.51 -0.35,0.7 -0.96,1.06 -0.61,0.37 -1.37,0.37 -1.33,0 -2.16,-0.97 -0.83,-0.97 -0.83,-3.19 0,-2.5 0.92,-3.62 0.8,-0.98 2.16,-0.98 1.01,0 1.66,0.57 0.65,0.57 0.78,1.57 z m -4.3,3.7 q 0,0.55 0.23,1.04 0.22,0.49 0.64,0.76 0.41,0.26 0.88,0.26 0.66,0 1.14,-0.54 0.48,-0.54 0.48,-1.46 0,-0.89 -0.47,-1.4 -0.48,-0.52 -1.2,-0.52 -0.72,0 -1.21,0.52 -0.49,0.51 -0.49,1.34 z m 6.1,2.78 0,-1.2 1.2,0 0,1.2 -1.2,0 z m 4.36,-4.66 q -0.66,-0.25 -0.98,-0.69 -0.32,-0.45 -0.32,-1.06 0,-0.93 0.68,-1.57 0.68,-0.64 1.79,-0.64 1.13,0 1.81,0.65 0.69,0.66 0.69,1.59 0,0.6 -0.31,1.04 -0.31,0.43 -0.95,0.68 0.79,0.25 1.2,0.83 0.41,0.58 0.41,1.38 0,1.09 -0.78,1.84 -0.77,0.75 -2.05,0.75 -1.27,0 -2.05,-0.75 -0.78,-0.75 -0.78,-1.87 0,-0.85 0.43,-1.41 0.43,-0.56 1.21,-0.77 z m -0.22,-1.79 q 0,0.61 0.4,1 0.4,0.39 1.02,0.39 0.61,0 1,-0.39 0.39,-0.38 0.39,-0.94 0,-0.58 -0.4,-0.98 -0.41,-0.4 -1,-0.4 -0.61,0 -1.01,0.39 -0.4,0.4 -0.4,0.93 z m -0.33,3.97 q 0,0.45 0.21,0.87 0.22,0.42 0.64,0.66 0.42,0.23 0.9,0.23 0.75,0 1.25,-0.48 0.49,-0.49 0.49,-1.24 0,-0.76 -0.5,-1.26 -0.5,-0.5 -1.27,-0.5 -0.75,0 -1.23,0.49 -0.49,0.49 -0.49,1.23 z m 5.66,-4.99 0,-1.01 5.56,0 0,0.82 q -0.81,0.88 -1.61,2.32 -0.81,1.45 -1.25,2.98 -0.32,1.08 -0.4,2.36 l -1.1,0 q 0.02,-1.02 0.4,-2.45 0.39,-1.44 1.1,-2.77 0.71,-1.33 1.52,-2.25 l -4.22,0 z m 6.86,0.36 q 0,-0.67 0.48,-1.15 0.48,-0.47 1.15,-0.47 0.67,0 1.15,0.47 0.47,0.48 0.47,1.15 0,0.67 -0.47,1.15 -0.48,0.48 -1.15,0.48 -0.67,0 -1.15,-0.48 -0.48,-0.48 -0.48,-1.15 z m 0.64,0 q 0,0.41 0.29,0.7 0.29,0.29 0.7,0.29 0.4,0 0.69,-0.29 0.29,-0.29 0.29,-0.7 0,-0.42 -0.29,-0.71 -0.29,-0.29 -0.69,-0.29 -0.41,0 -0.7,0.29 -0.29,0.29 -0.29,0.71 z"
+               id="path1272"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1274">Angle Î±</title>
+            <desc
+               id="desc1276">Angle Î±: Angle between F, B, G</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip112 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1278">
+        <clipPath
+           id="clip246ee16d-bd2d-4cbc-92a0-5df91ed30848">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1281"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip113)"
+           id="g1283">
+          <g
+             id="g1285"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none">
+            <path
+               d="m 642.47,348 -1.05,0 0,-6.72 q -0.39,0.36 -1.01,0.73 -0.61,0.37 -1.1,0.54 l 0,-1.02 q 0.88,-0.42 1.54,-1.01 0.67,-0.58 0.95,-1.14 l 0.67,0 0,8.62 z m 8.25,-1.02 0,1.02 -5.69,0 q 0,-0.38 0.13,-0.73 0.22,-0.58 0.69,-1.15 0.48,-0.56 1.39,-1.29 1.4,-1.16 1.89,-1.83 0.5,-0.67 0.5,-1.27 0,-0.62 -0.46,-1.05 -0.45,-0.43 -1.17,-0.43 -0.76,0 -1.22,0.45 -0.45,0.46 -0.47,1.27 l -1.07,-0.11 q 0.11,-1.22 0.83,-1.85 0.73,-0.63 1.96,-0.63 1.24,0 1.96,0.68 0.72,0.69 0.72,1.71 0,0.51 -0.22,1 -0.21,0.5 -0.7,1.05 -0.49,0.56 -1.62,1.51 -0.95,0.79 -1.22,1.08 -0.28,0.29 -0.45,0.57 l 4.22,0 z m 6.6,-5.46 -1.05,0.07 q -0.14,-0.62 -0.39,-0.9 -0.44,-0.46 -1.06,-0.46 -0.5,0 -0.89,0.29 -0.49,0.37 -0.78,1.07 -0.29,0.69 -0.3,1.97 0.37,-0.58 0.93,-0.86 0.55,-0.28 1.16,-0.28 1.05,0 1.79,0.78 0.74,0.78 0.74,2 0,0.82 -0.35,1.51 -0.35,0.7 -0.96,1.06 -0.61,0.37 -1.37,0.37 -1.33,0 -2.16,-0.97 -0.83,-0.97 -0.83,-3.19 0,-2.5 0.92,-3.62 0.8,-0.98 2.16,-0.98 1.01,0 1.66,0.57 0.65,0.57 0.78,1.57 z m -4.3,3.7 q 0,0.55 0.23,1.04 0.22,0.49 0.64,0.76 0.41,0.26 0.88,0.26 0.66,0 1.14,-0.54 0.48,-0.54 0.48,-1.46 0,-0.89 -0.47,-1.4 -0.48,-0.52 -1.2,-0.52 -0.72,0 -1.21,0.52 -0.49,0.51 -0.49,1.34 z m 6.1,2.78 0,-1.2 1.2,0 0,1.2 -1.2,0 z m 4.36,-4.66 q -0.66,-0.25 -0.98,-0.69 -0.32,-0.45 -0.32,-1.06 0,-0.93 0.68,-1.57 0.68,-0.64 1.79,-0.64 1.13,0 1.81,0.65 0.69,0.66 0.69,1.59 0,0.6 -0.31,1.04 -0.31,0.43 -0.95,0.68 0.79,0.25 1.2,0.83 0.41,0.58 0.41,1.38 0,1.09 -0.78,1.84 -0.77,0.75 -2.05,0.75 -1.27,0 -2.05,-0.75 -0.78,-0.75 -0.78,-1.87 0,-0.85 0.43,-1.41 0.43,-0.56 1.21,-0.77 z m -0.22,-1.79 q 0,0.61 0.4,1 0.4,0.39 1.02,0.39 0.61,0 1,-0.39 0.39,-0.38 0.39,-0.94 0,-0.58 -0.4,-0.98 -0.41,-0.4 -1,-0.4 -0.61,0 -1.01,0.39 -0.4,0.4 -0.4,0.93 z m -0.33,3.97 q 0,0.45 0.21,0.87 0.22,0.42 0.64,0.66 0.42,0.23 0.9,0.23 0.75,0 1.25,-0.48 0.49,-0.49 0.49,-1.24 0,-0.76 -0.5,-1.26 -0.5,-0.5 -1.27,-0.5 -0.75,0 -1.23,0.49 -0.49,0.49 -0.49,1.23 z m 5.66,-4.99 0,-1.01 5.56,0 0,0.82 q -0.81,0.88 -1.61,2.32 -0.81,1.45 -1.25,2.98 -0.32,1.08 -0.4,2.36 l -1.1,0 q 0.02,-1.02 0.4,-2.45 0.39,-1.44 1.1,-2.77 0.71,-1.33 1.52,-2.25 l -4.22,0 z m 6.86,0.36 q 0,-0.67 0.48,-1.15 0.48,-0.47 1.15,-0.47 0.67,0 1.15,0.47 0.47,0.48 0.47,1.15 0,0.67 -0.47,1.15 -0.48,0.48 -1.15,0.48 -0.67,0 -1.15,-0.48 -0.48,-0.48 -0.48,-1.15 z m 0.64,0 q 0,0.41 0.29,0.7 0.29,0.29 0.7,0.29 0.4,0 0.69,-0.29 0.29,-0.29 0.29,-0.7 0,-0.42 -0.29,-0.71 -0.29,-0.29 -0.69,-0.29 -0.41,0 -0.7,0.29 -0.29,0.29 -0.29,0.71 z"
+               id="path1287"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1289">Angle Î±</title>
+            <desc
+               id="desc1291">Angle Î±: Angle between F, B, G</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip113 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1293">
+        <clipPath
+           id="clip41b7275f-30f9-4455-b946-26e5fd2d816e">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1296"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip114)"
+           id="g1298">
+          <g
+             id="g1300"
+             style="fill:#006400;fill-opacity:1;fill-rule:nonzero;stroke:none">
+            <path
+               d="m 642.47,349 -1.05,0 0,-6.72 q -0.39,0.36 -1.01,0.73 -0.61,0.37 -1.1,0.54 l 0,-1.02 q 0.88,-0.42 1.54,-1.01 0.67,-0.58 0.95,-1.14 l 0.67,0 0,8.62 z m 8.25,-1.02 0,1.02 -5.69,0 q 0,-0.38 0.13,-0.73 0.22,-0.58 0.69,-1.15 0.48,-0.56 1.39,-1.29 1.4,-1.16 1.89,-1.83 0.5,-0.67 0.5,-1.27 0,-0.62 -0.46,-1.05 -0.45,-0.43 -1.17,-0.43 -0.76,0 -1.22,0.45 -0.45,0.46 -0.47,1.27 l -1.07,-0.11 q 0.11,-1.22 0.83,-1.85 0.73,-0.63 1.96,-0.63 1.24,0 1.96,0.68 0.72,0.69 0.72,1.71 0,0.51 -0.22,1 -0.21,0.5 -0.7,1.05 -0.49,0.56 -1.62,1.51 -0.95,0.79 -1.22,1.08 -0.28,0.29 -0.45,0.57 l 4.22,0 z m 6.6,-5.46 -1.05,0.07 q -0.14,-0.62 -0.39,-0.9 -0.44,-0.46 -1.06,-0.46 -0.5,0 -0.89,0.29 -0.49,0.37 -0.78,1.07 -0.29,0.69 -0.3,1.97 0.37,-0.58 0.93,-0.86 0.55,-0.28 1.16,-0.28 1.05,0 1.79,0.78 0.74,0.78 0.74,2 0,0.82 -0.35,1.51 -0.35,0.7 -0.96,1.06 -0.61,0.37 -1.37,0.37 -1.33,0 -2.16,-0.97 -0.83,-0.97 -0.83,-3.19 0,-2.5 0.92,-3.62 0.8,-0.98 2.16,-0.98 1.01,0 1.66,0.57 0.65,0.57 0.78,1.57 z m -4.3,3.7 q 0,0.55 0.23,1.04 0.22,0.49 0.64,0.76 0.41,0.26 0.88,0.26 0.66,0 1.14,-0.54 0.48,-0.54 0.48,-1.46 0,-0.89 -0.47,-1.4 -0.48,-0.52 -1.2,-0.52 -0.72,0 -1.21,0.52 -0.49,0.51 -0.49,1.34 z m 6.1,2.78 0,-1.2 1.2,0 0,1.2 -1.2,0 z m 4.36,-4.66 q -0.66,-0.25 -0.98,-0.69 -0.32,-0.45 -0.32,-1.06 0,-0.93 0.68,-1.57 0.68,-0.64 1.79,-0.64 1.13,0 1.81,0.65 0.69,0.66 0.69,1.59 0,0.6 -0.31,1.04 -0.31,0.43 -0.95,0.68 0.79,0.25 1.2,0.83 0.41,0.58 0.41,1.38 0,1.09 -0.78,1.84 -0.77,0.75 -2.05,0.75 -1.27,0 -2.05,-0.75 -0.78,-0.75 -0.78,-1.87 0,-0.85 0.43,-1.41 0.43,-0.56 1.21,-0.77 z m -0.22,-1.79 q 0,0.61 0.4,1 0.4,0.39 1.02,0.39 0.61,0 1,-0.39 0.39,-0.38 0.39,-0.94 0,-0.58 -0.4,-0.98 -0.41,-0.4 -1,-0.4 -0.61,0 -1.01,0.39 -0.4,0.4 -0.4,0.93 z m -0.33,3.97 q 0,0.45 0.21,0.87 0.22,0.42 0.64,0.66 0.42,0.23 0.9,0.23 0.75,0 1.25,-0.48 0.49,-0.49 0.49,-1.24 0,-0.76 -0.5,-1.26 -0.5,-0.5 -1.27,-0.5 -0.75,0 -1.23,0.49 -0.49,0.49 -0.49,1.23 z m 5.66,-4.99 0,-1.01 5.56,0 0,0.82 q -0.81,0.88 -1.61,2.32 -0.81,1.45 -1.25,2.98 -0.32,1.08 -0.4,2.36 l -1.1,0 q 0.02,-1.02 0.4,-2.45 0.39,-1.44 1.1,-2.77 0.71,-1.33 1.52,-2.25 l -4.22,0 z m 6.86,0.36 q 0,-0.67 0.48,-1.15 0.48,-0.47 1.15,-0.47 0.67,0 1.15,0.47 0.47,0.48 0.47,1.15 0,0.67 -0.47,1.15 -0.48,0.48 -1.15,0.48 -0.67,0 -1.15,-0.48 -0.48,-0.48 -0.48,-1.15 z m 0.64,0 q 0,0.41 0.29,0.7 0.29,0.29 0.7,0.29 0.4,0 0.69,-0.29 0.29,-0.29 0.29,-0.7 0,-0.42 -0.29,-0.71 -0.29,-0.29 -0.69,-0.29 -0.41,0 -0.7,0.29 -0.29,0.29 -0.29,0.71 z"
+               id="path1302"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1304">Angle Î±</title>
+            <desc
+               id="desc1306">Angle Î±: Angle between F, B, G</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip114 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1308">
+        <clipPath
+           id="clip9a0ffdf2-7b53-4540-930d-ff93a29e5637">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1311"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip115)"
+           id="g1313">
+          <g
+             id="g1315"
+             style="fill:#006400;fill-opacity:0.09803898;fill-rule:nonzero;stroke:none">
+            <path
+               d="m 612.76,473.05 c -3.41,6.8 -5.18,14.31 -5.18,21.91 l 49,0 z"
+               id="path1317"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1319">Angle Î²</title>
+            <desc
+               id="desc1321">Angle Î²: Angle between N, A'_1, E</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip115 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1323">
+        <clipPath
+           id="clipe5401ead-997e-4098-bee8-a1c58963e703">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1326"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip116)"
+           id="g1328">
+          <g
+             id="g1330"
+             style="fill:none;stroke:#006400;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path
+               d="m 612.76,473.05 c -3.41,6.8 -5.18,14.31 -5.18,21.91 l 49,0 z"
+               id="path1332"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1334">Angle Î²</title>
+            <desc
+               id="desc1336">Angle Î²: Angle between N, A'_1, E</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip116 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1338">
+        <clipPath
+           id="clipd1efd241-01a0-4c43-988e-52cd918e0550">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1341"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip117)"
+           id="g1343">
+          <g
+             id="g1345"
+             style="fill:#006400;fill-opacity:1;fill-rule:evenodd;stroke:none">
+            <path
+               d="m 607.58,494.96 -0.92,-12.77 7.85,2 z"
+               id="path1347"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1349">Angle Î²</title>
+            <desc
+               id="desc1351">Angle Î²: Angle between N, A'_1, E</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip117 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1353">
+        <clipPath
+           id="clipeee2da74-71f0-4e4d-a4cb-f7a7dac2d928">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1356"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip118)"
+           id="g1358">
+          <g
+             id="g1360"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none">
+            <path
+               d="m 567.05,483.98 0,1.02 -5.69,0 q 0,-0.38 0.12,-0.73 0.22,-0.58 0.7,-1.15 0.48,-0.56 1.38,-1.29 1.41,-1.16 1.9,-1.83 0.49,-0.67 0.49,-1.27 0,-0.62 -0.45,-1.05 -0.45,-0.43 -1.17,-0.43 -0.77,0 -1.22,0.45 -0.45,0.46 -0.47,1.27 l -1.08,-0.11 q 0.11,-1.22 0.84,-1.85 0.72,-0.63 1.96,-0.63 1.23,0 1.95,0.68 0.72,0.69 0.72,1.71 0,0.51 -0.21,1 -0.21,0.5 -0.7,1.05 -0.5,0.56 -1.62,1.51 -0.95,0.79 -1.23,1.08 -0.27,0.29 -0.44,0.57 l 4.22,0 z m 6.59,-5.46 -1.04,0.07 q -0.14,-0.62 -0.39,-0.9 -0.44,-0.46 -1.07,-0.46 -0.5,0 -0.89,0.29 -0.48,0.37 -0.77,1.07 -0.29,0.69 -0.31,1.97 0.38,-0.58 0.93,-0.86 0.56,-0.28 1.17,-0.28 1.04,0 1.79,0.78 0.74,0.78 0.74,2 0,0.82 -0.35,1.51 -0.35,0.7 -0.96,1.06 -0.61,0.37 -1.38,0.37 -1.33,0 -2.15,-0.97 -0.83,-0.97 -0.83,-3.19 0,-2.5 0.92,-3.62 0.8,-0.98 2.16,-0.98 1.01,0 1.66,0.57 0.65,0.57 0.77,1.57 z m -4.29,3.7 q 0,0.55 0.22,1.04 0.23,0.49 0.64,0.76 0.42,0.26 0.89,0.26 0.65,0 1.14,-0.54 0.48,-0.54 0.48,-1.46 0,-0.89 -0.48,-1.4 -0.47,-0.52 -1.19,-0.52 -0.72,0 -1.21,0.52 -0.49,0.51 -0.49,1.34 z m 6.09,2.78 0,-1.2 1.2,0 0,1.2 -1.2,0 z m 2.74,-2.25 1.11,-0.09 q 0.13,0.81 0.57,1.22 0.45,0.4 1.09,0.4 0.75,0 1.28,-0.58 0.53,-0.58 0.53,-1.51 0,-0.91 -0.51,-1.43 -0.51,-0.53 -1.33,-0.53 -0.5,0 -0.92,0.24 -0.41,0.23 -0.65,0.59 l -0.98,-0.12 0.83,-4.41 4.28,0 0,1 -3.44,0 -0.45,2.31 q 0.76,-0.54 1.61,-0.54 1.12,0 1.9,0.78 0.77,0.78 0.77,2.01 0,1.16 -0.67,2.02 -0.83,1.03 -2.25,1.03 -1.17,0 -1.92,-0.66 -0.74,-0.65 -0.85,-1.73 z m 12.14,-4.23 -1.04,0.07 q -0.14,-0.62 -0.39,-0.9 -0.44,-0.46 -1.07,-0.46 -0.5,0 -0.89,0.29 -0.48,0.37 -0.77,1.07 -0.29,0.69 -0.3,1.97 0.37,-0.58 0.93,-0.86 0.55,-0.28 1.16,-0.28 1.05,0 1.79,0.78 0.74,0.78 0.74,2 0,0.82 -0.35,1.51 -0.35,0.7 -0.96,1.06 -0.61,0.37 -1.38,0.37 -1.33,0 -2.15,-0.97 -0.83,-0.97 -0.83,-3.19 0,-2.5 0.92,-3.62 0.8,-0.98 2.16,-0.98 1.01,0 1.66,0.57 0.65,0.57 0.77,1.57 z m -4.29,3.7 q 0,0.55 0.22,1.04 0.23,0.49 0.64,0.76 0.42,0.26 0.89,0.26 0.65,0 1.14,-0.54 0.48,-0.54 0.48,-1.46 0,-0.89 -0.47,-1.4 -0.48,-0.52 -1.2,-0.52 -0.72,0 -1.21,0.52 -0.49,0.51 -0.49,1.34 z m 5.5,0.53 1.11,-0.09 q 0.12,0.81 0.57,1.22 0.44,0.4 1.08,0.4 0.75,0 1.29,-0.58 0.53,-0.58 0.53,-1.51 0,-0.91 -0.51,-1.43 -0.51,-0.53 -1.34,-0.53 -0.5,0 -0.91,0.24 -0.41,0.23 -0.65,0.59 l -0.98,-0.12 0.82,-4.41 4.29,0 0,1 -3.44,0 -0.45,2.31 q 0.76,-0.54 1.6,-0.54 1.13,0 1.9,0.78 0.78,0.78 0.78,2.01 0,1.16 -0.68,2.02 -0.82,1.03 -2.25,1.03 -1.17,0 -1.91,-0.66 -0.74,-0.65 -0.85,-1.73 z m 6.92,-4.86 q 0,-0.67 0.48,-1.15 0.48,-0.47 1.15,-0.47 0.67,0 1.15,0.47 0.47,0.48 0.47,1.15 0,0.67 -0.47,1.15 -0.48,0.48 -1.15,0.48 -0.67,0 -1.15,-0.48 -0.48,-0.48 -0.48,-1.15 z m 0.64,0 q 0,0.41 0.29,0.7 0.29,0.29 0.7,0.29 0.4,0 0.69,-0.29 0.29,-0.29 0.29,-0.7 0,-0.42 -0.29,-0.71 -0.29,-0.29 -0.69,-0.29 -0.41,0 -0.7,0.29 -0.29,0.29 -0.29,0.71 z"
+               id="path1362"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1364">Angle Î²</title>
+            <desc
+               id="desc1366">Angle Î²: Angle between N, A'_1, E</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip118 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1368">
+        <clipPath
+           id="clip044b3623-0602-4dce-b61e-dbef716bda05">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1371"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip119)"
+           id="g1373">
+          <g
+             id="g1375"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none">
+            <path
+               d="m 565.05,483.98 0,1.02 -5.69,0 q 0,-0.38 0.12,-0.73 0.22,-0.58 0.7,-1.15 0.48,-0.56 1.38,-1.29 1.41,-1.16 1.9,-1.83 0.49,-0.67 0.49,-1.27 0,-0.62 -0.45,-1.05 -0.45,-0.43 -1.17,-0.43 -0.77,0 -1.22,0.45 -0.45,0.46 -0.47,1.27 l -1.08,-0.11 q 0.11,-1.22 0.84,-1.85 0.72,-0.63 1.96,-0.63 1.23,0 1.95,0.68 0.72,0.69 0.72,1.71 0,0.51 -0.21,1 -0.21,0.5 -0.7,1.05 -0.5,0.56 -1.62,1.51 -0.95,0.79 -1.23,1.08 -0.27,0.29 -0.44,0.57 l 4.22,0 z m 6.59,-5.46 -1.04,0.07 q -0.14,-0.62 -0.39,-0.9 -0.44,-0.46 -1.07,-0.46 -0.5,0 -0.89,0.29 -0.48,0.37 -0.77,1.07 -0.29,0.69 -0.31,1.97 0.38,-0.58 0.93,-0.86 0.56,-0.28 1.17,-0.28 1.04,0 1.79,0.78 0.74,0.78 0.74,2 0,0.82 -0.35,1.51 -0.35,0.7 -0.96,1.06 -0.61,0.37 -1.38,0.37 -1.33,0 -2.15,-0.97 -0.83,-0.97 -0.83,-3.19 0,-2.5 0.92,-3.62 0.8,-0.98 2.16,-0.98 1.01,0 1.66,0.57 0.65,0.57 0.77,1.57 z m -4.29,3.7 q 0,0.55 0.22,1.04 0.23,0.49 0.64,0.76 0.42,0.26 0.89,0.26 0.65,0 1.14,-0.54 0.48,-0.54 0.48,-1.46 0,-0.89 -0.48,-1.4 -0.47,-0.52 -1.19,-0.52 -0.72,0 -1.21,0.52 -0.49,0.51 -0.49,1.34 z m 6.09,2.78 0,-1.2 1.2,0 0,1.2 -1.2,0 z m 2.74,-2.25 1.11,-0.09 q 0.13,0.81 0.57,1.22 0.45,0.4 1.09,0.4 0.75,0 1.28,-0.58 0.53,-0.58 0.53,-1.51 0,-0.91 -0.51,-1.43 -0.51,-0.53 -1.33,-0.53 -0.5,0 -0.92,0.24 -0.41,0.23 -0.65,0.59 l -0.98,-0.12 0.83,-4.41 4.28,0 0,1 -3.44,0 -0.45,2.31 q 0.76,-0.54 1.61,-0.54 1.12,0 1.9,0.78 0.77,0.78 0.77,2.01 0,1.16 -0.67,2.02 -0.83,1.03 -2.25,1.03 -1.17,0 -1.92,-0.66 -0.74,-0.65 -0.85,-1.73 z m 12.14,-4.23 -1.04,0.07 q -0.14,-0.62 -0.39,-0.9 -0.44,-0.46 -1.07,-0.46 -0.5,0 -0.89,0.29 -0.48,0.37 -0.77,1.07 -0.29,0.69 -0.3,1.97 0.37,-0.58 0.93,-0.86 0.55,-0.28 1.16,-0.28 1.05,0 1.79,0.78 0.74,0.78 0.74,2 0,0.82 -0.35,1.51 -0.35,0.7 -0.96,1.06 -0.61,0.37 -1.38,0.37 -1.33,0 -2.15,-0.97 -0.83,-0.97 -0.83,-3.19 0,-2.5 0.92,-3.62 0.8,-0.98 2.16,-0.98 1.01,0 1.66,0.57 0.65,0.57 0.77,1.57 z m -4.29,3.7 q 0,0.55 0.22,1.04 0.23,0.49 0.64,0.76 0.42,0.26 0.89,0.26 0.65,0 1.14,-0.54 0.48,-0.54 0.48,-1.46 0,-0.89 -0.47,-1.4 -0.48,-0.52 -1.2,-0.52 -0.72,0 -1.21,0.52 -0.49,0.51 -0.49,1.34 z m 5.5,0.53 1.11,-0.09 q 0.12,0.81 0.57,1.22 0.44,0.4 1.08,0.4 0.75,0 1.29,-0.58 0.53,-0.58 0.53,-1.51 0,-0.91 -0.51,-1.43 -0.51,-0.53 -1.34,-0.53 -0.5,0 -0.91,0.24 -0.41,0.23 -0.65,0.59 l -0.98,-0.12 0.82,-4.41 4.29,0 0,1 -3.44,0 -0.45,2.31 q 0.76,-0.54 1.6,-0.54 1.13,0 1.9,0.78 0.78,0.78 0.78,2.01 0,1.16 -0.68,2.02 -0.82,1.03 -2.25,1.03 -1.17,0 -1.91,-0.66 -0.74,-0.65 -0.85,-1.73 z m 6.92,-4.86 q 0,-0.67 0.48,-1.15 0.48,-0.47 1.15,-0.47 0.67,0 1.15,0.47 0.47,0.48 0.47,1.15 0,0.67 -0.47,1.15 -0.48,0.48 -1.15,0.48 -0.67,0 -1.15,-0.48 -0.48,-0.48 -0.48,-1.15 z m 0.64,0 q 0,0.41 0.29,0.7 0.29,0.29 0.7,0.29 0.4,0 0.69,-0.29 0.29,-0.29 0.29,-0.7 0,-0.42 -0.29,-0.71 -0.29,-0.29 -0.69,-0.29 -0.41,0 -0.7,0.29 -0.29,0.29 -0.29,0.71 z"
+               id="path1377"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1379">Angle Î²</title>
+            <desc
+               id="desc1381">Angle Î²: Angle between N, A'_1, E</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip119 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1383">
+        <clipPath
+           id="clip33b9ce41-e5e4-46b5-a697-3d2977ee3627">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1386"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip120)"
+           id="g1388">
+          <g
+             id="g1390"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none">
+            <path
+               d="m 566.05,484.98 0,1.02 -5.69,0 q 0,-0.38 0.12,-0.73 0.22,-0.58 0.7,-1.15 0.48,-0.56 1.38,-1.29 1.41,-1.16 1.9,-1.83 0.49,-0.67 0.49,-1.27 0,-0.62 -0.45,-1.05 -0.45,-0.43 -1.17,-0.43 -0.77,0 -1.22,0.45 -0.45,0.46 -0.47,1.27 l -1.08,-0.11 q 0.11,-1.22 0.84,-1.85 0.72,-0.63 1.96,-0.63 1.23,0 1.95,0.68 0.72,0.69 0.72,1.71 0,0.51 -0.21,1 -0.21,0.5 -0.7,1.05 -0.5,0.56 -1.62,1.51 -0.95,0.79 -1.23,1.08 -0.27,0.29 -0.44,0.57 l 4.22,0 z m 6.59,-5.46 -1.04,0.07 q -0.14,-0.62 -0.39,-0.9 -0.44,-0.46 -1.07,-0.46 -0.5,0 -0.89,0.29 -0.48,0.37 -0.77,1.07 -0.29,0.69 -0.31,1.97 0.38,-0.58 0.93,-0.86 0.56,-0.28 1.17,-0.28 1.04,0 1.79,0.78 0.74,0.78 0.74,2 0,0.82 -0.35,1.51 -0.35,0.7 -0.96,1.06 -0.61,0.37 -1.38,0.37 -1.33,0 -2.15,-0.97 -0.83,-0.97 -0.83,-3.19 0,-2.5 0.92,-3.62 0.8,-0.98 2.16,-0.98 1.01,0 1.66,0.57 0.65,0.57 0.77,1.57 z m -4.29,3.7 q 0,0.55 0.22,1.04 0.23,0.49 0.64,0.76 0.42,0.26 0.89,0.26 0.65,0 1.14,-0.54 0.48,-0.54 0.48,-1.46 0,-0.89 -0.48,-1.4 -0.47,-0.52 -1.19,-0.52 -0.72,0 -1.21,0.52 -0.49,0.51 -0.49,1.34 z m 6.09,2.78 0,-1.2 1.2,0 0,1.2 -1.2,0 z m 2.74,-2.25 1.11,-0.09 q 0.13,0.81 0.57,1.22 0.45,0.4 1.09,0.4 0.75,0 1.28,-0.58 0.53,-0.58 0.53,-1.51 0,-0.91 -0.51,-1.43 -0.51,-0.53 -1.33,-0.53 -0.5,0 -0.92,0.24 -0.41,0.23 -0.65,0.59 l -0.98,-0.12 0.83,-4.41 4.28,0 0,1 -3.44,0 -0.45,2.31 q 0.76,-0.54 1.61,-0.54 1.12,0 1.9,0.78 0.77,0.78 0.77,2.01 0,1.16 -0.67,2.02 -0.83,1.03 -2.25,1.03 -1.17,0 -1.92,-0.66 -0.74,-0.65 -0.85,-1.73 z m 12.14,-4.23 -1.04,0.07 q -0.14,-0.62 -0.39,-0.9 -0.44,-0.46 -1.07,-0.46 -0.5,0 -0.89,0.29 -0.48,0.37 -0.77,1.07 -0.29,0.69 -0.3,1.97 0.37,-0.58 0.93,-0.86 0.55,-0.28 1.16,-0.28 1.05,0 1.79,0.78 0.74,0.78 0.74,2 0,0.82 -0.35,1.51 -0.35,0.7 -0.96,1.06 -0.61,0.37 -1.38,0.37 -1.33,0 -2.15,-0.97 -0.83,-0.97 -0.83,-3.19 0,-2.5 0.92,-3.62 0.8,-0.98 2.16,-0.98 1.01,0 1.66,0.57 0.65,0.57 0.77,1.57 z m -4.29,3.7 q 0,0.55 0.22,1.04 0.23,0.49 0.64,0.76 0.42,0.26 0.89,0.26 0.65,0 1.14,-0.54 0.48,-0.54 0.48,-1.46 0,-0.89 -0.47,-1.4 -0.48,-0.52 -1.2,-0.52 -0.72,0 -1.21,0.52 -0.49,0.51 -0.49,1.34 z m 5.5,0.53 1.11,-0.09 q 0.12,0.81 0.57,1.22 0.44,0.4 1.08,0.4 0.75,0 1.29,-0.58 0.53,-0.58 0.53,-1.51 0,-0.91 -0.51,-1.43 -0.51,-0.53 -1.34,-0.53 -0.5,0 -0.91,0.24 -0.41,0.23 -0.65,0.59 l -0.98,-0.12 0.82,-4.41 4.29,0 0,1 -3.44,0 -0.45,2.31 q 0.76,-0.54 1.6,-0.54 1.13,0 1.9,0.78 0.78,0.78 0.78,2.01 0,1.16 -0.68,2.02 -0.82,1.03 -2.25,1.03 -1.17,0 -1.91,-0.66 -0.74,-0.65 -0.85,-1.73 z m 6.92,-4.86 q 0,-0.67 0.48,-1.15 0.48,-0.47 1.15,-0.47 0.67,0 1.15,0.47 0.47,0.48 0.47,1.15 0,0.67 -0.47,1.15 -0.48,0.48 -1.15,0.48 -0.67,0 -1.15,-0.48 -0.48,-0.48 -0.48,-1.15 z m 0.64,0 q 0,0.41 0.29,0.7 0.29,0.29 0.7,0.29 0.4,0 0.69,-0.29 0.29,-0.29 0.29,-0.7 0,-0.42 -0.29,-0.71 -0.29,-0.29 -0.69,-0.29 -0.41,0 -0.7,0.29 -0.29,0.29 -0.29,0.71 z"
+               id="path1392"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1394">Angle Î²</title>
+            <desc
+               id="desc1396">Angle Î²: Angle between N, A'_1, E</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip120 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1398">
+        <clipPath
+           id="clipd0d27789-645f-4382-a305-84d193bc7127">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1401"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip121)"
+           id="g1403">
+          <g
+             id="g1405"
+             style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none">
+            <path
+               d="m 566.05,482.98 0,1.02 -5.69,0 q 0,-0.38 0.12,-0.73 0.22,-0.58 0.7,-1.15 0.48,-0.56 1.38,-1.29 1.41,-1.16 1.9,-1.83 0.49,-0.67 0.49,-1.27 0,-0.62 -0.45,-1.05 -0.45,-0.43 -1.17,-0.43 -0.77,0 -1.22,0.45 -0.45,0.46 -0.47,1.27 l -1.08,-0.11 q 0.11,-1.22 0.84,-1.85 0.72,-0.63 1.96,-0.63 1.23,0 1.95,0.68 0.72,0.69 0.72,1.71 0,0.51 -0.21,1 -0.21,0.5 -0.7,1.05 -0.5,0.56 -1.62,1.51 -0.95,0.79 -1.23,1.08 -0.27,0.29 -0.44,0.57 l 4.22,0 z m 6.59,-5.46 -1.04,0.07 q -0.14,-0.62 -0.39,-0.9 -0.44,-0.46 -1.07,-0.46 -0.5,0 -0.89,0.29 -0.48,0.37 -0.77,1.07 -0.29,0.69 -0.31,1.97 0.38,-0.58 0.93,-0.86 0.56,-0.28 1.17,-0.28 1.04,0 1.79,0.78 0.74,0.78 0.74,2 0,0.82 -0.35,1.51 -0.35,0.7 -0.96,1.06 -0.61,0.37 -1.38,0.37 -1.33,0 -2.15,-0.97 -0.83,-0.97 -0.83,-3.19 0,-2.5 0.92,-3.62 0.8,-0.98 2.16,-0.98 1.01,0 1.66,0.57 0.65,0.57 0.77,1.57 z m -4.29,3.7 q 0,0.55 0.22,1.04 0.23,0.49 0.64,0.76 0.42,0.26 0.89,0.26 0.65,0 1.14,-0.54 0.48,-0.54 0.48,-1.46 0,-0.89 -0.48,-1.4 -0.47,-0.52 -1.19,-0.52 -0.72,0 -1.21,0.52 -0.49,0.51 -0.49,1.34 z m 6.09,2.78 0,-1.2 1.2,0 0,1.2 -1.2,0 z m 2.74,-2.25 1.11,-0.09 q 0.13,0.81 0.57,1.22 0.45,0.4 1.09,0.4 0.75,0 1.28,-0.58 0.53,-0.58 0.53,-1.51 0,-0.91 -0.51,-1.43 -0.51,-0.53 -1.33,-0.53 -0.5,0 -0.92,0.24 -0.41,0.23 -0.65,0.59 l -0.98,-0.12 0.83,-4.41 4.28,0 0,1 -3.44,0 -0.45,2.31 q 0.76,-0.54 1.61,-0.54 1.12,0 1.9,0.78 0.77,0.78 0.77,2.01 0,1.16 -0.67,2.02 -0.83,1.03 -2.25,1.03 -1.17,0 -1.92,-0.66 -0.74,-0.65 -0.85,-1.73 z m 12.14,-4.23 -1.04,0.07 q -0.14,-0.62 -0.39,-0.9 -0.44,-0.46 -1.07,-0.46 -0.5,0 -0.89,0.29 -0.48,0.37 -0.77,1.07 -0.29,0.69 -0.3,1.97 0.37,-0.58 0.93,-0.86 0.55,-0.28 1.16,-0.28 1.05,0 1.79,0.78 0.74,0.78 0.74,2 0,0.82 -0.35,1.51 -0.35,0.7 -0.96,1.06 -0.61,0.37 -1.38,0.37 -1.33,0 -2.15,-0.97 -0.83,-0.97 -0.83,-3.19 0,-2.5 0.92,-3.62 0.8,-0.98 2.16,-0.98 1.01,0 1.66,0.57 0.65,0.57 0.77,1.57 z m -4.29,3.7 q 0,0.55 0.22,1.04 0.23,0.49 0.64,0.76 0.42,0.26 0.89,0.26 0.65,0 1.14,-0.54 0.48,-0.54 0.48,-1.46 0,-0.89 -0.47,-1.4 -0.48,-0.52 -1.2,-0.52 -0.72,0 -1.21,0.52 -0.49,0.51 -0.49,1.34 z m 5.5,0.53 1.11,-0.09 q 0.12,0.81 0.57,1.22 0.44,0.4 1.08,0.4 0.75,0 1.29,-0.58 0.53,-0.58 0.53,-1.51 0,-0.91 -0.51,-1.43 -0.51,-0.53 -1.34,-0.53 -0.5,0 -0.91,0.24 -0.41,0.23 -0.65,0.59 l -0.98,-0.12 0.82,-4.41 4.29,0 0,1 -3.44,0 -0.45,2.31 q 0.76,-0.54 1.6,-0.54 1.13,0 1.9,0.78 0.78,0.78 0.78,2.01 0,1.16 -0.68,2.02 -0.82,1.03 -2.25,1.03 -1.17,0 -1.91,-0.66 -0.74,-0.65 -0.85,-1.73 z m 6.92,-4.86 q 0,-0.67 0.48,-1.15 0.48,-0.47 1.15,-0.47 0.67,0 1.15,0.47 0.47,0.48 0.47,1.15 0,0.67 -0.47,1.15 -0.48,0.48 -1.15,0.48 -0.67,0 -1.15,-0.48 -0.48,-0.48 -0.48,-1.15 z m 0.64,0 q 0,0.41 0.29,0.7 0.29,0.29 0.7,0.29 0.4,0 0.69,-0.29 0.29,-0.29 0.29,-0.7 0,-0.42 -0.29,-0.71 -0.29,-0.29 -0.69,-0.29 -0.41,0 -0.7,0.29 -0.29,0.29 -0.29,0.71 z"
+               id="path1407"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1409">Angle Î²</title>
+            <desc
+               id="desc1411">Angle Î²: Angle between N, A'_1, E</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip121 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1413">
+        <clipPath
+           id="clip629c5864-57d6-40cf-8b31-2d73f63f1c28">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1416"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip122)"
+           id="g1418">
+          <g
+             id="g1420"
+             style="fill:#006400;fill-opacity:1;fill-rule:nonzero;stroke:none">
+            <path
+               d="m 566.05,483.98 0,1.02 -5.69,0 q 0,-0.38 0.12,-0.73 0.22,-0.58 0.7,-1.15 0.48,-0.56 1.38,-1.29 1.41,-1.16 1.9,-1.83 0.49,-0.67 0.49,-1.27 0,-0.62 -0.45,-1.05 -0.45,-0.43 -1.17,-0.43 -0.77,0 -1.22,0.45 -0.45,0.46 -0.47,1.27 l -1.08,-0.11 q 0.11,-1.22 0.84,-1.85 0.72,-0.63 1.96,-0.63 1.23,0 1.95,0.68 0.72,0.69 0.72,1.71 0,0.51 -0.21,1 -0.21,0.5 -0.7,1.05 -0.5,0.56 -1.62,1.51 -0.95,0.79 -1.23,1.08 -0.27,0.29 -0.44,0.57 l 4.22,0 z m 6.59,-5.46 -1.04,0.07 q -0.14,-0.62 -0.39,-0.9 -0.44,-0.46 -1.07,-0.46 -0.5,0 -0.89,0.29 -0.48,0.37 -0.77,1.07 -0.29,0.69 -0.31,1.97 0.38,-0.58 0.93,-0.86 0.56,-0.28 1.17,-0.28 1.04,0 1.79,0.78 0.74,0.78 0.74,2 0,0.82 -0.35,1.51 -0.35,0.7 -0.96,1.06 -0.61,0.37 -1.38,0.37 -1.33,0 -2.15,-0.97 -0.83,-0.97 -0.83,-3.19 0,-2.5 0.92,-3.62 0.8,-0.98 2.16,-0.98 1.01,0 1.66,0.57 0.65,0.57 0.77,1.57 z m -4.29,3.7 q 0,0.55 0.22,1.04 0.23,0.49 0.64,0.76 0.42,0.26 0.89,0.26 0.65,0 1.14,-0.54 0.48,-0.54 0.48,-1.46 0,-0.89 -0.48,-1.4 -0.47,-0.52 -1.19,-0.52 -0.72,0 -1.21,0.52 -0.49,0.51 -0.49,1.34 z m 6.09,2.78 0,-1.2 1.2,0 0,1.2 -1.2,0 z m 2.74,-2.25 1.11,-0.09 q 0.13,0.81 0.57,1.22 0.45,0.4 1.09,0.4 0.75,0 1.28,-0.58 0.53,-0.58 0.53,-1.51 0,-0.91 -0.51,-1.43 -0.51,-0.53 -1.33,-0.53 -0.5,0 -0.92,0.24 -0.41,0.23 -0.65,0.59 l -0.98,-0.12 0.83,-4.41 4.28,0 0,1 -3.44,0 -0.45,2.31 q 0.76,-0.54 1.61,-0.54 1.12,0 1.9,0.78 0.77,0.78 0.77,2.01 0,1.16 -0.67,2.02 -0.83,1.03 -2.25,1.03 -1.17,0 -1.92,-0.66 -0.74,-0.65 -0.85,-1.73 z m 12.14,-4.23 -1.04,0.07 q -0.14,-0.62 -0.39,-0.9 -0.44,-0.46 -1.07,-0.46 -0.5,0 -0.89,0.29 -0.48,0.37 -0.77,1.07 -0.29,0.69 -0.3,1.97 0.37,-0.58 0.93,-0.86 0.55,-0.28 1.16,-0.28 1.05,0 1.79,0.78 0.74,0.78 0.74,2 0,0.82 -0.35,1.51 -0.35,0.7 -0.96,1.06 -0.61,0.37 -1.38,0.37 -1.33,0 -2.15,-0.97 -0.83,-0.97 -0.83,-3.19 0,-2.5 0.92,-3.62 0.8,-0.98 2.16,-0.98 1.01,0 1.66,0.57 0.65,0.57 0.77,1.57 z m -4.29,3.7 q 0,0.55 0.22,1.04 0.23,0.49 0.64,0.76 0.42,0.26 0.89,0.26 0.65,0 1.14,-0.54 0.48,-0.54 0.48,-1.46 0,-0.89 -0.47,-1.4 -0.48,-0.52 -1.2,-0.52 -0.72,0 -1.21,0.52 -0.49,0.51 -0.49,1.34 z m 5.5,0.53 1.11,-0.09 q 0.12,0.81 0.57,1.22 0.44,0.4 1.08,0.4 0.75,0 1.29,-0.58 0.53,-0.58 0.53,-1.51 0,-0.91 -0.51,-1.43 -0.51,-0.53 -1.34,-0.53 -0.5,0 -0.91,0.24 -0.41,0.23 -0.65,0.59 l -0.98,-0.12 0.82,-4.41 4.29,0 0,1 -3.44,0 -0.45,2.31 q 0.76,-0.54 1.6,-0.54 1.13,0 1.9,0.78 0.78,0.78 0.78,2.01 0,1.16 -0.68,2.02 -0.82,1.03 -2.25,1.03 -1.17,0 -1.91,-0.66 -0.74,-0.65 -0.85,-1.73 z m 6.92,-4.86 q 0,-0.67 0.48,-1.15 0.48,-0.47 1.15,-0.47 0.67,0 1.15,0.47 0.47,0.48 0.47,1.15 0,0.67 -0.47,1.15 -0.48,0.48 -1.15,0.48 -0.67,0 -1.15,-0.48 -0.48,-0.48 -0.48,-1.15 z m 0.64,0 q 0,0.41 0.29,0.7 0.29,0.29 0.7,0.29 0.4,0 0.69,-0.29 0.29,-0.29 0.29,-0.7 0,-0.42 -0.29,-0.71 -0.29,-0.29 -0.69,-0.29 -0.41,0 -0.7,0.29 -0.29,0.29 -0.29,0.71 z"
+               id="path1422"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1424">Angle Î²</title>
+            <desc
+               id="desc1426">Angle Î²: Angle between N, A'_1, E</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip122 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1428">
+        <clipPath
+           id="clipbb2a8885-7ce7-4579-b380-e2324b42ff89">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1431"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip123)"
+           id="g1433">
+          <g
+             id="g1435"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path
+               d="m 558.25,325.36 0,120.44"
+               id="path1437"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1439">Segment a</title>
+            <desc
+               id="desc1441">Segment a: Segment G, N</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip123 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1443">
+        <clipPath
+           id="clipc463d43c-91bf-4f04-b640-b5007fd30d98">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1446"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip124)"
+           id="g1448">
+          <g
+             id="g1450"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path
+               d="m 558.25,445.8 98.33,49.16"
+               id="path1452"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1454">Segment g_1</title>
+            <desc
+               id="desc1456">Segment g_1: Segment N, A'_1</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip124 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1458">
+        <clipPath
+           id="clipa73e83f7-e91b-4a28-9912-59b5e1f16e84">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1461"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip125)"
+           id="g1463">
+          <g
+             id="g1465"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path
+               d="m 656.58,494.96 0,-120.43"
+               id="path1467"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1469">Segment h_1</title>
+            <desc
+               id="desc1471">Segment h_1: Segment A'_1, B</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip125 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1473">
+        <clipPath
+           id="clip55e16c05-f978-41b5-9de2-7c075f7c121a">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1476"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip126)"
+           id="g1478">
+          <g
+             id="g1480"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path
+               d="M 656.58,374.53 558.25,325.36"
+               id="path1482"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1484">Segment i_1</title>
+            <desc
+               id="desc1486">Segment i_1: Segment B, G</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip126 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1488">
+        <clipPath
+           id="clip03e635a9-109d-4daa-b15d-32b8488dcf7a">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1491"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip127)"
+           id="g1493">
+          <g
+             id="g1495"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path
+               d="M 656.58,494.96 754.92,445.8"
+               id="path1497"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1499">Segment h</title>
+            <desc
+               id="desc1501">Segment h: Segment A'_1, M</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip127 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1503">
+        <clipPath
+           id="clipb87cedbb-a5d2-4715-9b57-24c3e20cc36f">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1506"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip128)"
+           id="g1508">
+          <g
+             id="g1510"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path
+               d="m 754.92,445.8 0,-120.44"
+               id="path1512"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1514">Segment d</title>
+            <desc
+               id="desc1516">Segment d: Segment M, F</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip128 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1518">
+        <clipPath
+           id="clipb5f36a44-343c-477d-b732-a309ffc7d8fb">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1521"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip129)"
+           id="g1523">
+          <g
+             id="g1525"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path
+               d="m 754.92,325.36 -98.34,49.17"
+               id="path1527"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1529">Segment e</title>
+            <desc
+               id="desc1531">Segment e: Segment F, B</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip129 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1533">
+        <clipPath
+           id="clipbc19ce56-65fb-48ac-8aed-b6ec25986811">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1536"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip130)"
+           id="g1538">
+          <g
+             id="g1540"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path
+               d="m 656.58,374.53 0,120.43"
+               id="path1542"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1544">Segment f_1</title>
+            <desc
+               id="desc1546">Segment f_1: Segment B, A'_1</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip130 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1548">
+        <clipPath
+           id="clipfd24e13d-30de-4eb2-a9e0-9f2a9cc3e437">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1551"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip131)"
+           id="g1553">
+          <g
+             id="g1555"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path
+               d="m 558.25,325.36 98.33,-49.17"
+               id="path1557"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1559">Segment n</title>
+            <desc
+               id="desc1561">Segment n: Segment G, A'</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip131 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1563">
+        <clipPath
+           id="clip598ab3ae-7644-419b-94e6-54b750e7bdb1">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1566"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip132)"
+           id="g1568">
+          <g
+             id="g1570"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path
+               d="m 656.58,276.19 98.34,49.17"
+               id="path1572"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1574">Segment p</title>
+            <desc
+               id="desc1576">Segment p: Segment A', F</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip132 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1578">
+        <clipPath
+           id="clip01fb0f53-164d-44dc-8277-fb2399612cfb">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1581"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip133)"
+           id="g1583">
+          <g
+             id="g1585"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path
+               d="m 754.92,325.36 -98.34,49.17"
+               id="path1587"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1589">Segment q</title>
+            <desc
+               id="desc1591">Segment q: Segment F, B</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip133 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="translate(-533.66,-262.66)"
+         id="g1593">
+        <clipPath
+           id="clip7bc72e46-4d70-4397-8256-7e613ea28e25">
+          <path
+             d="m 533.66,262.66 0,247 247,0 0,-247 z"
+             id="path1596"
+             inkscape:connector-curvature="0" />
+        </clipPath>
+        <g
+           clip-path="url(#clip134)"
+           id="g1598">
+          <g
+             id="g1600"
+             style="fill:none;stroke:#000000;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+            <path
+               d="M 656.58,374.53 558.25,325.36"
+               id="path1602"
+               inkscape:connector-curvature="0" />
+            <title
+               id="title1604">Segment r</title>
+            <desc
+               id="desc1606">Segment r: Segment B, G</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip134 -->
+      </g>
+      <!-- transform -->
+    </g>
+  </g>
+  <!-- default stroke -->
+</svg>
+<!-- bounding box -->
+

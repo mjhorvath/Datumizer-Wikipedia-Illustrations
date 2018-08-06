@@ -1,0 +1,15 @@
+\documentclass[pstricks,preview,margin=0pt]{standalone}
+\usepackage{pst-plot,graphicx,pstricks-add}
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+\begin{document}
+  \psset{linecolor=gray,linewidth=1pt,arrowsize=8pt,unit=0.75bp}
+    \begin{pspicture}(-48,-176)(304,176)
+    \psset{linewidth=2pt}
+    %%\psaxes*[par]{arrows}(x0,y0)(x1,y1)(x2,y2)
+    \psaxes[Dy=10,Dx=50,dy=25.6,dx=32,Ox=200,labelFontSize=\color{gray},mathLabel=false,tickcolor=gray,ylabelPos=right](128,-128)(128,-128)(0,128.01)
+    \rput(164,0){\color{gray}\large\itshape L}
+    \rput(64,-164){\color{gray}\large\itshape C}
+  \end{pspicture}
+\end{document}

@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+
+<svg 
+     version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     xmlns:ev="http://www.w3.org/2001/xml-events"
+     width="22.648333333333333cm"
+     height="17.003888888888888cm"
+     viewBox="0 0 642 482"
+     >
+<title>
+
+</title>
+<g stroke-linejoin="miter" stroke-dashoffset="0.0000" stroke-dasharray="none" stroke-width="1.0000" stroke-miterlimit="10.000" stroke-linecap="square">
+<g id="misc">
+</g><!-- misc -->
+<g id="layer0">
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipad83f1ad-c266-4844-b956-83965518391c">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip1)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#444444">
+  <path d="M 32.500 255.00 L 32.500 276.00 C 32.500 277.38 33.619 278.50 35.000 278.50 L 56.000 278.50 C 57.381 278.50 58.500 277.38 58.500 276.00 L 58.500 255.00 C 58.500 253.62 57.381 252.50 56.000 252.50 L 35.000 252.50 C 33.619 252.50 32.500 253.62 32.500 255.00 z"/>
+<title>Boolean Value bool_o</title>
+<desc>bool_o = false</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip1 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip929ebbe3-5239-499c-8453-a84d065340e9">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip2)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 33.000 255.50 L 33.000 274.50 C 33.000 275.88 34.119 277.00 35.500 277.00 L 54.500 277.00 C 55.881 277.00 57.000 275.88 57.000 274.50 L 57.000 255.50 C 57.000 254.12 55.881 253.00 54.500 253.00 L 35.500 253.00 C 34.119 253.00 33.000 254.12 33.000 255.50 z"/>
+<title>Boolean Value bool_o</title>
+<desc>bool_o = false</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip2 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip3b6e8465-e402-416e-8e4d-c0225536537c">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip3)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#000000">
+  <path d="M 66.156 272.00 L 66.156 261.89 L 62.375 261.89 L 62.375 260.55 L 71.453 260.55 L 71.453 261.89 L 67.672 261.89 L 67.672 272.00 L 66.156 272.00 z M 72.305 267.84 Q 72.305 265.55 73.586 264.44 Q 74.664 263.52 76.195 263.52 Q 77.914 263.52 79.000 264.63 Q 80.086 265.75 80.086 267.73 Q 80.086 269.33 79.602 270.25 Q 79.117 271.17 78.203 271.68 Q 77.289 272.19 76.195 272.19 Q 74.461 272.19 73.383 271.07 Q 72.305 269.95 72.305 267.84 z M 73.758 267.84 Q 73.758 269.44 74.453 270.23 Q 75.148 271.03 76.195 271.03 Q 77.242 271.03 77.938 270.23 Q 78.633 269.44 78.633 267.80 Q 78.633 266.27 77.938 265.47 Q 77.242 264.67 76.195 264.67 Q 75.148 264.67 74.453 265.46 Q 73.758 266.25 73.758 267.84 z M 81.469 272.69 L 82.844 272.89 Q 82.922 273.53 83.312 273.81 Q 83.844 274.20 84.750 274.20 Q 85.719 274.20 86.250 273.81 Q 86.781 273.42 86.969 272.72 Q 87.078 272.30 87.078 270.91 Q 86.156 272.00 84.781 272.00 Q 83.062 272.00 82.125 270.77 Q 81.188 269.53 81.188 267.80 Q 81.188 266.61 81.617 265.61 Q 82.047 264.61 82.867 264.06 Q 83.688 263.52 84.781 263.52 Q 86.250 263.52 87.203 264.70 L 87.203 263.70 L 88.500 263.70 L 88.500 270.88 Q 88.500 272.81 88.109 273.62 Q 87.719 274.44 86.859 274.91 Q 86.000 275.38 84.750 275.38 Q 83.266 275.38 82.352 274.70 Q 81.438 274.03 81.469 272.69 z M 82.641 267.70 Q 82.641 269.33 83.289 270.08 Q 83.938 270.83 84.906 270.83 Q 85.875 270.83 86.531 270.09 Q 87.188 269.34 87.188 267.75 Q 87.188 266.22 86.516 265.45 Q 85.844 264.67 84.891 264.67 Q 83.953 264.67 83.297 265.44 Q 82.641 266.20 82.641 267.70 z M 90.367 272.69 L 91.742 272.89 Q 91.820 273.53 92.211 273.81 Q 92.742 274.20 93.648 274.20 Q 94.617 274.20 95.148 273.81 Q 95.680 273.42 95.867 272.72 Q 95.977 272.30 95.977 270.91 Q 95.055 272.00 93.680 272.00 Q 91.961 272.00 91.023 270.77 Q 90.086 269.53 90.086 267.80 Q 90.086 266.61 90.516 265.61 Q 90.945 264.61 91.766 264.06 Q 92.586 263.52 93.680 263.52 Q 95.148 263.52 96.102 264.70 L 96.102 263.70 L 97.398 263.70 L 97.398 270.88 Q 97.398 272.81 97.008 273.62 Q 96.617 274.44 95.758 274.91 Q 94.898 275.38 93.648 275.38 Q 92.164 275.38 91.250 274.70 Q 90.336 274.03 90.367 272.69 z M 91.539 267.70 Q 91.539 269.33 92.188 270.08 Q 92.836 270.83 93.805 270.83 Q 94.773 270.83 95.430 270.09 Q 96.086 269.34 96.086 267.75 Q 96.086 266.22 95.414 265.45 Q 94.742 264.67 93.789 264.67 Q 92.852 264.67 92.195 265.44 Q 91.539 266.20 91.539 267.70 z M 99.500 272.00 L 99.500 260.55 L 100.91 260.55 L 100.91 272.00 L 99.500 272.00 z M 108.76 269.33 L 110.21 269.50 Q 109.87 270.78 108.94 271.48 Q 108.01 272.19 106.57 272.19 Q 104.74 272.19 103.68 271.06 Q 102.62 269.94 102.62 267.92 Q 102.62 265.83 103.70 264.67 Q 104.77 263.52 106.49 263.52 Q 108.15 263.52 109.20 264.65 Q 110.26 265.78 110.26 267.83 Q 110.26 267.95 110.26 268.20 L 104.07 268.20 Q 104.15 269.58 104.84 270.30 Q 105.54 271.03 106.57 271.03 Q 107.35 271.03 107.90 270.62 Q 108.45 270.22 108.76 269.33 z M 104.15 267.05 L 108.77 267.05 Q 108.68 266.00 108.24 265.48 Q 107.57 264.67 106.51 264.67 Q 105.54 264.67 104.88 265.32 Q 104.21 265.97 104.15 267.05 z M 116.63 272.00 L 116.63 260.55 L 124.91 260.55 L 124.91 261.89 L 118.15 261.89 L 118.15 265.41 L 124.49 265.41 L 124.49 266.75 L 118.15 266.75 L 118.15 270.64 L 125.18 270.64 L 125.18 272.00 L 116.63 272.00 z M 126.16 272.00 L 129.20 267.69 L 126.38 263.70 L 128.15 263.70 L 129.41 265.64 Q 129.77 266.20 129.99 266.58 Q 130.34 266.06 130.63 265.66 L 132.02 263.70 L 133.71 263.70 L 130.84 267.61 L 133.93 272.00 L 132.20 272.00 L 130.49 269.42 L 130.04 268.72 L 127.87 272.00 L 126.16 272.00 z M 135.10 275.19 L 135.10 263.70 L 136.38 263.70 L 136.38 264.78 Q 136.84 264.14 137.41 263.83 Q 137.98 263.52 138.79 263.52 Q 139.85 263.52 140.66 264.06 Q 141.48 264.61 141.89 265.60 Q 142.30 266.59 142.30 267.78 Q 142.30 269.06 141.84 270.08 Q 141.38 271.09 140.52 271.64 Q 139.65 272.19 138.68 272.19 Q 137.98 272.19 137.42 271.89 Q 136.87 271.59 136.51 271.14 L 136.51 275.19 L 135.10 275.19 z M 136.37 267.89 Q 136.37 269.50 137.02 270.27 Q 137.66 271.03 138.59 271.03 Q 139.52 271.03 140.20 270.23 Q 140.87 269.44 140.87 267.78 Q 140.87 266.19 140.21 265.40 Q 139.55 264.61 138.65 264.61 Q 137.76 264.61 137.06 265.45 Q 136.37 266.30 136.37 267.89 z M 143.47 267.84 Q 143.47 265.55 144.75 264.44 Q 145.83 263.52 147.36 263.52 Q 149.08 263.52 150.16 264.63 Q 151.25 265.75 151.25 267.73 Q 151.25 269.33 150.77 270.25 Q 150.28 271.17 149.37 271.68 Q 148.45 272.19 147.36 272.19 Q 145.62 272.19 144.55 271.07 Q 143.47 269.95 143.47 267.84 z M 144.92 267.84 Q 144.92 269.44 145.62 270.23 Q 146.31 271.03 147.36 271.03 Q 148.41 271.03 149.10 270.23 Q 149.80 269.44 149.80 267.80 Q 149.80 266.27 149.10 265.47 Q 148.41 264.67 147.36 264.67 Q 146.31 264.67 145.62 265.46 Q 144.92 266.25 144.92 267.84 z M 152.88 272.00 L 152.88 263.70 L 154.15 263.70 L 154.15 264.95 Q 154.63 264.08 155.04 263.80 Q 155.45 263.52 155.95 263.52 Q 156.65 263.52 157.38 263.97 L 156.90 265.27 Q 156.38 264.97 155.87 264.97 Q 155.41 264.97 155.05 265.24 Q 154.68 265.52 154.52 266.02 Q 154.29 266.77 154.29 267.66 L 154.29 272.00 L 152.88 272.00 z M 161.29 270.73 L 161.49 271.98 Q 160.90 272.11 160.43 272.11 Q 159.66 272.11 159.24 271.87 Q 158.82 271.62 158.65 271.23 Q 158.48 270.83 158.48 269.56 L 158.48 264.80 L 157.45 264.80 L 157.45 263.70 L 158.48 263.70 L 158.48 261.64 L 159.88 260.80 L 159.88 263.70 L 161.29 263.70 L 161.29 264.80 L 159.88 264.80 L 159.88 269.64 Q 159.88 270.25 159.95 270.42 Q 160.02 270.59 160.20 270.70 Q 160.37 270.80 160.68 270.80 Q 160.91 270.80 161.29 270.73 z M 167.32 272.00 L 167.32 260.55 L 175.60 260.55 L 175.60 261.89 L 168.84 261.89 L 168.84 265.41 L 175.18 265.41 L 175.18 266.75 L 168.84 266.75 L 168.84 270.64 L 175.87 270.64 L 175.87 272.00 L 167.32 272.00 z M 183.16 272.00 L 183.16 270.95 Q 182.38 272.19 180.85 272.19 Q 179.85 272.19 179.02 271.64 Q 178.20 271.09 177.73 270.11 Q 177.27 269.12 177.27 267.86 Q 177.27 266.61 177.69 265.60 Q 178.10 264.59 178.93 264.05 Q 179.76 263.52 180.79 263.52 Q 181.54 263.52 182.12 263.83 Q 182.71 264.14 183.07 264.66 L 183.07 260.55 L 184.48 260.55 L 184.48 272.00 L 183.16 272.00 z M 178.73 267.86 Q 178.73 269.45 179.40 270.24 Q 180.07 271.03 180.98 271.03 Q 181.90 271.03 182.55 270.27 Q 183.20 269.52 183.20 267.97 Q 183.20 266.27 182.54 265.47 Q 181.88 264.67 180.91 264.67 Q 179.98 264.67 179.35 265.44 Q 178.73 266.20 178.73 267.86 z M 186.42 272.69 L 187.80 272.89 Q 187.88 273.53 188.27 273.81 Q 188.80 274.20 189.70 274.20 Q 190.67 274.20 191.20 273.81 Q 191.73 273.42 191.92 272.72 Q 192.03 272.30 192.03 270.91 Q 191.11 272.00 189.73 272.00 Q 188.02 272.00 187.08 270.77 Q 186.14 269.53 186.14 267.80 Q 186.14 266.61 186.57 265.61 Q 187.00 264.61 187.82 264.06 Q 188.64 263.52 189.73 263.52 Q 191.20 263.52 192.16 264.70 L 192.16 263.70 L 193.45 263.70 L 193.45 270.88 Q 193.45 272.81 193.06 273.62 Q 192.67 274.44 191.81 274.91 Q 190.95 275.38 189.70 275.38 Q 188.22 275.38 187.30 274.70 Q 186.39 274.03 186.42 272.69 z M 187.59 267.70 Q 187.59 269.33 188.24 270.08 Q 188.89 270.83 189.86 270.83 Q 190.83 270.83 191.48 270.09 Q 192.14 269.34 192.14 267.75 Q 192.14 266.22 191.47 265.45 Q 190.80 264.67 189.84 264.67 Q 188.91 264.67 188.25 265.44 Q 187.59 266.20 187.59 267.70 z M 201.26 269.33 L 202.71 269.50 Q 202.37 270.78 201.44 271.48 Q 200.51 272.19 199.07 272.19 Q 197.24 272.19 196.18 271.06 Q 195.12 269.94 195.12 267.92 Q 195.12 265.83 196.20 264.67 Q 197.27 263.52 198.99 263.52 Q 200.65 263.52 201.70 264.65 Q 202.76 265.78 202.76 267.83 Q 202.76 267.95 202.76 268.20 L 196.57 268.20 Q 196.65 269.58 197.34 270.30 Q 198.04 271.03 199.07 271.03 Q 199.85 271.03 200.40 270.62 Q 200.95 270.22 201.26 269.33 z M 196.65 267.05 L 201.27 267.05 Q 201.18 266.00 200.74 265.48 Q 200.07 264.67 199.01 264.67 Q 198.04 264.67 197.38 265.32 Q 196.71 265.97 196.65 267.05 z M 203.92 269.52 L 205.31 269.30 Q 205.42 270.14 205.96 270.59 Q 206.50 271.03 207.45 271.03 Q 208.42 271.03 208.89 270.63 Q 209.36 270.23 209.36 269.70 Q 209.36 269.23 208.95 268.95 Q 208.66 268.77 207.52 268.48 Q 205.97 268.09 205.37 267.80 Q 204.77 267.52 204.46 267.02 Q 204.16 266.52 204.16 265.91 Q 204.16 265.34 204.41 264.88 Q 204.66 264.41 205.09 264.09 Q 205.42 263.84 205.99 263.68 Q 206.56 263.52 207.20 263.52 Q 208.19 263.52 208.92 263.80 Q 209.66 264.08 210.01 264.55 Q 210.36 265.03 210.50 265.84 L 209.12 266.03 Q 209.03 265.39 208.58 265.03 Q 208.12 264.67 207.31 264.67 Q 206.34 264.67 205.93 264.99 Q 205.52 265.31 205.52 265.73 Q 205.52 266.02 205.69 266.23 Q 205.86 266.45 206.22 266.61 Q 206.44 266.69 207.47 266.97 Q 208.95 267.36 209.55 267.62 Q 210.14 267.88 210.48 268.36 Q 210.81 268.84 210.81 269.56 Q 210.81 270.27 210.40 270.88 Q 209.98 271.50 209.21 271.84 Q 208.44 272.19 207.47 272.19 Q 205.84 272.19 205.00 271.52 Q 204.16 270.84 203.92 269.52 z"/>
+<title>Boolean Value bool_o</title>
+<desc>bool_o = false</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip3 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipe03e25bf-b40e-460a-9ac2-7d2fb46a49e0">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip4)">
+<g fill-opacity=".24706" fill-rule="evenodd" stroke="none" fill="#a0a0a0">
+  <path d="M 767.35 598.82 L 770.70 369.91 L 889.84 272.64 L 879.56 486.62 z"/>
+<title>Quadrilateral pane_{poly}</title>
+<desc>Quadrilateral pane_{poly}: Polygon pane_A, pane_D, pane_C, pane_B</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip4 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip9f1a462a-c3ae-4af5-85b0-48b17a42906e">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip5)">
+<g fill-opacity="1.0000" fill-rule="evenodd" stroke="none" fill="#a0a0a0">
+  <path d="M 420.87 527.20 L 616.60 383.29 L 1010.6 490.58 L 853.46 669.11 z"/>
+<title>Quadrilateral base_{poly}</title>
+<desc>Quadrilateral base_{poly}: Polygon base_D, base_C, base_B, base_A</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip5 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip1174a383-e58c-4409-8be5-eb13c228c0e3">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip6)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#a0a0a0">
+  <path d="M 727.36 517.00 L 726.05 517.00 L 726.05 505.55 L 727.45 505.55 L 727.45 509.62 Q 728.34 508.52 729.73 508.52 Q 730.50 508.52 731.18 508.82 Q 731.86 509.12 732.30 509.69 Q 732.75 510.25 733.00 511.04 Q 733.25 511.83 733.25 512.72 Q 733.25 514.86 732.20 516.02 Q 731.14 517.19 729.66 517.19 Q 728.19 517.19 727.36 515.95 L 727.36 517.00 z M 727.34 512.78 Q 727.34 514.28 727.75 514.94 Q 728.41 516.03 729.55 516.03 Q 730.47 516.03 731.14 515.23 Q 731.81 514.42 731.81 512.84 Q 731.81 511.22 731.16 510.45 Q 730.52 509.67 729.61 509.67 Q 728.69 509.67 728.02 510.47 Q 727.34 511.27 727.34 512.78 z M 740.37 515.97 Q 739.59 516.64 738.87 516.91 Q 738.15 517.19 737.32 517.19 Q 735.95 517.19 735.21 516.52 Q 734.48 515.84 734.48 514.81 Q 734.48 514.20 734.76 513.70 Q 735.04 513.19 735.48 512.88 Q 735.93 512.58 736.49 512.42 Q 736.91 512.31 737.74 512.22 Q 739.45 512.02 740.26 511.73 Q 740.26 511.44 740.26 511.36 Q 740.26 510.50 739.87 510.16 Q 739.32 509.67 738.26 509.67 Q 737.27 509.67 736.80 510.02 Q 736.32 510.38 736.10 511.25 L 734.73 511.06 Q 734.91 510.19 735.34 509.64 Q 735.77 509.09 736.59 508.80 Q 737.40 508.52 738.46 508.52 Q 739.52 508.52 740.19 508.77 Q 740.85 509.02 741.16 509.39 Q 741.48 509.77 741.60 510.34 Q 741.68 510.70 741.68 511.64 L 741.68 513.52 Q 741.68 515.48 741.77 516.00 Q 741.85 516.52 742.12 517.00 L 740.65 517.00 Q 740.43 516.56 740.37 515.97 z M 740.26 512.83 Q 739.49 513.14 737.96 513.36 Q 737.09 513.48 736.73 513.64 Q 736.37 513.80 736.17 514.10 Q 735.98 514.41 735.98 514.77 Q 735.98 515.33 736.41 515.70 Q 736.84 516.08 737.65 516.08 Q 738.46 516.08 739.09 515.73 Q 739.73 515.38 740.02 514.75 Q 740.26 514.28 740.26 513.34 L 740.26 512.83 z M 743.30 514.52 L 744.69 514.30 Q 744.80 515.14 745.34 515.59 Q 745.88 516.03 746.83 516.03 Q 747.80 516.03 748.27 515.63 Q 748.73 515.23 748.73 514.70 Q 748.73 514.23 748.33 513.95 Q 748.03 513.77 746.89 513.48 Q 745.34 513.09 744.74 512.80 Q 744.14 512.52 743.84 512.02 Q 743.53 511.52 743.53 510.91 Q 743.53 510.34 743.78 509.88 Q 744.03 509.41 744.47 509.09 Q 744.80 508.84 745.37 508.68 Q 745.94 508.52 746.58 508.52 Q 747.56 508.52 748.30 508.80 Q 749.03 509.08 749.38 509.55 Q 749.73 510.03 749.88 510.84 L 748.50 511.03 Q 748.41 510.39 747.95 510.03 Q 747.50 509.67 746.69 509.67 Q 745.72 509.67 745.30 509.99 Q 744.89 510.31 744.89 510.73 Q 744.89 511.02 745.06 511.23 Q 745.23 511.45 745.59 511.61 Q 745.81 511.69 746.84 511.97 Q 748.33 512.36 748.92 512.62 Q 749.52 512.88 749.85 513.36 Q 750.19 513.84 750.19 514.56 Q 750.19 515.27 749.77 515.88 Q 749.36 516.50 748.59 516.84 Q 747.81 517.19 746.84 517.19 Q 745.22 517.19 744.38 516.52 Q 743.53 515.84 743.30 514.52 z M 757.53 514.33 L 758.98 514.50 Q 758.64 515.78 757.71 516.48 Q 756.78 517.19 755.34 517.19 Q 753.52 517.19 752.45 516.06 Q 751.39 514.94 751.39 512.92 Q 751.39 510.83 752.47 509.67 Q 753.55 508.52 755.27 508.52 Q 756.92 508.52 757.98 509.65 Q 759.03 510.78 759.03 512.83 Q 759.03 512.95 759.03 513.20 L 752.84 513.20 Q 752.92 514.58 753.62 515.30 Q 754.31 516.03 755.34 516.03 Q 756.12 516.03 756.67 515.62 Q 757.22 515.22 757.53 514.33 z M 752.92 512.05 L 757.55 512.05 Q 757.45 511.00 757.02 510.48 Q 756.34 509.67 755.28 509.67 Q 754.31 509.67 753.65 510.32 Q 752.98 510.97 752.92 512.05 z"/>
+<title>Quadrilateral base_{poly}</title>
+<desc>Quadrilateral base_{poly}: Polygon base_D, base_C, base_B, base_A</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip6 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip287d2b0b-5cdd-4feb-8f2b-744b1effd0c6">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip7)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#a0a0a0">
+  <path d="M 760.62 526.78 L 760.62 516.73 L 761.74 516.73 L 761.74 517.69 Q 762.13 517.12 762.63 516.85 Q 763.13 516.58 763.85 516.58 Q 764.77 516.58 765.48 517.05 Q 766.20 517.53 766.55 518.41 Q 766.91 519.28 766.91 520.31 Q 766.91 521.42 766.52 522.32 Q 766.12 523.22 765.36 523.70 Q 764.60 524.17 763.76 524.17 Q 763.15 524.17 762.66 523.91 Q 762.16 523.64 761.85 523.25 L 761.85 526.78 L 760.62 526.78 z M 761.73 520.41 Q 761.73 521.81 762.30 522.48 Q 762.87 523.16 763.68 523.16 Q 764.49 523.16 765.08 522.46 Q 765.66 521.77 765.66 520.31 Q 765.66 518.92 765.09 518.23 Q 764.52 517.55 763.73 517.55 Q 762.95 517.55 762.34 518.28 Q 761.73 519.02 761.73 520.41 z M 767.95 520.38 Q 767.95 518.36 769.08 517.38 Q 770.00 516.58 771.36 516.58 Q 772.84 516.58 773.79 517.55 Q 774.75 518.53 774.75 520.27 Q 774.75 521.67 774.33 522.48 Q 773.90 523.28 773.10 523.73 Q 772.29 524.17 771.36 524.17 Q 769.83 524.17 768.89 523.19 Q 767.95 522.20 767.95 520.38 z M 769.22 520.38 Q 769.22 521.77 769.83 522.46 Q 770.43 523.16 771.36 523.16 Q 772.26 523.16 772.87 522.45 Q 773.48 521.75 773.48 520.33 Q 773.48 518.98 772.87 518.29 Q 772.26 517.59 771.36 517.59 Q 770.43 517.59 769.83 518.28 Q 769.22 518.97 769.22 520.38 z M 776.16 524.00 L 776.16 513.98 L 777.39 513.98 L 777.39 524.00 L 776.16 524.00 z M 779.25 526.80 L 779.11 525.64 Q 779.52 525.75 779.82 525.75 Q 780.22 525.75 780.47 525.62 Q 780.72 525.48 780.88 525.23 Q 780.99 525.05 781.25 524.31 Q 781.28 524.22 781.36 524.02 L 778.60 516.73 L 779.92 516.73 L 781.44 520.94 Q 781.74 521.75 781.97 522.62 Q 782.17 521.78 782.47 520.97 L 784.02 516.73 L 785.25 516.73 L 782.49 524.12 Q 782.05 525.31 781.80 525.77 Q 781.47 526.38 781.05 526.66 Q 780.63 526.95 780.03 526.95 Q 779.69 526.95 779.25 526.80 z"/>
+<title>Quadrilateral base_{poly}</title>
+<desc>Quadrilateral base_{poly}: Polygon base_D, base_C, base_B, base_A</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip7 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip47cccb39-cf73-4565-96e1-4752e411b70e">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip8)">
+<g fill-opacity="1.0000" fill-rule="evenodd" stroke="none" fill="#808080">
+  <path d="M 578.51 466.35 L 583.70 492.54 L 612.15 501.20 L 663.00 491.50 L 655.97 465.36 L 628.09 457.24 z"/>
+<title>Hexagon shad_{poly}</title>
+<desc>Hexagon shad_{poly}: Polygon shad_E, shad_A, shad_D, shad_C, shad_G, shad_F</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip8 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip99f477e6-65d0-4c17-8c7e-d20083c1a293">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip9)">
+<g fill-opacity="1.0000" fill-rule="evenodd" stroke="none" fill="#0099ff">
+  <path d="M 574.15 364.02 L 601.21 327.89 L 653.57 341.44 L 661.20 387.55 L 632.84 422.57 L 580.30 410.28 z"/>
+<title>Hexagon cube_{poly}</title>
+<desc>Hexagon cube_{poly}: Polygon cube_E, cube_H, cube_G, cube_C, cube_B, cube_A</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip9 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip82de908d-79cb-4ffa-bba2-f405a726e436">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip10)">
+<g stroke-linejoin="round" stroke-width="3.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 809.46 428.98 L 831.08 387.33"/>
+<title>Segment proj_l</title>
+<desc>Segment proj_l: Segment [proj_D, proj_H]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip10 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipf5562e1a-3729-4426-9d0c-23082731d8e3">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip11)">
+<g stroke-linejoin="round" stroke-width="3.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 831.08 387.33 L 850.49 392.36"/>
+<title>Segment proj_m</title>
+<desc>Segment proj_m: Segment [proj_H, proj_G]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip11 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip16b14295-c167-406e-aefd-e1e593a4f46d">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip12)">
+<g stroke-linejoin="round" stroke-width="3.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 850.49 392.36 L 829.60 433.05"/>
+<title>Segment proj_n</title>
+<desc>Segment proj_n: Segment [proj_G, proj_C]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip12 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip8f9e6f7d-3671-49bc-965e-84b68e30b542">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip13)">
+<g stroke-linejoin="round" stroke-width="3.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 829.60 433.05 L 809.46 428.98"/>
+<title>Segment proj_p</title>
+<desc>Segment proj_p: Segment [proj_C, proj_D]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip13 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip1f4b5159-e393-4598-b562-e6ede8b76fa9">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip14)">
+<g stroke-linejoin="round" stroke-width="3.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 850.49 392.36 L 848.78 436.94"/>
+<title>Segment proj_q</title>
+<desc>Segment proj_q: Segment [proj_G, proj_F]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip14 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="cliped1ef9e8-b2e4-453f-ba6d-c57200d8ca7b">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip15)">
+<g stroke-linejoin="round" stroke-width="3.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 848.78 436.94 L 828.15 477.57"/>
+<title>Segment proj_r</title>
+<desc>Segment proj_r: Segment [proj_F, proj_B]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip15 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip17f031d1-278d-41c4-869f-dbbe2b0e2f34">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip16)">
+<g stroke-linejoin="round" stroke-width="3.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 828.15 477.57 L 829.60 433.05"/>
+<title>Segment proj_s</title>
+<desc>Segment proj_s: Segment [proj_B, proj_C]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip16 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipd350cbb1-8b35-4cb2-9299-3f041d224bb5">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip17)">
+<g stroke-linejoin="round" stroke-width="3.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 828.15 477.57 L 808.26 474.63"/>
+<title>Segment proj_t</title>
+<desc>Segment proj_t: Segment [proj_B, proj_A]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip17 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip276dd42d-670e-408f-9f5e-83cac3bcea28">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip18)">
+<g stroke-linejoin="round" stroke-width="3.0000" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 808.26 474.63 L 809.46 428.98"/>
+<title>Segment proj_f</title>
+<desc>Segment proj_f: Segment [proj_A, proj_D]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip18 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipb1ed720b-2708-498d-b18e-dbc41753939f">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip19)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 574.15 364.02 L 601.21 327.89"/>
+<title>Segment cube_n</title>
+<desc>Segment cube_n: Segment [cube_E, cube_H]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip19 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip5c685f47-e2ce-46d7-a5ce-303c239298f3">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip20)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 601.21 327.89 L 653.57 341.44"/>
+<title>Segment cube_o</title>
+<desc>Segment cube_o: Segment [cube_H, cube_G]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip20 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipd6ffb287-88ae-4768-96dd-00d89a031343">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip21)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 653.57 341.44 L 661.20 387.54"/>
+<title>Segment cube_q</title>
+<desc>Segment cube_q: Segment [cube_G, cube_C]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip21 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipf52fbda8-9389-4801-84e2-6a1566e01b50">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip22)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 661.20 387.54 L 632.84 422.57"/>
+<title>Segment cube_s</title>
+<desc>Segment cube_s: Segment [cube_C, cube_B]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip22 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip106f6f20-4bcb-4296-9d31-697bc3e5eef5">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip23)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 632.84 422.57 L 580.30 410.28"/>
+<title>Segment cube_l</title>
+<desc>Segment cube_l: Segment [cube_B, cube_A]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip23 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipda09e210-62a0-4f0b-8ac9-392d90fbe638">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip24)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 580.30 410.28 L 574.15 364.02"/>
+<title>Segment cube_m</title>
+<desc>Segment cube_m: Segment [cube_A, cube_E]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip24 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip02a19172-9c21-4c69-9979-175c1973188f">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip25)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 770.70 369.91 L 889.84 272.64"/>
+<title>Segment pane_m</title>
+<desc>Segment pane_m: Segment [pane_D, pane_C]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip25 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip05b21118-bb20-427f-b1b9-6d6eb9bdecc2">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip26)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 889.84 272.64 L 879.56 486.62"/>
+<title>Segment pane_n</title>
+<desc>Segment pane_n: Segment [pane_C, pane_B]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip26 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip99658ca6-5375-4129-8128-979679908f67">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip27)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 879.56 486.62 L 767.35 598.82"/>
+<title>Segment pane_o</title>
+<desc>Segment pane_o: Segment [pane_B, pane_A]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip27 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipd9cbe38d-6907-4fa6-9646-2422bb7ee42a">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip28)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 767.35 598.82 L 770.70 369.91"/>
+<title>Segment pane_p</title>
+<desc>Segment pane_p: Segment [pane_A, pane_D]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip28 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip3af234e2-1da7-4843-b20b-f53cb756cc29">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip29)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 578.51 466.35 L 628.09 457.24"/>
+<title>Segment shad_m</title>
+<desc>Segment shad_m: Segment [shad_E, shad_F]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip29 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip2b196433-1121-40ea-b873-22a098113814">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip30)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 628.09 457.24 L 655.97 465.36"/>
+<title>Segment shad_n</title>
+<desc>Segment shad_n: Segment [shad_F, shad_G]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip30 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip63f12f2a-fdec-4dff-bab9-76d032ea7b93">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip31)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 655.97 465.36 L 663.00 491.50"/>
+<title>Segment shad_o</title>
+<desc>Segment shad_o: Segment [shad_G, shad_C]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip31 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip2d4f2e8a-615d-42f7-bb21-558e2dc3cc13">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip32)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 663.00 491.50 L 612.15 501.20"/>
+<title>Segment shad_p</title>
+<desc>Segment shad_p: Segment [shad_C, shad_D]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip32 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipc5223a49-0c61-453f-8c13-d0ea684446f0">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip33)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 612.15 501.20 L 583.70 492.54"/>
+<title>Segment shad_q</title>
+<desc>Segment shad_q: Segment [shad_D, shad_A]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip33 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip90caaf82-20a3-472d-a2ed-2f0a26fe713a">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip34)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 583.70 492.54 L 578.51 466.35"/>
+<title>Segment shad_r</title>
+<desc>Segment shad_r: Segment [shad_A, shad_E]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip34 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip6808fb0c-4365-460a-993f-e3f55554ebee">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip35)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 420.87 527.20 L 580.27 410.01"/>
+<title>Segment base_a</title>
+<desc>Segment base_a: Segment [base_D, base_E]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip35 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip28c19935-2644-4d63-90f2-4f09e75cc9f1">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip36)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 655.97 394.01 L 1010.6 490.58"/>
+<title>Segment base_b</title>
+<desc>Segment base_b: Segment [base_F, base_B]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip36 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip1153e911-1254-473d-a286-99e75131cead">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip37)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 1010.6 490.58 L 853.46 669.11"/>
+<title>Segment base_c</title>
+<desc>Segment base_c: Segment [base_B, base_A]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip37 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipd59ae3bf-af0a-40fb-9620-ff821d1ca5ac">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip38)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 853.46 669.11 L 420.87 527.20"/>
+<title>Segment base_d</title>
+<desc>Segment base_d: Segment [base_A, base_D]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip38 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip8c1d7f40-ce8d-4768-a9cb-3b5a4fcb7235">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip39)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 601.21 327.89 L 607.99 374.46"/>
+<title>Segment cube_r</title>
+<desc>Segment cube_r: Segment [cube_H, cube_D]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip39 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip529e0585-9343-4849-8d95-edc7c6fc9a4a">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip40)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 607.99 374.46 L 580.30 410.28"/>
+<title>Segment cube_t</title>
+<desc>Segment cube_t: Segment [cube_D, cube_A]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip40 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip1fc41574-89d4-46d0-98f9-242cf95be786">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip41)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 607.99 374.46 L 661.20 387.54"/>
+<title>Segment cube_u</title>
+<desc>Segment cube_u: Segment [cube_D, cube_C]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip41 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip885304fc-de01-415a-9b55-28eaa3f76754">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip42)">
+<g stroke-linejoin="round" stroke-dasharray="1.0000,3.0000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 660.98 386.25 L 848.78 436.94"/>
+<title>Segment vect_a</title>
+<desc>Segment vect_a: Segment [vect_A, proj_F]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip42 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip0fd38c47-546c-44c4-bee1-31b0786ee1b2">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip43)">
+<g stroke-linejoin="round" stroke-dasharray="1.0000,3.0000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 661.20 387.54 L 829.60 433.05"/>
+<title>Segment vect_c</title>
+<desc>Segment vect_c: Segment [cube_C, proj_C]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip43 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip8361c122-fe58-4d06-ab0e-3fd0b3a0d3d5">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip44)">
+<g stroke-linejoin="round" stroke-dasharray="1.0000,3.0000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 632.84 422.57 L 828.15 477.57"/>
+<title>Segment vect_d</title>
+<desc>Segment vect_d: Segment [cube_B, proj_B]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip44 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipeedc8f16-e9c9-43ef-8a43-a263adc9c97d">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip45)">
+<g stroke-linejoin="round" stroke-dasharray="1.0000,3.0000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 580.30 410.28 L 808.26 474.63"/>
+<title>Segment vect_e</title>
+<desc>Segment vect_e: Segment [cube_A, proj_A]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip45 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipb6a486b6-a60f-479f-9b00-4115f2ac3c77">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip46)">
+<g stroke-linejoin="round" stroke-dasharray="1.0000,3.0000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 601.21 327.89 L 831.08 387.33"/>
+<title>Segment vect_u</title>
+<desc>Segment vect_u: Segment [cube_H, proj_H]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip46 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip1fce71fd-c49c-4e35-82c1-354218173ec6">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip47)">
+<g stroke-linejoin="round" stroke-dasharray="1.0000,3.0000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 653.57 341.44 L 850.49 392.36"/>
+<title>Segment vect_v</title>
+<desc>Segment vect_v: Segment [cube_G, proj_G]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip47 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip6900a642-8351-4516-a1f3-2c6e80c193af">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip48)">
+<g stroke-linejoin="round" stroke-dasharray="1.0000,3.0000" stroke-linecap="butt" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 607.99 374.46 L 809.46 428.98"/>
+<title>Segment vect_w</title>
+<desc>Segment vect_w: Segment [cube_D, proj_D]</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip48 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip9ad3d75f-2b33-4d32-81eb-e3af4364b0bf">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip49)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#000000">
+  <path d="M 920.16 279.47 L 915.62 279.47 L 914.25 282.00 L 911.81 282.00 L 918.30 270.55 L 920.92 270.55 L 922.78 282.00 L 920.55 282.00 L 920.16 279.47 z M 919.88 277.56 L 919.20 272.95 L 916.44 277.56 L 919.88 277.56 z M 926.12 282.00 L 923.07 282.00 L 928.13 276.20 L 925.29 270.55 L 927.74 270.55 L 928.87 272.69 Q 928.91 272.81 929.63 274.28 Q 929.68 274.36 929.73 274.48 Q 930.68 273.33 931.34 272.58 L 933.13 270.55 L 936.10 270.55 L 930.85 276.58 L 933.68 282.00 L 931.02 282.00 L 930.16 280.27 Q 929.49 278.91 929.27 278.31 Q 928.96 278.77 927.70 280.22 L 926.12 282.00 z M 935.63 277.50 Q 935.63 276.48 935.93 275.36 Q 936.34 273.86 937.15 272.75 Q 937.96 271.64 939.20 270.99 Q 940.45 270.34 942.04 270.34 Q 944.16 270.34 945.47 271.66 Q 946.77 272.98 946.77 275.17 Q 946.77 276.98 945.92 278.68 Q 945.07 280.38 943.61 281.29 Q 942.15 282.20 940.30 282.20 Q 938.71 282.20 937.62 281.48 Q 936.54 280.75 936.09 279.67 Q 935.63 278.59 935.63 277.50 z M 937.96 277.45 Q 937.96 278.64 938.68 279.44 Q 939.40 280.23 940.57 280.23 Q 941.52 280.23 942.40 279.60 Q 943.27 278.97 943.85 277.70 Q 944.43 276.42 944.43 275.20 Q 944.43 273.86 943.70 273.09 Q 942.98 272.31 941.85 272.31 Q 940.12 272.31 939.04 273.92 Q 937.96 275.53 937.96 277.45 z M 956.48 282.00 L 954.30 282.00 L 951.20 274.30 L 949.59 282.00 L 947.39 282.00 L 949.78 270.55 L 951.98 270.55 L 955.09 278.20 L 956.69 270.55 L 958.88 270.55 L 956.48 282.00 z M 959.63 277.50 Q 959.63 276.48 959.93 275.36 Q 960.34 273.86 961.15 272.75 Q 961.96 271.64 963.20 270.99 Q 964.45 270.34 966.04 270.34 Q 968.16 270.34 969.47 271.66 Q 970.77 272.98 970.77 275.17 Q 970.77 276.98 969.92 278.68 Q 969.07 280.38 967.61 281.29 Q 966.15 282.20 964.30 282.20 Q 962.71 282.20 961.62 281.48 Q 960.54 280.75 960.09 279.67 Q 959.63 278.59 959.63 277.50 z M 961.96 277.45 Q 961.96 278.64 962.68 279.44 Q 963.40 280.23 964.57 280.23 Q 965.52 280.23 966.40 279.60 Q 967.27 278.97 967.85 277.70 Q 968.43 276.42 968.43 275.20 Q 968.43 273.86 967.70 273.09 Q 966.98 272.31 965.85 272.31 Q 964.12 272.31 963.04 273.92 Q 961.96 275.53 961.96 277.45 z M 977.92 282.00 L 975.69 282.00 L 975.27 272.42 L 973.45 282.00 L 971.33 282.00 L 973.72 270.55 L 977.08 270.55 L 977.42 278.56 L 981.33 270.55 L 984.73 270.55 L 982.33 282.00 L 980.19 282.00 L 982.44 272.50 L 977.92 282.00 z M 984.66 282.00 L 987.05 270.55 L 995.55 270.55 L 995.14 272.45 L 989.02 272.45 L 988.47 275.06 L 994.39 275.06 L 994.00 276.97 L 988.06 276.97 L 987.34 280.08 L 994.02 280.08 L 993.61 282.00 L 984.66 282.00 z M 1000.3 282.00 L 997.95 282.00 L 999.95 272.45 L 996.59 272.45 L 997.00 270.55 L 1006.0 270.55 L 1005.6 272.45 L 1002.3 272.45 L 1000.3 282.00 z M 1007.5 282.00 L 1005.1 282.00 L 1007.6 270.55 L 1012.6 270.55 Q 1013.9 270.55 1014.7 270.81 Q 1015.4 271.08 1015.9 271.80 Q 1016.3 272.52 1016.3 273.55 Q 1016.3 275.00 1015.4 275.95 Q 1014.6 276.91 1012.8 277.12 Q 1013.2 277.53 1013.6 278.20 Q 1014.4 279.55 1015.4 282.00 L 1012.9 282.00 Q 1012.6 281.03 1011.7 278.97 Q 1011.2 277.86 1010.6 277.48 Q 1010.3 277.25 1009.5 277.25 L 1008.5 277.25 L 1007.5 282.00 z M 1008.9 275.53 L 1010.1 275.53 Q 1012.0 275.53 1012.6 275.30 Q 1013.3 275.08 1013.6 274.59 Q 1014.0 274.11 1014.0 273.58 Q 1014.0 272.95 1013.4 272.64 Q 1013.1 272.45 1012.1 272.45 L 1009.5 272.45 L 1008.9 275.53 z M 1016.6 282.00 L 1019.0 270.55 L 1021.3 270.55 L 1018.9 282.00 L 1016.6 282.00 z M 1029.4 277.88 L 1031.8 278.23 Q 1031.1 280.16 1029.7 281.18 Q 1028.3 282.20 1026.4 282.20 Q 1024.3 282.20 1023.1 280.94 Q 1022.0 279.67 1022.0 277.27 Q 1022.0 275.31 1022.8 273.69 Q 1023.6 272.06 1025.0 271.20 Q 1026.4 270.34 1028.0 270.34 Q 1029.9 270.34 1031.0 271.34 Q 1032.2 272.34 1032.4 274.06 L 1030.1 274.28 Q 1029.9 273.28 1029.4 272.83 Q 1028.9 272.38 1028.0 272.38 Q 1027.0 272.38 1026.1 272.97 Q 1025.3 273.56 1024.8 274.83 Q 1024.3 276.09 1024.3 277.34 Q 1024.3 278.72 1024.9 279.47 Q 1025.6 280.22 1026.6 280.22 Q 1027.5 280.22 1028.3 279.62 Q 1029.0 279.03 1029.4 277.88 z"/>
+<title>AXONOMETRIC&#10;PROJECTION&#10;(ISOMETRIC)</title>
+<desc>text1 = &quot;AXONOMETRIC&#10;PROJECTION&#10;(ISOMETRIC)&quot;</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip49 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipbfbdf77b-f7f8-40db-9990-60cbb26c69ed">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip50)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#000000">
+  <path d="M 915.02 306.00 L 912.66 306.00 L 915.05 294.55 L 919.70 294.55 Q 920.95 294.55 921.67 294.84 Q 922.39 295.12 922.81 295.80 Q 923.23 296.48 923.23 297.42 Q 923.23 298.28 922.90 299.10 Q 922.56 299.92 922.08 300.41 Q 921.59 300.91 921.03 301.16 Q 920.47 301.42 919.52 301.55 Q 918.95 301.62 917.44 301.62 L 915.92 301.62 L 915.02 306.00 z M 916.31 299.73 L 917.05 299.73 Q 918.91 299.73 919.53 299.50 Q 920.16 299.27 920.52 298.75 Q 920.88 298.23 920.88 297.61 Q 920.88 297.20 920.70 296.94 Q 920.52 296.67 920.18 296.55 Q 919.84 296.42 918.70 296.42 L 917.02 296.42 L 916.31 299.73 z M 925.73 306.00 L 923.38 306.00 L 925.78 294.55 L 930.86 294.55 Q 932.17 294.55 932.91 294.81 Q 933.64 295.08 934.09 295.80 Q 934.53 296.52 934.53 297.55 Q 934.53 299.00 933.66 299.95 Q 932.78 300.91 931.02 301.12 Q 931.47 301.53 931.86 302.20 Q 932.66 303.55 933.62 306.00 L 931.09 306.00 Q 930.78 305.03 929.89 302.97 Q 929.41 301.86 928.86 301.48 Q 928.53 301.25 927.69 301.25 L 926.73 301.25 L 925.73 306.00 z M 927.09 299.53 L 928.34 299.53 Q 930.23 299.53 930.86 299.30 Q 931.48 299.08 931.84 298.59 Q 932.19 298.11 932.19 297.58 Q 932.19 296.95 931.67 296.64 Q 931.36 296.45 930.33 296.45 L 927.73 296.45 L 927.09 299.53 z M 935.63 301.50 Q 935.63 300.48 935.93 299.36 Q 936.34 297.86 937.15 296.75 Q 937.96 295.64 939.20 294.99 Q 940.45 294.34 942.04 294.34 Q 944.16 294.34 945.47 295.66 Q 946.77 296.98 946.77 299.17 Q 946.77 300.98 945.92 302.68 Q 945.07 304.38 943.61 305.29 Q 942.15 306.20 940.30 306.20 Q 938.71 306.20 937.62 305.48 Q 936.54 304.75 936.09 303.67 Q 935.63 302.59 935.63 301.50 z M 937.96 301.45 Q 937.96 302.64 938.68 303.44 Q 939.40 304.23 940.57 304.23 Q 941.52 304.23 942.40 303.60 Q 943.27 302.97 943.85 301.70 Q 944.43 300.42 944.43 299.20 Q 944.43 297.86 943.70 297.09 Q 942.98 296.31 941.85 296.31 Q 940.12 296.31 939.04 297.92 Q 937.96 299.53 937.96 301.45 z M 953.95 294.55 L 956.27 294.55 L 954.83 301.48 Q 954.25 304.23 953.31 305.22 Q 952.38 306.20 950.42 306.20 Q 948.78 306.20 947.96 305.44 Q 947.14 304.67 947.14 303.38 Q 947.14 303.09 947.17 302.77 L 949.36 302.53 Q 949.31 302.88 949.31 303.09 Q 949.31 303.64 949.62 303.93 Q 949.94 304.22 950.58 304.22 Q 951.48 304.22 951.86 303.69 Q 952.12 303.28 952.52 301.41 L 953.95 294.55 z M 956.23 306.00 L 958.62 294.55 L 967.12 294.55 L 966.71 296.45 L 960.59 296.45 L 960.04 299.06 L 965.96 299.06 L 965.57 300.97 L 959.63 300.97 L 958.91 304.08 L 965.59 304.08 L 965.18 306.00 L 956.23 306.00 z M 975.20 301.88 L 977.57 302.23 Q 976.88 304.16 975.49 305.18 Q 974.10 306.20 972.23 306.20 Q 970.13 306.20 968.95 304.94 Q 967.76 303.67 967.76 301.27 Q 967.76 299.31 968.55 297.69 Q 969.35 296.06 970.76 295.20 Q 972.16 294.34 973.82 294.34 Q 975.68 294.34 976.83 295.34 Q 977.98 296.34 978.18 298.06 L 975.91 298.28 Q 975.73 297.28 975.20 296.83 Q 974.66 296.38 973.77 296.38 Q 972.79 296.38 971.95 296.97 Q 971.10 297.56 970.59 298.83 Q 970.09 300.09 970.09 301.34 Q 970.09 302.72 970.74 303.47 Q 971.40 304.22 972.38 304.22 Q 973.30 304.22 974.06 303.62 Q 974.82 303.03 975.20 301.88 z M 983.44 306.00 L 981.08 306.00 L 983.08 296.45 L 979.72 296.45 L 980.12 294.55 L 989.14 294.55 L 988.75 296.45 L 985.44 296.45 L 983.44 306.00 z M 988.13 306.00 L 990.52 294.55 L 992.88 294.55 L 990.49 306.00 L 988.13 306.00 z M 993.42 301.50 Q 993.42 300.48 993.72 299.36 Q 994.12 297.86 994.94 296.75 Q 995.75 295.64 996.99 294.99 Q 998.23 294.34 999.83 294.34 Q 1002.0 294.34 1003.3 295.66 Q 1004.6 296.98 1004.6 299.17 Q 1004.6 300.98 1003.7 302.68 Q 1002.9 304.38 1001.4 305.29 Q 999.94 306.20 998.09 306.20 Q 996.50 306.20 995.41 305.48 Q 994.33 304.75 993.88 303.67 Q 993.42 302.59 993.42 301.50 z M 995.75 301.45 Q 995.75 302.64 996.47 303.44 Q 997.19 304.23 998.36 304.23 Q 999.31 304.23 1000.2 303.60 Q 1001.1 302.97 1001.6 301.70 Q 1002.2 300.42 1002.2 299.20 Q 1002.2 297.86 1001.5 297.09 Q 1000.8 296.31 999.64 296.31 Q 997.91 296.31 996.83 297.92 Q 995.75 299.53 995.75 301.45 z M 1014.3 306.00 L 1012.1 306.00 L 1009.0 298.30 L 1007.4 306.00 L 1005.2 306.00 L 1007.6 294.55 L 1009.8 294.55 L 1012.9 302.20 L 1014.5 294.55 L 1016.7 294.55 L 1014.3 306.00 z"/>
+<title>AXONOMETRIC&#10;PROJECTION&#10;(ISOMETRIC)</title>
+<desc>text1 = &quot;AXONOMETRIC&#10;PROJECTION&#10;(ISOMETRIC)&quot;</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip50 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipe1c4fcc6-bf0d-40da-bbe1-a9accf1cf243">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip51)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#000000">
+  <path d="M 915.84 333.38 L 914.31 333.38 Q 913.67 331.88 913.37 330.34 Q 913.06 328.81 913.06 327.55 Q 913.06 325.95 913.57 324.34 Q 914.08 322.73 915.14 321.08 Q 915.80 320.02 917.27 318.34 L 918.97 318.34 Q 917.48 320.09 916.67 321.63 Q 915.86 323.17 915.46 324.98 Q 915.06 326.80 915.06 328.53 Q 915.06 329.70 915.24 330.82 Q 915.42 331.94 915.84 333.38 z M 917.89 330.00 L 920.28 318.55 L 922.64 318.55 L 920.25 330.00 L 917.89 330.00 z M 922.79 326.28 L 925.04 326.17 Q 925.09 327.23 925.40 327.61 Q 925.91 328.22 927.30 328.22 Q 928.46 328.22 928.98 327.80 Q 929.49 327.39 929.49 326.81 Q 929.49 326.30 929.07 325.95 Q 928.77 325.69 927.45 325.11 Q 926.12 324.53 925.50 324.15 Q 924.88 323.77 924.53 323.15 Q 924.18 322.53 924.18 321.70 Q 924.18 320.25 925.23 319.30 Q 926.27 318.34 928.26 318.34 Q 930.27 318.34 931.38 319.29 Q 932.49 320.23 932.60 321.81 L 930.34 321.91 Q 930.26 321.09 929.75 320.66 Q 929.24 320.22 928.24 320.22 Q 927.27 320.22 926.85 320.56 Q 926.43 320.91 926.43 321.42 Q 926.43 321.92 926.82 322.23 Q 927.20 322.56 928.51 323.14 Q 930.49 323.98 931.02 324.52 Q 931.84 325.30 931.84 326.53 Q 931.84 328.05 930.63 329.12 Q 929.43 330.20 927.29 330.20 Q 925.82 330.20 924.73 329.70 Q 923.65 329.20 923.20 328.32 Q 922.76 327.44 922.79 326.28 z M 933.85 325.50 Q 933.85 324.48 934.15 323.36 Q 934.55 321.86 935.37 320.75 Q 936.18 319.64 937.42 318.99 Q 938.66 318.34 940.26 318.34 Q 942.38 318.34 943.69 319.66 Q 944.99 320.98 944.99 323.17 Q 944.99 324.98 944.14 326.68 Q 943.29 328.38 941.83 329.29 Q 940.37 330.20 938.52 330.20 Q 936.93 330.20 935.84 329.48 Q 934.76 328.75 934.30 327.67 Q 933.85 326.59 933.85 325.50 z M 936.18 325.45 Q 936.18 326.64 936.90 327.44 Q 937.62 328.23 938.79 328.23 Q 939.74 328.23 940.62 327.60 Q 941.49 326.97 942.07 325.70 Q 942.65 324.42 942.65 323.20 Q 942.65 321.86 941.92 321.09 Q 941.20 320.31 940.07 320.31 Q 938.34 320.31 937.26 321.92 Q 936.18 323.53 936.18 325.45 z M 952.14 330.00 L 949.91 330.00 L 949.48 320.42 L 947.67 330.00 L 945.55 330.00 L 947.94 318.55 L 951.30 318.55 L 951.64 326.56 L 955.55 318.55 L 958.95 318.55 L 956.55 330.00 L 954.41 330.00 L 956.66 320.50 L 952.14 330.00 z M 958.88 330.00 L 961.27 318.55 L 969.77 318.55 L 969.36 320.45 L 963.23 320.45 L 962.69 323.06 L 968.61 323.06 L 968.22 324.97 L 962.28 324.97 L 961.56 328.08 L 968.23 328.08 L 967.83 330.00 L 958.88 330.00 z M 974.53 330.00 L 972.17 330.00 L 974.17 320.45 L 970.81 320.45 L 971.22 318.55 L 980.23 318.55 L 979.84 320.45 L 976.53 320.45 L 974.53 330.00 z M 981.73 330.00 L 979.37 330.00 L 981.77 318.55 L 986.85 318.55 Q 988.16 318.55 988.90 318.81 Q 989.63 319.08 990.08 319.80 Q 990.52 320.52 990.52 321.55 Q 990.52 323.00 989.65 323.95 Q 988.77 324.91 987.01 325.12 Q 987.46 325.53 987.85 326.20 Q 988.65 327.55 989.62 330.00 L 987.09 330.00 Q 986.77 329.03 985.88 326.97 Q 985.40 325.86 984.85 325.48 Q 984.52 325.25 983.68 325.25 L 982.73 325.25 L 981.73 330.00 z M 983.09 323.53 L 984.34 323.53 Q 986.23 323.53 986.85 323.30 Q 987.48 323.08 987.83 322.59 Q 988.18 322.11 988.18 321.58 Q 988.18 320.95 987.66 320.64 Q 987.35 320.45 986.32 320.45 L 983.73 320.45 L 983.09 323.53 z M 990.78 330.00 L 993.17 318.55 L 995.53 318.55 L 993.14 330.00 L 990.78 330.00 z M 1003.6 325.88 L 1006.0 326.23 Q 1005.3 328.16 1003.9 329.18 Q 1002.5 330.20 1000.6 330.20 Q 998.55 330.20 997.37 328.94 Q 996.18 327.67 996.18 325.27 Q 996.18 323.31 996.98 321.69 Q 997.77 320.06 999.18 319.20 Q 1000.6 318.34 1002.2 318.34 Q 1004.1 318.34 1005.2 319.34 Q 1006.4 320.34 1006.6 322.06 L 1004.3 322.28 Q 1004.1 321.28 1003.6 320.83 Q 1003.1 320.38 1002.2 320.38 Q 1001.2 320.38 1000.4 320.97 Q 999.52 321.56 999.02 322.83 Q 998.51 324.09 998.51 325.34 Q 998.51 326.72 999.16 327.47 Q 999.82 328.22 1000.8 328.22 Q 1001.7 328.22 1002.5 327.62 Q 1003.2 327.03 1003.6 325.88 z M 1008.1 318.34 L 1009.6 318.34 Q 1010.3 319.83 1010.6 321.36 Q 1010.9 322.89 1010.9 324.16 Q 1010.9 325.75 1010.4 327.36 Q 1009.9 328.97 1008.8 330.64 Q 1008.1 331.70 1006.7 333.38 L 1005.0 333.38 Q 1006.5 331.62 1007.3 330.09 Q 1008.1 328.55 1008.5 326.73 Q 1008.9 324.92 1008.9 323.17 Q 1008.9 322.00 1008.7 320.89 Q 1008.5 319.78 1008.1 318.34 z"/>
+<title>AXONOMETRIC&#10;PROJECTION&#10;(ISOMETRIC)</title>
+<desc>text1 = &quot;AXONOMETRIC&#10;PROJECTION&#10;(ISOMETRIC)&quot;</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip51 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipe5b3e152-7208-42ea-b680-b53d4024276a">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip52)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 41.000 204.00 L 41.000 233.00 C 41.000 235.76 43.239 238.00 46.000 238.00 L 283.00 238.00 C 285.76 238.00 288.00 235.76 288.00 233.00 L 288.00 204.00 C 288.00 201.24 285.76 199.00 283.00 199.00 L 46.000 199.00 C 43.239 199.00 41.000 201.24 41.000 204.00 z"/>
+<title>Button button2</title>
+<desc>button2</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip52 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clip8ac166cb-2296-4436-8e74-c88e9766353b">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip53)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 41.500 204.50 L 41.500 233.50 C 41.500 236.26 43.739 238.50 46.500 238.50 L 283.50 238.50 C 286.26 238.50 288.50 236.26 288.50 233.50 L 288.50 204.50 C 288.50 201.74 286.26 199.50 283.50 199.50 L 46.500 199.50 C 43.739 199.50 41.500 201.74 41.500 204.50 z"/>
+<title>Button button2</title>
+<desc>button2</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip53 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipd296f29b-0b7e-42af-b7e3-45ea40b1f0c3">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip54)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#000000">
+  <path d="M 64.109 222.97 L 66.391 223.55 Q 65.672 226.34 63.812 227.82 Q 61.953 229.30 59.266 229.30 Q 56.500 229.30 54.758 228.16 Q 53.016 227.03 52.109 224.88 Q 51.203 222.73 51.203 220.28 Q 51.203 217.59 52.227 215.59 Q 53.250 213.59 55.141 212.56 Q 57.031 211.53 59.312 211.53 Q 61.891 211.53 63.648 212.84 Q 65.406 214.16 66.094 216.53 L 63.859 217.06 Q 63.250 215.19 62.117 214.33 Q 60.984 213.47 59.266 213.47 Q 57.281 213.47 55.953 214.42 Q 54.625 215.38 54.086 216.97 Q 53.547 218.56 53.547 220.27 Q 53.547 222.45 54.180 224.09 Q 54.812 225.73 56.164 226.54 Q 57.516 227.34 59.078 227.34 Q 61.000 227.34 62.320 226.24 Q 63.641 225.14 64.109 222.97 z M 68.863 229.00 L 68.863 211.81 L 70.973 211.81 L 70.973 229.00 L 68.863 229.00 z M 74.258 214.25 L 74.258 211.81 L 76.367 211.81 L 76.367 214.25 L 74.258 214.25 z M 74.258 229.00 L 74.258 216.55 L 76.367 216.55 L 76.367 229.00 L 74.258 229.00 z M 87.699 224.44 L 89.777 224.70 Q 89.434 226.86 88.035 228.07 Q 86.637 229.28 84.590 229.28 Q 82.043 229.28 80.488 227.61 Q 78.934 225.94 78.934 222.83 Q 78.934 220.81 79.605 219.30 Q 80.277 217.78 81.637 217.02 Q 82.996 216.27 84.605 216.27 Q 86.637 216.27 87.926 217.30 Q 89.215 218.33 89.574 220.20 L 87.527 220.53 Q 87.230 219.27 86.488 218.63 Q 85.746 218.00 84.684 218.00 Q 83.090 218.00 82.098 219.15 Q 81.105 220.30 81.105 222.77 Q 81.105 225.27 82.066 226.41 Q 83.027 227.55 84.574 227.55 Q 85.809 227.55 86.645 226.78 Q 87.480 226.02 87.699 224.44 z M 91.590 229.00 L 91.590 211.81 L 93.699 211.81 L 93.699 221.61 L 98.699 216.55 L 101.42 216.55 L 96.668 221.17 L 101.90 229.00 L 99.309 229.00 L 95.184 222.64 L 93.699 224.06 L 93.699 229.00 L 91.590 229.00 z M 114.88 229.00 L 114.88 213.84 L 109.23 213.84 L 109.23 211.81 L 122.85 211.81 L 122.85 213.84 L 117.16 213.84 L 117.16 229.00 L 114.88 229.00 z M 127.20 229.00 L 123.40 216.55 L 125.57 216.55 L 127.56 223.73 L 128.29 226.41 Q 128.34 226.20 128.93 223.84 L 130.92 216.55 L 133.09 216.55 L 134.95 223.77 L 135.57 226.16 L 136.29 223.75 L 138.42 216.55 L 140.46 216.55 L 136.57 229.00 L 134.39 229.00 L 132.40 221.55 L 131.93 219.42 L 129.40 229.00 L 127.20 229.00 z M 142.25 214.25 L 142.25 211.81 L 144.36 211.81 L 144.36 214.25 L 142.25 214.25 z M 142.25 229.00 L 142.25 216.55 L 144.36 216.55 L 144.36 229.00 L 142.25 229.00 z M 155.69 224.44 L 157.77 224.70 Q 157.43 226.86 156.03 228.07 Q 154.63 229.28 152.58 229.28 Q 150.04 229.28 148.48 227.61 Q 146.93 225.94 146.93 222.83 Q 146.93 220.81 147.60 219.30 Q 148.27 217.78 149.63 217.02 Q 150.99 216.27 152.60 216.27 Q 154.63 216.27 155.92 217.30 Q 157.21 218.33 157.57 220.20 L 155.52 220.53 Q 155.22 219.27 154.48 218.63 Q 153.74 218.00 152.68 218.00 Q 151.08 218.00 150.09 219.15 Q 149.10 220.30 149.10 222.77 Q 149.10 225.27 150.06 226.41 Q 151.02 227.55 152.57 227.55 Q 153.80 227.55 154.64 226.78 Q 155.47 226.02 155.69 224.44 z M 168.10 224.98 L 170.27 225.27 Q 169.75 227.17 168.36 228.23 Q 166.97 229.28 164.80 229.28 Q 162.07 229.28 160.46 227.60 Q 158.86 225.92 158.86 222.88 Q 158.86 219.73 160.48 218.00 Q 162.10 216.27 164.68 216.27 Q 167.18 216.27 168.76 217.97 Q 170.35 219.67 170.35 222.75 Q 170.35 222.94 170.33 223.31 L 161.05 223.31 Q 161.16 225.36 162.21 226.45 Q 163.25 227.55 164.82 227.55 Q 165.97 227.55 166.79 226.94 Q 167.61 226.33 168.10 224.98 z M 161.16 221.58 L 168.11 221.58 Q 167.97 220.02 167.32 219.22 Q 166.32 218.00 164.71 218.00 Q 163.25 218.00 162.26 218.98 Q 161.27 219.95 161.16 221.58 z M 184.19 227.11 L 184.50 228.97 Q 183.61 229.17 182.91 229.17 Q 181.75 229.17 181.12 228.80 Q 180.49 228.44 180.23 227.84 Q 179.97 227.25 179.97 225.36 L 179.97 218.19 L 178.43 218.19 L 178.43 216.55 L 179.97 216.55 L 179.97 213.47 L 182.07 212.20 L 182.07 216.55 L 184.19 216.55 L 184.19 218.19 L 182.07 218.19 L 182.07 225.47 Q 182.07 226.38 182.18 226.63 Q 182.30 226.89 182.55 227.04 Q 182.80 227.19 183.27 227.19 Q 183.61 227.19 184.19 227.11 z M 185.47 222.78 Q 185.47 219.31 187.39 217.66 Q 189.00 216.27 191.31 216.27 Q 193.88 216.27 195.50 217.95 Q 197.12 219.64 197.12 222.59 Q 197.12 225.00 196.41 226.38 Q 195.69 227.75 194.31 228.52 Q 192.94 229.28 191.31 229.28 Q 188.69 229.28 187.08 227.60 Q 185.47 225.92 185.47 222.78 z M 187.64 222.78 Q 187.64 225.17 188.68 226.36 Q 189.72 227.55 191.31 227.55 Q 192.88 227.55 193.92 226.35 Q 194.97 225.16 194.97 222.70 Q 194.97 220.39 193.91 219.20 Q 192.86 218.02 191.31 218.02 Q 189.72 218.02 188.68 219.20 Q 187.64 220.39 187.64 222.78 z M 206.58 229.00 L 206.58 211.81 L 214.19 211.81 Q 216.48 211.81 217.68 212.28 Q 218.88 212.75 219.59 213.92 Q 220.31 215.09 220.31 216.50 Q 220.31 218.33 219.12 219.59 Q 217.94 220.84 215.47 221.19 Q 216.38 221.61 216.84 222.03 Q 217.84 222.95 218.73 224.33 L 221.72 229.00 L 218.86 229.00 L 216.58 225.42 Q 215.59 223.88 214.95 223.05 Q 214.30 222.23 213.79 221.91 Q 213.28 221.58 212.75 221.45 Q 212.36 221.38 211.48 221.38 L 208.84 221.38 L 208.84 229.00 L 206.58 229.00 z M 208.84 219.41 L 213.73 219.41 Q 215.30 219.41 216.17 219.08 Q 217.05 218.75 217.51 218.05 Q 217.97 217.34 217.97 216.50 Q 217.97 215.28 217.09 214.50 Q 216.20 213.72 214.28 213.72 L 208.84 213.72 L 208.84 219.41 z M 232.13 224.98 L 234.30 225.27 Q 233.79 227.17 232.39 228.23 Q 231.00 229.28 228.83 229.28 Q 226.10 229.28 224.50 227.60 Q 222.89 225.92 222.89 222.88 Q 222.89 219.73 224.51 218.00 Q 226.13 216.27 228.71 216.27 Q 231.21 216.27 232.79 217.97 Q 234.38 219.67 234.38 222.75 Q 234.38 222.94 234.36 223.31 L 225.08 223.31 Q 225.19 225.36 226.24 226.45 Q 227.29 227.55 228.85 227.55 Q 230.00 227.55 230.82 226.94 Q 231.64 226.33 232.13 224.98 z M 225.19 221.58 L 232.14 221.58 Q 232.00 220.02 231.35 219.22 Q 230.35 218.00 228.74 218.00 Q 227.29 218.00 226.29 218.98 Q 225.30 219.95 225.19 221.58 z M 236.10 225.28 L 238.20 224.95 Q 238.37 226.20 239.17 226.88 Q 239.98 227.55 241.41 227.55 Q 242.87 227.55 243.57 226.95 Q 244.27 226.36 244.27 225.56 Q 244.27 224.84 243.65 224.44 Q 243.23 224.16 241.49 223.72 Q 239.18 223.14 238.28 222.71 Q 237.38 222.28 236.92 221.52 Q 236.46 220.77 236.46 219.86 Q 236.46 219.03 236.84 218.32 Q 237.23 217.61 237.88 217.14 Q 238.37 216.78 239.22 216.52 Q 240.07 216.27 241.04 216.27 Q 242.51 216.27 243.62 216.69 Q 244.73 217.11 245.25 217.84 Q 245.77 218.56 245.98 219.77 L 243.91 220.05 Q 243.77 219.08 243.10 218.54 Q 242.43 218.00 241.20 218.00 Q 239.74 218.00 239.12 218.48 Q 238.49 218.97 238.49 219.61 Q 238.49 220.02 238.76 220.34 Q 239.01 220.69 239.57 220.91 Q 239.88 221.03 241.43 221.45 Q 243.66 222.05 244.55 222.43 Q 245.43 222.81 245.94 223.54 Q 246.45 224.27 246.45 225.34 Q 246.45 226.39 245.83 227.33 Q 245.21 228.27 244.05 228.77 Q 242.90 229.28 241.43 229.28 Q 239.01 229.28 237.73 228.27 Q 236.46 227.27 236.10 225.28 z M 248.96 214.25 L 248.96 211.81 L 251.07 211.81 L 251.07 214.25 L 248.96 214.25 z M 248.96 229.00 L 248.96 216.55 L 251.07 216.55 L 251.07 229.00 L 248.96 229.00 z M 253.17 229.00 L 253.17 227.28 L 261.09 218.19 Q 259.75 218.27 258.71 218.27 L 253.64 218.27 L 253.64 216.55 L 263.81 216.55 L 263.81 217.95 L 257.07 225.84 L 255.78 227.28 Q 257.18 227.19 258.43 227.19 L 264.18 227.19 L 264.18 229.00 L 253.17 229.00 z M 274.81 224.98 L 276.98 225.27 Q 276.46 227.17 275.07 228.23 Q 273.68 229.28 271.51 229.28 Q 268.78 229.28 267.18 227.60 Q 265.57 225.92 265.57 222.88 Q 265.57 219.73 267.19 218.00 Q 268.81 216.27 271.39 216.27 Q 273.89 216.27 275.47 217.97 Q 277.06 219.67 277.06 222.75 Q 277.06 222.94 277.04 223.31 L 267.76 223.31 Q 267.87 225.36 268.92 226.45 Q 269.96 227.55 271.53 227.55 Q 272.68 227.55 273.50 226.94 Q 274.32 226.33 274.81 224.98 z M 267.87 221.58 L 274.82 221.58 Q 274.68 220.02 274.03 219.22 Q 273.03 218.00 271.42 218.00 Q 269.96 218.00 268.97 218.98 Q 267.98 219.95 267.87 221.58 z"/>
+<title>Button button2</title>
+<desc>button2</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip54 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipbc5f4ccc-0158-4553-8811-298211057105">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip55)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#ffffff">
+  <path d="M 46.000 145.00 L 46.000 174.00 C 46.000 176.76 48.239 179.00 51.000 179.00 L 260.00 179.00 C 262.76 179.00 265.00 176.76 265.00 174.00 L 265.00 145.00 C 265.00 142.24 262.76 140.00 260.00 140.00 L 51.000 140.00 C 48.239 140.00 46.000 142.24 46.000 145.00 z"/>
+<title>Button button1</title>
+<desc>button1</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip55 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipace09cf0-7c43-48d5-9f17-bb76b43b05be">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip56)">
+<g stroke-linejoin="round" stroke-linecap="round" fill="none" stroke-opacity="1.0000" stroke="#000000">
+  <path d="M 46.500 145.50 L 46.500 174.50 C 46.500 177.26 48.739 179.50 51.500 179.50 L 260.50 179.50 C 263.26 179.50 265.50 177.26 265.50 174.50 L 265.50 145.50 C 265.50 142.74 263.26 140.50 260.50 140.50 L 51.500 140.50 C 48.739 140.50 46.500 142.74 46.500 145.50 z"/>
+<title>Button button1</title>
+<desc>button1</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip56 -->
+</g> <!-- transform -->
+<g transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -400.00, -234.00)">
+<clipPath id="clipbb8276de-487e-4322-85a7-b94b7a4be810">
+  <path d="M 400.00 234.00 L 400.00 716.00 L 1042.0 716.00 L 1042.0 234.00 z"/>
+</clipPath>
+<g clip-path="url(#clip57)">
+<g fill-opacity="1.0000" fill-rule="nonzero" stroke="none" fill="#000000">
+  <path d="M 69.109 163.97 L 71.391 164.55 Q 70.672 167.34 68.812 168.82 Q 66.953 170.30 64.266 170.30 Q 61.500 170.30 59.758 169.16 Q 58.016 168.03 57.109 165.88 Q 56.203 163.73 56.203 161.28 Q 56.203 158.59 57.227 156.59 Q 58.250 154.59 60.141 153.56 Q 62.031 152.53 64.312 152.53 Q 66.891 152.53 68.648 153.84 Q 70.406 155.16 71.094 157.53 L 68.859 158.06 Q 68.250 156.19 67.117 155.33 Q 65.984 154.47 64.266 154.47 Q 62.281 154.47 60.953 155.42 Q 59.625 156.38 59.086 157.97 Q 58.547 159.56 58.547 161.27 Q 58.547 163.45 59.180 165.09 Q 59.812 166.73 61.164 167.54 Q 62.516 168.34 64.078 168.34 Q 66.000 168.34 67.320 167.24 Q 68.641 166.14 69.109 163.97 z M 73.863 170.00 L 73.863 152.81 L 75.973 152.81 L 75.973 170.00 L 73.863 170.00 z M 79.258 155.25 L 79.258 152.81 L 81.367 152.81 L 81.367 155.25 L 79.258 155.25 z M 79.258 170.00 L 79.258 157.55 L 81.367 157.55 L 81.367 170.00 L 79.258 170.00 z M 92.699 165.44 L 94.777 165.70 Q 94.434 167.86 93.035 169.07 Q 91.637 170.28 89.590 170.28 Q 87.043 170.28 85.488 168.61 Q 83.934 166.94 83.934 163.83 Q 83.934 161.81 84.605 160.30 Q 85.277 158.78 86.637 158.02 Q 87.996 157.27 89.605 157.27 Q 91.637 157.27 92.926 158.30 Q 94.215 159.33 94.574 161.20 L 92.527 161.53 Q 92.230 160.27 91.488 159.63 Q 90.746 159.00 89.684 159.00 Q 88.090 159.00 87.098 160.15 Q 86.105 161.30 86.105 163.77 Q 86.105 166.27 87.066 167.41 Q 88.027 168.55 89.574 168.55 Q 90.809 168.55 91.645 167.78 Q 92.480 167.02 92.699 165.44 z M 96.590 170.00 L 96.590 152.81 L 98.699 152.81 L 98.699 162.61 L 103.70 157.55 L 106.42 157.55 L 101.67 162.17 L 106.90 170.00 L 104.31 170.00 L 100.18 163.64 L 98.699 165.06 L 98.699 170.00 L 96.590 170.00 z M 119.85 168.11 L 120.16 169.97 Q 119.27 170.17 118.57 170.17 Q 117.41 170.17 116.78 169.80 Q 116.15 169.44 115.89 168.84 Q 115.63 168.25 115.63 166.36 L 115.63 159.19 L 114.09 159.19 L 114.09 157.55 L 115.63 157.55 L 115.63 154.47 L 117.73 153.20 L 117.73 157.55 L 119.85 157.55 L 119.85 159.19 L 117.73 159.19 L 117.73 166.47 Q 117.73 167.38 117.84 167.63 Q 117.96 167.89 118.21 168.04 Q 118.46 168.19 118.93 168.19 Q 119.27 168.19 119.85 168.11 z M 121.13 163.78 Q 121.13 160.31 123.05 158.66 Q 124.66 157.27 126.97 157.27 Q 129.54 157.27 131.16 158.95 Q 132.79 160.64 132.79 163.59 Q 132.79 166.00 132.07 167.38 Q 131.35 168.75 129.97 169.52 Q 128.60 170.28 126.97 170.28 Q 124.35 170.28 122.74 168.60 Q 121.13 166.92 121.13 163.78 z M 123.30 163.78 Q 123.30 166.17 124.34 167.36 Q 125.38 168.55 126.97 168.55 Q 128.54 168.55 129.58 167.35 Q 130.63 166.16 130.63 163.70 Q 130.63 161.39 129.57 160.20 Q 128.52 159.02 126.97 159.02 Q 125.38 159.02 124.34 160.20 Q 123.30 161.39 123.30 163.78 z M 142.21 170.00 L 142.21 152.81 L 148.68 152.81 Q 150.39 152.81 151.30 152.98 Q 152.57 153.19 153.42 153.78 Q 154.27 154.38 154.79 155.45 Q 155.32 156.52 155.32 157.78 Q 155.32 159.98 153.92 161.50 Q 152.52 163.02 148.88 163.02 L 144.47 163.02 L 144.47 170.00 L 142.21 170.00 z M 144.47 160.98 L 148.91 160.98 Q 151.11 160.98 152.04 160.16 Q 152.97 159.34 152.97 157.86 Q 152.97 156.78 152.43 156.02 Q 151.88 155.25 150.99 155.00 Q 150.41 154.84 148.86 154.84 L 144.47 154.84 L 144.47 160.98 z M 157.89 170.00 L 157.89 152.81 L 160.00 152.81 L 160.00 170.00 L 157.89 170.00 z M 162.48 163.78 Q 162.48 160.31 164.41 158.66 Q 166.02 157.27 168.33 157.27 Q 170.89 157.27 172.52 158.95 Q 174.14 160.64 174.14 163.59 Q 174.14 166.00 173.42 167.38 Q 172.70 168.75 171.33 169.52 Q 169.95 170.28 168.33 170.28 Q 165.70 170.28 164.09 168.60 Q 162.48 166.92 162.48 163.78 z M 164.66 163.78 Q 164.66 166.17 165.70 167.36 Q 166.73 168.55 168.33 168.55 Q 169.89 168.55 170.94 167.35 Q 171.98 166.16 171.98 163.70 Q 171.98 161.39 170.93 160.20 Q 169.88 159.02 168.33 159.02 Q 166.73 159.02 165.70 160.20 Q 164.66 161.39 164.66 163.78 z M 181.22 168.11 L 181.54 169.97 Q 180.64 170.17 179.94 170.17 Q 178.79 170.17 178.15 169.80 Q 177.52 169.44 177.26 168.84 Q 177.00 168.25 177.00 166.36 L 177.00 159.19 L 175.46 159.19 L 175.46 157.55 L 177.00 157.55 L 177.00 154.47 L 179.10 153.20 L 179.10 157.55 L 181.22 157.55 L 181.22 159.19 L 179.10 159.19 L 179.10 166.47 Q 179.10 167.38 179.21 167.63 Q 179.33 167.89 179.58 168.04 Q 179.83 168.19 180.30 168.19 Q 180.64 168.19 181.22 168.11 z M 190.23 170.00 L 190.23 152.81 L 196.70 152.81 Q 198.42 152.81 199.32 152.98 Q 200.59 153.19 201.44 153.78 Q 202.29 154.38 202.82 155.45 Q 203.34 156.52 203.34 157.78 Q 203.34 159.98 201.94 161.50 Q 200.54 163.02 196.90 163.02 L 192.50 163.02 L 192.50 170.00 L 190.23 170.00 z M 192.50 160.98 L 196.93 160.98 Q 199.14 160.98 200.07 160.16 Q 201.00 159.34 201.00 157.86 Q 201.00 156.78 200.45 156.02 Q 199.90 155.25 199.01 155.00 Q 198.43 154.84 196.89 154.84 L 192.50 154.84 L 192.50 160.98 z M 205.18 163.78 Q 205.18 160.31 207.10 158.66 Q 208.71 157.27 211.02 157.27 Q 213.58 157.27 215.21 158.95 Q 216.83 160.64 216.83 163.59 Q 216.83 166.00 216.11 167.38 Q 215.39 168.75 214.02 169.52 Q 212.64 170.28 211.02 170.28 Q 208.39 170.28 206.79 168.60 Q 205.18 166.92 205.18 163.78 z M 207.35 163.78 Q 207.35 166.17 208.39 167.36 Q 209.43 168.55 211.02 168.55 Q 212.58 168.55 213.63 167.35 Q 214.68 166.16 214.68 163.70 Q 214.68 161.39 213.62 160.20 Q 212.57 159.02 211.02 159.02 Q 209.43 159.02 208.39 160.20 Q 207.35 161.39 207.35 163.78 z M 219.32 155.25 L 219.32 152.81 L 221.43 152.81 L 221.43 155.25 L 219.32 155.25 z M 219.32 170.00 L 219.32 157.55 L 221.43 157.55 L 221.43 170.00 L 219.32 170.00 z M 224.64 170.00 L 224.64 157.55 L 226.54 157.55 L 226.54 159.33 Q 227.92 157.27 230.50 157.27 Q 231.62 157.27 232.57 157.67 Q 233.51 158.08 233.98 158.73 Q 234.45 159.39 234.64 160.30 Q 234.76 160.88 234.76 162.34 L 234.76 170.00 L 232.65 170.00 L 232.65 162.42 Q 232.65 161.14 232.40 160.50 Q 232.15 159.86 231.53 159.48 Q 230.90 159.09 230.06 159.09 Q 228.71 159.09 227.73 159.95 Q 226.75 160.81 226.75 163.20 L 226.75 170.00 L 224.64 170.00 z M 242.59 168.11 L 242.91 169.97 Q 242.02 170.17 241.31 170.17 Q 240.16 170.17 239.52 169.80 Q 238.89 169.44 238.63 168.84 Q 238.38 168.25 238.38 166.36 L 238.38 159.19 L 236.83 159.19 L 236.83 157.55 L 238.38 157.55 L 238.38 154.47 L 240.47 153.20 L 240.47 157.55 L 242.59 157.55 L 242.59 159.19 L 240.47 159.19 L 240.47 166.47 Q 240.47 167.38 240.59 167.63 Q 240.70 167.89 240.95 168.04 Q 241.20 168.19 241.67 168.19 Q 242.02 168.19 242.59 168.11 z M 243.81 166.28 L 245.90 165.95 Q 246.07 167.20 246.88 167.88 Q 247.68 168.55 249.12 168.55 Q 250.57 168.55 251.28 167.95 Q 251.98 167.36 251.98 166.56 Q 251.98 165.84 251.36 165.44 Q 250.93 165.16 249.20 164.72 Q 246.89 164.14 245.99 163.71 Q 245.09 163.28 244.63 162.52 Q 244.17 161.77 244.17 160.86 Q 244.17 160.03 244.55 159.32 Q 244.93 158.61 245.59 158.14 Q 246.07 157.78 246.93 157.52 Q 247.78 157.27 248.75 157.27 Q 250.21 157.27 251.32 157.69 Q 252.43 158.11 252.96 158.84 Q 253.48 159.56 253.68 160.77 L 251.62 161.05 Q 251.48 160.08 250.81 159.54 Q 250.14 159.00 248.90 159.00 Q 247.45 159.00 246.82 159.48 Q 246.20 159.97 246.20 160.61 Q 246.20 161.02 246.46 161.34 Q 246.71 161.69 247.28 161.91 Q 247.59 162.03 249.14 162.45 Q 251.37 163.05 252.25 163.43 Q 253.14 163.81 253.64 164.54 Q 254.15 165.27 254.15 166.34 Q 254.15 167.39 253.54 168.33 Q 252.92 169.27 251.76 169.77 Q 250.61 170.28 249.14 170.28 Q 246.71 170.28 245.44 169.27 Q 244.17 168.27 243.81 166.28 z"/>
+<title>Button button1</title>
+<desc>button1</desc>
+
+</g> <!-- drawing style -->
+</g> <!-- clip57 -->
+</g> <!-- transform -->
+</g><!-- layer0 -->
+</g> <!-- default stroke -->
+</svg> <!-- bounding box -->

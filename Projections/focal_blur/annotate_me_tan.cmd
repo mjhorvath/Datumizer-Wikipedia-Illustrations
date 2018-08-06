@@ -1,0 +1,33 @@
+chcp 65001
+convert focal_blur_combined00.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A0.000\nf/∞" output00.png
+convert focal_blur_combined01.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A0.419\nf/38.162" output01.png
+convert focal_blur_combined02.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A0.841\nf/19.029" output02.png
+convert focal_blur_combined03.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A1.267\nf/12.628" output03.png
+convert focal_blur_combined04.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A1.700\nf/9.409" output04.png
+convert focal_blur_combined05.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A2.144\nf/7.464" output05.png
+convert focal_blur_combined06.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A2.599\nf/6.155" output06.png
+convert focal_blur_combined07.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A3.071\nf/5.210" output07.png
+convert focal_blur_combined08.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A3.562\nf/4.492" output08.png
+convert focal_blur_combined09.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A4.076\nf/3.925" output09.png
+convert focal_blur_combined10.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A4.619\nf/3.464" output10.png
+convert focal_blur_combined11.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A5.195\nf/3.080" output11.png
+convert focal_blur_combined12.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A5.812\nf/2.753" output12.png
+convert focal_blur_combined13.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A6.478\nf/2.470" output13.png
+convert focal_blur_combined14.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A7.203\nf/2.221" output14.png
+convert focal_blur_combined15.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A8.000\nf/2.000" output15.png
+convert focal_blur_combined16.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A8.885\nf/1.801" output16.png
+convert focal_blur_combined17.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A9.879\nf/1.620" output17.png
+convert focal_blur_combined18.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A11.011\nf/1.453" output18.png
+convert focal_blur_combined19.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A12.319\nf/1.299" output19.png
+convert focal_blur_combined20.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A13.856\nf/1.155" output20.png
+convert focal_blur_combined21.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A15.701\nf/1.019" output21.png
+convert focal_blur_combined22.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A17.968\nf/0.890" output22.png
+convert focal_blur_combined23.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A20.841\nf/0.768" output23.png
+convert focal_blur_combined24.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A24.621\nf/0.650" output24.png
+convert focal_blur_combined25.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A29.856\nf/0.536" output25.png
+convert focal_blur_combined26.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A37.637\nf/0.425" output26.png
+convert focal_blur_combined27.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A50.510\nf/0.317" output27.png
+convert focal_blur_combined28.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A76.115\nf/0.210" output28.png
+convert focal_blur_combined29.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A152.649\nf/0.105" output29.png
+convert focal_blur_combined30.png -font DejaVu-Sans -density 72 -pointsize 32 -fill black -gravity southeast -annotate +16+16 "A∞\nf/0.000" output30.png
+pause

@@ -1,0 +1,13 @@
+\documentclass[pstricks,preview,margin=0pt]{standalone}
+\usepackage{pst-plot,graphicx}
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault}
+\usepackage[T1]{fontenc}
+\begin{document}
+  \psset{linecolor=gray,linewidth=1pt,arrowsize=8pt,unit=0.75bp}
+    \begin{pspicture}(-48,-48)(304,304)
+    \psset{linewidth=2pt}
+    \psaxes[yAxis=false,Dy=16,dy=32,Dx=16,dx=32,Ox=0,Oy=0,ylabelPos=right,labelFontSize=\color{gray},mathLabel=false,tickcolor=gray](0,0)(0,0)(256,256)
+    \psTextFrame[linestyle=none,fillstyle=none](120,-40)(136,-26){\color{gray}\large\itshape{C}}
+  \end{pspicture}
+\end{document}

@@ -1,0 +1,26 @@
+POV-Ray
+  1. Render the scenes as PNG at 1500x1500 pixels.
+  2. Turn on the rendering of the corner spheres if you want to get their coordinates.
+
+GeoGebra
+  1. Edit the GGB files in GeoGebra. If the zoom scale gets messed up, press the "Resize (twice)" button, twice.
+  2. Export the file as SVG. Don't adjust the scale or use Export_1 and Export_2 points.
+
+InkScape
+  1. In InkScape, if the "Resize (twice)" button is visible, ungroup the object and delete the button.
+  2. Go to "File" > "Document Properties". Click the "Resize page to drawing or selection" button. The document should now be the same size as the drawing.
+  3. Close the "Document Properties" window.
+  4. Ungroup the drawing and delete the outer black border.
+  5. Open the "Export PNG Image" menu.
+  6. In the "Export area" section, press the "Page" button to recalibrate the export dimensions.
+  7. In the "Image size" section, set the width and height to 1500 pixels.
+  8. Select the output destination, and press the "Export" button. You may have to confirm to overwrite the destination file.
+  9. Save the SVG document and exit InkScape.
+
+GIMP
+  1. Open the PNG image created in InkScape in GIMP.
+  2. Open the PNG image created in POV-Ray in GIMP.
+  3. Layer the first image over the second. Save the result as a new image.
+
+XnView
+  1. Create a contact sheet out of the new images in a 3x3 grid, specifying a spacing of 25px between the images.

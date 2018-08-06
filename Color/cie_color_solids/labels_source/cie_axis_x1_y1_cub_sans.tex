@@ -1,0 +1,14 @@
+\documentclass[pstricks,preview,margin=0pt]{standalone}
+\usepackage{pst-plot,graphicx}
+\usepackage{tgheros}
+\renewcommand*\familydefault{\sfdefault} %% Only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
+\begin{document}
+  \psset{linecolor=gray,linewidth=1pt,arrowsize=8pt,unit=0.75bp}
+  \begin{pspicture}(-176,-176)(176,176)
+    \psset{linewidth=2pt}
+    \psaxes[Dx=0.1,Dy=0.1,dx=25.6,dy=25.6,labels=all,ticks=all,ticksize=-4pt 4pt,Ox=0,Oy=0,labelFontSize=\color{gray},mathLabel=false,tickcolor=gray]{-}(-128,-128)(-128,-128)(128,128)
+    \psTextFrame[linestyle=none,fillstyle=none](-8,-172)(8,-156){\color{gray}\large\itshape{x}}
+    \psTextFrame[linestyle=none,fillstyle=none](-172,-8)(-156,8){\color{gray}\large\itshape{y}}
+  \end{pspicture}
+\end{document}
