@@ -4,4 +4,4 @@ Here are the source files for most of my (SharkD) illustrations on Wikimedia Com
 
 https://commons.wikimedia.org/wiki/User:SharkD
 
-Let me know if there are stuff that don't belong.
+Let me know if there are things that don't belong.
