@@ -1,4 +1,4 @@
-#include "Axes.inc"
+//#include "Axes.inc"
 #include "math.inc"
 #include "finish.inc"
 #include "transforms.inc"
@@ -36,4 +36,4 @@ box
 	}
 }
 
-AxesParam(100, .1, 0.0001, 1, 0, 1, 0, 0)
+//AxesParam(100, .1, 0.0001, 1, 0, 1, 0, 0)

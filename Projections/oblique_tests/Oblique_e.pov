@@ -1,20 +1,19 @@
-#include "Axes.inc"
+//#include "Axes.inc"
 #include "math.inc"
 #include "finish.inc"
 #include "transforms.inc"
 
 camera
 {
-	#local CameraArea = 5/2;
+	#local CameraArea = 3.03;
 	#local CameraDistance = 40;
-	#local CameraSkewed = sin(45);
-	#local CameraPosition = vnormalize(<-CameraSkewed,1,-CameraSkewed>)*CameraDistance;
+	#local CameraSkewed = 0.7;
 	#local AspectRatio = image_width/image_height;
 	orthographic
-	location CameraPosition
-	direction -CameraPosition
-	up x*CameraArea
-	right -z*CameraArea*AspectRatio
+	location <-CameraSkewed,CameraSkewed,-1>*CameraDistance
+	direction <CameraSkewed,-CameraSkewed,1>
+	up y*CameraArea
+	right x*CameraArea*AspectRatio
 }
 
 light_source
@@ -36,4 +35,4 @@ box
 	}
 }
 
-AxesParam(100, .1, 0.0001, 1, 0, 1, 0, 0)
+//AxesParam(100, .1, 0.0001, 1, 0, 1, 0, 0)

@@ -1,6 +1,6 @@
 // +kfi0 +kff9
 // +k1
-#include "Axes.inc"
+//#include "Axes.inc"
 #include "math.inc"
 #include "finish.inc"
 #include "transforms.inc"
@@ -89,4 +89,4 @@ box
 //		yBool,				// Turns the plane perpendicular to the y-axis on/off.	(boolian)
 //		zBool,				// Turns the plane perpendicular to the z-axis on/off.	(boolian)
 //		offsetBool,			// Offsets the grid and axes by thickRatio in all directions (in case of obstructions).	(boolian)
-AxesParam(100, .5, 5, 0.0001, 1, 0, 1, 0, 0)
+//AxesParam(100, .5, 5, 0.0001, 1, 0, 1, 0, 0)

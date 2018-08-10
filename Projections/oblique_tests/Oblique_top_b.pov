@@ -1,6 +1,6 @@
 // +kfi0 +kff9
 // +k1
-#include "Axes.inc"
+//#include "Axes.inc"
 #include "math.inc"
 #include "finish.inc"
 #include "transforms.inc"
@@ -23,20 +23,16 @@ global_settings
 
 camera
 {
-	#local diff = (45 - asind(tand(30)));	// the difference between a 45 degree angle and the vertical angle required to view from one corner of a cube to the opposite corner
-	#local angl = 30;	// the angle required to rotate the hexagonal outline of the isometric cube so that one of its bottom sides is parallel with the bottom of the image
-	#local dimm = 5/2;	// the width and height of the output image (assuming a square image)
-	#local quadrantangle = (90 - diff * 2) / 2;	// an angle used to determine the length of the segment, below.
-	#local leng = tand(quadrantangle) + 1/tand(quadrantangle);	// the length of a side of the parallelogram defined by the (unit length) up and right vectors
-	#local AspectRatio = image_width/image_height;
 	orthographic
 	location -z*(CameraDistance)
-	up vaxis_rotate(y,z,-(angl - diff)/2) * dimm * leng/2
-	right vaxis_rotate(x,z,+(angl - diff)/2) * dimm * leng/2 * AspectRatio
-	rotate z*-45
-	rotate x*(45 - diff)
-	rotate y*45
-	Axis_Rotate_Trans(<1,0,-1,>, diff)
+	direction z*(CameraDistance)
+	up y*5/2   *sind(45) * (tand(45)/sind(45))/(tand(30)/sind(30))  //stretch to square top for 45deg rotation
+	right x*5/2    * (tand(45)/sind(45))/(tand(30)/sind(30))     //no need to stretch in this direction
+
+	up vaxis_rotate(y,z,-11.25) * 5/2
+	right vaxis_rotate(x,z,11.25) * 5/2   *sind(60)
+	rotate <45,45,0>       //rotate up 45 degrees
+	Axis_Rotate_Trans(<-1,1,-1,>, 48)
 //	aperture 0.00001
 //	blur_samples 100
 //	focal_point 0
@@ -84,7 +80,6 @@ box
 		pigment {rgb 1}
 		finish {Phong_Glossy}
 	}
-//	scale y *  tand(30) * (tand(45)/sind(45))/(tand(30)/sind(30))
 }
 
 // the coordinate grid and axes
@@ -96,4 +91,4 @@ box
 //		yBool,				// Turns the plane perpendicular to the y-axis on/off.	(boolian)
 //		zBool,				// Turns the plane perpendicular to the z-axis on/off.	(boolian)
 //		offsetBool,			// Offsets the grid and axes by thickRatio in all directions (in case of obstructions).	(boolian)
-AxesParam(100, .1, 0.0001, 1, 0, 1, 0, 0)
+//AxesParam(100, .1, 0.0001, 1, 0, 1, 0, 0)
