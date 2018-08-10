@@ -1,5 +1,5 @@
 // Title: CIE XYY Color Solid Cube Isosurface
-// Authors: Michael Horvath, Christoph Lipka
+// Authors: Michael Horvath, with formulas by Christoph Lipka
 // Website: http://isometricland.net
 // Created: 2017-03-10
 // Updated: 2017-03-27

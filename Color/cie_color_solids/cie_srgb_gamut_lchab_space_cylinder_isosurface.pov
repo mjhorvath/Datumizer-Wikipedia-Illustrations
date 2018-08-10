@@ -1,5 +1,5 @@
 // Title: CIE LCHab Color Solid Cylinder Isosurface
-// Authors: Michael Horvath, Christoph Lipka
+// Authors: Michael Horvath, with formulas by Christoph Lipka
 // Website: http://isometricland.net
 // Created: 2016-11-20
 // Updated: 2017-03-27

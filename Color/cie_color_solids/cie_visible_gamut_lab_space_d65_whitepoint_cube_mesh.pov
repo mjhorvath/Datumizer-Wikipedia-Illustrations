@@ -1,5 +1,5 @@
 // Title: CIE LAB Visible Gamut
-// Authors: Michael Horvath, Christoph Lipka
+// Authors: Michael Horvath, with formulas by Christoph Lipka
 // Website: http://isometricland.net
 // Created: 2017-03-21
 // Updated: 2017-03-27

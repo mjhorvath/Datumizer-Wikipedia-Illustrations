@@ -1,7 +1,7 @@
 // This scene doesn't work yet.
 
 // Title: CIE LAB Color Solid Cube Mesh
-// Authors: Michael Horvath, Christoph Lipka
+// Authors: Michael Horvath, with formulas by Christoph Lipka
 // Website: http://isometricland.net
 // Created: 2017-03-29
 // Updated: 2017-03-29
