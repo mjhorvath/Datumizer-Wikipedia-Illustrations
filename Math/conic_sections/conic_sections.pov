@@ -15,7 +15,7 @@
 #include "colors.inc"
 #include "functions.inc"
 #include "Axes_macro.inc"
-#include "SphereGrid_macro.inc"
+#include "ShapeGrid_macro.inc"
 
 global_settings
 {
@@ -43,45 +43,48 @@ global_settings
 // ----------------------------------------
 
 #switch (Camera_Mode)
-#case (0)
-camera
-{
-//	orthographic
-	location <0, 0, -50>
-	direction <0, 0, 50>
-	right	x * 20 * image_width/image_height
-	up	y * 20
-	rotate <30,10,0,>
-}
-#break
-#case (1)
-camera
-{
-	orthographic
-	location <0, 50, 0>
-	direction <0, -50, 0>
-	right	z * 5 * image_width/image_height
-	up	x * 5
-	rotate z*rotate_angle
-}
-#break
-#case (2)
-camera
-{
-	orthographic
-	location <0, 0, -50>
-	direction <0, 0, 50>
-	right	x * 5 * image_width/image_height
-	up	y * 5
-	rotate <0,0,0,>
-}
-#break
+	#case (0)
+		camera
+		{
+		//	orthographic
+			location <0, 0, -50>
+			direction <0, 0, 50>
+			right	x * 20 * image_width/image_height
+			up	y * 20
+			rotate <30,10,0,>
+		}
+	#break
+	#case (1)
+		camera
+		{
+			orthographic
+			location <0, 50, 0>
+			direction <0, -50, 0>
+			right	z * 5 * image_width/image_height
+			up	x * 5
+			rotate z*rotate_angle
+		}
+	#break
+	#case (2)
+		camera
+		{
+			orthographic
+			location <0, 0, -50>
+			direction <0, 0, 50>
+			right	x * 5 * image_width/image_height
+			up	y * 5
+			rotate <0,0,0,>
+		}
+	#break
 #end
 /*
-sky_sphere {
-  pigment {
+sky_sphere
+{
+  pigment
+  {
     gradient y
-    color_map {
+    color_map
+    {
       [0.0 rgb <0.6,0.7,1.0>]
       [0.7 rgb <0.0,0.1,0.8>]
     }
