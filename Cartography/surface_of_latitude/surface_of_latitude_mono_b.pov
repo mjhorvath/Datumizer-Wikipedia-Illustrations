@@ -1,4 +1,4 @@
-// The Earth texture is spherically UV mapped to the ellipsoid, and the graticule is geodetic. The map_type 1 was not intended to be used with ellipsoids, so needs to be replaced.
+// The Earth is perfectly spherical. The cone is not truncated.
 
 #version 3.7
 
@@ -9,7 +9,7 @@
 #include "shapes3.inc"
 
 #declare map_show_mode = 0;
-#declare sphere_scale = sind(45);
+#declare ring_latitude = 60;
 
 //------------------------------------------------------------------------------Scenery
 
@@ -43,8 +43,8 @@ background {color srgb 3/4}
 light_source
 {
 	<-30,+30,-30,>
-	color rgb	1
-	rotate		y * 270
+	color rgb	2
+	rotate		x * 330
 	parallel
 //	shadowless
 }
@@ -52,28 +52,28 @@ light_source
 light_source
 {
 	<-30,+30,-30,>
-	color rgb	1
-	rotate		y * 000
+	color rgb	2
+	rotate		y * 090
 	parallel
 //	shadowless
 }
 
 #local cam_aspc =	image_width/image_height;		// obsolete. render square images only!
 #local cam_dist =	5/2;
-#local cam_area =	2;
+#local cam_area =	1;
 #local cam_loca =	-z * cam_dist;
 #local cam_dirc =	+z;
 #local cam_rgvc =	+x * cam_area;
 #local cam_upvc =	+y * cam_area;
 #local cam_tran = transform
 {
-//	rotate		+x*atand(sind(45))
+	rotate		+x * atand(sind(45))
 //	rotate		+x * 45
-//	rotate		-y*150
-	rotate		+y*90
+	rotate		-y * 150
+//	rotate		-y * 90
 }
 
-Set_Camera_Orthographic(true)
+Set_Camera_Orthographic(false)
 Set_Camera_Transform(cam_tran)
 Set_Camera_Alt(cam_loca, cam_dirc, cam_rgvc, cam_upvc)
 
@@ -114,7 +114,7 @@ Set_Camera_Alt(cam_loca, cam_dirc, cam_rgvc, cam_upvc)
 {
 	object
 	{
-		SGrid_Ellipsoid_Macro(3,24,12,1,sphere_scale,0,0.01,off,off,)
+		SGrid_Sphere_Macro(3,24,12,1,0,0.01,off,off,)
 		color srgbt <0,0,0,4/4>
 		color srgbt <0,0,0,3/4>
 	}
@@ -123,7 +123,6 @@ Set_Camera_Alt(cam_loca, cam_dirc, cam_rgvc, cam_upvc)
 #declare earth_surface = sphere
 {
 	0,1
-	scale y * sphere_scale
 	#if ((map_show_mode = 0) | (map_show_mode = 1))
 		texture
 		{
@@ -144,10 +143,9 @@ Set_Camera_Alt(cam_loca, cam_dirc, cam_rgvc, cam_upvc)
 	pigment {color rgbt 1}
 }
 
-
-#declare cone_of_intersection = cone
+#declare cone_of_intersection = plane
 {
-	0,0.316227766016838,y*sphere_scale,0.724476056480703
+	-y,-sind(ring_latitude)
 }
 
 #declare earth_plug = intersection
@@ -163,25 +161,25 @@ Set_Camera_Alt(cam_loca, cam_dirc, cam_rgvc, cam_upvc)
 	object {cone_of_intersection}
 	pigment {color srgb 1/4}
 }
-/*
-#declare spheredrop_time = get_time(1/2, 1);
-object {earth_plug}
-object {earth_socket	translate -y * spheredrop_time * 1/2}
-*/
 
+#declare spheredrop_time = get_time(1/2, 1);
+object {earth_plug		translate +y * spheredrop_time * 0/4}
+object {earth_socket	translate -y * spheredrop_time * 3/4}
+
+/*
 intersection
 {
 	object {earth_surface}
-//	object {plane_cut}
+	object {plane_cut}
 }
-
+*/
 
 //--------------------------------------Torus
 
 #declare latitude_torus = torus
 {
-	0.632455532033677,0.005
-	translate y * 0.547722557505168
+	cosd(ring_latitude),0.005
+	translate y * sind(ring_latitude)
 	pigment {color srgb <1,2/4,0>}
 }
 
@@ -212,8 +210,7 @@ intersection
 	intersection
 	{
 		object {plane_wedge}
-		latitude_torus
+		object {latitude_torus}
+		translate +y * spheredrop_time * 0/4
 	}
 #end
-
-//display_points()
