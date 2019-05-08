@@ -1,0 +1,27 @@
+Note: There are font issues as well as transparency issues when exporting to SVG that are a result of GeoGebra 6 no longer having a "Transparent" or a "Export Text as Shapes" option in the export dialog. The exported image will acquire whatever font is used by default in InkScape, as well as a white background rectangle that will need to be removed. As a result, I recommend using GeoGebra 5 to generate the SVG files instead of GeoGebra 6.
+
+POV-Ray
+  1. Render the scenes as PNG at 1500x1500 pixels.
+  2. Turn on the rendering of the corner spheres if you want to get their coordinates.
+
+GeoGebra (version 5)
+  1. Edit the GGB files in GeoGebra 5.
+  2. Make sure the entire figure is visible in the application/browser window. You may have to enable/disable the Algebra pane.
+  3. If the zoom scale gets messed up, press the "Resize (twice)" button twice.
+  4. Export the file as SVG using the "Scale in cm: 100unit(s) = 1 cm" option.
+
+InkScape
+  1. Ungroup the drawing if necessary (possibly multiple times), and delete the outer black border and the "Resize (twice)" button.
+  2. Open the "Export PNG Image" dialog.
+  3. In the "Export area" section, press the "Page" button to recalibrate the export dimensions. The width and height should be 15.060cm by 15.060cm.
+  4. In the "Image size" section, change the width and height to 1500 pixels. The DPI should equal 252.99.
+  5. Select the output destination, and press the "Export" button. You may have to confirm to overwrite the destination file.
+  6. Save the SVG document and exit InkScape.
+
+GIMP
+  1. Open the PNG image created in InkScape in GIMP.
+  2. Open the PNG image created in POV-Ray in GIMP.
+  3. Layer the first image over the second. Save the result as a new image.
+
+XnView
+  1. Create a contact sheet out of the new images in a 3x3 grid, specifying a spacing of 25px between the images.

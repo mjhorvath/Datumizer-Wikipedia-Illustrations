@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>GeoGebra JavaScript evaluation and XML modification demonstration</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="https://cdn.geogebra.org/apps/deployggb.js"></script>
+<meta name="generator" content="GeoGebra">
+<style type="text/css">
+<!--
+body	{font-family:Helvetica,sans-serif;margin:16px;}
+.out	{position:relative;width:60em;margin:auto;}
+.frm	{position:relative;background:#f0f0ff;border-top:solid thin #c0c0ff;margin-bottom:2em;margin-top:2em;padding-left:8px;padding-bottom:4px;}
+.tab	{position:absolute;top:0px;right:0px;background:#c0c0ff;padding:0.2em;cursor:default;width:128px;text-align:center;margin:0em;}
+.bod	{position:relative;margin-top:2em;padding:1em;}
+.app	{position:relative;background:#ffffff;margin:auto;width:800px;height:600px;padding:0px;}
+dd	{font-family:monospace;}
+h3	{display:inline;margin-bottom:2em;}
+h5	{display:inline;margin-bottom:2em;}
+br	{clear:both;}
+textarea
+	{width:100%;height:400px;overflow:auto;white-space:pre;}
+#ggb-element {margin:auto;}
+-->
+</style>
+<script type="text/javascript">
+<!--
+var ggbApp = new GGBApplet({"appName": "classic", filename: "music_frequency_diatonic_scale_wikipedia_a_minor.ggb", "width": 803, "height": 656, "showToolBar": false, "showAlgebraInput": false, "showMenuBar": true, "showResetIcon": true}, true);
+window.addEventListener("load", function() {ggbApp.inject('ggb-element');});
+//-->
+</script>
+<script type="text/javascript">
+<!--
+
+function getsource()
+{
+	document.xmlsource.xmlcode.value = document.ggbApplet.getXML()
+}
+
+function clearsource()
+{
+	document.xmlsource.xmlcode.value = ''
+}
+
+function givesource()
+{
+	document.ggbApplet.setXML(document.xmlsource.xmlcode.value) 
+}
+
+function doscript()
+{
+	eval(document.evaljscript.jscriptcode.value)
+}
+
+function clearscript()
+{
+	document.evaljscript.jscriptcode.value = ''
+}
+
+function getggbfile()
+{
+	document.ggbApplet.openFile(document.getfile.inputfile.value)
+}
+
+function toggledescript()
+{
+	var docelem = document.getElementById('descriptpanel')
+	var butelem = document.getElementById('descripthide')
+	if (docelem.style.display == 'none')
+	{
+		docelem.style.display = 'block'
+		butelem.firstChild.nodeValue = 'Hide Description'
+	}
+	else
+	{
+		docelem.style.display = 'none'
+		butelem.firstChild.nodeValue = 'Show Description'
+	}
+}
+
+function togglejscript()
+{
+	var docelem = document.evaljscript
+	var butelem = document.getElementById('jscripthide')
+	if (docelem.style.display == 'none')
+	{
+		docelem.style.display = 'block'
+		butelem.firstChild.nodeValue = 'Hide JavaScript'
+	}
+	else
+	{
+		docelem.style.display = 'none'
+		butelem.firstChild.nodeValue = 'Show JavaScript'
+	}
+}
+
+function togglexml()
+{
+	var docelem = document.xmlsource
+	var butelem = document.getElementById('xmlhide')
+	if (docelem.style.display == 'none')
+	{
+		docelem.style.display = 'block'
+		butelem.firstChild.nodeValue = 'Hide XML'
+	}
+	else
+	{
+		docelem.style.display = 'none'
+		butelem.firstChild.nodeValue = 'Show XML'
+	}
+}
+
+function toggleapplet()
+{
+	var docelem = document.getElementById('appletpanel')
+	var butelem = document.getElementById('applethide')
+	if (docelem.style.display == 'none')
+	{
+		docelem.style.display = 'block'
+		butelem.firstChild.nodeValue = 'Hide Applet'
+	}
+	else
+	{
+		docelem.style.display = 'none'
+		butelem.firstChild.nodeValue = 'Show Applet'
+	}
+}
+
+function examplejscript()
+{
+	document.evaljscript.jscriptcode.value = document.getElementById('jscriptexample').firstChild.nodeValue
+}
+
+function getMethods(obj)
+{
+	var res = []
+	for(var m in obj)
+	{
+		if(typeof obj[m] == "function")
+		{
+			res.push(m)
+		}
+	}
+	return res
+}
+
+//-->
+</script>
+</head>
+<body>
+<div class="out">
+	<h3>GeoGebra JavaScript evaluation and XML modification demonstration,</h3>
+	<h5>by Michael Horvath</h5>
+	<div class="frm">
+		<h4 class="tab">Introduction</h4>
+		<div class="bod">
+			<p>Edit the JavaScript and XML source code in the text fields. Press the various buttons to retrieve or update the XML source, as well as evaluate some JavaScript.</p>
+			<p>A full list of JavaScript commands available for use within an HTML file can be found <a target="_blank" href="https://wiki.geogebra.org/en/Reference:GeoGebra_Apps_API">here</a>. A description of the GeoGebra XML file format can be found <a target="_blank" href="https://wiki.geogebra.org/en/Reference:XML">here</a>. A list of regular commands can be found <a target="_blank" href="https://wiki.geogebra.org/en/Commands">here</a>.</p>
+		</div>
+	</div>
+	<div class="frm">
+		<h4 class="tab">Applet</h4>
+		<div class="bod">
+			<div id="ggb-element" class="app"></div>
+		</div>
+	</div>
+	<div class="frm">
+		<h4 class="tab">JavaScript</h4>
+		<div class="bod">
+			<form class="pan" name="evaljscript">
+				<textarea name="jscriptcode"></textarea>
+				<input type="button" value="Load Sample JavaScript" onclick="examplejscript()" />
+				<input type="button" value="Evaluate JavaScript" onclick="doscript()" />
+				<input type="button" value="Clear JavaScript" onclick="clearscript()" />
+			</form>
+		</div>
+	</div>
+	<div class="frm">
+		<h4 class="tab">XML Code</h4>
+		<div class="bod">
+			<form class="pan" name="xmlsource">
+				<textarea name="xmlcode"></textarea>
+				<input type="button" value="Get XML source" onclick="getsource()" />
+				<input type="button" value="Set XML source" onclick="givesource()" />
+				<input type="button" value="Clear XML source" onclick="clearsource()" />
+			</form>
+		</div>
+	</div>
+</div>
+<pre id="jscriptexample" style="display:none;">
+function SetupEnvironment() {
+  document.ggbApplet.setPerspective("G")
+  document.ggbApplet.setSize(803, 656)
+  document.ggbApplet.setCoordSystem(-600, 5400, -55, 935)
+  document.ggbApplet.setAxisLabels(1, "cents", "frequency", "")
+  document.ggbApplet.setAxisUnits(1, "", "Hz", "")
+  document.ggbApplet.setAxisSteps(1, 1200, 55, 1)
+  document.ggbApplet.setGridVisible(true)
+}
+SetupEnvironment()
+</pre>
+</body>
+</html>

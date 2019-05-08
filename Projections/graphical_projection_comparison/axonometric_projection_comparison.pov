@@ -1,7 +1,7 @@
 // Title: Graphical projection comparison
 // Author: Michael Horvath, http://isometricland.net
 // Created: 2009-11-13
-// Updated: 2015-12-09
+// Updated: 2019-05-08
 // This file is licensed under the terms of the CC-LGPL.
 // +kfi0 +kff8 +a0.0
 // -uv
@@ -12,7 +12,7 @@
 #include "math.inc"
 #include "screen.inc"		// requires the updated version available here: http://news.povray.org/povray.text.scene-files/thread/%3C581be4f1%241%40news.povray.org%3E/
 
-#declare show_spheres = on;
+#declare show_spheres = off;
 
 //------------------------------------------------------------------------------Scenery
 
@@ -60,7 +60,7 @@ light_source
 
 
 //#local cam_view =	frame_number;
-#local cam_view =	3;
+#local cam_view =	7;
 #local cam_aspc =	image_width/image_height;		// obsolete. render square images only!
 #local cam_dist =	8;
 #local cam_move =	1/2;
@@ -70,7 +70,7 @@ light_source
 		#local cam_area =	2;
 		#local cam_loca =	-z * cam_dist;
 		#local cam_dirc =	+z;
-		#local cam_rgvc =	+x * cam_area/cam_dist;
+		#local cam_rgvc =	+x * cam_area/cam_dist * cam_aspc;
 		#local cam_upvc =	+y * cam_area/cam_dist;
 		#local cam_tran = transform
 		{
@@ -106,7 +106,7 @@ light_source
 		#local cam_area =	2;
 		#local cam_loca =	-z * cam_dist;
 		#local cam_dirc =	+z;
-		#local cam_rgvc =	+x * cam_area;
+		#local cam_rgvc =	+x * cam_area * cam_aspc;
 		#local cam_upvc =	+y * cam_area;
 		#local cam_tran = transform
 		{
@@ -154,10 +154,10 @@ light_source
 			translate	+y * cam_move
 		}
 	#break
-	#case (7)	// cavalier (oblique)
+	#case (7)	// cavalier a (oblique)
 		#local cam_area =	2 * 5/4;
-		#local cam_loca =	vnormalize(-z/sind(045)+y+x) * cam_dist;
-		#local cam_dirc =	vnormalize(+z/sind(045)-y-x);
+		#local cam_loca =	vnormalize(-z/sind(045)+y-x) * cam_dist;
+		#local cam_dirc =	vnormalize(+z/sind(045)-y+x);
 		#local cam_rgvc =	+x * cam_area;
 		#local cam_upvc =	+y * cam_area;
 		#local cam_tran = transform
@@ -174,6 +174,17 @@ light_source
 		#local cam_tran = transform
 		{
 			rotate		+x * 045
+			translate	+y * cam_move
+		}
+	#break
+	#case (9)	// cavalier b (oblique)
+		#local cam_area =	2 * 5/4;
+		#local cam_loca =	vnormalize(-z/sind(045)+y+x) * cam_dist;
+		#local cam_dirc =	vnormalize(+z/sind(045)-y-x);
+		#local cam_rgvc =	+x * cam_area;
+		#local cam_upvc =	+y * cam_area;
+		#local cam_tran = transform
+		{
 			translate	+y * cam_move
 		}
 	#break
