@@ -14,7 +14,7 @@ InkScape
   1. Ungroup the drawing if necessary (possibly multiple times), and delete the outer black border and the "Resize (twice)" button.
   2. Open the "Export PNG Image" dialog.
   3. In the "Export area" section, press the "Page" button to recalibrate the export dimensions. The width and height should be 15.060cm by 15.060cm.
-  4. In the "Image size" section, change the width and height to 1500 pixels. The DPI should equal 252.99.
+  4. In the "Image size" section, change the width and height to 1500 pixels. The DPI should now equal 252.99.
   5. Select the output destination, and press the "Export" button. You may have to confirm to overwrite the destination file.
   6. Save the SVG document and exit InkScape.
 
