@@ -1,9 +1,9 @@
 // Title: Graphical projection comparison
 // Author: Michael Horvath, http://isometricland.net
 // Created: 2009-11-13
-// Updated: 2019-05-13
+// Updated: 2019-05-16
 // This file is licensed under the terms of the CC-LGPL.
-// +kfi0 +kff11
+// +kfi0 +kff15
 // -uv
 
 #version 3.7
@@ -12,7 +12,7 @@
 #include "math.inc"
 #include "screen.inc"		// requires the updated version available here: http://news.povray.org/povray.text.scene-files/thread/%3C581be4f1%241%40news.povray.org%3E/
 
-#declare show_spheres = false;
+#declare show_spheres = false;		// spheres used for alignment, also some text output
 
 //------------------------------------------------------------------------------Scenery
 
@@ -59,14 +59,15 @@ light_source
 }
 
 
-#local cam_view =	frame_number;
-//#local cam_view =	7;
+//#local cam_view =	frame_number;
+#local cam_view =	16;
 #local cam_aspc =	image_width/image_height;		// obsolete. render square images only!
 #local cam_dist =	8;
 #local cam_move =	1/2;
+#local cam_oblique_scale = 4/4;						// this is necessary because military projection uses more space typically
 
 #switch (cam_view)
-	#case (0)	// three-point perspective
+	#case (0)	// three-point perspective - angles
 		#local cam_area =	2;
 		#local cam_loca =	-z * cam_dist;
 		#local cam_dirc =	+z;
@@ -123,7 +124,7 @@ light_source
 		#local cam_upvc =	+y * cam_area;
 		#local cam_tran = transform
 		{
-			rotate		+x * 030
+			rotate		+x * asind(tand(15))
 			rotate		+y * 045
 			translate	+y * cam_move
 		}
@@ -136,13 +137,13 @@ light_source
 		#local cam_upvc =	+y * cam_area;
 		#local cam_tran = transform
 		{
-			rotate		+x * 025.6589063
-			rotate		+y * 030
+			rotate		+x * asind(tand(30))
+			rotate		+y * 015
 			translate	+y * cam_move
 		}
 	#break
 	#case (6)	// military (oblique)
-		#local cam_area =	2 * 5/4;
+		#local cam_area =	2 * cam_oblique_scale;
 		#local cam_loca =	-z * cam_dist;
 		#local cam_dirc =	+z;
 		#local cam_rgvc =	+x * cam_area;
@@ -151,11 +152,15 @@ light_source
 		{
 			rotate		+x * 045
 			rotate		+y * 045
-			translate	+y * cam_move
+			#if (cam_oblique_scale = 1)
+				translate	+y * cam_move/2
+			#else
+				translate	+y * cam_move
+			#end
 		}
 	#break
 	#case (7)	// cavalier (oblique)
-		#local cam_area =	2 * 5/4;
+		#local cam_area =	2 * cam_oblique_scale;
 		#local cam_loca =	vnormalize(-z/sind(045)+y-x) * cam_dist;
 		#local cam_dirc =	vnormalize(+z/sind(045)-y+x);
 		#local cam_rgvc =	+x * cam_area;
@@ -166,7 +171,7 @@ light_source
 		}
 	#break
 	#case (8)	// 8-bit video game style (oblique)
-		#local cam_area =	2 * 5/4;
+		#local cam_area =	2 * cam_oblique_scale;
 		#local cam_loca =	-z * cam_dist;
 		#local cam_dirc =	+z;
 		#local cam_rgvc =	+x * cam_area;
@@ -177,10 +182,11 @@ light_source
 			translate	+y * cam_move
 		}
 	#break
-	#case (9)	// cabinet (oblique) - to do, needs work
-		#local cam_area =	2 * 5/4;
-		#local cam_loca =	vnormalize(-z/sind(045)*2+y-x) * cam_dist;
-		#local cam_dirc =	vnormalize(+z/sind(045)*2-y+x);
+	#case (9)	// cabinet (oblique)
+		#local cam_fudge =	2;
+		#local cam_area =	2 * cam_oblique_scale;
+		#local cam_loca =	vnormalize(-z/sind(045)*cam_fudge+y-x) * cam_dist;
+		#local cam_dirc =	vnormalize(+z/sind(045)*cam_fudge-y+x);
 		#local cam_rgvc =	+x * cam_area;
 		#local cam_upvc =	+y * cam_area;
 		#local cam_tran = transform
@@ -188,7 +194,9 @@ light_source
 			translate	+y * cam_move
 		}
 	#break
-	#case (10)	// two-point perspective - to do, needs work
+	#case (10)	// two-point perspective - vanishing points
+		#local cam_fudge =	4;
+		#local cam_dist =	cam_dist/cam_fudge;
 		#local cam_area =	2;
 		#local cam_loca =	-z * cam_dist;
 		#local cam_dirc =	+z;
@@ -196,11 +204,13 @@ light_source
 		#local cam_upvc =	+y * cam_area/cam_dist;
 		#local cam_tran = transform
 		{
-			rotate		+y * 045
+			rotate		+y * 025
 			translate	+y * cam_move
 		}
 	#break
-	#case (11)	// one-point perspective - to do, needs work
+	#case (11)	// one-point perspective - vanishing points
+		#local cam_fudge =	4;
+		#local cam_dist =	cam_dist/cam_fudge;
 		#local cam_area =	2;
 		#local cam_loca =	-z * cam_dist;
 		#local cam_dirc =	+z;
@@ -212,6 +222,68 @@ light_source
 			translate	+y * cam_move
 		}
 	#break
+	#case (12)	// dimetric (axonometric) - typical video games
+		#local cam_area =	2;
+		#local cam_loca =	-z * cam_dist;
+		#local cam_dirc =	+z;
+		#local cam_rgvc =	+x * cam_area;
+		#local cam_upvc =	+y * cam_area;
+		#local cam_tran = transform
+		{
+			rotate		+x * 030
+			rotate		+y * 045
+			translate	+y * cam_move
+		}
+	#break
+	#case (13)	// trimetric (axonometric) - fallout 1 & 2
+		#local cam_area =	2;
+		#local cam_loca =	-z * cam_dist;
+		#local cam_dirc =	+z;
+		#local cam_rgvc =	+x * cam_area;
+		#local cam_upvc =	+y * cam_area;
+		#local cam_tran = transform
+		{
+			rotate		+x * 025.6589063
+			rotate		+y * 030
+			translate	+y * cam_move
+		}
+	#break
+	#case (14)	// cavalier (oblique) - right
+		#local cam_area =	2 * cam_oblique_scale;
+		#local cam_loca =	vnormalize(-z/sind(045)+y+x) * cam_dist;
+		#local cam_dirc =	vnormalize(+z/sind(045)-y-x);
+		#local cam_rgvc =	+x * cam_area;
+		#local cam_upvc =	+y * cam_area;
+		#local cam_tran = transform
+		{
+			translate	+y * cam_move
+		}
+	#break
+	#case (15)	// 8-bit video game style (oblique) - short
+		#local cam_fudge =	2;
+		#local cam_area =	2 * cam_oblique_scale;
+		#local cam_loca =	vnormalize(-z*cam_fudge+y) * cam_dist;
+		#local cam_dirc =	vnormalize(+z*cam_fudge-y);
+		#local cam_rgvc =	+x * cam_area;
+		#local cam_upvc =	+y * cam_area;
+		#local cam_tran = transform
+		{
+			translate	+y * cam_move
+		}
+	#break
+	#case (16)	// three-point perspective - vanishing points
+		#local cam_area =	2;
+		#local cam_loca =	-z * cam_dist;
+		#local cam_dirc =	+z;
+		#local cam_rgvc =	+x * cam_area/cam_dist * cam_aspc;
+		#local cam_upvc =	+y * cam_area/cam_dist;
+		#local cam_tran = transform
+		{
+			rotate		+x * 045
+			rotate		+y * 045
+			translate	+y * cam_move
+		}
+	#break
 #end
 
 
@@ -219,6 +291,7 @@ light_source
 	#case (0)
 	#case (10)
 	#case (11)
+	#case (16)
 		Set_Camera_Orthographic(false)
 		Set_Camera_Transform(cam_tran)
 		Set_Camera_Alt(cam_loca, cam_dirc, cam_rgvc, cam_upvc)
@@ -285,95 +358,144 @@ object
 #if (show_spheres = on)
 	#switch (cam_view)
 		#case (0)
-			#local sphere_siz = 4/8;
+			#local sphere_dist = 4/8;
+			#local sphere_size = 1/16;
 		
-			#local sphere_loc_2 = <-sphere_siz*1,+sphere_siz*0,+sphere_siz*0,>;
-			sphere {sphere_loc_2, 1/16}
+			#local sphere_loc_2 = <-sphere_dist*1,+sphere_dist*0,+sphere_dist*0,>;
+			sphere {sphere_loc_2, sphere_size}
 			#local sphere_loc_2 = Get_Screen_XY(sphere_loc_2);
 			#debug concat("\ncen_f = (", vstr(2, sphere_loc_2, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_4 = <-sphere_siz*2,+sphere_siz*0,+sphere_siz*0,>;
-			sphere {sphere_loc_4, 1/16}
+			#local sphere_loc_4 = <-sphere_dist*2,+sphere_dist*0,+sphere_dist*0,>;
+			sphere {sphere_loc_4, sphere_size}
 			#local sphere_loc_4 = Get_Screen_XY(sphere_loc_4);
 			#debug concat("\nlft_f = (", vstr(2, sphere_loc_4, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_1 = <-sphere_siz*1,+sphere_siz*0,-sphere_siz*1,>;
-			sphere {sphere_loc_1, 1/16}
+			#local sphere_loc_1 = <-sphere_dist*1,+sphere_dist*0,-sphere_dist*1,>;
+			sphere {sphere_loc_1, sphere_size}
 			#local sphere_loc_1 = Get_Screen_XY(sphere_loc_1);
 			#debug concat("\nrgt_f = (", vstr(2, sphere_loc_1, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_3 = <-sphere_siz*1,+sphere_siz*1,+sphere_siz*0,>;
-			sphere {sphere_loc_3, 1/16}
+			#local sphere_loc_3 = <-sphere_dist*1,+sphere_dist*1,+sphere_dist*0,>;
+			sphere {sphere_loc_3, sphere_size}
 			#local sphere_loc_3 = Get_Screen_XY(sphere_loc_3);
 			#debug concat("\ntop_f = (", vstr(2, sphere_loc_3, ",", 0, -1), ")\n\n")
 		
 		
 			
-			#local sphere_loc_2 = <+sphere_siz*3,+sphere_siz*0,+sphere_siz*1,>;
-			sphere {sphere_loc_2, 1/16}
+			#local sphere_loc_2 = <+sphere_dist*3,+sphere_dist*0,+sphere_dist*1,>;
+			sphere {sphere_loc_2, sphere_size}
 			#local sphere_loc_2 = Get_Screen_XY(sphere_loc_2);
 			#debug concat("\ncen_b = (", vstr(2, sphere_loc_2, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_4 = <+sphere_siz*2,+sphere_siz*0,+sphere_siz*1,>;
-			sphere {sphere_loc_4, 1/16}
+			#local sphere_loc_4 = <+sphere_dist*2,+sphere_dist*0,+sphere_dist*1,>;
+			sphere {sphere_loc_4, sphere_size}
 			#local sphere_loc_4 = Get_Screen_XY(sphere_loc_4);
 			#debug concat("\nlft_b = (", vstr(2, sphere_loc_4, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_1 = <+sphere_siz*3,+sphere_siz*0,+sphere_siz*0,>;
-			sphere {sphere_loc_1, 1/16}
+			#local sphere_loc_1 = <+sphere_dist*3,+sphere_dist*0,+sphere_dist*0,>;
+			sphere {sphere_loc_1, sphere_size}
 			#local sphere_loc_1 = Get_Screen_XY(sphere_loc_1);
 			#debug concat("\nrgt_b = (", vstr(2, sphere_loc_1, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_3 = <+sphere_siz*3,+sphere_siz*1,+sphere_siz*1,>;
-			sphere {sphere_loc_3, 1/16}
+			#local sphere_loc_3 = <+sphere_dist*3,+sphere_dist*1,+sphere_dist*1,>;
+			sphere {sphere_loc_3, sphere_size}
 			#local sphere_loc_3 = Get_Screen_XY(sphere_loc_3);
 			#debug concat("\ntop_b = (", vstr(2, sphere_loc_3, ",", 0, -1), ")\n\n")
 		
 		
 		
-			#local sphere_loc_2 = <+sphere_siz*2,+sphere_siz*0,+sphere_siz*4,>;
-			sphere {sphere_loc_2, 1/16}
+			#local sphere_loc_2 = <+sphere_dist*2,+sphere_dist*0,+sphere_dist*4,>;
+			sphere {sphere_loc_2, sphere_size}
 			#local sphere_loc_2 = Get_Screen_XY(sphere_loc_2);
 			#debug concat("\ncen_l = (", vstr(2, sphere_loc_2, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_4 = <+sphere_siz*1,+sphere_siz*0,+sphere_siz*4,>;
-			sphere {sphere_loc_4, 1/16}
+			#local sphere_loc_4 = <+sphere_dist*1,+sphere_dist*0,+sphere_dist*4,>;
+			sphere {sphere_loc_4, sphere_size}
 			#local sphere_loc_4 = Get_Screen_XY(sphere_loc_4);
 			#debug concat("\nlft_l = (", vstr(2, sphere_loc_4, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_1 = <+sphere_siz*2,+sphere_siz*0,+sphere_siz*3,>;
-			sphere {sphere_loc_1, 1/16}
+			#local sphere_loc_1 = <+sphere_dist*2,+sphere_dist*0,+sphere_dist*3,>;
+			sphere {sphere_loc_1, sphere_size}
 			#local sphere_loc_1 = Get_Screen_XY(sphere_loc_1);
 			#debug concat("\nrgt_l = (", vstr(2, sphere_loc_1, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_3 = <+sphere_siz*2,+sphere_siz*1,+sphere_siz*4,>;
-			sphere {sphere_loc_3, 1/16}
+			#local sphere_loc_3 = <+sphere_dist*2,+sphere_dist*1,+sphere_dist*4,>;
+			sphere {sphere_loc_3, sphere_size}
 			#local sphere_loc_3 = Get_Screen_XY(sphere_loc_3);
 			#debug concat("\ntop_l = (", vstr(2, sphere_loc_3, ",", 0, -1), ")\n\n")
 		#break
+		#case (10)
+		#case (11)
+		#case (16)
+			#local sphere_dist = 4/8;
+			#local sphere_size = 1/32;
+		
+			#local sphere_loc_1_a = <-sphere_dist,+sphere_dist*0/4,-sphere_dist,>;
+			sphere {sphere_loc_1_a, sphere_size}
+			#local sphere_loc_1_a = Get_Screen_XY(sphere_loc_1_a);
+			#debug concat("\n1_a = (", vstr(2, sphere_loc_1_a, ",", 0, -1), ")\n\n")
+
+			#local sphere_loc_1_b = <-sphere_dist,+sphere_dist*3/4,-sphere_dist,>;
+			sphere {sphere_loc_1_b, sphere_size}
+			#local sphere_loc_1_b = Get_Screen_XY(sphere_loc_1_b);
+			#debug concat("\n1_b = (", vstr(2, sphere_loc_1_b, ",", 0, -1), ")\n\n")
+
+			#local sphere_loc_2_a = <-sphere_dist,+sphere_dist*0/4,+sphere_dist,>;
+			sphere {sphere_loc_2_a, sphere_size}
+			#local sphere_loc_2_a = Get_Screen_XY(sphere_loc_2_a);
+			#debug concat("\n2_a = (", vstr(2, sphere_loc_2_a, ",", 0, -1), ")\n\n")
+
+			#local sphere_loc_2_b = <-sphere_dist,+sphere_dist*3/4,+sphere_dist,>;
+			sphere {sphere_loc_2_b, sphere_size}
+			#local sphere_loc_2_b = Get_Screen_XY(sphere_loc_2_b);
+			#debug concat("\n2_b = (", vstr(2, sphere_loc_2_b, ",", 0, -1), ")\n\n")
+
+			#local sphere_loc_3_a = <+sphere_dist,+sphere_dist*0/4,+sphere_dist,>;
+			sphere {sphere_loc_3_a, sphere_size}
+			#local sphere_loc_3_a = Get_Screen_XY(sphere_loc_3_a);
+			#debug concat("\n3_a = (", vstr(2, sphere_loc_3_a, ",", 0, -1), ")\n\n")
+
+			#local sphere_loc_3_b = <+sphere_dist,+sphere_dist*3/4,+sphere_dist,>;
+			sphere {sphere_loc_3_b, sphere_size}
+			#local sphere_loc_3_b = Get_Screen_XY(sphere_loc_3_b);
+			#debug concat("\n3_b = (", vstr(2, sphere_loc_3_b, ",", 0, -1), ")\n\n")
+
+			#local sphere_loc_4_a = <+sphere_dist,+sphere_dist*0/4,-sphere_dist,>;
+			sphere {sphere_loc_4_a, sphere_size}
+			#local sphere_loc_4_a = Get_Screen_XY(sphere_loc_4_a);
+			#debug concat("\n4_a = (", vstr(2, sphere_loc_4_a, ",", 0, -1), ")\n\n")
+
+			#local sphere_loc_4_b = <+sphere_dist,+sphere_dist*3/4,-sphere_dist,>;
+			sphere {sphere_loc_4_b, sphere_size}
+			#local sphere_loc_4_b = Get_Screen_XY(sphere_loc_4_b);
+			#debug concat("\n4_b = (", vstr(2, sphere_loc_4_b, ",", 0, -1), ")\n\n")
+		#break
 		#else
+			#local sphere_dist = 4/8;
+			#local sphere_size = 1/16;
+
 			// black
-			#local sphere_siz = 4/8;
-			#local sphere_loc_1 = <+sphere_siz*1,+sphere_siz*0,+sphere_siz*1,>;
-			sphere {sphere_loc_1, 1/16 pigment {color srgb 0}}
+			#local sphere_loc_1 = <+sphere_dist*1,+sphere_dist*0,+sphere_dist*1,>;
+			sphere {sphere_loc_1, sphere_size pigment {color srgb 0}}
 			#local sphere_loc_1 = Get_Screen_XY(sphere_loc_1);
 			#debug concat("\ncen = (", vstr(2, sphere_loc_1, ",", 0, -1), ")\n\n")
 
 			// blue
-			#local sphere_loc_2 = <-sphere_siz*1,+sphere_siz*0,+sphere_siz*1,>;
-			sphere {sphere_loc_2, 1/16 pigment {color srgb z}}
+			#local sphere_loc_2 = <-sphere_dist*1,+sphere_dist*0,+sphere_dist*1,>;
+			sphere {sphere_loc_2, sphere_size pigment {color srgb z}}
 			#local sphere_loc_2 = Get_Screen_XY(sphere_loc_2);
 			#debug concat("\nlft = (", vstr(2, sphere_loc_2, ",", 0, -1), ")\n\n")
 
 			// red
-			#local sphere_loc_3 = <+sphere_siz*1,+sphere_siz*0,-sphere_siz*1,>;
-			sphere {sphere_loc_3, 1/16 pigment {color srgb x}}
+			#local sphere_loc_3 = <+sphere_dist*1,+sphere_dist*0,-sphere_dist*1,>;
+			sphere {sphere_loc_3, sphere_size pigment {color srgb x}}
 			#local sphere_loc_3 = Get_Screen_XY(sphere_loc_3);
 			#debug concat("\nrgt = (", vstr(2, sphere_loc_3, ",", 0, -1), ")\n\n")
 
 			// green
-			#local sphere_loc_4 = <+sphere_siz*1,+sphere_siz*2,+sphere_siz*1,>;
-			sphere {sphere_loc_4, 1/16 pigment {color srgb y}}
+			#local sphere_loc_4 = <+sphere_dist*1,+sphere_dist*2,+sphere_dist*1,>;
+			sphere {sphere_loc_4, sphere_size pigment {color srgb y}}
 			#local sphere_loc_4 = Get_Screen_XY(sphere_loc_4);
 			#debug concat("\ntop = (", vstr(2, sphere_loc_4, ",", 0, -1), ")\n\n")
 		#break
