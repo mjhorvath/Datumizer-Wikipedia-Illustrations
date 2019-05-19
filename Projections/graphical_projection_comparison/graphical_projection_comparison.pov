@@ -330,7 +330,7 @@ merge
 }
 
 // the coordinate grid and axes
-#declare Axes_Color = 3/4;		// Axes_color: 1/4 for dark, 3/4 for light
+#declare Axes_Color = 0;		// Axes_color: srgb color of grid lines (but not transmit or filter!)
 #declare Axes_Infinite = true;	// Axes_Infinite: are the planes infinite in every direction?
 
 Axes_Macro
