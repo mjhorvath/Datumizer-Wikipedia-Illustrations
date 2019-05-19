@@ -94,6 +94,7 @@ box
 {
 	sCenter, sRadius
 	pigment {color srgbt <1,1,1,1/2>}
+//	pigment {color srgbt <1,1,1,0/2>}
 //	hollow
 //	no_shadow
 }
@@ -109,7 +110,8 @@ Axes_Macro
 	off,	// Axes_mBool,		Turns the minor units on/off. (boolian)
 	off,	// Axes_xBool,		Turns the plane perpendicular to the x-axis on/off.	(boolian)
 	on,		// Axes_yBool,		Turns the plane perpendicular to the y-axis on/off.	(boolian)
-	off		// Axes_zBool,		Turns the plane perpendicular to the z-axis on/off.	(boolian)
+	off,	// Axes_zBool,		Turns the plane perpendicular to the z-axis on/off.	(boolian)
+	3/4		// Axes_color,		The color of the grid.	(3D vector)
 )
 
 object
