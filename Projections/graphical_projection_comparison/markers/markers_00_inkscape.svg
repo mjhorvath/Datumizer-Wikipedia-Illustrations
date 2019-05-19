@@ -1,0 +1,1257 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="15cm"
+   height="15cm"
+   viewBox="0 0 500 500"
+   id="svg5570"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="markers_00_inkscape.svg"
+   inkscape:export-filename="D:\GitHub\mike_illustrations\Projections\graphical_projection_comparison\markers_00.png"
+   inkscape:export-xdpi="254.00002"
+   inkscape:export-ydpi="254.00002">
+  <metadata
+     id="metadata6272">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6270" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1846"
+     inkscape:window-height="1051"
+     id="namedview6268"
+     showgrid="false"
+     inkscape:zoom="0.88452115"
+     inkscape:cx="335.0964"
+     inkscape:cy="266.86854"
+     inkscape:window-x="65"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg5570" />
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5623">
+    <clipPath
+       id="clipa652b1f5-ea7e-4fc8-a80a-405d744b3009">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5626"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip4)"
+       id="g5628">
+      <g
+         id="g5630"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none">
+        <path
+           d="m 364.55,502.06 -8.56,-17.23 -3.48,5.24 -74.5,-49.46 -3.69,5.56 74.5,49.45 -3.47,5.24 z"
+           id="path5632"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5634">Polygon poly_{1RGT}</title>
+        <desc
+           id="desc5636">Polygon poly_{1RGT}: ArrowTool(epoint_{'1CEN}, epoint_{'1RGT}, arrow_{LEN}, arrow_{WID}, arrow_{ANG})</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip4 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5638">
+    <clipPath
+       id="clip1550f4c6-955d-42cd-8002-38ff7063339c">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5641"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip5)"
+       id="g5643">
+      <g
+         id="g5645"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none">
+        <path
+           d="m 272.86,343.24 -9.07,16.97 6.28,-0.21 2.76,83.5 6.67,-0.22 -2.76,-83.5 6.28,-0.2 z"
+           id="path5647"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5649">Polygon poly_{1TOP}</title>
+        <desc
+           id="desc5651">Polygon poly_{1TOP}: ArrowTool(epoint_{'1CEN}, epoint_{'1TOP}, arrow_{LEN}, arrow_{WID}, arrow_{ANG})</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip5 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5653">
+    <clipPath
+       id="clip4cf6798c-63b0-4012-8e05-6d904b211ffe">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5656"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip6)"
+       id="g5658">
+      <g
+         id="g5660"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none">
+        <path
+           d="m 181.16,502.06 19.24,-0.57 -3.31,-5.35 80.83,-49.92 -3.51,-5.67 -80.82,49.92 -3.31,-5.35 z"
+           id="path5662"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5664">Polygon poly_{1LFT}</title>
+        <desc
+           id="desc5666">Polygon poly_{1LFT}: ArrowTool(epoint_{'1CEN}, epoint_{'1LFT}, arrow_{LEN}, arrow_{WID}, arrow_{ANG})</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip6 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5668">
+    <clipPath
+       id="clip872a73e2-77c1-424e-a61c-98de0acc8b3c">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5671"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip7)"
+       id="g5673">
+      <g
+         id="g5675"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none">
+        <path
+           d="m 441.79,245.7 19.25,0 -3.15,-5.45 58.09,-33.53 -3.34,-5.77 -58.08,33.53 -3.14,-5.45 z"
+           id="path5677"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5679">Polygon poly_{2LFT}</title>
+        <desc
+           id="desc5681">Polygon poly_{2LFT}: ArrowTool(epoint_{'2CEN}, epoint_{'2LFT}, arrow_{LEN}, arrow_{WID}, arrow_{ANG})</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip7 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5683">
+    <clipPath
+       id="clip80d79801-0b64-4772-a5a5-60f060f7b5a3">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5686"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip8)"
+       id="g5688">
+      <g
+         id="g5690"
+         style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 441.79,245.7 19.25,0 -3.15,-5.45 58.09,-33.53 -3.34,-5.77 -58.08,33.53 -3.14,-5.45 z"
+           id="path5692"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5694">Polygon poly_{2LFT}</title>
+        <desc
+           id="desc5696">Polygon poly_{2LFT}: ArrowTool(epoint_{'2CEN}, epoint_{'2LFT}, arrow_{LEN}, arrow_{WID}, arrow_{ANG})</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip8 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5698">
+    <clipPath
+       id="clipd9a0a2d0-696d-4ff4-9426-410b878d42ed">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5701"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip9)"
+       id="g5703">
+      <g
+         id="g5705"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none">
+        <path
+           d="m 596.27,245.7 -10.46,-16.15 -2.86,5.6 -67.12,-34.29 -3.04,5.94 67.12,34.29 -2.86,5.6 z"
+           id="path5707"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5709">Polygon poly_{2RGT}</title>
+        <desc
+           id="desc5711">Polygon poly_{2RGT}: ArrowTool(epoint_{'2CEN}, epoint_{'2RGT}, arrow_{LEN}, arrow_{WID}, arrow_{ANG})</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip9 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5713">
+    <clipPath
+       id="clip19c8c822-2651-4050-93b4-d6dbfc087cba">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5716"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip10)"
+       id="g5718">
+      <g
+         id="g5720"
+         style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 596.27,245.7 -10.46,-16.15 -2.86,5.6 -67.12,-34.29 -3.04,5.94 67.12,34.29 -2.86,5.6 z"
+           id="path5722"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5724">Polygon poly_{2RGT}</title>
+        <desc
+           id="desc5726">Polygon poly_{2RGT}: ArrowTool(epoint_{'2CEN}, epoint_{'2RGT}, arrow_{LEN}, arrow_{WID}, arrow_{ANG})</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip10 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5728">
+    <clipPath
+       id="clip76c08835-b8a6-4ee7-a267-58faf11ac640">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5731"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip11)"
+       id="g5733">
+      <g
+         id="g5735"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none">
+        <path
+           d="m 519.03,111.92 -10.46,16.15 6.28,0.32 -3.87,75.27 6.66,0.34 3.87,-75.27 6.28,0.33 z"
+           id="path5737"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5739">Polygon poly_{2TOP}</title>
+        <desc
+           id="desc5741">Polygon poly_{2TOP}: ArrowTool(epoint_{'2CEN}, epoint_{'2TOP}, arrow_{LEN}, arrow_{WID}, arrow_{ANG})</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip11 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5743">
+    <clipPath
+       id="clipa298c53d-961d-4950-bbf1-a77e43d26892">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5746"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip12)"
+       id="g5748">
+      <g
+         id="g5750"
+         style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 519.03,111.92 -10.46,16.15 6.28,0.32 -3.87,75.27 6.66,0.34 3.87,-75.27 6.28,0.33 z"
+           id="path5752"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5754">Polygon poly_{2TOP}</title>
+        <desc
+           id="desc5756">Polygon poly_{2TOP}: ArrowTool(epoint_{'2CEN}, epoint_{'2TOP}, arrow_{LEN}, arrow_{WID}, arrow_{ANG})</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip12 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5758">
+    <clipPath
+       id="clip0185c42b-4a60-4103-b488-9c5641d6486c">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5761"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip13)"
+       id="g5763">
+      <g
+         id="g5765"
+         style="fill:#000000;fill-opacity:0.24706002;fill-rule:nonzero;stroke:none">
+        <path
+           d="m 274.51,393.42 c -17.82,0.58 -33.98,10.62 -42.41,26.34 -8.43,15.71 -7.85,34.73 1.52,49.9 l 42.54,-26.27 z"
+           id="path5767"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5769">Angle angle_{1TL}</title>
+        <desc
+           id="desc5771">Angle angle_{1TL}: Angle between epoint_{'1TOP}, epoint_{'1CEN}, epoint_{'1LFT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip13 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5773">
+    <clipPath
+       id="clip34a757b8-657d-4bcf-91fb-adc86e641cca">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5776"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip14)"
+       id="g5778">
+      <g
+         id="g5780"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 274.51,393.42 c -17.82,0.58 -33.98,10.62 -42.41,26.34 -8.43,15.71 -7.85,34.73 1.52,49.9 l 42.54,-26.27 z"
+           id="path5782"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5784">Angle angle_{1TL}</title>
+        <desc
+           id="desc5786">Angle angle_{1TL}: Angle between epoint_{'1TOP}, epoint_{'1CEN}, epoint_{'1LFT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip14 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5788">
+    <clipPath
+       id="clip5428ade0-0832-4426-8b02-07b8e6a2420e">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5791"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip15)"
+       id="g5793">
+      <g
+         id="g5795"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 232.9,427.04 -7.01,-2.66"
+           id="path5797"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5799">Angle angle_{1TL}</title>
+        <desc
+           id="desc5801">Angle angle_{1TL}: Angle between epoint_{'1TOP}, epoint_{'1CEN}, epoint_{'1LFT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip15 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5803">
+    <clipPath
+       id="clip45fee98a-50e1-4c2b-9fef-d57eee62d7c5">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5806"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip16)"
+       id="g5808">
+      <g
+         id="g5810"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 238.61,416.4 -6.09,-4.38"
+           id="path5812"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5814">Angle angle_{1TL}</title>
+        <desc
+           id="desc5816">Angle angle_{1TL}: Angle between epoint_{'1TOP}, epoint_{'1CEN}, epoint_{'1LFT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip16 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5818">
+    <clipPath
+       id="clip25495f96-c4b9-45cd-941d-2224c45c5ae1">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5821"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip17)"
+       id="g5823">
+      <g
+         id="g5825"
+         style="fill:#000000;fill-opacity:0.24706002;fill-rule:nonzero;stroke:none">
+        <path
+           d="m 317.82,471.04 c 10.35,-15.59 11.13,-35.67 2.01,-52.01 -9.12,-16.35 -26.61,-26.23 -45.32,-25.61 l 1.65,49.97 z"
+           id="path5827"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5829">Angle angle_{1RT}</title>
+        <desc
+           id="desc5831">Angle angle_{1RT}: Angle between epoint_{'1RGT}, epoint_{'1CEN}, epoint_{'1TOP}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip17 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5833">
+    <clipPath
+       id="clip85e0f750-b333-43d2-ab0d-441331bb7438">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5836"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip18)"
+       id="g5838">
+      <g
+         id="g5840"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 317.82,471.04 c 10.35,-15.59 11.13,-35.67 2.01,-52.01 -9.12,-16.35 -26.61,-26.23 -45.32,-25.61 l 1.65,49.97 z"
+           id="path5842"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5844">Angle angle_{1RT}</title>
+        <desc
+           id="desc5846">Angle angle_{1RT}: Angle between epoint_{'1RGT}, epoint_{'1CEN}, epoint_{'1TOP}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip18 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5848">
+    <clipPath
+       id="clipd0446fdc-df78-4407-86db-aa401f0e6708">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5851"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip19)"
+       id="g5853">
+      <g
+         id="g5855"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 316.55,420.85 6.55,-3.65"
+           id="path5857"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5859">Angle angle_{1RT}</title>
+        <desc
+           id="desc5861">Angle angle_{1RT}: Angle between epoint_{'1RGT}, epoint_{'1CEN}, epoint_{'1TOP}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip19 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5863">
+    <clipPath
+       id="clipdffa0b3e-b11f-4389-9bf4-c8066e83a8bd">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5866"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip20)"
+       id="g5868">
+      <g
+         id="g5870"
+         style="fill:#000000;fill-opacity:0.24706002;fill-rule:nonzero;stroke:none">
+        <path
+           d="m 233.62,469.66 c 8.96,14.5 24.68,23.44 41.72,23.72 17.05,0.28 33.06,-8.14 42.48,-22.34 l -41.66,-27.65 z"
+           id="path5872"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5874">Angle angle_{1LR}</title>
+        <desc
+           id="desc5876">Angle angle_{1LR}: Angle between epoint_{'1LFT}, epoint_{'1CEN}, epoint_{'1RGT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip20 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5878">
+    <clipPath
+       id="clipc0b29dd1-0c93-42ba-bf22-b618a30a7cf4">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5881"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip21)"
+       id="g5883">
+      <g
+         id="g5885"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 233.62,469.66 c 8.96,14.5 24.68,23.44 41.72,23.72 17.05,0.28 33.06,-8.14 42.48,-22.34 l -41.66,-27.65 z"
+           id="path5887"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5889">Angle angle_{1LR}</title>
+        <desc
+           id="desc5891">Angle angle_{1LR}: Angle between epoint_{'1LFT}, epoint_{'1CEN}, epoint_{'1RGT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip21 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5893">
+    <clipPath
+       id="clip038ea1ce-7842-43d7-b8c6-af9a35b4af2b">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5896"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip22)"
+       id="g5898">
+      <g
+         id="g5900"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="M 263.98,488 262,495.24"
+           id="path5902"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5904">Angle angle_{1LR}</title>
+        <desc
+           id="desc5906">Angle angle_{1LR}: Angle between epoint_{'1LFT}, epoint_{'1CEN}, epoint_{'1RGT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip22 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5908">
+    <clipPath
+       id="clip4b9f0046-a28d-4cae-b6b6-67dd4c1f6ad0">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5911"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip23)"
+       id="g5913">
+      <g
+         id="g5915"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 286.88,488.38 1.74,7.29"
+           id="path5917"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5919">Angle angle_{1LR}</title>
+        <desc
+           id="desc5921">Angle angle_{1LR}: Angle between epoint_{'1LFT}, epoint_{'1CEN}, epoint_{'1RGT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip23 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5923">
+    <clipPath
+       id="clip01b38d64-1559-4833-a2e1-c5df463b0111">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5926"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip24)"
+       id="g5928">
+      <g
+         id="g5930"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 275.41,489.63 -0.13,7.5"
+           id="path5932"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5934">Angle angle_{1LR}</title>
+        <desc
+           id="desc5936">Angle angle_{1LR}: Angle between epoint_{'1LFT}, epoint_{'1CEN}, epoint_{'1RGT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip24 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5938">
+    <clipPath
+       id="clip380bfa61-5b76-45ae-b89c-008c7a5e3ed5">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5941"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip25)"
+       id="g5943">
+      <g
+         id="g5945"
+         style="fill:#000000;fill-opacity:0.24706002;fill-rule:nonzero;stroke:none">
+        <path
+           d="m 516.36,163.89 c -14.64,-0.76 -28.51,6.56 -36.17,19.06 -7.65,12.5 -7.85,28.19 -0.52,40.88 l 34.64,-20 z"
+           id="path5947"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5949">Angle angle_{2TL}</title>
+        <desc
+           id="desc5951">Angle angle_{2TL}: Angle between epoint_{'2TOP}, epoint_{'2CEN}, epoint_{'2LFT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip25 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5953">
+    <clipPath
+       id="clip18e9e141-c2d4-4ebb-81c8-de440a57c0ea">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5956"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip26)"
+       id="g5958">
+      <g
+         id="g5960"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 516.36,163.89 c -14.64,-0.76 -28.51,6.56 -36.17,19.06 -7.65,12.5 -7.85,28.19 -0.52,40.88 l 34.64,-20 z"
+           id="path5962"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5964">Angle angle_{2TL}</title>
+        <desc
+           id="desc5966">Angle angle_{2TL}: Angle between epoint_{'2TOP}, epoint_{'2CEN}, epoint_{'2LFT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip26 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5968">
+    <clipPath
+       id="clip4074fccc-10e2-4c8e-adbb-d654bffa8342">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5971"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip27)"
+       id="g5973">
+      <g
+         id="g5975"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 481.19,189.11 -6.86,-3.05"
+           id="path5977"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5979">Angle angle_{2TL}</title>
+        <desc
+           id="desc5981">Angle angle_{2TL}: Angle between epoint_{'2TOP}, epoint_{'2CEN}, epoint_{'2LFT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip27 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5983">
+    <clipPath
+       id="clip9392cc5f-12f6-4625-90b2-fef56c3da01a">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path5986"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip28)"
+       id="g5988">
+      <g
+         id="g5990"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 486.13,181.03 -5.83,-4.71"
+           id="path5992"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title5994">Angle angle_{2TL}</title>
+        <desc
+           id="desc5996">Angle angle_{2TL}: Angle between epoint_{'2TOP}, epoint_{'2CEN}, epoint_{'2LFT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip28 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g5998">
+    <clipPath
+       id="clip71b0d34b-6687-470d-a9f5-b52138c7a900">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path6001"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip29)"
+       id="g6003">
+      <g
+         id="g6005"
+         style="fill:#000000;fill-opacity:0.24706002;fill-rule:nonzero;stroke:none">
+        <path
+           d="m 479.67,223.83 c 7.33,12.7 21.01,20.37 35.67,19.99 14.65,-0.38 27.92,-8.74 34.59,-21.79 l -35.62,-18.2 z"
+           id="path6007"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title6009">Angle angle_{2LR}</title>
+        <desc
+           id="desc6011">Angle angle_{2LR}: Angle between epoint_{'2LFT}, epoint_{'2CEN}, epoint_{'2RGT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip29 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g6013">
+    <clipPath
+       id="clip24894880-4471-489e-a0df-640b34b42aad">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path6016"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip30)"
+       id="g6018">
+      <g
+         id="g6020"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 479.67,223.83 c 7.33,12.7 21.01,20.37 35.67,19.99 14.65,-0.38 27.92,-8.74 34.59,-21.79 l -35.62,-18.2 z"
+           id="path6022"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title6024">Angle angle_{2LR}</title>
+        <desc
+           id="desc6026">Angle angle_{2LR}: Angle between epoint_{'2LFT}, epoint_{'2CEN}, epoint_{'2RGT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip30 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g6028">
+    <clipPath
+       id="clipc81c1882-415d-49c7-939c-0d99d289dc57">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path6031"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip31)"
+       id="g6033">
+      <g
+         id="g6035"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 524.59,238.6 2.12,7.19"
+           id="path6037"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title6039">Angle angle_{2LR}</title>
+        <desc
+           id="desc6041">Angle angle_{2LR}: Angle between epoint_{'2LFT}, epoint_{'2CEN}, epoint_{'2RGT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip31 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g6043">
+    <clipPath
+       id="clip117a622b-f482-4db4-9703-a9c09bebe8a1">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path6046"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip32)"
+       id="g6048">
+      <g
+         id="g6050"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 505.83,239.08 -1.76,7.29"
+           id="path6052"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title6054">Angle angle_{2LR}</title>
+        <desc
+           id="desc6056">Angle angle_{2LR}: Angle between epoint_{'2LFT}, epoint_{'2CEN}, epoint_{'2RGT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip32 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g6058">
+    <clipPath
+       id="clip35f43203-4366-4cc1-9e22-b8272f322552">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path6061"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip33)"
+       id="g6063">
+      <g
+         id="g6065"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 515.24,240.07 0.19,7.5"
+           id="path6067"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title6069">Angle angle_{2LR}</title>
+        <desc
+           id="desc6071">Angle angle_{2LR}: Angle between epoint_{'2LFT}, epoint_{'2CEN}, epoint_{'2RGT}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip33 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g6073">
+    <clipPath
+       id="clipdeeb6dba-8fc3-4b2b-b8e7-dbf44802da35">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path6076"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip34)"
+       id="g6078">
+      <g
+         id="g6080"
+         style="fill:#000000;fill-opacity:0.24706002;fill-rule:nonzero;stroke:none">
+        <path
+           d="m 549.93,222.03 c 6.17,-12.08 5.8,-26.45 -0.98,-38.2 -6.78,-11.74 -19.05,-19.25 -32.59,-19.94 l -2.05,39.94 z"
+           id="path6082"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title6084">Angle angle_{2RT}</title>
+        <desc
+           id="desc6086">Angle angle_{2RT}: Angle between epoint_{'2RGT}, epoint_{'2CEN}, epoint_{'2TOP}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip34 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g6088">
+    <clipPath
+       id="clip083532d1-ba2b-4eaa-bf9b-431789ebc3e5">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path6091"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip35)"
+       id="g6093">
+      <g
+         id="g6095"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 549.93,222.03 c 6.17,-12.08 5.8,-26.45 -0.98,-38.2 -6.78,-11.74 -19.05,-19.25 -32.59,-19.94 l -2.05,39.94 z"
+           id="path6097"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title6099">Angle angle_{2RT}</title>
+        <desc
+           id="desc6101">Angle angle_{2RT}: Angle between epoint_{'2RGT}, epoint_{'2CEN}, epoint_{'2TOP}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip35 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g6103">
+    <clipPath
+       id="clipf95cd177-d4cf-4e10-9cf9-089e04c2bb2d">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path6106"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip36)"
+       id="g6108">
+      <g
+         id="g6110"
+         style="fill:none;stroke:#000000;stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
+        <path
+           d="m 545.7,185.71 6.5,-3.75"
+           id="path6112"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title6114">Angle angle_{2RT}</title>
+        <desc
+           id="desc6116">Angle angle_{2RT}: Angle between epoint_{'2RGT}, epoint_{'2CEN}, epoint_{'2TOP}</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip36 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g6118">
+    <clipPath
+       id="clipdf96fa19-4df3-4019-95d5-89b07f590822">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path6121"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip37)"
+       id="g6123">
+      <g
+         id="g6125"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
+        <path
+           d="m 320.88,412 -2.76,0 0,-10.34 q -1.5,1.4 -3.54,2.07 l 0,-2.48 q 1.08,-0.36 2.33,-1.34 1.26,-0.97 1.73,-2.29 l 2.24,0 0,14.38 z m 13.37,-2.55 0,2.55 -9.63,0 q 0.16,-1.45 0.94,-2.74 0.78,-1.29 3.08,-3.43 1.86,-1.74 2.28,-2.35 0.56,-0.84 0.56,-1.68 0,-0.91 -0.49,-1.4 -0.49,-0.49 -1.35,-0.49 -0.86,0 -1.37,0.51 -0.51,0.52 -0.58,1.72 l -2.74,-0.28 q 0.24,-2.27 1.52,-3.25 1.29,-0.99 3.23,-0.99 2.13,0 3.34,1.15 1.21,1.14 1.21,2.84 0,0.97 -0.35,1.84 -0.36,0.88 -1.11,1.83 -0.5,0.64 -1.79,1.83 -1.3,1.19 -1.64,1.58 -0.35,0.39 -0.57,0.76 l 5.46,0 z m 1.89,-1.14 2.73,-0.28 q 0.11,0.94 0.69,1.48 0.58,0.54 1.33,0.54 0.86,0 1.46,-0.7 0.6,-0.69 0.6,-2.1 0,-1.33 -0.59,-1.98 -0.6,-0.66 -1.55,-0.66 -1.17,0 -2.11,1.05 l -2.24,-0.33 1.41,-7.45 7.27,0 0,2.57 -5.19,0 -0.42,2.43 q 0.92,-0.46 1.87,-0.46 1.83,0 3.1,1.33 1.26,1.33 1.26,3.44 0,1.78 -1.01,3.15 -1.41,1.91 -3.89,1.91 -1.97,0 -3.22,-1.07 -1.25,-1.07 -1.5,-2.87 z m 11.67,3.69 0,-2.75 2.75,0 0,2.75 -2.75,0 z m 10.35,0 0,-2.88 -5.86,0 0,-2.4 6.2,-9.1 2.32,0 0,9.08 1.78,0 0,2.42 -1.78,0 0,2.88 -2.66,0 z m 0,-5.3 0,-4.89 -3.3,4.89 3.3,0 z m 5.73,-6.28 0,-2.54 9.39,0 0,2 q -1.15,1.14 -2.36,3.28 -1.2,2.14 -1.83,4.54 -0.63,2.41 -0.62,4.3 l -2.64,0 q 0.06,-2.97 1.22,-6.05 1.16,-3.09 3.09,-5.53 l -6.25,0 z m 11.13,0.13 q 0,-1.3 0.91,-2.21 0.91,-0.9 2.19,-0.9 1.3,0 2.22,0.91 0.91,0.92 0.91,2.2 0,1.29 -0.91,2.21 -0.92,0.91 -2.22,0.91 -1.28,0 -2.19,-0.91 -0.91,-0.92 -0.91,-2.21 z m 1.62,0 q 0,0.62 0.44,1.06 0.44,0.44 1.04,0.44 0.63,0 1.07,-0.44 0.43,-0.44 0.43,-1.06 0,-0.61 -0.43,-1.05 -0.44,-0.44 -1.07,-0.44 -0.6,0 -1.04,0.44 -0.44,0.44 -0.44,1.05 z"
+           id="path6127"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title6129">125.47Â°</title>
+        <desc
+           id="desc6131">Text text_{'1RT}: Text(text_{1RT}, opoint_{1RT})</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip37 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g6133">
+    <clipPath
+       id="clipc557c1db-ce7d-41e5-ad58-b72a6ff9d2a5">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path6136"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip38)"
+       id="g6138">
+      <g
+         id="g6140"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
+        <path
+           d="m 174.88,408 -2.76,0 0,-10.34 q -1.5,1.4 -3.54,2.07 l 0,-2.48 q 1.08,-0.36 2.33,-1.34 1.26,-0.97 1.73,-2.29 l 2.24,0 0,14.38 z m 11.12,0 -2.75,0 0,-10.34 q -1.5,1.4 -3.55,2.07 l 0,-2.48 q 1.08,-0.36 2.34,-1.34 1.25,-0.97 1.72,-2.29 l 2.24,0 0,14.38 z m 4.15,-3.31 2.66,-0.3 q 0.09,0.81 0.51,1.2 0.41,0.39 1.08,0.39 0.85,0 1.45,-0.78 0.6,-0.78 0.76,-3.23 -1.04,1.2 -2.58,1.2 -1.69,0 -2.92,-1.3 -1.22,-1.31 -1.22,-3.4 0,-2.17 1.29,-3.51 1.28,-1.34 3.28,-1.34 2.19,0 3.59,1.69 1.4,1.69 1.4,5.53 0,3.94 -1.46,5.68 -1.46,1.73 -3.79,1.73 -1.69,0 -2.72,-0.89 -1.03,-0.89 -1.33,-2.67 z m 6.22,-6 q 0,-1.33 -0.61,-2.06 -0.61,-0.72 -1.42,-0.72 -0.75,0 -1.26,0.59 -0.51,0.59 -0.51,1.97 0,1.39 0.55,2.04 0.55,0.65 1.38,0.65 0.78,0 1.32,-0.63 0.55,-0.62 0.55,-1.84 z m 5.44,9.31 0,-2.75 2.75,0 0,2.75 -2.75,0 z m 7.32,-7.72 q -1.06,-0.45 -1.55,-1.24 -0.48,-0.79 -0.48,-1.73 0,-1.59 1.11,-2.64 1.12,-1.05 3.18,-1.05 2.05,0 3.18,1.05 1.12,1.05 1.12,2.64 0,1 -0.51,1.78 -0.52,0.77 -1.46,1.19 1.19,0.47 1.81,1.39 0.61,0.92 0.61,2.13 0,1.97 -1.25,3.21 -1.26,1.24 -3.37,1.24 -1.95,0 -3.25,-1.02 -1.53,-1.21 -1.53,-3.32 0,-1.16 0.58,-2.14 0.57,-0.97 1.81,-1.49 z m 0.56,-2.76 q 0,0.81 0.47,1.27 0.47,0.46 1.23,0.46 0.79,0 1.25,-0.46 0.47,-0.46 0.47,-1.29 0,-0.77 -0.46,-1.23 -0.46,-0.47 -1.22,-0.47 -0.8,0 -1.27,0.47 -0.47,0.46 -0.47,1.25 z m -0.25,6.12 q 0,1.14 0.58,1.77 0.58,0.64 1.45,0.64 0.85,0 1.41,-0.61 0.56,-0.61 0.56,-1.77 0,-1 -0.57,-1.61 -0.57,-0.61 -1.43,-0.61 -1.01,0 -1.51,0.69 -0.49,0.69 -0.49,1.5 z m 15.48,4.36 -2.75,0 0,-10.34 q -1.5,1.4 -3.54,2.07 l 0,-2.48 q 1.08,-0.36 2.33,-1.34 1.26,-0.97 1.73,-2.29 l 2.23,0 0,14.38 z m 4.1,-11.45 q 0,-1.3 0.91,-2.21 0.91,-0.9 2.19,-0.9 1.3,0 2.22,0.91 0.91,0.92 0.91,2.2 0,1.29 -0.91,2.21 -0.92,0.91 -2.22,0.91 -1.28,0 -2.19,-0.91 -0.91,-0.92 -0.91,-2.21 z m 1.62,0 q 0,0.62 0.44,1.06 0.44,0.44 1.04,0.44 0.63,0 1.07,-0.44 0.43,-0.44 0.43,-1.06 0,-0.61 -0.43,-1.05 -0.44,-0.44 -1.07,-0.44 -0.6,0 -1.04,0.44 -0.44,0.44 -0.44,1.05 z"
+           id="path6142"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title6144">119.81Â°</title>
+        <desc
+           id="desc6146">Text text_{'1TL}: Text(text_{1TL}, opoint_{1TL})</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip38 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g6148">
+    <clipPath
+       id="clipb60644a9-f11b-494f-8751-3352b67574c5">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path6151"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip39)"
+       id="g6153">
+      <g
+         id="g6155"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
+        <path
+           d="m 242.88,533 -2.76,0 0,-10.34 q -1.5,1.4 -3.54,2.07 l 0,-2.48 q 1.08,-0.36 2.33,-1.34 1.26,-0.97 1.73,-2.29 l 2.24,0 0,14.38 z m 11.12,0 -2.75,0 0,-10.34 q -1.5,1.4 -3.55,2.07 l 0,-2.48 q 1.08,-0.36 2.34,-1.34 1.25,-0.97 1.72,-2.29 l 2.24,0 0,14.38 z m 9.48,0 0,-2.88 -5.86,0 0,-2.4 6.2,-9.1 2.32,0 0,9.08 1.78,0 0,2.42 -1.78,0 0,2.88 -2.66,0 z m 0,-5.3 0,-4.89 -3.3,4.89 3.3,0 z m 6.33,5.3 0,-2.75 2.75,0 0,2.75 -2.75,0 z m 4.96,-11.58 0,-2.54 9.39,0 0,2 q -1.16,1.14 -2.36,3.28 -1.2,2.14 -1.84,4.54 -0.63,2.41 -0.61,4.3 l -2.64,0 q 0.06,-2.97 1.22,-6.05 1.15,-3.09 3.09,-5.53 l -6.25,0 z m 11.03,7.78 2.66,-0.32 q 0.12,1.01 0.68,1.55 0.57,0.54 1.35,0.54 0.86,0 1.43,-0.65 0.58,-0.65 0.58,-1.74 0,-1.03 -0.55,-1.63 -0.56,-0.61 -1.37,-0.61 -0.52,0 -1.25,0.21 l 0.3,-2.24 q 1.11,0.03 1.69,-0.48 0.59,-0.52 0.59,-1.36 0,-0.74 -0.43,-1.17 -0.43,-0.42 -1.13,-0.42 -0.71,0 -1.21,0.49 -0.5,0.49 -0.61,1.43 L 286,522.36 q 0.27,-1.3 0.8,-2.07 0.53,-0.77 1.48,-1.22 0.96,-0.45 2.14,-0.45 2.02,0 3.24,1.29 1.01,1.06 1.01,2.39 0,1.89 -2.06,3 1.24,0.26 1.97,1.18 0.73,0.93 0.73,2.22 0,1.89 -1.37,3.22 -1.38,1.33 -3.44,1.33 -1.94,0 -3.22,-1.13 Q 286,531 285.8,529.2 Z m 11.22,-7.65 q 0,-1.3 0.91,-2.21 0.91,-0.9 2.19,-0.9 1.3,0 2.22,0.91 0.91,0.92 0.91,2.2 0,1.29 -0.91,2.21 -0.92,0.91 -2.22,0.91 -1.28,0 -2.19,-0.91 -0.91,-0.92 -0.91,-2.21 z m 1.62,0 q 0,0.62 0.44,1.06 0.44,0.44 1.04,0.44 0.63,0 1.07,-0.44 0.43,-0.44 0.43,-1.06 0,-0.61 -0.43,-1.05 -0.44,-0.44 -1.07,-0.44 -0.6,0 -1.04,0.44 -0.44,0.44 -0.44,1.05 z"
+           id="path6157"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title6159">114.73Â°</title>
+        <desc
+           id="desc6161">Text text_{'1LR}: Text(text_{1LR}, opoint_{1LR})</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip39 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g6163">
+    <clipPath
+       id="clip93ff9d26-8276-4afd-8492-aafe6b87d89b">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path6166"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip40)"
+       id="g6168">
+      <g
+         id="g6170"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
+        <path
+           d="m 434.77,90 -2.96,0 3,-14.312 5.81,0 q 1.57,0 2.47,0.367 0.89,0.367 1.43,1.211 0.53,0.843 0.53,2.015 0,1.078 -0.43,2.102 -0.42,1.023 -1.03,1.64 -0.61,0.618 -1.31,0.938 -0.7,0.32 -1.89,0.477 -0.7,0.109 -2.61,0.109 l -1.87,0 -1.14,5.453 z m 1.62,-7.828 0.91,0 q 2.34,0 3.12,-0.297 0.78,-0.297 1.23,-0.937 0.44,-0.641 0.44,-1.422 0,-0.516 -0.22,-0.844 -0.23,-0.328 -0.64,-0.484 -0.42,-0.157 -1.85,-0.157 l -2.11,0 -0.88,4.141 z m 8.78,7.828 2.98,-14.312 10.61,0 -0.5,2.39 -7.65,0 -0.69,3.25 7.4,0 -0.5,2.391 -7.4,0 -0.89,3.89 8.33,0 -0.52,2.391 -11.17,0 z m 16.34,0 -2.96,0 3,-14.312 6.36,0 q 1.64,0 2.56,0.335 0.91,0.336 1.48,1.235 0.56,0.898 0.56,2.18 0,1.828 -1.1,3.007 -1.09,1.18 -3.31,1.477 0.56,0.5 1.06,1.328 0.99,1.688 2.21,4.75 l -3.17,0 q -0.38,-1.219 -1.49,-3.781 -0.61,-1.391 -1.3,-1.86 -0.42,-0.281 -1.46,-0.281 l -1.21,0 -1.23,5.922 z m 1.69,-8.078 1.56,0 q 2.37,0 3.15,-0.281 0.77,-0.282 1.21,-0.891 0.45,-0.609 0.45,-1.266 0,-0.781 -0.64,-1.172 -0.39,-0.234 -1.69,-0.234 l -3.25,0 -0.79,3.844 z m 10.19,3.437 2.81,-0.14 q 0.05,1.328 0.45,1.797 0.64,0.765 2.39,0.765 1.44,0 2.09,-0.515 0.65,-0.516 0.65,-1.25 0,-0.641 -0.53,-1.078 -0.38,-0.313 -2.04,-1.04 -1.67,-0.726 -2.43,-1.21 -0.77,-0.485 -1.2,-1.258 -0.44,-0.774 -0.44,-1.805 0,-1.797 1.3,-2.992 1.31,-1.195 3.79,-1.195 2.52,0 3.9,1.179 1.38,1.18 1.52,3.149 l -2.82,0.125 q -0.11,-1.032 -0.75,-1.579 -0.63,-0.546 -1.86,-0.546 -1.24,0 -1.75,0.429 -0.52,0.43 -0.52,1.086 0,0.625 0.47,1.016 0.48,0.422 2.12,1.125 2.47,1.062 3.15,1.734 1,0.969 1,2.5 0,1.906 -1.5,3.25 -1.49,1.344 -4.18,1.344 -1.84,0 -3.19,-0.625 -1.35,-0.625 -1.91,-1.727 -0.55,-1.101 -0.52,-2.539 z m 15.84,4.641 -2.95,0 3,-14.312 5.81,0 q 1.56,0 2.46,0.367 0.9,0.367 1.43,1.211 0.53,0.843 0.53,2.015 0,1.078 -0.42,2.102 -0.42,1.023 -1.03,1.64 -0.61,0.618 -1.32,0.938 -0.7,0.32 -1.89,0.477 -0.7,0.109 -2.61,0.109 l -1.87,0 -1.14,5.453 z m 1.62,-7.828 0.91,0 q 2.34,0 3.12,-0.297 0.79,-0.297 1.23,-0.937 0.45,-0.641 0.45,-1.422 0,-0.516 -0.23,-0.844 -0.23,-0.328 -0.64,-0.484 -0.41,-0.157 -1.85,-0.157 l -2.11,0 -0.88,4.141 z m 8.78,7.828 2.99,-14.312 10.6,0 -0.5,2.39 -7.65,0 -0.69,3.25 7.41,0 -0.5,2.391 -7.41,0 -0.89,3.89 8.33,0 -0.52,2.391 -11.17,0 z m 23.7,-5.156 2.97,0.453 q -0.86,2.406 -2.6,3.68 -1.74,1.273 -4.07,1.273 -2.63,0 -4.11,-1.578 -1.49,-1.578 -1.49,-4.594 0,-2.437 1,-4.461 0.99,-2.023 2.75,-3.101 1.75,-1.078 3.83,-1.078 2.31,0 3.75,1.242 1.44,1.242 1.69,3.398 l -2.81,0.266 q -0.24,-1.25 -0.91,-1.805 -0.67,-0.555 -1.78,-0.555 -1.22,0 -2.28,0.743 -1.06,0.742 -1.7,2.312 -0.63,1.57 -0.63,3.149 0,1.718 0.83,2.656 0.83,0.937 2.04,0.937 1.15,0 2.1,-0.742 0.95,-0.742 1.42,-2.195 z m 10.3,5.156 -2.93,0 2.5,-11.922 -4.21,0 0.5,-2.39 11.28,0 -0.5,2.39 -4.14,0 -2.5,11.922 z m 5.86,0 3,-14.312 2.94,0 -2.99,14.312 -2.95,0 z m 12.85,0 -3.15,0 -2.57,-14.312 2.94,0 1.82,10.828 5.93,-10.828 2.92,0 L 552.34,90 Z m 6.19,0 2.98,-14.312 10.61,0 -0.5,2.39 -7.66,0 -0.68,3.25 7.4,0 -0.5,2.391 -7.4,0 -0.89,3.89 8.32,0 -0.51,2.391 -11.17,0 z"
+           id="path6172"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title6174">PERSPECTIVE</title>
+        <desc
+           id="desc6176">text_{LBL} = âPERSPECTIVEâ</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip40 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g6178">
+    <clipPath
+       id="clipaf88f7ca-6cd0-42d8-9912-3e1986da76cf">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path6181"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip41)"
+       id="g6183">
+      <g
+         id="g6185"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
+        <path
+           d="m 490.88,293 -2.76,0 0,-10.34 q -1.5,1.4 -3.54,2.07 l 0,-2.48 q 1.08,-0.36 2.33,-1.34 1.26,-0.97 1.73,-2.29 l 2.24,0 0,14.38 z m 13.37,-2.55 0,2.55 -9.63,0 q 0.16,-1.45 0.94,-2.74 0.78,-1.29 3.08,-3.43 1.86,-1.74 2.28,-2.35 0.56,-0.84 0.56,-1.68 0,-0.91 -0.49,-1.4 -0.49,-0.49 -1.35,-0.49 -0.86,0 -1.37,0.51 -0.51,0.52 -0.58,1.72 l -2.74,-0.28 q 0.24,-2.27 1.52,-3.25 1.29,-0.99 3.23,-0.99 2.13,0 3.34,1.15 1.21,1.14 1.21,2.84 0,0.97 -0.35,1.84 -0.36,0.88 -1.11,1.83 -0.5,0.64 -1.79,1.83 -1.3,1.19 -1.64,1.58 -0.35,0.39 -0.57,0.76 l 5.46,0 z m 11.12,0 0,2.55 -9.62,0 q 0.15,-1.45 0.93,-2.74 0.78,-1.29 3.08,-3.43 1.86,-1.74 2.28,-2.35 0.57,-0.84 0.57,-1.68 0,-0.91 -0.5,-1.4 -0.49,-0.49 -1.35,-0.49 -0.86,0 -1.37,0.51 -0.5,0.52 -0.58,1.72 l -2.74,-0.28 q 0.24,-2.27 1.53,-3.25 1.29,-0.99 3.22,-0.99 2.13,0 3.34,1.15 1.21,1.14 1.21,2.84 0,0.97 -0.35,1.84 -0.35,0.88 -1.1,1.83 -0.5,0.64 -1.8,1.83 -1.3,1.19 -1.64,1.58 -0.34,0.39 -0.56,0.76 l 5.45,0 z m 2.44,2.55 0,-2.75 2.75,0 0,2.75 -2.75,0 z m 5.02,-3.31 2.66,-0.3 q 0.09,0.81 0.51,1.2 0.41,0.39 1.08,0.39 0.85,0 1.45,-0.78 0.6,-0.78 0.76,-3.23 -1.04,1.2 -2.58,1.2 -1.69,0 -2.92,-1.3 -1.22,-1.31 -1.22,-3.4 0,-2.17 1.29,-3.51 1.28,-1.34 3.28,-1.34 2.19,0 3.59,1.69 1.4,1.69 1.4,5.53 0,3.94 -1.46,5.68 -1.46,1.73 -3.79,1.73 -1.69,0 -2.72,-0.89 -1.03,-0.89 -1.33,-2.67 z m 6.22,-6 q 0,-1.33 -0.61,-2.06 -0.61,-0.72 -1.42,-0.72 -0.75,0 -1.26,0.59 -0.51,0.59 -0.51,1.97 0,1.39 0.55,2.04 0.55,0.65 1.38,0.65 0.78,0 1.32,-0.63 0.55,-0.62 0.55,-1.84 z m 10.23,9.31 0,-2.88 -5.86,0 0,-2.4 6.21,-9.1 2.31,0 0,9.08 1.78,0 0,2.42 -1.78,0 0,2.88 -2.66,0 z m 0,-5.3 0,-4.89 -3.29,4.89 3.29,0 z m 5.74,-6.15 q 0,-1.3 0.91,-2.21 0.91,-0.9 2.19,-0.9 1.3,0 2.22,0.91 0.91,0.92 0.91,2.2 0,1.29 -0.91,2.21 -0.92,0.91 -2.22,0.91 -1.28,0 -2.19,-0.91 -0.91,-0.92 -0.91,-2.21 z m 1.62,0 q 0,0.62 0.44,1.06 0.44,0.44 1.04,0.44 0.63,0 1.07,-0.44 0.43,-0.44 0.43,-1.06 0,-0.61 -0.43,-1.05 -0.44,-0.44 -1.07,-0.44 -0.6,0 -1.04,0.44 -0.44,0.44 -0.44,1.05 z"
+           id="path6187"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title6189">122.94Â°</title>
+        <desc
+           id="desc6191">Text text_{'2LR}: Text(text_{2LR}, opoint_{2LR})</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip41 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g6193">
+    <clipPath
+       id="clipbfb02d20-2631-4fa5-8fd5-3b3623204299">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path6196"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip42)"
+       id="g6198">
+      <g
+         id="g6200"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
+        <path
+           d="m 547.88,170 -2.76,0 0,-10.34 q -1.5,1.4 -3.54,2.07 l 0,-2.48 q 1.08,-0.36 2.33,-1.34 1.26,-0.97 1.73,-2.29 l 2.24,0 0,14.38 z m 11.12,0 -2.75,0 0,-10.34 q -1.5,1.4 -3.55,2.07 l 0,-2.48 q 1.08,-0.36 2.34,-1.34 1.25,-0.97 1.72,-2.29 l 2.24,0 0,14.38 z m 9.48,0 0,-2.88 -5.86,0 0,-2.4 6.2,-9.1 2.32,0 0,9.08 1.78,0 0,2.42 -1.78,0 0,2.88 -2.66,0 z m 0,-5.3 0,-4.89 -3.3,4.89 3.3,0 z m 6.33,5.3 0,-2.75 2.75,0 0,2.75 -2.75,0 z m 11.99,0 -2.75,0 0,-10.34 q -1.5,1.4 -3.55,2.07 l 0,-2.48 q 1.08,-0.36 2.34,-1.34 1.26,-0.97 1.73,-2.29 l 2.23,0 0,14.38 z m 13.37,-2.55 0,2.55 -9.62,0 q 0.16,-1.45 0.94,-2.74 0.78,-1.29 3.07,-3.43 1.86,-1.74 2.29,-2.35 0.56,-0.84 0.56,-1.68 0,-0.91 -0.49,-1.4 -0.5,-0.49 -1.36,-0.49 -0.85,0 -1.36,0.51 -0.51,0.52 -0.59,1.72 l -2.73,-0.28 q 0.23,-2.27 1.52,-3.25 1.29,-0.99 3.23,-0.99 2.12,0 3.33,1.15 1.21,1.14 1.21,2.84 0,0.97 -0.35,1.84 -0.35,0.88 -1.1,1.83 -0.5,0.64 -1.8,1.83 -1.29,1.19 -1.64,1.58 -0.34,0.39 -0.56,0.76 l 5.45,0 z m 1.85,-8.9 q 0,-1.3 0.91,-2.21 0.91,-0.9 2.19,-0.9 1.3,0 2.22,0.91 0.91,0.92 0.91,2.2 0,1.29 -0.91,2.21 -0.92,0.91 -2.22,0.91 -1.28,0 -2.19,-0.91 -0.91,-0.92 -0.91,-2.21 z m 1.62,0 q 0,0.62 0.44,1.06 0.44,0.44 1.04,0.44 0.63,0 1.07,-0.44 0.43,-0.44 0.43,-1.06 0,-0.61 -0.43,-1.05 -0.44,-0.44 -1.07,-0.44 -0.6,0 -1.04,0.44 -0.44,0.44 -0.44,1.05 z"
+           id="path6202"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title6204">114.12Â°</title>
+        <desc
+           id="desc6206">Text text_{'2RT}: Text(text_{2RT}, opoint_{2RT})</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip42 -->
+  </g>
+  <g
+     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
+     transform="translate(-114.55,-40.295)"
+     id="g6208">
+    <clipPath
+       id="clipd96df68f-42ec-4073-b164-65c1c0f5af72">
+      <path
+         d="m 114.55,40.295 0,501.995 502,0 0,-501.995 z"
+         id="path6211"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <g
+       clip-path="url(#clip43)"
+       id="g6213">
+      <g
+         id="g6215"
+         style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
+        <path
+           d="m 411.88,171 -2.76,0 0,-10.34 q -1.5,1.4 -3.54,2.07 l 0,-2.48 q 1.08,-0.36 2.33,-1.34 1.26,-0.97 1.73,-2.29 l 2.24,0 0,14.38 z m 13.37,-2.55 0,2.55 -9.63,0 q 0.16,-1.45 0.94,-2.74 0.78,-1.29 3.08,-3.43 1.86,-1.74 2.28,-2.35 0.56,-0.84 0.56,-1.68 0,-0.91 -0.49,-1.4 -0.49,-0.49 -1.35,-0.49 -0.86,0 -1.37,0.51 -0.51,0.52 -0.58,1.72 l -2.74,-0.28 q 0.24,-2.27 1.52,-3.25 1.29,-0.99 3.23,-0.99 2.13,0 3.34,1.15 1.21,1.14 1.21,2.84 0,0.97 -0.35,1.84 -0.36,0.88 -1.11,1.83 -0.5,0.64 -1.79,1.83 -1.3,1.19 -1.64,1.58 -0.35,0.39 -0.57,0.76 l 5.46,0 z m 11.12,0 0,2.55 -9.62,0 q 0.15,-1.45 0.93,-2.74 0.78,-1.29 3.08,-3.43 1.86,-1.74 2.28,-2.35 0.57,-0.84 0.57,-1.68 0,-0.91 -0.5,-1.4 -0.49,-0.49 -1.35,-0.49 -0.86,0 -1.37,0.51 -0.5,0.52 -0.58,1.72 l -2.74,-0.28 q 0.24,-2.27 1.53,-3.25 1.29,-0.99 3.22,-0.99 2.13,0 3.34,1.15 1.21,1.14 1.21,2.84 0,0.97 -0.35,1.84 -0.35,0.88 -1.1,1.83 -0.5,0.64 -1.8,1.83 -1.3,1.19 -1.64,1.58 -0.34,0.39 -0.56,0.76 l 5.45,0 z m 2.44,2.55 0,-2.75 2.75,0 0,2.75 -2.75,0 z m 5.02,-3.31 2.66,-0.3 q 0.09,0.81 0.51,1.2 0.41,0.39 1.08,0.39 0.85,0 1.45,-0.78 0.6,-0.78 0.76,-3.23 -1.04,1.2 -2.58,1.2 -1.69,0 -2.92,-1.3 -1.22,-1.31 -1.22,-3.4 0,-2.17 1.29,-3.51 1.28,-1.34 3.28,-1.34 2.19,0 3.59,1.69 1.4,1.69 1.4,5.53 0,3.94 -1.46,5.68 -1.46,1.73 -3.79,1.73 -1.69,0 -2.72,-0.89 -1.03,-0.89 -1.33,-2.67 z m 6.22,-6 q 0,-1.33 -0.61,-2.06 -0.61,-0.72 -1.42,-0.72 -0.75,0 -1.26,0.59 -0.51,0.59 -0.51,1.97 0,1.39 0.55,2.04 0.55,0.65 1.38,0.65 0.78,0 1.32,-0.63 0.55,-0.62 0.55,-1.84 z m 10.23,9.31 0,-2.88 -5.86,0 0,-2.4 6.21,-9.1 2.31,0 0,9.08 1.78,0 0,2.42 -1.78,0 0,2.88 -2.66,0 z m 0,-5.3 0,-4.89 -3.29,4.89 3.29,0 z m 5.74,-6.15 q 0,-1.3 0.91,-2.21 0.91,-0.9 2.19,-0.9 1.3,0 2.22,0.91 0.91,0.92 0.91,2.2 0,1.29 -0.91,2.21 -0.92,0.91 -2.22,0.91 -1.28,0 -2.19,-0.91 -0.91,-0.92 -0.91,-2.21 z m 1.62,0 q 0,0.62 0.44,1.06 0.44,0.44 1.04,0.44 0.63,0 1.07,-0.44 0.43,-0.44 0.43,-1.06 0,-0.61 -0.43,-1.05 -0.44,-0.44 -1.07,-0.44 -0.6,0 -1.04,0.44 -0.44,0.44 -0.44,1.05 z"
+           id="path6217"
+           inkscape:connector-curvature="0" />
+        <title
+           id="title6219">122.94Â°</title>
+        <desc
+           id="desc6221">Text text_{'2TL}: Text(text_{2TL}, opoint_{2TL})</desc>
+      </g>
+      <!-- drawing style -->
+    </g>
+    <!-- clip43 -->
+  </g>
+  <!-- default stroke -->
+</svg>
+<!-- bounding box -->
+

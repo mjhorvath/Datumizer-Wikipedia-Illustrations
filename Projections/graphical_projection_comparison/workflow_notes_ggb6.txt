@@ -1,3 +1,5 @@
+OUT OF DATE!!! NEEDS TO BE UPDATED!
+
 Note: There are font issues as well as transparency issues when exporting to SVG that are a result of GeoGebra 6 no longer having a "Transparent" or a "Export Text as Shapes" option in the export dialog. The exported image will acquire whatever font is used by default in InkScape, as well as a white background rectangle that will need to be removed. As a result, I recommend using GeoGebra 5 to generate the SVG files instead of GeoGebra 6.
 
 POV-Ray
