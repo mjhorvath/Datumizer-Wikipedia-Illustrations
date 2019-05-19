@@ -1,0 +1,9 @@
+Read this thread where I troubleshooted the issue of incorrect SVG export image dimensions:
+
+	https://help.geogebra.org/topic/export-not-the-same-size
+
+Since I posted this I changed the PixelRatio variable to equal 0.64, and the applet eval command to this:
+
+	ggbApplet.evalCommand(my_name + '=Point[{' + (my_position[0] * 750 + 125) + ',' + (my_position[1] * 750) + '}]');
+
+Also, the outer frame border segments have been thickened from 2 units to 4 units. The number of visible pixels is one half that, so 4 units in the GGB file equals 2 units on the screen.
