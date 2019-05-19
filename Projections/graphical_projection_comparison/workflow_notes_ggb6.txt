@@ -1,25 +1,41 @@
 OUT OF DATE!!! NEEDS TO BE UPDATED!
 
-Note: There are font issues as well as transparency issues when exporting to SVG that are a result of GeoGebra 6 no longer having a "Transparent" or a "Export Text as Shapes" option in the export dialog. The exported image will acquire whatever font is used by default in InkScape, as well as a white background rectangle that will need to be removed. As a result, I recommend using GeoGebra 5 to generate the SVG files instead of GeoGebra 6.
+Note
+	There are issues when exporting to SVG that are a result of GeoGebra 6 no 
+	longer having a "Transparent" or a "Export Text as Shapes" option in the 
+	export dialog. The exported image will acquire whatever font is used by 
+	default in InkScape, as well as a white background rectangle that will need 
+	to be removed. As a result, I recommend using GeoGebra 5 to generate the 
+	SVG files instead of GeoGebra 6.
 
 POV-Ray
   1. Render the scenes as PNG at 1500x1500 pixels.
-  2. Turn on the rendering of the corner spheres if you want to get their coordinates.
+  2. Turn on the rendering of the corner spheres if you want to get their 
+     coordinates.
 
 GeoGebra (version 6)
   1. Open the GGB files in GeoGebra 6.
-  2. Make sure the entire figure is visible in the application/browser window. You may have to toggle the Algebra pane.
+  2. Make sure the entire figure is visible in the application/browser window. 
+     You may have to toggle the Algebra pane.
   3. If the zoom scale gets messed up, press the "Resize (twice)" button twice.
   4. Export ("Download as..." in the "File" menu) the file as SVG.
 
 InkScape
-  1. Select all objects. Open the "Transform" dialog. Move all objects -2 units vertically.
-  2. Go to "File" > "Document Properties". Change the width and height parameters to equal 500 pixels. Close the "Document Properties" window.
-  3. Ungroup the drawing if necessary (possibly multiple times), and delete the outer black border, the "Resize (twice)" button, and the white background rectangle.
+  1. Select all objects. Open the "Transform" dialog. Move all objects -2 units 
+     vertically.
+  2. Go to "File" > "Document Properties". Change the width and height para-
+     meters to equal 500 pixels. Close the "Document Properties" window.
+  3. Ungroup the drawing if necessary (possibly multiple times), and delete the 
+     outer black border, the "Resize (twice)" button, and the white background 
+     rectangle.
   4. Open the "Export PNG Image" menu.
-  5. In the "Export area" section, press the "Page" button to recalibrate the export dimensions. The width and height parameters should both equal 500 pixels.
-  6. In the "Image size" section, set the width and height to 1500 pixels. The DPI should now equal 270 units.
-  7. Select the output destination, and press the "Export" button. You may have to confirm to overwrite the destination file.
+  5. In the "Export area" section, press the "Page" button to recalibrate the 
+     export dimensions. The width and height parameters should both equal 500 
+     pixels.
+  6. In the "Image size" section, set the width and height to 1500 pixels. The 
+     DPI should now equal 270 units.
+  7. Select the output destination, and press the "Export" button. You may have 
+     to confirm to overwrite the destination file.
   8. Save the SVG document and exit InkScape.
 
 GIMP
@@ -28,4 +44,5 @@ GIMP
   3. Layer the first image over the second. Save the result as a new image.
 
 XnView
-  1. Create a contact sheet out of the new images in a 3x3 grid, specifying a spacing of 25px between the images.
+  1. Create a contact sheet out of the new images in a 3x3 grid, specifying a 
+     spacing of 25px between the images.
