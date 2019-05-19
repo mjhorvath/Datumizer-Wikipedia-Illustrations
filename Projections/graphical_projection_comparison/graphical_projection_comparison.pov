@@ -330,19 +330,20 @@ merge
 }
 
 // the coordinate grid and axes
-// Axes_color: 1/4 for dark, 3/4 for light
+#declare Axes_Color = 3/4;		// Axes_color: 1/4 for dark, 3/4 for light
+#declare Axes_Infinite = true;	// Axes_Infinite: are the planes infinite in every direction?
+
 Axes_Macro
 (
-	50,				// Axes_axesSize,	The distance from the origin to one of the grid's edges.			(float)
-	1/8,			// Axes_majUnit,	The size of each large-unit square.									(float)
-	10,				// Axes_minUnit,	The number of small-unit squares that make up a large-unit square.	(integer)
-	0.0001,			// Axes_thickRatio,	The thickness of the grid lines, as a factor of axesSize.			(float)
-	show_spheres,	// Axes_aBool,		Turns the axes on/off. 												(boolian)
-	off,			// Axes_mBool,		Turns the minor units on/off. 										(boolian)
-	off,			// Axes_xBool,		Turns the plane perpendicular to the x-axis on/off.					(boolian)
-	on,				// Axes_yBool,		Turns the plane perpendicular to the y-axis on/off.					(boolian)
-	off,			// Axes_zBool,		Turns the plane perpendicular to the z-axis on/off.					(boolian)
-	3/4				// Axes_color,		The color of the grid. Traditionally <3/4,3/4,3/4>.					(3D vector)
+	50,				// Axes_axesSize:	The distance from the origin to one of the grid's edges.			(float)
+	1/8,			// Axes_majUnit:	The size of each large-unit square.									(float)
+	10,				// Axes_minUnit:	The number of small-unit squares that make up a large-unit square.	(integer)
+	0.0001,			// Axes_thickRatio:	The thickness of the grid lines, as a factor of axesSize.			(float)
+	show_spheres,	// Axes_aBool:		Turns the axes on/off. 												(boolian)
+	off,			// Axes_mBool:		Turns the minor units on/off. 										(boolian)
+	off,			// Axes_xBool:		Turns the plane perpendicular to the x-axis on/off.					(boolian)
+	on,				// Axes_yBool:		Turns the plane perpendicular to the y-axis on/off.					(boolian)
+	off				// Axes_zBool:		Turns the plane perpendicular to the z-axis on/off.					(boolian)
 )
 
 object

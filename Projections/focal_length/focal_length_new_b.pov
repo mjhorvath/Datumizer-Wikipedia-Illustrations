@@ -1,8 +1,8 @@
 // +kfi0 +kff15
 // +K0.5
 #version 3.7
-#include "axes_macro.inc"		// http://lib.povray.org/searchcollection/index2.php?objectName=AxesAndGridMacro&contributorTag=SharkD
-#include "screen.inc"		// requires the updated version available here: http://news.povray.org/povray.binaries.scene-files/thread/%3C4afccd8a%241%40news.povray.org%3E/
+#include "axes_macro.inc"		// Available from the POV-Ray Object Collection.
+#include "screen.inc"			// Requires the updated version available here: http://news.povray.org/povray.binaries.scene-files/thread/%3C4afccd8a%241%40news.povray.org%3E/
 #include "math.inc"
 #include "finish.inc"
 #include "transforms.inc"
@@ -135,19 +135,21 @@ box
 }
 
 // the coordinate grid and axes
-// available from the POV-Ray Object Collection
+// 
+#declare Axes_Color = 3/4;		// Axes_color: 1/4 for dark, 3/4 for light
+#declare Axes_Infinite = false;	// Axes_Infinite: are the planes infinite in every direction?
+
 Axes_Macro
 (
-	10000,		// Axes_axesSize,	The distance from the origin to one of the grid's edges.	(float)
-	.1,		// Axes_majUnit,	The size of each large-unit square.	(float)
-	10,		// Axes_minUnit,	The number of small-unit squares that make up a large-unit square.	(integer)
-	0.000001,	// Axes_thickRatio,	The thickness of the grid lines (as a factor of axesSize).	(float)
-	on,		// Axes_aBool,		Turns the axes on/off. (boolian)
-	off,		// Axes_mBool,		Turns the minor units on/off. (boolian)
-	off,		// Axes_xBool,		Turns the plane perpendicular to the x-axis on/off.	(boolian)
-	on,		// Axes_yBool,		Turns the plane perpendicular to the y-axis on/off.	(boolian)
-	off,		// Axes_zBool,		Turns the plane perpendicular to the z-axis on/off.	(boolian)
-	3/4
+	50,				// Axes_axesSize:	The distance from the origin to one of the grid's edges.			(float)
+	1/8,			// Axes_majUnit:	The size of each large-unit square.									(float)
+	10,				// Axes_minUnit:	The number of small-unit squares that make up a large-unit square.	(integer)
+	0.0001,			// Axes_thickRatio:	The thickness of the grid lines, as a factor of axesSize.			(float)
+	show_spheres,	// Axes_aBool:		Turns the axes on/off. 												(boolian)
+	off,			// Axes_mBool:		Turns the minor units on/off. 										(boolian)
+	off,			// Axes_xBool:		Turns the plane perpendicular to the x-axis on/off.					(boolian)
+	on,				// Axes_yBool:		Turns the plane perpendicular to the y-axis on/off.					(boolian)
+	off				// Axes_zBool:		Turns the plane perpendicular to the z-axis on/off.					(boolian)
 )
 
 object

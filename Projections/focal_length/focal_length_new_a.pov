@@ -1,15 +1,15 @@
 // Title: Camera focal length animation
 // Author: Michael Horvath, http://isometricland.net
 // Created: 2015-11-19
-// Updated: 2016-11-09
+// Updated: 2019-05-19
 // This file is licensed under the terms of the GFDL.
 // +kfi0 +kff18 +a0.0
 // +kfi0 +kff30
 // +K0.5
 
 #version 3.7
-#include "axes_macro.inc"	// available from the POV-Ray Object Collection
-#include "screen.inc"		// requires the updated version available here: http://news.povray.org/povray.binaries.scene-files/thread/%3C4afccd8a%241%40news.povray.org%3E/
+#include "axes_macro.inc"		// Available from the POV-Ray Object Collection.
+#include "screen.inc"			// Requires the updated version available here: http://news.povray.org/povray.binaries.scene-files/thread/%3C4afccd8a%241%40news.povray.org%3E/
 #include "math.inc"
 #include "Transforms.inc"
 #declare SceneUnits = 8;
@@ -154,18 +154,20 @@ light_source
 }
 
 // the coordinate grid and axes
+#declare Axes_Color = 3/4;		// Axes_color: 1/4 for dark, 3/4 for light
+#declare Axes_Infinite = false;	// Axes_Infinite: are the planes infinite in every direction?
+
 Axes_Macro
 (
-	50000,		// Axes_axesSize,	The distance from the origin to one of the grid's edges.		(float)
-	1/SceneUnits,	// Axes_majUnit,	The size of each large-unit square.					(float)
-	10,		// Axes_minUnit,	The number of small-unit squares that make up a large-unit square.	(integer)
-	0.0000001,	// Axes_thickRatio,	The thickness of the grid lines, as a factor of axesSize.		(float)
-	off,		// Axes_aBool,		Turns the axes on/off. 							(boolian)
-	off,		// Axes_mBool,		Turns the minor units on/off. 						(boolian)
-	off,		// Axes_xBool,		Turns the plane perpendicular to the x-axis on/off.			(boolian)
-	on,		// Axes_yBool,		Turns the plane perpendicular to the y-axis on/off.			(boolian)
-	off,		// Axes_zBool,		Turns the plane perpendicular to the z-axis on/off.			(boolian)
-	3/4
+	50000,			// Axes_axesSize,	The distance from the origin to one of the grid's edges.			(float)
+	1/SceneUnits,	// Axes_majUnit,	The size of each large-unit square.									(float)
+	10,				// Axes_minUnit,	The number of small-unit squares that make up a large-unit square.	(integer)
+	0.0000001,		// Axes_thickRatio,	The thickness of the grid lines, as a factor of axesSize.			(float)
+	off,			// Axes_aBool,		Turns the axes on/off. 												(boolian)
+	off,			// Axes_mBool,		Turns the minor units on/off. 										(boolian)
+	off,			// Axes_xBool,		Turns the plane perpendicular to the x-axis on/off.					(boolian)
+	on,				// Axes_yBool,		Turns the plane perpendicular to the y-axis on/off.					(boolian)
+	off				// Axes_zBool,		Turns the plane perpendicular to the z-axis on/off.					(boolian)
 )
 
 object

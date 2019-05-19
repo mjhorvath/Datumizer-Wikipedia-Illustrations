@@ -93,13 +93,15 @@ sky_sphere
 box
 {
 	sCenter, sRadius
-	pigment {color srgbt <1,1,1,1/2>}
-//	pigment {color srgbt <1,1,1,0/2>}
+	pigment {color srgbt <1,1,1,2/4>}
+//	pigment {color srgbt <1,1,1,0/4>}
 //	hollow
 //	no_shadow
 }
 
 // the coordinate grid and axes
+#declare Axes_Color = 3/4;		// Axes_color: 1/4 for dark, 3/4 for light
+#declare Axes_Infinite = false;	// Axes_Infinite: are the planes infinite in every direction?
 Axes_Macro
 (
 	8,		// Axes_axesSize,	The distance from the origin to one of the grid's edges.	(float)
@@ -110,8 +112,7 @@ Axes_Macro
 	off,	// Axes_mBool,		Turns the minor units on/off. (boolian)
 	off,	// Axes_xBool,		Turns the plane perpendicular to the x-axis on/off.	(boolian)
 	on,		// Axes_yBool,		Turns the plane perpendicular to the y-axis on/off.	(boolian)
-	off,	// Axes_zBool,		Turns the plane perpendicular to the z-axis on/off.	(boolian)
-	3/4		// Axes_color,		The color of the grid.	(3D vector)
+	off		// Axes_zBool,		Turns the plane perpendicular to the z-axis on/off.	(boolian)
 )
 
 object
