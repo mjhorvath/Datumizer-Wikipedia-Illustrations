@@ -146,7 +146,8 @@ Axes_Macro
 	off,		// Axes_mBool,		Turns the minor units on/off. (boolian)
 	off,		// Axes_xBool,		Turns the plane perpendicular to the x-axis on/off.	(boolian)
 	on,		// Axes_yBool,		Turns the plane perpendicular to the y-axis on/off.	(boolian)
-	off		// Axes_zBool,		Turns the plane perpendicular to the z-axis on/off.	(boolian)
+	off,		// Axes_zBool,		Turns the plane perpendicular to the z-axis on/off.	(boolian)
+	3/4
 )
 
 object

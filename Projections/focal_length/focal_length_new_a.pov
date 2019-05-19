@@ -51,8 +51,8 @@ background {color srgb <096,144,255,>/255}
 	#declare CameraLocation		= -z * CameraDistance;
 	#declare CameraDirection	= +z * CameraDistance;
 	#declare CameraString0		= str(frame_number,0,0);
-	#declare CameraString1		= "0°";
-	#declare CameraString2		= "inf.";
+	#declare CameraString1		= concat("0",chr(0176));
+	#declare CameraString2		= concat(chr(8734),"m");
 	#declare CameraTransform	= transform
 	{
 		rotate	<atand(sind(45)),45,0>
@@ -81,7 +81,7 @@ background {color srgb <096,144,255,>/255}
 	#declare CameraLocation		= -z * CameraDistance;
 	#declare CameraDirection	= +z * CameraDistance;
 	#declare CameraString0		= str(frame_number,0,0);
-	#declare CameraString1		= concat("", str(CameraAngle,0,0), "°");
+	#declare CameraString1		= concat("", str(CameraAngle,0,0), chr(0176));
 	#declare CameraString2		= concat("", str(CameraDistance*SceneUnits,0,3), "m");
 	#declare CameraTransform	= transform
 	{
@@ -103,13 +103,13 @@ background {color srgb <096,144,255,>/255}
 	Set_Camera_Transform(CameraTransform)
 	#debug concat("", CameraString0, "\t", CameraString1, "\t", CameraString2, "\n")
 #end
-/*
+
 union
 {
 	Screen_Object(CameraText1, <1,0>, <0.04,0.07>, true, 0.01)
 	Screen_Object(CameraText2, <1,0>, <0.04,0.02>, true, 0.01)
 }
-*/
+
 camera
 {
 	#if (clock = 0)
@@ -164,7 +164,8 @@ Axes_Macro
 	off,		// Axes_mBool,		Turns the minor units on/off. 						(boolian)
 	off,		// Axes_xBool,		Turns the plane perpendicular to the x-axis on/off.			(boolian)
 	on,		// Axes_yBool,		Turns the plane perpendicular to the y-axis on/off.			(boolian)
-	off		// Axes_zBool,		Turns the plane perpendicular to the z-axis on/off.			(boolian)
+	off,		// Axes_zBool,		Turns the plane perpendicular to the z-axis on/off.			(boolian)
+	3/4
 )
 
 object

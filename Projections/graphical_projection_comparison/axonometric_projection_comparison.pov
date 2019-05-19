@@ -1,7 +1,7 @@
 // Title: Graphical projection comparison
 // Author: Michael Horvath, http://isometricland.net
 // Created: 2009-11-13
-// Updated: 2019-05-16
+// Updated: 2019-05-19
 // This file is licensed under the terms of the CC-LGPL.
 // +kfi0 +kff15
 // -uv
