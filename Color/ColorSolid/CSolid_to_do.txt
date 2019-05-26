@@ -1,0 +1,4 @@
++ Need to upload to POV-Ray.org the new version of color solid include to reflect reversed angular hue direction.
++ Need to upload to POV-Ray.org the new version of shape grid include to reflect the fix made to cylinders a with height greater than 1.
++ The SVG images are all at strange and varying angles. While they work in the renders, they should really be standardized better.
++ The 2D objects in the same plane as the camera should not be lit in any way. See if there's a way to create pigments that can be "unlit".
