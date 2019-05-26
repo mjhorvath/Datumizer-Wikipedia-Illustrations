@@ -1,0 +1,4 @@
+﻿This work is licensed under the Creative Commons GNU Lesser General Public 
+License License. To view a copy of this license, visit 
+http://creativecommons.org/licenses/LGPL/2.1/ or send a letter to Creative 
+Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
