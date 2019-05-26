@@ -1,0 +1,10 @@
+2.2 - 2018-08-10
+* Tweaked lighting and corona.
+
+2.1 - 2018-08-08
+* Corrected area light parameters.
+
+2.0 - 2018-08-08
+* Renamed all variables in accordance with the Object Collection specifications.
+* Fixed wrong sizes of shadow squares.
+* Tweaked lighting and corona.

@@ -1,0 +1,11 @@
+The 1943 Munsell renotations rendered as a CSG object. There are two sets of files.
+
+  * The first set (labeled "srgb") only include real colors that lie within the sRGB gamut.
+  * The second set (labeled "real") includes all real values, and tries but fails to properly render colors outside the sRGB gamut.
+
+The include file "ColorMine.inc" is a dependency of the latter. You can get a copy from GitHub.
+
+Lastly, 
+
+  * Some scenes (labeled "anim") are meant to be rendered as a multi-frame animation.
+  * Others (labeled "single") are only meant to produce one frame.

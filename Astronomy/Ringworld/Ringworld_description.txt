@@ -1,0 +1,3 @@
+This scene is based on Larry Niven's Ringworld series of books. The dimensions 
+should match those outlined in his supplementary reference materials. The scene 
+also depends upon some textures borrowed from the HabitablePlanet collection.

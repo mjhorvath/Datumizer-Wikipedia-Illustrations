@@ -7,4 +7,4 @@ on how to fix exported SVG images:
 https://help.geogebra.org/topic/export-not-the-same-size
 
 Once you have fixed an SVG image, you can then use the program InkScape to 
-convert it to PNG or JPEG. Animated GIF will require additional steps.
+convert it to PNG or JPEG. Animated GIF images will require additional steps.

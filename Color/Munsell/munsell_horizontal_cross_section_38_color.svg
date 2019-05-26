@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-21 -21 42 42" width="2100" height="2100">
+	<title>Munsell - Horizontal Cross Section Labels 38</title>
+	<desc></desc>
+	<style type="text/css">
+	<![CDATA[
+text {font-family:sans-serif;}
+	]]>
+	</style>
+	<defs>
+	</defs>
+	<!-- blue -->
+	<rect x="-21" y="-21" width="42" height="42" style="fill:blue;stroke:none;" />
+	<!-- green -->
+	<circle cx="0" cy="0" r="19.5" style="fill:green;stroke:none;" />
+
+	<!-- axes -->
+	<circle cx="0" cy="0" r="20" style="fill:none;stroke:gray;stroke-width:0.05;" />
+
+	<!-- ticks -->
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(  0)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(  9)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate( 18)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate( 27)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate( 36)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate( 45)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate( 54)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate( 63)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate( 72)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate( 81)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate( 90)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate( 99)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(108)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(117)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(126)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(135)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(144)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(153)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(162)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(171)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(180)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(189)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(198)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(207)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(216)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(225)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(234)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(243)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(252)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(261)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(270)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(279)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(288)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(297)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(306)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(315)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(324)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(333)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(342)" />
+	<line x1="0" y1="20" x2="0" y2="20.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" transform="rotate(4.5) rotate(351)" />
+
+	<!-- numbers -->
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(  0)">5R</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(  9)">7.5R</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate( 18)">10R</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate( 27)">2.5YR</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate( 36)">5YR</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate( 45)">7.5YR</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate( 54)">10YR</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate( 63)">2.5Y</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate( 72)">5Y</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate( 81)">7.5Y</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate( 90)">10Y</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate( 99)">2.5GY</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(108)">5GY</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(117)">7.5GY</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(126)">10GY</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(135)">2.5G</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(144)">5G</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(153)">7.5G</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(162)">10G</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(171)">2.5BG</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(180)">5BG</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(189)">7.5BG</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(198)">10BG</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(207)">2.5B</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(216)">5B</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(225)">7.5B</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(234)">10B</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(243)">2.5PB</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(252)">5PB</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(261)">7.5PB</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(270)">10PB</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(279)">2.5P</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(288)">5P</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(297)">7.5P</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(306)">10P</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(315)">2.5RP</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(324)">5RP</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(333)">7.5RP</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(342)">10RP</text>
+	<text x="0" y="20.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" transform="rotate(351)">2.5R</text>
+</svg>

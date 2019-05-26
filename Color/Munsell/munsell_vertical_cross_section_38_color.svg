@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-21 -7 42 14" width="2100" height="700">
+	<title>Munsell - Vertical Cross Section Labels 38</title>
+	<desc></desc>
+	<style type="text/css">
+	<![CDATA[
+text {font-family:sans-serif;}
+	]]>
+	</style>
+	<defs>
+	</defs>
+	<!-- blue -->
+	<rect x="-21" y="-7" width="42" height="14" style="fill:blue;stroke:none;" />
+	<!-- green -->
+	<rect x="-19.5"  y="-5.5" width="39" height="11" style="fill:green;stroke:none;" />
+	<!-- yellow -->
+	<rect x="-19.5"  y="-5.5" width="1" height="1" style="fill:yellow;stroke:none;" />
+
+	<!-- horizontal axis -->
+	<line x1="-19.5" y1="6"    x2="19.5" y2="6"   style="stroke:gray;stroke-width:0.05;" stroke-linecap="butt" />
+	<!-- vertical axis -->
+	<line  x1="-20"  y1="-5.5" x2="-20"  y2="5.5" style="stroke:gray;stroke-width:0.05;" stroke-linecap="butt" />
+
+	<!-- horizontal ticks -->
+	<line x1="-19.5" y1="6" x2="-19.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-18.5" y1="6" x2="-18.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-17.5" y1="6" x2="-17.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-16.5" y1="6" x2="-16.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-15.5" y1="6" x2="-15.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-14.5" y1="6" x2="-14.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-13.5" y1="6" x2="-13.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-12.5" y1="6" x2="-12.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-11.5" y1="6" x2="-11.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-10.5" y1="6" x2="-10.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="-9.5" y1="6"  x2="-9.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="-8.5" y1="6"  x2="-8.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="-7.5" y1="6"  x2="-7.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="-6.5" y1="6"  x2="-6.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="-5.5" y1="6"  x2="-5.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="-4.5" y1="6"  x2="-4.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="-3.5" y1="6"  x2="-3.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="-2.5" y1="6"  x2="-2.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="-1.5" y1="6"  x2="-1.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="-0.5" y1="6"  x2="-0.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line   x1="0.5" y1="6"   x2="0.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line   x1="1.5" y1="6"   x2="1.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line   x1="2.5" y1="6"   x2="2.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line   x1="3.5" y1="6"   x2="3.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line   x1="4.5" y1="6"   x2="4.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line   x1="5.5" y1="6"   x2="5.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line   x1="6.5" y1="6"   x2="6.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line   x1="7.5" y1="6"   x2="7.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line   x1="8.5" y1="6"   x2="8.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line   x1="9.5" y1="6"   x2="9.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="10.5" y1="6"  x2="10.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="11.5" y1="6"  x2="11.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="12.5" y1="6"  x2="12.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="13.5" y1="6"  x2="13.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="14.5" y1="6"  x2="14.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="15.5" y1="6"  x2="15.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="16.5" y1="6"  x2="16.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="17.5" y1="6"  x2="17.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="18.5" y1="6"  x2="18.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line  x1="19.5" y1="6"  x2="19.5" y2="6.2" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+
+	<!-- vertical ticks -->
+	<line x1="-20" y1="-5.5" x2="-20.2" y2="-5.5" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-20" y1="-4.5" x2="-20.2" y2="-4.5" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-20" y1="-3.5" x2="-20.2" y2="-3.5" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-20" y1="-2.5" x2="-20.2" y2="-2.5" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-20" y1="-1.5" x2="-20.2" y2="-1.5" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-20" y1="-0.5" x2="-20.2" y2="-0.5" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-20"  y1="0.5" x2="-20.2"  y2="0.5" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-20"  y1="1.5" x2="-20.2"  y2="1.5" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-20"  y1="2.5" x2="-20.2"  y2="2.5" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-20"  y1="3.5" x2="-20.2"  y2="3.5" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-20"  y1="4.5" x2="-20.2"  y2="4.5" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+	<line x1="-20"  y1="5.5" x2="-20.2"  y2="5.5" style="stroke:gray;stroke-width:0.025;" stroke-linecap="butt" />
+
+	<!-- horizontal numbers -->
+	<text x="-19" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">38</text>
+	<text x="-18" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">36</text>
+	<text x="-17" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">34</text>
+	<text x="-16" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">32</text>
+	<text x="-15" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">30</text>
+	<text x="-14" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">28</text>
+	<text x="-13" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">26</text>
+	<text x="-12" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">24</text>
+	<text x="-11" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">22</text>
+	<text x="-10" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">20</text>
+	<text  x="-9" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">18</text>
+	<text  x="-8" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">16</text>
+	<text  x="-7" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">14</text>
+	<text  x="-6" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">12</text>
+	<text  x="-5" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">10</text>
+	<text  x="-4" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">8</text>
+	<text  x="-3" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">6</text>
+	<text  x="-2" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">4</text>
+	<text  x="-1" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">2</text>
+	<text   x="0" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">0</text>
+	<text   x="1" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">2</text>
+	<text   x="2" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">4</text>
+	<text   x="3" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">6</text>
+	<text   x="4" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">8</text>
+	<text   x="5" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">10</text>
+	<text   x="6" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">12</text>
+	<text   x="7" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">14</text>
+	<text   x="8" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">16</text>
+	<text   x="9" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">18</text>
+	<text  x="10" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">20</text>
+	<text  x="11" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">22</text>
+	<text  x="12" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">24</text>
+	<text  x="13" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">26</text>
+	<text  x="14" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">28</text>
+	<text  x="15" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">30</text>
+	<text  x="16" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">32</text>
+	<text  x="17" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">34</text>
+	<text  x="18" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">36</text>
+	<text  x="19" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">38</text>
+	<text  x="20" y="6.5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" font-style="italic">C</text>
+
+	<!-- vertical numbers -->
+	<text x="-20.5" y="-5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">10</text>
+	<text x="-20.5" y="-4" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">9</text>
+	<text x="-20.5" y="-3" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">8</text>
+	<text x="-20.5" y="-2" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">7</text>
+	<text x="-20.5" y="-1" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">6</text>
+	<text x="-20.5"  y="0" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">5</text>
+	<text x="-20.5"  y="1" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">4</text>
+	<text x="-20.5"  y="2" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">3</text>
+	<text x="-20.5"  y="3" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">2</text>
+	<text x="-20.5"  y="4" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">1</text>
+	<text x="-20.5"  y="5" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray">0</text>
+	<text x="-20.5" y="-6" dominant-baseline="middle" text-anchor="middle" font-size="0.5" font-family="sans-serif" font-weight="bold" fill="gray" font-style="italic">V</text>
+</svg>
