@@ -329,78 +329,78 @@
      points="-0.866,+0.5 +0.000,+1.0 +0.866,+0.5 +0.866,-0.5 +0.000,-1.0 -0.866,-0.5 -0.866,+0.5"
      class="line"
      id="polyline144"
-     style="fill:none;stroke:black;stroke-width:0.01" />
+     style="fill:none;stroke:black;stroke-width:0.0125" />
   <polyline
      points="+0.000,+1.0 +0.000,+0.5"
      class="line"
      id="polyline146"
-     style="fill:none;stroke:black;stroke-width:0.01" />
+     style="fill:none;stroke:black;stroke-width:0.0125" />
   <polyline
      points="+0.866,-0.5 +0.433,-0.250"
      class="line"
      id="polyline148"
-     style="fill:none;stroke:black;stroke-width:0.01" />
+     style="fill:none;stroke:black;stroke-width:0.0125" />
   <polyline
      points="-0.866,-0.5 -0.433,-0.250"
      class="line"
      id="polyline150"
-     style="fill:none;stroke:black;stroke-width:0.01" />
+     style="fill:none;stroke:black;stroke-width:0.0125" />
   <polyline
      points="+0.000,+0.5 +0.433,+0.250"
      class="dash"
      id="polyline152"
-     style="fill:none;stroke:black;stroke-width:0.01;stroke-dasharray:0.05, 0.025" />
+     style="fill:none;stroke:black;stroke-width:0.0125" />
   <polyline
      points="+0.433,+0.250 +0.433,-0.250"
      class="dash"
      id="polyline154"
-     style="fill:none;stroke:black;stroke-width:0.01;stroke-dasharray:0.05, 0.025" />
+     style="fill:none;stroke:black;stroke-width:0.0125" />
   <polyline
      points="+0.433,-0.250 +0.000,-0.5"
      class="dash"
      id="polyline156"
-     style="fill:none;stroke:black;stroke-width:0.01;stroke-dasharray:0.05, 0.025" />
+     style="fill:none;stroke:black;stroke-width:0.0125" />
   <polyline
      points="+0.000,-0.5 -0.433,-0.250"
      class="dash"
      id="polyline158"
-     style="fill:none;stroke:black;stroke-width:0.01;stroke-dasharray:0.05, 0.025" />
+     style="fill:none;stroke:black;stroke-width:0.0125" />
   <polyline
      points="-0.433,-0.250 -0.433,+0.250"
      class="dash"
      id="polyline160"
-     style="fill:none;stroke:black;stroke-width:0.01;stroke-dasharray:0.05, 0.025" />
+     style="fill:none;stroke:black;stroke-width:0.0125" />
   <polyline
      points="-0.433,+0.250 +0.000,+0.5"
      class="dash"
      id="polyline162"
-     style="fill:none;stroke:black;stroke-width:0.01;stroke-dasharray:0.05, 0.025" />
+     style="fill:none;stroke:black;stroke-width:0.0125" />
   <polyline
      points="-0.433,+0.250 +0.000,+0.0"
      class="dash"
      id="polyline164"
-     style="fill:none;stroke:black;stroke-width:0.01;stroke-dasharray:0.05, 0.025" />
+     style="fill:none;stroke:black;stroke-width:0.0125" />
   <polyline
      points="+0.433,+0.250 +0.000,+0.0"
      class="dash"
      id="polyline166"
-     style="fill:none;stroke:black;stroke-width:0.01;stroke-dasharray:0.05, 0.025" />
+     style="fill:none;stroke:black;stroke-width:0.0125" />
   <polyline
      points="+0.000,-0.5 +0.000,+0.0"
      class="dash"
      id="polyline168"
-     style="fill:none;stroke:black;stroke-width:0.01;stroke-dasharray:0.05, 0.025" />
+     style="fill:none;stroke:black;stroke-width:0.0125" />
   <path
      d="M -0.779,0.55 L -0.953,0.65 L -0.909,0.675 L -1.083,0.675 L -1.083,0.575 L -1.039,0.6 L -0.866,0.5 L -0.779,0.55 z "
-     style="fill:black;stroke:none"
+     style="fill:#c00000;stroke:black;stroke-width:0.0125"
      id="path170" />
   <path
      d="M 0,-1 L 0,-1.2 L -0.043,-1.225 L 0.043,-1.275 L 0.13,-1.125 L 0.087,-1.15 L 0.087,-0.95 L 0,-1 z "
-     style="fill:black;stroke:none"
+     style="fill:#0000c0;stroke:black;stroke-width:0.0125"
      id="path172" />
   <path
      d="M 0.866,0.5 L 1.039,0.6 L 1.083,0.575 L 1.083,0.675 L 0.909,0.675 L 0.953,0.65 L 0.779,0.55 L 0.866,0.5 z "
-     style="fill:black;stroke:none"
+     style="fill:#00c000;stroke:black;stroke-width:0.0125"
      id="path174" />
 </g>
   <text
@@ -413,7 +413,7 @@
        sodipodi:role="line"
        id="tspan1959"
        x="018.204907"
-       y="-121.33256">Z</tspan></text>
+       y="-121.33256">B</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:20pt;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Tahoma"
@@ -424,7 +424,7 @@
        sodipodi:role="line"
        id="tspan1963"
        x="116.30273"
-       y="083.259034">Y</tspan></text>
+       y="083.259034">G</tspan></text>
   <text
      xml:space="preserve"
      style="font-size:20pt;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:100%;writing-mode:lr-tb;text-anchor:start;fill:black;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;font-family:Tahoma"
@@ -435,5 +435,5 @@
        sodipodi:role="line"
        id="tspan1967"
        x="-130.44727"
-       y="078.009039">X</tspan></text>
+       y="078.009039">R</tspan></text>
 </svg>
