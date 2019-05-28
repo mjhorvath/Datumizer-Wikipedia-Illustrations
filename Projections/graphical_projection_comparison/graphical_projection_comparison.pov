@@ -1,8 +1,8 @@
 // Title: Graphical projection comparison
-// Author: Michael Horvath, http://isometricland.net
+// Authors: Michael Horvath, http://isometricland.net
 // Created: 2009-11-13
-// Updated: 2019-05-19
-// This file is licensed under the terms of the CC-LGPL.
+// Updated: 2019-05-27
+// This file is licensed under the terms of the CC BY-SA 4.0 license.
 // +kfi0 +kff16
 // -uv
 
