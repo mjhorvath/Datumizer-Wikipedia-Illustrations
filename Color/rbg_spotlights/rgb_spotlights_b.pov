@@ -161,7 +161,7 @@ box
 	<+W, +H, +D>
 	texture
 	{
-		pigment {color srgb 1/2}
+		pigment {color srgb 0}
 		finish {diffuse 1}
 	}
 	translate +z * OFFSET
