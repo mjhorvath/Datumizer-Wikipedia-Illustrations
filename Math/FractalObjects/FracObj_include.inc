@@ -6,6 +6,8 @@
 
 //------------------------------
 // Menger Sponge
+// This shape renders more slowly than the others for some reason.
+// Maybe generating the (fewer) inner/inverse cubes and differencing them from one large cube would be faster.
 #macro FracObj_Menger_Sponge(dMax, cSca, gWid)
 	#local iPos = array[20];
 	#local iMax = 3;
@@ -139,7 +141,7 @@
 	}
 	#local dCount = 0;
 	#while (dCount < dMax)
-		#local bObj = merge
+		#local bObj = union
 		{
 			#local iCount = 0;
 			#while (iCount < 4)

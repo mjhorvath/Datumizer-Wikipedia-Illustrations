@@ -14,7 +14,7 @@
 #include "stones.inc"
 #include "textures.inc"
 
-#declare FracObj_Iteration_Level = 2;
+#declare FracObj_Iteration_Level = frame_number;
 #declare my_seed = seed(32409832);
 
 
@@ -53,7 +53,7 @@ sphere
 	}
 	no_image
 }
-
+/*
 light_source
 {
 	-x*100
@@ -75,17 +75,17 @@ light_source
 	rotate		-z*60
 	rotate		+y*60
 }
-/*
+*/
 light_source
 {
 	-x*100
-	color		rgb 3
+	color		rgb 2.5
 	parallel
 	point_at	0
 	rotate		-z*60
 	rotate		+y*60
 }
-*/
+
 /*
 camera
 {
@@ -105,7 +105,7 @@ camera
 camera
 {
 	#local CameraDistance	= 10;
-	#local ScreenArea		= cosd(45) * 2.0;
+	#local ScreenArea		= cosd(45) * 2;
 	#local AspectRatio		= image_width/image_height;
 //	orthographic
 	location	-z*CameraDistance

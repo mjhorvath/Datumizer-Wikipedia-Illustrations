@@ -14,8 +14,7 @@
 #include "stones.inc"
 #include "textures.inc"
 
-// Raising FracObj_Iteration_Level above 6 will take forever to render.
-#declare FracObj_Iteration_Level = frame_number;
+#declare FracObj_Iteration_Level = 6;
 #declare my_seed = seed(32409832);
 
 
