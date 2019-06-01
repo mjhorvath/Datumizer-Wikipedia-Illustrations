@@ -1,7 +1,7 @@
 // Title: Fractal Objects Include v1.11
 // Authors: Michael Horvath, http://isometricland.net
 // Created: 2008/11/26
-// Updated: 2019/05/30
+// Updated: 2019/05/31
 // This file is licensed under the terms of the CC-LGPL.
 // +kfi0 +kff6
 
@@ -14,8 +14,7 @@
 #include "stones.inc"
 #include "textures.inc"
 
-// Raising FracObj_Iteration_Level above 4 will take forever to render.
-#declare FracObj_Iteration_Level = frame_number;
+#declare FracObj_Iteration_Level = 2;
 #declare my_seed = seed(32409832);
 
 
@@ -80,11 +79,27 @@ light_source
 light_source
 {
 	-x*100
-	color		rgb 3
+	color		rgb 2
 	parallel
 	point_at	0
 	rotate		-z*60
 	rotate		+y*60
+}
+*/
+/*
+camera
+{
+	#local CameraDistance	= 10;
+	#local ScreenArea		= cosd(45) * 2;
+	#local AspectRatio		= image_width/image_height;
+//	orthographic
+	location	-z*CameraDistance
+	direction	+z*CameraDistance
+	right		+x*ScreenArea*AspectRatio
+	up			+y*ScreenArea
+	rotate		+x*30
+	rotate		+y*60
+	translate	+y/3
 }
 */
 camera
@@ -99,7 +114,7 @@ camera
 	up			+y*ScreenArea
 	rotate		+x*asind(tand(30))
 	rotate		+y*60
-	translate	+y/(8/3)
+	translate	+y/4
 }
 
 
@@ -110,16 +125,25 @@ camera
 	pigment {color srgb <1,1/2,0>}
 }
 
-
-// Menger Sponge
-object
+// Sierpinski Pyramid
+// The pyramid is 1 unit high by default; if you want the faces to be equilateral triangles, then scale the y-axis by FracObj_Sierpinski_Pyramid_Eql_Hgh.
+// The pyramid is 1 unit high by default; if you want the faces to look like equilateral triangles when viewed from the side along the x or z axes, then scale the y-axis by FracObj_Sierpinski_Pyramid_Eql2D_Hgh.
+// Scaling by the same amount again also produces interesting results.
+difference
 {
-	FracObj_Menger_Sponge(FracObj_Iteration_Level, <1,1,1,>, 0)
-	translate	(-x-z) * 1/2
-	scale 3/4
+	object
+	{
+		FracObj_Sierpinski_Pyramid(0, <1,1,1,>, 0)
+		translate	(-x-z) * 1/2
+		scale 0.999999
+	}
+	object
+	{
+		FracObj_Sierpinski_Pyramid(FracObj_Iteration_Level, <1,1,1,>, 0)
+		translate	(-x-z) * 1/2
+	}
 	texture {FracObj_Default_Texture}
 }
-
 /*
 cylinder
 {

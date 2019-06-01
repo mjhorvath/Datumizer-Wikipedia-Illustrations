@@ -4,8 +4,9 @@
 // Updated: 2019/05/30
 // This file is licensed under the terms of the CC-LGPL.
 
-//------------------------------
-// Menger Sponge
+
+//------------------------------------------------------------------------------Menger Sponge
+
 // This shape renders more slowly than the others for some reason.
 // Maybe generating the (fewer) inner/inverse cubes and differencing them from one large cube would be faster.
 #macro FracObj_Menger_Sponge(dMax, cSca, gWid)
@@ -64,8 +65,9 @@
 	object { bObj }
 #end
 
-//------------------------------
-// Sierpinski Pyramid
+
+//------------------------------------------------------------------------------Sierpinski Pyramid
+
 #macro FracObj_Sierpinski_Pyramid(dMax, cSca, gWid)
 	#local rot_ang_x = atan2(cSca.y-gWid/2,cSca.x/2-gWid/2);
 	#local rot_ang_z = atan2(cSca.y-gWid/2,cSca.z/2-gWid/2);
@@ -115,8 +117,9 @@
 // The pyramid is 1 unit high by default; if you want the faces to look like equilateral triangles from an orthographic point of view, then scale the y-axis by FracObj_Sierpinski_Pyramid_Eql2D_Hgh.
 #declare FracObj_Sierpinski_Pyramid_Eql2D_Hgh = sin(pi/3);
 
-//------------------------------
-// Sierpinski Tetrahedron
+
+//------------------------------------------------------------------------------Sierpinski Tetrahedron
+
 #macro FracObj_Sierpinski_Tetrahedron(dMax, cSca, gWid)
 	#local leg_dst_1 = cSca.x * tan(pi/6)/2 - gWid/2;
 	#local leg_dst_2 = cSca.y - gWid/2;

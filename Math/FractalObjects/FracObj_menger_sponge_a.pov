@@ -14,7 +14,8 @@
 #include "stones.inc"
 #include "textures.inc"
 
-#declare FracObj_Iteration_Level = frame_number;
+// Raising FracObj_Iteration_Level above 4 will take forever to render.
+#declare FracObj_Iteration_Level = 3;
 #declare my_seed = seed(32409832);
 
 
@@ -30,45 +31,16 @@ global_settings
 	radiosity
 	{
 		Rad_Settings(Radiosity_Final, off, off)
+//		brightness 1.0/2
 	}
 }
 
 background {srgb 1/4}
 
-
-#declare Metal_Floor_Texture = texture
-{
-	pigment {color srgb 1/4}
-	normal
-	{
-		bumps 0.1
-		scale 1/1000
-	}
-	finish
-	{
-		ambient		0.3
-		diffuse		0.7
-		reflection	0.15
-		brilliance	8
-		specular	0.8
-		roughness	0.1
-		phong		1
-	}
-}
-
-#declare Orange_Object_Texture = texture
-{
-	pigment {color srgb <1,1/2,0>}
-	normal { agate 0.25 scale 0.15 }
-	finish { phong 1 } 
-	scale 1/4
-}
-
 plane
 {
 	+y,0
-//	pigment {color srgb 1/4}
-	texture {Metal_Floor_Texture}
+	pigment {color srgb 1/4}
 }
 
 sphere
@@ -104,19 +76,17 @@ light_source
 	rotate		-z*60
 	rotate		+y*60
 }
-
 /*
 light_source
 {
 	-x*100
-	color		rgb 2
+	color		rgb 3
 	parallel
 	point_at	0
 	rotate		-z*60
 	rotate		+y*60
 }
 */
-/*
 camera
 {
 	#local CameraDistance	= 10;
@@ -127,24 +97,9 @@ camera
 	direction	+z*CameraDistance
 	right		+x*ScreenArea*AspectRatio
 	up			+y*ScreenArea
-	rotate		+x*30
-	rotate		+y*60
-	translate	+y/3
-}
-*/
-camera
-{
-	#local CameraDistance	= 10;
-	#local ScreenArea		= cosd(45) * 2.0;
-	#local AspectRatio		= image_width/image_height;
-//	orthographic
-	location	-z*CameraDistance
-	direction	+z*CameraDistance
-	right		+x*ScreenArea*AspectRatio
-	up			+y*ScreenArea
 	rotate		+x*asind(tand(30))
 	rotate		+y*60
-	translate	+y/4
+	translate	+y/(8/3)
 }
 
 
@@ -155,15 +110,14 @@ camera
 	pigment {color srgb <1,1/2,0>}
 }
 
-// Sierpinski Pyramid
-// The pyramid is 1 unit high by default; if you want the faces to be equilateral triangles, then scale the y-axis by FracObj_Sierpinski_Pyramid_Eql_Hgh.
-// The pyramid is 1 unit high by default; if you want the faces to look like equilateral triangles when viewed from the side along the x or z axes, then scale the y-axis by FracObj_Sierpinski_Pyramid_Eql2D_Hgh.
-// Scaling by the same amount again also produces interesting results.
+
+// Menger Sponge
 object
 {
-	FracObj_Sierpinski_Pyramid(FracObj_Iteration_Level, <1,1,1,>, 0)
+	FracObj_Menger_Sponge(FracObj_Iteration_Level, <1,1,1,>, 0)
 	translate	(-x-z) * 1/2
-	texture {Orange_Object_Texture}
+	scale 3/4
+	texture {FracObj_Default_Texture}
 }
 
 /*

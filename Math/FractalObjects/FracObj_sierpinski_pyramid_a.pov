@@ -53,7 +53,7 @@ sphere
 	}
 	no_image
 }
-/*
+
 light_source
 {
 	-x*100
@@ -75,17 +75,17 @@ light_source
 	rotate		-z*60
 	rotate		+y*60
 }
-*/
+/*
 light_source
 {
 	-x*100
-	color		rgb 2.5
+	color		rgb 2
 	parallel
 	point_at	0
 	rotate		-z*60
 	rotate		+y*60
 }
-
+*/
 /*
 camera
 {
