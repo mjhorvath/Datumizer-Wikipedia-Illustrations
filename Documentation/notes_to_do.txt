@@ -1,0 +1,95 @@
+TO DO LIST
+
+New tasks are marked with a minus '-'.
+Fully completed tasks are marked with a plus '+'.
+Partially completed or problematic tasks are marked with a tilde '~'.
+Rejected, discarded or unimplementable tasks are marked with an 'x'.
+
+https://commons.wikimedia.org/wiki/File:Cavalier_perspective_45.svg
+	x Need to remake this so that all three axes are equal in length, per the note I left on the image's description page.
+	+ Or just rename it to "cabinet" instead of "cavalier".
+
+https://commons.wikimedia.org/wiki/File:Camera_focal_length_distance_house_animation.gif
+	+ Replace the string "inf" with the infinity symbol.
+
+https://commons.wikimedia.org/wiki/File:Various_projections_of_cube_above_plane.svg
+	+ Image dimensions are off by a few pixels due to poor conversion from GeoGebra to SVG.
+	x Enlarge them to match magic numbers such as 1024 or 2048.
+
+https://commons.wikimedia.org/wiki/File:Color_mind.svg
+	- Maybe get rid of note about "bindu"? It was always just an afterthought, anyway.
+	- Maybe get rid of the hole in the middle entirely. Without the hole, the center point is actually a much better example of a singularity than the hole is. This singularity point should represent "conflictedness" instead of "emptyness".
+	- Replace the bitmap sphere image with a vectorized image. It will take a lot of work, however!
+
+https://commons.wikimedia.org/wiki/File:Graphical_projection_comparison.png
+https://commons.wikimedia.org/wiki/File:Blue_house_orthographic_projection_a.png
+https://commons.wikimedia.org/wiki/File:Blue_house_orthographic_projection_b.png
+	+ Make sure the grid in the "Elevation" frame does not cut through the middle of the house, but is instead located behind the house.
+	x Enlarge dimensions to match magic numbers like 1024 or 2048.
+	+ Revert back to the more exaggerated dimetric and trimetric viewpoints instead of the video game viewpoints.
+	+ Rename "projection_xx" files to "markers_xx" or something equally clear.
+	+ Use more recent lighting and grid colors.
+	+ Use an infinite plane for the gray grid instead of a finite polygon. This may be an issue for the perspective projections however.
+	- Figure out the best ways to demonstrate one, two and three-point perspective.
+
+https://commons.wikimedia.org/wiki/File:Sphere_vertical_cross_section_parametric.svg
+	x Maybe add an empty hole in the middle?
+	+ The gaps between the lines should be aligned with 0, 90, 180, and 270 degrees.
+
+https://commons.wikimedia.org/wiki/File:Logarithmic_floret_simulation.svg
+	+ Change the color of one of the spiral arms to something other than green to demonstrate the spiral properties of the form.
+
+https://commons.wikimedia.org/wiki/File:Povray_focal_blur_animation.gif
+https://commons.wikimedia.org/wiki/File:Povray_focal_blur_animation_mode_tan.gif
+	- I forgot what the definition of "Aperture Value" is. Where did I get the term from? Find out if it is really a thing, or else delete the image.
+
+https://commons.wikimedia.org/wiki/File:HSLSphere.svg
+	- Create a hole in the middle. It will take a lot of work, however!
+
+https://commons.wikimedia.org/wiki/File:Camera_focal_length_distance.gif
+https://commons.wikimedia.org/wiki/File:Orthographic_camera_distance_focal_length.gif
+	x Delete one or both of these images. (I think I proposed this already and the proposal was declined.)
+
+https://commons.wikimedia.org/wiki/File:HSL_color_solid_sphere_elliptical.png
+https://commons.wikimedia.org/wiki/File:HSL_color_solid_sphere_spherical.png
+	- Backgrounds are not showing up as transparent on the wiki. (I've been told it's a bug, but it's a long time for it not to have been fixed!)
+
+https://commons.wikimedia.org/wiki/File:Isometric_camera_view_30_degrees_color.png
+https://commons.wikimedia.org/wiki/File:Isometric_camera_view_35.264_degrees_color.png
+	- Not happy with the lighting and opacity. Looks weird.
+	- Maybe make the cube opaque?
+
+https://commons.wikimedia.org/wiki/File:RGBCube_a.svg
+https://commons.wikimedia.org/wiki/File:RGBCube_b.svg
+https://commons.wikimedia.org/wiki/File:RGBCube_c.svg
+https://commons.wikimedia.org/wiki/File:RGBCube_d.svg
+	- I'm not happy with these any more. I would like to delete them if they can't be improved.
+
+https://commons.wikimedia.org/wiki/File:Surface_of_latitude_sphere_plane.gif
+https://commons.wikimedia.org/wiki/File:Surface_of_latitude_sphere_cone.gif
+https://commons.wikimedia.org/wiki/File:Surface_of_latitude_ellipsoid_cone.gif
+https://commons.wikimedia.org/wiki/File:Surface_of_latitude_ellipsoid_hyperboloid.gif
+	- Orange ring should begin on the front side so people can see it better.
+
+https://commons.wikimedia.org/wiki/File:Oblique_projection_comparison.svg
+	- Ugly and hard to understand. Make it prettier and clearer.
+	+ Maybe split into a top half and a bottom half?
+
+https://help.geogebra.org/topic/export-not-the-same-size
+	- Read this thread where I troubleshooted the issue of incorrect SVG export image dimensions in GeoGebra.
+
+https://commons.wikimedia.org/w/index.php?title=Special:ListFiles&dir=prev&user=Datumizer
+	- Remove all the vertical text label images I created for the video games project pages.
+
+https://commons.wikimedia.org/wiki/File:Solar_system_orrery_inner_planets.gif
+https://commons.wikimedia.org/wiki/File:Solar_system_orrery_outer_planets.gif
+	- Reset the orbital paths for the other planets when they complete a full cycle too?
+
+https://commons.wikimedia.org/wiki/User:Datumizer
+	- Replace "Source files: external" with "Source files: github" where applicable.
+	- Maybe change the "Images I've created" heading to "Original works"?
+
+Miscellaneous:
+	- In POV-Ray, make sure scenes with invisible backgrounds are still being illuminated. Instead of using a regular "sky_sphere" object, create a large but non-infinite emitting background sphere with the correct color and apply "no_image" to it.
+	- Wikimedia is not always preserving and displaying transparent backgrounds in images. Sometimes an opaque white background is being substituted. I was told this was a bug. Is the bug going to get fixed?
+	- Wikipedia Commons GIF converter produces low quality results, especially when compared to Jasc Animation Shop 3.
