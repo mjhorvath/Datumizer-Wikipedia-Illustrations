@@ -372,7 +372,7 @@
 	#end
 
 	// focus on planet
-	#if (Orrery_i = Orrery_PlanetsFocus)
+	#if (Orrery_i = Orrery_PlanetsFocus - 1)
 		#local Orrery_SphereFocus_Transform = transform
 		{
 			transform {Orrery_Camera_Transform}

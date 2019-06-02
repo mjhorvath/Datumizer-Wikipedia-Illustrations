@@ -1,5 +1,11 @@
+// Title: Solar system orrery
+// Version: 3.4
+// Authors: Michael Horvath, http://isometricland.net
+// Created: 2018/09/15
+// Updated: 2019/06/02
 // This file is licensed under the terms of the CC-LGPL.
-// http://www.gnu.org/licenses/lgpl-2.1.html
+// https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+// +kfi0 +kff99
 
 
 #version 3.8
@@ -19,8 +25,7 @@
 //------------------------------------------------------------------------------
 // GLOBAL PARAMETERS
 
-
-#declare Orrery_PlanetsFocus		= 5;					// 0 to 7, or -1 to disable
+#declare Orrery_PlanetsFocus		= 0;					// 1 to 8, or 0 to disable
 #declare Orrery_PlanetsNumber		= 8;					// 8 currently
 #declare Orrery_DecoMode			= 1;					// 1 = black; 2 = gray
 #declare Orrery_InnerOuter			= 1;					// 1 = inner planets; 2 = outer planets

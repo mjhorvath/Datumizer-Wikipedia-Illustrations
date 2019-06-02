@@ -1,5 +1,11 @@
+// Title: Solar system orrery
+// Version: 3.4
+// Authors: Michael Horvath, http://isometricland.net
+// Created: 2018/09/15
+// Updated: 2019/06/02
 // This file is licensed under the terms of the CC-LGPL.
-// http://www.gnu.org/licenses/lgpl-2.1.html
+// https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+// +kfi0 +kff99
 
 
 #version 3.8
@@ -14,16 +20,17 @@
 #include "lightsys.inc"			// http://www.ignorancia.org/en/index.php?page=Lightsys
 #include "math.inc"
 #include "transforms.inc"
+#include "rad_def.inc"
 
 
 //------------------------------------------------------------------------------
 // GLOBAL PARAMETERS
 
-
-#declare Orrery_PlanetsFocus		= -1;					// 0 to 7 or -1 to disable
+#declare Orrery_Scene				= 2;					// 0 = ignore this setting, 1 = inner anim, 2 = inner static, 3 = outer anim, 4 = outer static
+#declare Orrery_PlanetsFocus		= 0;					// 1 to 8, or 0 to disable
 #declare Orrery_PlanetsNumber		= 8;					// 8 currently
-#declare Orrery_DecoMode			= 1;					// 1 = black; 2 = gray
-#declare Orrery_InnerOuter			= 1;					// 1 = inner planets; 2 = outer planets
+#declare Orrery_DecoMode			= 2;					// 1 = black; 2 = gray
+#declare Orrery_InnerOuter			= 2;					// 1 = inner planets; 2 = outer planets
 #declare Orrery_SunRadius			= 696000;				// km
 #declare Orrery_AU					= 149597870.691;		// km
 #declare Orrery_EccentricityMulti	= 1;					// not used currrently
@@ -33,13 +40,35 @@
 #declare Orrery_BitmapTextures		= true;					// use bitmap textures or solid colors?
 #declare Orrery_TextSize			= 0.04;					// size of on-screen text
 #declare Orrery_TextFont			= "OpenSans-Regular.ttf";
-#declare Orrery_Animation			= false;					// are you rendering an animation?
+#declare Orrery_Animation			= true;					// are you rendering an animation?
 #declare Orrery_LightLumens			= 2;
 #declare Orrery_LightTemp			= Daylight(5800);
 #declare Orrery_LightColor			= Light_Color(Orrery_LightTemp,Orrery_LightLumens);
-#declare Orrery_J2000_Obliquity		= 23.43928;					// deg, obliquity of Earth pole axis
-#declare Orrery_J2000_Date			= 2451545.0;				// Julian days, January 1, 2000, at 12h TT
-#declare Orrery_MarkerShow			= false;					// show/hide alignment markers
+#declare Orrery_J2000_Obliquity		= 23.43928;				// deg, obliquity of Earth pole axis
+#declare Orrery_J2000_Date			= 2451545.0;			// Julian days, January 1, 2000, at 12h TT
+#declare Orrery_MarkerShow			= false;				// show/hide alignment markers
+
+// inner anim
+#if (Orrery_Scene = 1)
+	#declare Orrery_InnerOuter			= 1;				// 1 = inner planets; 2 = outer planets
+	#declare Orrery_Animation			= true;				// are you rendering an animation?
+	#declare Orrery_DecoMode			= 2;				// 1 = black; 2 = gray
+// inner static
+#elseif (Orrery_Scene = 2)
+	#declare Orrery_InnerOuter			= 1;				// 1 = inner planets; 2 = outer planets
+	#declare Orrery_Animation			= false;			// are you rendering an animation?
+	#declare Orrery_DecoMode			= 1;				// 1 = black; 2 = gray
+// outer anim
+#elseif (Orrery_Scene = 3)
+	#declare Orrery_InnerOuter			= 2;				// 1 = inner planets; 2 = outer planets
+	#declare Orrery_Animation			= true;				// are you rendering an animation?
+	#declare Orrery_DecoMode			= 2;				// 1 = black; 2 = gray
+// outer static
+#elseif (Orrery_Scene = 4)
+	#declare Orrery_InnerOuter			= 2;				// 1 = inner planets; 2 = outer planets
+	#declare Orrery_Animation			= false;			// are you rendering an animation?
+	#declare Orrery_DecoMode			= 1;				// 1 = black; 2 = gray
+#end
 
 #if (Orrery_InnerOuter = 1)
 	#declare Orrery_SceneScale			= 3.5/2;															// multiplier
@@ -136,16 +165,16 @@
 
 global_settings
 {
-	#if (Orrery_Radiosity = true)
-		radiosity
-		{
-			always_sample	off
-			brightness		0.3
-		}
-	#end
-	ambient_light	0.01
+	assumed_gamma	1.0
+	adc_bailout		0.005
+	max_trace_level	50
 	charset			utf8
-	assumed_gamma	1
+	ambient_light	0
+	radiosity
+	{
+		Rad_Settings(Radiosity_Final, off, off)
+//		brightness 1/4
+	}
 }
 
 #if (Orrery_DecoMode = 1)
@@ -244,8 +273,8 @@ plane
 		object
 		{
 			Orrery_Ecliptic_Pattern
-			color srgbt <1,1,1,3/4>
-			color srgbt <1,1,1,1/4>
+			color srgbt <7/8,7/8,7/8,3/4>
+			color srgbt <7/8,7/8,7/8,1/4>
 		}
 	}
 	hollow
@@ -370,20 +399,20 @@ Screen_Object(Orrery_DayText, <0.74,0.02>, <0.02,0.02>, false, 0.01)
 		light_source
 		{
 			<-1,+1,+1,> * 100
-			color rgb	1
-			rotate +z * 15
+			color		rgb 1
+			rotate		+z * 15
 			parallel
-			point_at 0
+			point_at	0
 //			shadowless
 		}
 		light_source
 		{
 			<-1,+1,+1,> * 100
-			color rgb	1
-			rotate -z * 270
-			rotate +z * 15
+			color		rgb 1
+			rotate		-z * 270
+			rotate		+z * 15
 			parallel
-			point_at 0
+			point_at	0
 			shadowless
 		}
 	#break

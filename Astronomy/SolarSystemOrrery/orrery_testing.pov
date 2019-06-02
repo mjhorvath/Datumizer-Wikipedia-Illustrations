@@ -1,5 +1,11 @@
+// Title: Solar system orrery
+// Version: 3.4
+// Authors: Michael Horvath, http://isometricland.net
+// Created: 2018/09/15
+// Updated: 2019/06/02
 // This file is licensed under the terms of the CC-LGPL.
-// http://www.gnu.org/licenses/lgpl-2.1.html
+// https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
+// +kfi0 +kff99
 
 
 #version 3.8

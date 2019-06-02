@@ -3,6 +3,7 @@
 // Created: 2008/11/26
 // Updated: 2019/05/30
 // This file is licensed under the terms of the CC-LGPL.
+// http://www.gnu.org/licenses/lgpl-2.1.html
 // +kfi0 +kff6
 
 #version 3.7
