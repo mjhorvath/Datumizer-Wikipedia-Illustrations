@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>GeoGebra JavaScript evaluation and XML modification demonstration</title>
+<title>GeoGebra Apps API demo</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <script type="text/javascript" src="https://cdn.geogebra.org/apps/deployggb.js"></script>
@@ -126,6 +126,28 @@ function toggleapplet()
 	}
 }
 
+// not sure when exactly to execute this, except manually
+function firstload()
+{
+	document.ggbApplet.setPerspective("G")
+	document.ggbApplet.setSize(803, 656)
+	document.ggbApplet.setCoordSystem(-600, 5400, -55, 935)
+	document.ggbApplet.setAxisLabels(1, "cents", "frequency", "")
+	document.ggbApplet.setAxisUnits(1, "", "Hz", "")
+	document.ggbApplet.setAxisSteps(1, 1200, 55, 1)
+	document.ggbApplet.setGridVisible(true)
+}
+
+function hidetoolbar()
+{
+	document.ggbApplet.showToolBar(false)
+}
+
+function exportpng()
+{
+	document.ggbApplet.writePNGtoFile("diatonic.png", 1, false, 90)
+}
+
 function examplejscript()
 {
 	document.evaljscript.jscriptcode.value = document.getElementById('jscriptexample').firstChild.nodeValue
@@ -147,9 +169,9 @@ function getMethods(obj)
 //-->
 </script>
 </head>
-<body>
+<body onload="clearscript();clearsource();">
 <div class="out">
-	<h3>GeoGebra JavaScript evaluation and XML modification demonstration,</h3>
+	<h3>GeoGebra Apps API demo,</h3>
 	<h5>by Michael Horvath</h5>
 	<div class="frm">
 		<h4 class="tab">Introduction</h4>
@@ -161,7 +183,13 @@ function getMethods(obj)
 	<div class="frm">
 		<h4 class="tab">Applet</h4>
 		<div class="bod">
-			<div id="ggb-element" class="app"></div>
+			<form class="pan" name="appwindow">
+				<div id="ggb-element" class="app"></div>
+<!--
+				<input type="button" value="Hide Toolbar" onclick="hidetoolbar()" />
+				<input type="button" value="Export as PNG" onclick="exportpng()" />
+-->
+			</form>
 		</div>
 	</div>
 	<div class="frm">
@@ -188,6 +216,8 @@ function getMethods(obj)
 	</div>
 </div>
 <pre id="jscriptexample" style="display:none;">
+// This script assumes that the applet toolbars and "chrome" amount to a total
+// of 3 pixels horizontally and 56 pixels vertically.
 function SetupEnvironment() {
   document.ggbApplet.setPerspective("G")
   document.ggbApplet.setSize(803, 656)

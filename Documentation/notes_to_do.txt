@@ -74,6 +74,7 @@ https://commons.wikimedia.org/wiki/File:Surface_of_latitude_ellipsoid_hyperboloi
 https://commons.wikimedia.org/wiki/File:Oblique_projection_comparison.svg
 	- Ugly and hard to understand. Make it prettier and clearer.
 	+ Maybe split into a top half and a bottom half?
+	- Rather, I should split it into four quarters.
 
 https://help.geogebra.org/topic/export-not-the-same-size
 	- Read this thread where I troubleshooted the issue of incorrect SVG export image dimensions in GeoGebra.
