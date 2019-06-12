@@ -19,7 +19,7 @@ h3	{display:inline;margin-bottom:2em;}
 h5	{display:inline;margin-bottom:2em;}
 br	{clear:both;}
 textarea
-	{width:100%;height:400px;overflow:auto;white-space:pre;}
+	{width:100%;height:400px;overflow:auto;white-space:pre;tab-size:4;}
 #ggb-element {margin:auto;}
 -->
 </style>
@@ -185,10 +185,6 @@ function getMethods(obj)
 		<div class="bod">
 			<form class="pan" name="appwindow">
 				<div id="ggb-element" class="app"></div>
-<!--
-				<input type="button" value="Hide Toolbar" onclick="hidetoolbar()" />
-				<input type="button" value="Export as PNG" onclick="exportpng()" />
--->
 			</form>
 		</div>
 	</div>
@@ -217,7 +213,8 @@ function getMethods(obj)
 </div>
 <pre id="jscriptexample" style="display:none;">
 // This script assumes that the applet toolbars and "chrome" amount to a total
-// of 3 pixels horizontally and 56 pixels vertically.
+// of 3 pixels horizontally and 56 pixels vertically. This may change in future 
+// versions of GeoGebra.
 function SetupEnvironment() {
   document.ggbApplet.setPerspective("G")
   document.ggbApplet.setSize(803, 656)

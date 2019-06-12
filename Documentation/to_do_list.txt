@@ -17,8 +17,8 @@ https://commons.wikimedia.org/wiki/File:Various_projections_of_cube_above_plane.
 	x Enlarge them to match magic numbers such as 1024 or 2048.
 
 https://commons.wikimedia.org/wiki/File:Color_mind.svg
-	- Maybe get rid of note about "bindu"? It was always just an afterthought, anyway.
-	- Maybe get rid of the hole in the middle entirely. Without the hole, the center point is actually a much better example of a singularity than the hole is. This singularity point should represent "conflictedness" instead of "emptyness".
+	- Possibly get rid of note about "bindu"? It was always just an afterthought, anyway.
+	- Possibly get rid of the hole in the middle entirely. Without the hole, the center point is actually a much better example of a singularity than the hole is. This singularity point should represent "conflictedness" instead of "emptyness".
 	- Replace the bitmap sphere image with a vectorized image. It will take a lot of work, however!
 
 https://commons.wikimedia.org/wiki/File:Graphical_projection_comparison.png
@@ -33,18 +33,20 @@ https://commons.wikimedia.org/wiki/File:Blue_house_orthographic_projection_b.png
 	- Figure out the best ways to demonstrate one, two and three-point perspective.
 
 https://commons.wikimedia.org/wiki/File:Sphere_vertical_cross_section_parametric.svg
-	x Maybe add an empty hole in the middle?
-	+ The gaps between the lines should be aligned with 0, 90, 180, and 270 degrees.
+	- Possibly add an empty hole in the middle like the 3D POV-Ray version.
+	- Or, offset everything by 1/2 like in HSLSphere.svg?
+	+ The gaps between the latitude lines should be aligned with 0, 90, 180, and 270 degrees.
+	- The solid thick sectional lines should use a nicer endcap where they meet.
 
 https://commons.wikimedia.org/wiki/File:Logarithmic_floret_simulation.svg
 	+ Change the color of one of the spiral arms to something other than green to demonstrate the spiral properties of the form.
 
 https://commons.wikimedia.org/wiki/File:Povray_focal_blur_animation.gif
-https://commons.wikimedia.org/wiki/File:Povray_focal_blur_animation_mode_tan.gif
-	- I forgot what the definition of "Aperture Value" is. Where did I get the term from? Find out if it is really a thing, or else delete the image.
+	- I forgot what the definition of "Aperture Value" is. Where did I obtain this term from? Find out if it is really a thing, or else delete the image.
+	+ The version of this image using the tan function is fine and doesn't need to be changed.
 
 https://commons.wikimedia.org/wiki/File:HSLSphere.svg
-	- Create a hole in the middle. It will take a lot of work, however!
+	- Possibly create a hole in the middle. It will take a lot of work, however!
 
 https://commons.wikimedia.org/wiki/File:Camera_focal_length_distance.gif
 https://commons.wikimedia.org/wiki/File:Orthographic_camera_distance_focal_length.gif
@@ -52,12 +54,12 @@ https://commons.wikimedia.org/wiki/File:Orthographic_camera_distance_focal_lengt
 
 https://commons.wikimedia.org/wiki/File:HSL_color_solid_sphere_elliptical.png
 https://commons.wikimedia.org/wiki/File:HSL_color_solid_sphere_spherical.png
-	- Backgrounds are not showing up as transparent on the wiki. (I've been told it's a bug, but it's a long time for it not to have been fixed!)
+	- Backgrounds are not showing up as transparent on the wiki. I've been told it's a bug, but it's now been a long time for this bug to not have been fixed!
 
 https://commons.wikimedia.org/wiki/File:Isometric_camera_view_30_degrees_color.png
 https://commons.wikimedia.org/wiki/File:Isometric_camera_view_35.264_degrees_color.png
 	- Not happy with the lighting and opacity. Looks weird.
-	- Maybe make the cube opaque?
+	- Possibly make the cube more/fully opaque.
 
 https://commons.wikimedia.org/wiki/File:RGBCube_a.svg
 https://commons.wikimedia.org/wiki/File:RGBCube_b.svg
@@ -70,11 +72,12 @@ https://commons.wikimedia.org/wiki/File:Surface_of_latitude_sphere_cone.gif
 https://commons.wikimedia.org/wiki/File:Surface_of_latitude_ellipsoid_cone.gif
 https://commons.wikimedia.org/wiki/File:Surface_of_latitude_ellipsoid_hyperboloid.gif
 	- Orange ring should begin on the front side so people can see it better.
+	- Sections should rise and fall based on the sin and cos method I chose for the Munsell animation.
 
 https://commons.wikimedia.org/wiki/File:Oblique_projection_comparison.svg
 	- Ugly and hard to understand. Make it prettier and clearer.
-	+ Maybe split into a top half and a bottom half?
-	- Rather, I should split it into four quarters.
+	+ Possibly split into a top half and a bottom half.
+	- Or, maybe split it into four quarters?
 
 https://help.geogebra.org/topic/export-not-the-same-size
 	- Read this thread where I troubleshooted the issue of incorrect SVG export image dimensions in GeoGebra.
@@ -86,9 +89,14 @@ https://commons.wikimedia.org/wiki/File:Solar_system_orrery_inner_planets.gif
 https://commons.wikimedia.org/wiki/File:Solar_system_orrery_outer_planets.gif
 	- Reset the orbital paths for the other planets when they complete a full cycle too?
 
+https://en.wikipedia.org/wiki/File:Perspective_isometrique_cube_gris.svg
+https://en.wikipedia.org/wiki/File:Perspective_dimetrique_cube_gris.svg
+	- Remove the grid.
+	- Possibly replace with the blue POV-Ray rendered versions.
+
 https://commons.wikimedia.org/wiki/User:Datumizer
 	- Replace "Source files: external" with "Source files: github" where applicable.
-	- Maybe change the "Images I've created" heading to "Original works"?
+	- Possibly change the "Images I've created" heading to "Original works".
 
 Miscellaneous:
 	- In POV-Ray, make sure scenes with invisible backgrounds are still being illuminated. Instead of using a regular "sky_sphere" object, create a large but non-infinite emitting background sphere with the correct color and apply "no_image" to it.
