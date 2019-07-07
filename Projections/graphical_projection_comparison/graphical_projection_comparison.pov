@@ -1,7 +1,7 @@
 // Title: Graphical projection comparison
 // Authors: Michael Horvath, http://isometricland.net
 // Created: 2009-11-13
-// Updated: 2019-05-27
+// Updated: 2019-06-20
 // This file is licensed under the terms of the CC BY-SA 4.0 license.
 // +kfi0 +kff16
 // -uv
@@ -10,7 +10,7 @@
 #include "Axes_macro.inc"	// available from the POV-Ray Object Collection
 #include "functions.inc"
 #include "math.inc"
-#include "screen.inc"		// requires the updated version available here: http://news.povray.org/povray.text.scene-files/thread/%3C581be4f1%241%40news.povray.org%3E/
+#include "screen_mjh.inc"		// requires the updated version available here: http://news.povray.org/povray.text.scene-files/thread/%3C581be4f1%241%40news.povray.org%3E/
 
 #declare show_spheres = false;		// spheres used for alignment, also some text output
 
@@ -59,8 +59,8 @@ light_source
 }
 
 
-#local cam_view =	frame_number;
-//#local cam_view =	9;
+//#local cam_view =	frame_number;
+#local cam_view =	0;
 #local cam_aspc =	image_width/image_height;		// obsolete. render square images only!
 #local cam_dist =	8;
 #local cam_move =	1/2;
@@ -84,7 +84,7 @@ light_source
 		#local cam_area =	2;
 		#local cam_loca =	-z * cam_dist;
 		#local cam_dirc =	+z;
-		#local cam_rgvc =	+x * cam_area;
+		#local cam_rgvc =	+x * cam_area * cam_aspc;
 		#local cam_upvc =	+y * cam_area;
 		#local cam_tran = transform
 		{
@@ -95,7 +95,7 @@ light_source
 		#local cam_area =	2;
 		#local cam_loca =	-z * cam_dist;
 		#local cam_dirc =	+z;
-		#local cam_rgvc =	+x * cam_area;
+		#local cam_rgvc =	+x * cam_area * cam_aspc;
 		#local cam_upvc =	+y * cam_area;
 		#local cam_tran = transform
 		{
@@ -120,7 +120,7 @@ light_source
 		#local cam_area =	2;
 		#local cam_loca =	-z * cam_dist;
 		#local cam_dirc =	+z;
-		#local cam_rgvc =	+x * cam_area;
+		#local cam_rgvc =	+x * cam_area * cam_aspc;
 		#local cam_upvc =	+y * cam_area;
 		#local cam_tran = transform
 		{
@@ -133,7 +133,7 @@ light_source
 		#local cam_area =	2;
 		#local cam_loca =	-z * cam_dist;
 		#local cam_dirc =	+z;
-		#local cam_rgvc =	+x * cam_area;
+		#local cam_rgvc =	+x * cam_area * cam_aspc;
 		#local cam_upvc =	+y * cam_area;
 		#local cam_tran = transform
 		{
@@ -226,7 +226,7 @@ light_source
 		#local cam_area =	2;
 		#local cam_loca =	-z * cam_dist;
 		#local cam_dirc =	+z;
-		#local cam_rgvc =	+x * cam_area;
+		#local cam_rgvc =	+x * cam_area * cam_aspc;
 		#local cam_upvc =	+y * cam_area;
 		#local cam_tran = transform
 		{
@@ -239,7 +239,7 @@ light_source
 		#local cam_area =	2;
 		#local cam_loca =	-z * cam_dist;
 		#local cam_dirc =	+z;
-		#local cam_rgvc =	+x * cam_area;
+		#local cam_rgvc =	+x * cam_area * cam_aspc;
 		#local cam_upvc =	+y * cam_area;
 		#local cam_tran = transform
 		{
@@ -363,69 +363,69 @@ object
 			#local sphere_dist = 4/8;
 			#local sphere_size = 1/16;
 		
-			#local sphere_loc_2 = <-sphere_dist*1,+sphere_dist*0,+sphere_dist*0,>;
-			sphere {sphere_loc_2, sphere_size}
-			#local sphere_loc_2 = Get_Screen_XY(sphere_loc_2);
-			#debug concat("\ncen_f = (", vstr(2, sphere_loc_2, ",", 0, -1), ")\n\n")
+			#local sphere_3d_2 = <-sphere_dist*1,+sphere_dist*0,+sphere_dist*0,>;
+			sphere {sphere_3d_2, sphere_size}
+			#local sphere_2d_2 = Get_Screen_XY(sphere_3d_2);
+			#debug concat("\ncen_f = (", vstr(2, sphere_2d_2, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_4 = <-sphere_dist*2,+sphere_dist*0,+sphere_dist*0,>;
-			sphere {sphere_loc_4, sphere_size}
-			#local sphere_loc_4 = Get_Screen_XY(sphere_loc_4);
-			#debug concat("\nlft_f = (", vstr(2, sphere_loc_4, ",", 0, -1), ")\n\n")
+			#local sphere_3d_4 = <-sphere_dist*2,+sphere_dist*0,+sphere_dist*0,>;
+			sphere {sphere_3d_4, sphere_size}
+			#local sphere_2d_4 = Get_Screen_XY(sphere_3d_4);
+			#debug concat("\nlft_f = (", vstr(2, sphere_2d_4, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_1 = <-sphere_dist*1,+sphere_dist*0,-sphere_dist*1,>;
-			sphere {sphere_loc_1, sphere_size}
-			#local sphere_loc_1 = Get_Screen_XY(sphere_loc_1);
-			#debug concat("\nrgt_f = (", vstr(2, sphere_loc_1, ",", 0, -1), ")\n\n")
+			#local sphere_3d_1 = <-sphere_dist*1,+sphere_dist*0,-sphere_dist*1,>;
+			sphere {sphere_3d_1, sphere_size}
+			#local sphere_2d_1 = Get_Screen_XY(sphere_3d_1);
+			#debug concat("\nrgt_f = (", vstr(2, sphere_2d_1, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_3 = <-sphere_dist*1,+sphere_dist*1,+sphere_dist*0,>;
-			sphere {sphere_loc_3, sphere_size}
-			#local sphere_loc_3 = Get_Screen_XY(sphere_loc_3);
-			#debug concat("\ntop_f = (", vstr(2, sphere_loc_3, ",", 0, -1), ")\n\n")
+			#local sphere_3d_3 = <-sphere_dist*1,+sphere_dist*1,+sphere_dist*0,>;
+			sphere {sphere_3d_3, sphere_size}
+			#local sphere_2d_3 = Get_Screen_XY(sphere_3d_3);
+			#debug concat("\ntop_f = (", vstr(2, sphere_2d_3, ",", 0, -1), ")\n\n")
 		
 		
 			
-			#local sphere_loc_2 = <+sphere_dist*3,+sphere_dist*0,+sphere_dist*1,>;
-			sphere {sphere_loc_2, sphere_size}
-			#local sphere_loc_2 = Get_Screen_XY(sphere_loc_2);
-			#debug concat("\ncen_b = (", vstr(2, sphere_loc_2, ",", 0, -1), ")\n\n")
+			#local sphere_3d_2 = <+sphere_dist*3,+sphere_dist*0,+sphere_dist*1,>;
+			sphere {sphere_3d_2, sphere_size}
+			#local sphere_2d_2 = Get_Screen_XY(sphere_3d_2);
+			#debug concat("\ncen_b = (", vstr(2, sphere_2d_2, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_4 = <+sphere_dist*2,+sphere_dist*0,+sphere_dist*1,>;
-			sphere {sphere_loc_4, sphere_size}
-			#local sphere_loc_4 = Get_Screen_XY(sphere_loc_4);
-			#debug concat("\nlft_b = (", vstr(2, sphere_loc_4, ",", 0, -1), ")\n\n")
+			#local sphere_3d_4 = <+sphere_dist*2,+sphere_dist*0,+sphere_dist*1,>;
+			sphere {sphere_3d_4, sphere_size}
+			#local sphere_2d_4 = Get_Screen_XY(sphere_3d_4);
+			#debug concat("\nlft_b = (", vstr(2, sphere_2d_4, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_1 = <+sphere_dist*3,+sphere_dist*0,+sphere_dist*0,>;
-			sphere {sphere_loc_1, sphere_size}
-			#local sphere_loc_1 = Get_Screen_XY(sphere_loc_1);
-			#debug concat("\nrgt_b = (", vstr(2, sphere_loc_1, ",", 0, -1), ")\n\n")
+			#local sphere_3d_1 = <+sphere_dist*3,+sphere_dist*0,+sphere_dist*0,>;
+			sphere {sphere_3d_1, sphere_size}
+			#local sphere_2d_1 = Get_Screen_XY(sphere_3d_1);
+			#debug concat("\nrgt_b = (", vstr(2, sphere_2d_1, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_3 = <+sphere_dist*3,+sphere_dist*1,+sphere_dist*1,>;
-			sphere {sphere_loc_3, sphere_size}
-			#local sphere_loc_3 = Get_Screen_XY(sphere_loc_3);
-			#debug concat("\ntop_b = (", vstr(2, sphere_loc_3, ",", 0, -1), ")\n\n")
+			#local sphere_3d_3 = <+sphere_dist*3,+sphere_dist*1,+sphere_dist*1,>;
+			sphere {sphere_3d_3, sphere_size}
+			#local sphere_2d_3 = Get_Screen_XY(sphere_3d_3);
+			#debug concat("\ntop_b = (", vstr(2, sphere_2d_3, ",", 0, -1), ")\n\n")
 		
 		
 		
-			#local sphere_loc_2 = <+sphere_dist*2,+sphere_dist*0,+sphere_dist*4,>;
-			sphere {sphere_loc_2, sphere_size}
-			#local sphere_loc_2 = Get_Screen_XY(sphere_loc_2);
-			#debug concat("\ncen_l = (", vstr(2, sphere_loc_2, ",", 0, -1), ")\n\n")
+			#local sphere_3d_2 = <+sphere_dist*2,+sphere_dist*0,+sphere_dist*4,>;
+			sphere {sphere_3d_2, sphere_size}
+			#local sphere_2d_2 = Get_Screen_XY(sphere_3d_2);
+			#debug concat("\ncen_l = (", vstr(2, sphere_2d_2, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_4 = <+sphere_dist*1,+sphere_dist*0,+sphere_dist*4,>;
-			sphere {sphere_loc_4, sphere_size}
-			#local sphere_loc_4 = Get_Screen_XY(sphere_loc_4);
-			#debug concat("\nlft_l = (", vstr(2, sphere_loc_4, ",", 0, -1), ")\n\n")
+			#local sphere_3d_4 = <+sphere_dist*1,+sphere_dist*0,+sphere_dist*4,>;
+			sphere {sphere_3d_4, sphere_size}
+			#local sphere_2d_4 = Get_Screen_XY(sphere_3d_4);
+			#debug concat("\nlft_l = (", vstr(2, sphere_2d_4, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_1 = <+sphere_dist*2,+sphere_dist*0,+sphere_dist*3,>;
-			sphere {sphere_loc_1, sphere_size}
-			#local sphere_loc_1 = Get_Screen_XY(sphere_loc_1);
-			#debug concat("\nrgt_l = (", vstr(2, sphere_loc_1, ",", 0, -1), ")\n\n")
+			#local sphere_3d_1 = <+sphere_dist*2,+sphere_dist*0,+sphere_dist*3,>;
+			sphere {sphere_3d_1, sphere_size}
+			#local sphere_2d_1 = Get_Screen_XY(sphere_3d_1);
+			#debug concat("\nrgt_l = (", vstr(2, sphere_2d_1, ",", 0, -1), ")\n\n")
 		
-			#local sphere_loc_3 = <+sphere_dist*2,+sphere_dist*1,+sphere_dist*4,>;
-			sphere {sphere_loc_3, sphere_size}
-			#local sphere_loc_3 = Get_Screen_XY(sphere_loc_3);
-			#debug concat("\ntop_l = (", vstr(2, sphere_loc_3, ",", 0, -1), ")\n\n")
+			#local sphere_3d_3 = <+sphere_dist*2,+sphere_dist*1,+sphere_dist*4,>;
+			sphere {sphere_3d_3, sphere_size}
+			#local sphere_2d_3 = Get_Screen_XY(sphere_3d_3);
+			#debug concat("\ntop_l = (", vstr(2, sphere_2d_3, ",", 0, -1), ")\n\n")
 		#break
 		#case (10)
 		#case (11)
@@ -433,73 +433,73 @@ object
 			#local sphere_dist = 4/8;
 			#local sphere_size = 1/32;
 		
-			#local sphere_loc_1_a = <-sphere_dist,+sphere_dist*0/4,-sphere_dist,>;
-			sphere {sphere_loc_1_a, sphere_size}
-			#local sphere_loc_1_a = Get_Screen_XY(sphere_loc_1_a);
-			#debug concat("\n1_a = (", vstr(2, sphere_loc_1_a, ",", 0, -1), ")\n\n")
+			#local sphere_3d_1_a = <-sphere_dist,+sphere_dist*0/4,-sphere_dist,>;
+			sphere {sphere_3d_1_a, sphere_size}
+			#local sphere_2d_1_a = Get_Screen_XY(sphere_3d_1_a);
+			#debug concat("\n1_a = (", vstr(2, sphere_2d_1_a, ",", 0, -1), ")\n\n")
 
-			#local sphere_loc_1_b = <-sphere_dist,+sphere_dist*3/4,-sphere_dist,>;
-			sphere {sphere_loc_1_b, sphere_size}
-			#local sphere_loc_1_b = Get_Screen_XY(sphere_loc_1_b);
-			#debug concat("\n1_b = (", vstr(2, sphere_loc_1_b, ",", 0, -1), ")\n\n")
+			#local sphere_3d_1_b = <-sphere_dist,+sphere_dist*3/4,-sphere_dist,>;
+			sphere {sphere_3d_1_b, sphere_size}
+			#local sphere_2d_1_b = Get_Screen_XY(sphere_3d_1_b);
+			#debug concat("\n1_b = (", vstr(2, sphere_2d_1_b, ",", 0, -1), ")\n\n")
 
-			#local sphere_loc_2_a = <-sphere_dist,+sphere_dist*0/4,+sphere_dist,>;
-			sphere {sphere_loc_2_a, sphere_size}
-			#local sphere_loc_2_a = Get_Screen_XY(sphere_loc_2_a);
-			#debug concat("\n2_a = (", vstr(2, sphere_loc_2_a, ",", 0, -1), ")\n\n")
+			#local sphere_3d_2_a = <-sphere_dist,+sphere_dist*0/4,+sphere_dist,>;
+			sphere {sphere_3d_2_a, sphere_size}
+			#local sphere_2d_2_a = Get_Screen_XY(sphere_3d_2_a);
+			#debug concat("\n2_a = (", vstr(2, sphere_2d_2_a, ",", 0, -1), ")\n\n")
 
-			#local sphere_loc_2_b = <-sphere_dist,+sphere_dist*3/4,+sphere_dist,>;
-			sphere {sphere_loc_2_b, sphere_size}
-			#local sphere_loc_2_b = Get_Screen_XY(sphere_loc_2_b);
-			#debug concat("\n2_b = (", vstr(2, sphere_loc_2_b, ",", 0, -1), ")\n\n")
+			#local sphere_3d_2_b = <-sphere_dist,+sphere_dist*3/4,+sphere_dist,>;
+			sphere {sphere_3d_2_b, sphere_size}
+			#local sphere_2d_2_b = Get_Screen_XY(sphere_3d_2_b);
+			#debug concat("\n2_b = (", vstr(2, sphere_2d_2_b, ",", 0, -1), ")\n\n")
 
-			#local sphere_loc_3_a = <+sphere_dist,+sphere_dist*0/4,+sphere_dist,>;
-			sphere {sphere_loc_3_a, sphere_size}
-			#local sphere_loc_3_a = Get_Screen_XY(sphere_loc_3_a);
-			#debug concat("\n3_a = (", vstr(2, sphere_loc_3_a, ",", 0, -1), ")\n\n")
+			#local sphere_3d_3_a = <+sphere_dist,+sphere_dist*0/4,+sphere_dist,>;
+			sphere {sphere_3d_3_a, sphere_size}
+			#local sphere_2d_3_a = Get_Screen_XY(sphere_3d_3_a);
+			#debug concat("\n3_a = (", vstr(2, sphere_2d_3_a, ",", 0, -1), ")\n\n")
 
-			#local sphere_loc_3_b = <+sphere_dist,+sphere_dist*3/4,+sphere_dist,>;
-			sphere {sphere_loc_3_b, sphere_size}
-			#local sphere_loc_3_b = Get_Screen_XY(sphere_loc_3_b);
-			#debug concat("\n3_b = (", vstr(2, sphere_loc_3_b, ",", 0, -1), ")\n\n")
+			#local sphere_3d_3_b = <+sphere_dist,+sphere_dist*3/4,+sphere_dist,>;
+			sphere {sphere_3d_3_b, sphere_size}
+			#local sphere_2d_3_b = Get_Screen_XY(sphere_3d_3_b);
+			#debug concat("\n3_b = (", vstr(2, sphere_2d_3_b, ",", 0, -1), ")\n\n")
 
-			#local sphere_loc_4_a = <+sphere_dist,+sphere_dist*0/4,-sphere_dist,>;
-			sphere {sphere_loc_4_a, sphere_size}
-			#local sphere_loc_4_a = Get_Screen_XY(sphere_loc_4_a);
-			#debug concat("\n4_a = (", vstr(2, sphere_loc_4_a, ",", 0, -1), ")\n\n")
+			#local sphere_3d_4_a = <+sphere_dist,+sphere_dist*0/4,-sphere_dist,>;
+			sphere {sphere_3d_4_a, sphere_size}
+			#local sphere_2d_4_a = Get_Screen_XY(sphere_3d_4_a);
+			#debug concat("\n4_a = (", vstr(2, sphere_2d_4_a, ",", 0, -1), ")\n\n")
 
-			#local sphere_loc_4_b = <+sphere_dist,+sphere_dist*3/4,-sphere_dist,>;
-			sphere {sphere_loc_4_b, sphere_size}
-			#local sphere_loc_4_b = Get_Screen_XY(sphere_loc_4_b);
-			#debug concat("\n4_b = (", vstr(2, sphere_loc_4_b, ",", 0, -1), ")\n\n")
+			#local sphere_3d_4_b = <+sphere_dist,+sphere_dist*3/4,-sphere_dist,>;
+			sphere {sphere_3d_4_b, sphere_size}
+			#local sphere_2d_4_b = Get_Screen_XY(sphere_3d_4_b);
+			#debug concat("\n4_b = (", vstr(2, sphere_2d_4_b, ",", 0, -1), ")\n\n")
 		#break
 		#else
 			#local sphere_dist = 4/8;
 			#local sphere_size = 1/16;
 
 			// black
-			#local sphere_loc_1 = <+sphere_dist*1,+sphere_dist*0,+sphere_dist*1,>;
-			sphere {sphere_loc_1, sphere_size pigment {color srgb 0}}
-			#local sphere_loc_1 = Get_Screen_XY(sphere_loc_1);
-			#debug concat("\ncen = (", vstr(2, sphere_loc_1, ",", 0, -1), ")\n\n")
+			#local sphere_3d_1 = <+sphere_dist*1,+sphere_dist*0,+sphere_dist*1,>;
+			sphere {sphere_3d_1, sphere_size pigment {color srgb 0}}
+			#local sphere_2d_1 = Get_Screen_XY(sphere_3d_1);
+			#debug concat("\ncen = (", vstr(2, sphere_2d_1, ",", 0, -1), ")\n\n")
 
 			// blue
-			#local sphere_loc_2 = <-sphere_dist*1,+sphere_dist*0,+sphere_dist*1,>;
-			sphere {sphere_loc_2, sphere_size pigment {color srgb z}}
-			#local sphere_loc_2 = Get_Screen_XY(sphere_loc_2);
-			#debug concat("\nlft = (", vstr(2, sphere_loc_2, ",", 0, -1), ")\n\n")
+			#local sphere_3d_2 = <-sphere_dist*1,+sphere_dist*0,+sphere_dist*1,>;
+			sphere {sphere_3d_2, sphere_size pigment {color srgb z}}
+			#local sphere_2d_2 = Get_Screen_XY(sphere_3d_2);
+			#debug concat("\nlft = (", vstr(2, sphere_2d_2, ",", 0, -1), ")\n\n")
 
 			// red
-			#local sphere_loc_3 = <+sphere_dist*1,+sphere_dist*0,-sphere_dist*1,>;
-			sphere {sphere_loc_3, sphere_size pigment {color srgb x}}
-			#local sphere_loc_3 = Get_Screen_XY(sphere_loc_3);
-			#debug concat("\nrgt = (", vstr(2, sphere_loc_3, ",", 0, -1), ")\n\n")
+			#local sphere_3d_3 = <+sphere_dist*1,+sphere_dist*0,-sphere_dist*1,>;
+			sphere {sphere_3d_3, sphere_size pigment {color srgb x}}
+			#local sphere_2d_3 = Get_Screen_XY(sphere_3d_3);
+			#debug concat("\nrgt = (", vstr(2, sphere_2d_3, ",", 0, -1), ")\n\n")
 
 			// green
-			#local sphere_loc_4 = <+sphere_dist*1,+sphere_dist*2,+sphere_dist*1,>;
-			sphere {sphere_loc_4, sphere_size pigment {color srgb y}}
-			#local sphere_loc_4 = Get_Screen_XY(sphere_loc_4);
-			#debug concat("\ntop = (", vstr(2, sphere_loc_4, ",", 0, -1), ")\n\n")
+			#local sphere_3d_4 = <+sphere_dist*1,+sphere_dist*2,+sphere_dist*1,>;
+			sphere {sphere_3d_4, sphere_size pigment {color srgb y}}
+			#local sphere_2d_4 = Get_Screen_XY(sphere_3d_4);
+			#debug concat("\ntop = (", vstr(2, sphere_2d_4, ",", 0, -1), ")\n\n")
 		#break
 	#end
 #end

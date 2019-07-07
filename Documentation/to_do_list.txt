@@ -101,4 +101,4 @@ https://commons.wikimedia.org/wiki/User:Datumizer
 Miscellaneous:
 	- In POV-Ray, make sure scenes with invisible backgrounds are still being illuminated. Instead of using a regular "sky_sphere" object, create a large but non-infinite emitting background sphere with the correct color and apply "no_image" to it.
 	- Wikimedia is not always preserving and displaying transparent backgrounds in images. Sometimes an opaque white background is being substituted. I was told this was a bug. Is the bug going to get fixed?
-	- Wikipedia Commons GIF converter produces low quality results, especially when compared to Jasc Animation Shop 3.
+	- Wikipedia Commons GIF converter produces low quality results when compared to Jasc Animation Shop 3.
