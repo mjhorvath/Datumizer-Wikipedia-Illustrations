@@ -1,7 +1,8 @@
-// Title: Color solid pigment include v1.3.0
-// Author: Michael Horvath, http://isometricland.net
+// Caption: Color solid pigment include v1.4.0
+// Authors: Michael Horvath
+// Website: http://isometricland.net
 // Created: 2008-06-22
-// Updated: 2015-12-26
+// Updated: 2020-01-19
 // This file is licensed under the terms of the CC-LGPL.
 
 #version 3.7
@@ -10,7 +11,6 @@
 // Functions & variables
 
 #declare CSolid_Offset = 0.000001;
-#declare CSolid_Munsell_Function = function(x,y,z) {sqrt(pow(x,2) + pow(z,2)) / cos(asin(abs(y)))}
 #declare CSolid_DblCone_Function = function {sqrt(pow(x,2) + pow(z,2)) / (1-abs(y))}
 #declare CSolid_Cone_Function = function {sqrt(pow(x,2) + pow(z,2))/y}
 
@@ -247,52 +247,6 @@
 
 
 //------------------------------
-// HSL Munsell sphere
-
-#declare CSolid_HSLMunsell_Hue = pigment
-{
-	function {-f_th(x,y,z)/pi/2}
-	color_map
-	{
-		[0/6 srgb <1,0,0,>]
-		[1/6 srgb <1,1,0,>]
-		[2/6 srgb <0,1,0,>]
-		[3/6 srgb <0,1,1,>]
-		[4/6 srgb <0,0,1,>]
-		[5/6 srgb <1,0,1,>]
-		[6/6 srgb <1,0,0,>]
-	}
-}
-#declare CSolid_HSLMunsell_Saturation = pigment
-{
-	function {CSolid_Munsell_Function(x,y,z)}
-	pigment_map
-	{
-		[0 color srgb 1/2]
-		[1 CSolid_HSLMunsell_Hue]
-	}
-	translate	+y
-	scale		y/2
-	scale		(1 + CSolid_Offset)
-}
-#declare CSolid_HSLMunsell_Lightness = pigment
-{
-	gradient y
-	pigment_map
-	{
-		[0/2 color srgb 0]
-		[1/2 CSolid_HSLMunsell_Saturation]
-		[2/2 color srgb 1]
-	}
-	scale		y * 2
-	translate	-y
-	scale		(1 + CSolid_Offset)
-	translate	-y * CSolid_Offset/2
-}
-#declare CSolid_HSLMunsell_Pigment = pigment {CSolid_HSLMunsell_Lightness}
-
-
-//------------------------------
 // HSV Cube
 
 #declare CSolid_HSVCube_Hue = pigment
@@ -458,51 +412,6 @@
 
 
 //------------------------------
-// HSV Munsell sphere
-
-#declare CSolid_HSVMunsell_Hue = pigment
-{
-	function {-f_th(x,y,z)/pi/2}
-	color_map
-	{
-		[0/6 srgb <1, 0, 0,>]
-		[1/6 srgb <1, 1, 0,>]
-		[2/6 srgb <0, 1, 0,>]
-		[3/6 srgb <0, 1, 1,>]
-		[4/6 srgb <0, 0, 1,>]
-		[5/6 srgb <1, 0, 1,>]
-		[6/6 srgb <1, 0, 0,>]
-	}
-}
-#declare CSolid_HSVMunsell_WhiteToHue = pigment
-{
-	function {CSolid_Munsell_Function(x,y,z)}
-	pigment_map
-	{
-		[0 color srgb 1]
-		[1 CSolid_HSVMunsell_Hue]
-	}
-	translate	+y
-	scale		y/2
-	scale		(1 + CSolid_Offset)
-}
-#declare CSolid_HSVMunsell_Value = pigment
-{
-	gradient y
-	pigment_map
-	{
-		[0 color srgb 0]
-		[1 CSolid_HSVMunsell_WhiteToHue]
-	}
-	scale		y * 2
-	translate	-y
-	scale		(1 + CSolid_Offset)
-	translate	-y * CSolid_Offset/2
-}
-#declare CSolid_HSVMunsell_Pigment = pigment {CSolid_HSVMunsell_Value}
-
-
-//------------------------------
 // RGB Cube
 
 #declare CSolid_RGBCube_Red = pigment
@@ -632,54 +541,4 @@
 	}
 	scale		(1 + CSolid_Offset)
 	translate	-CSolid_Offset/2
-}
-
-
-//------------------------------
-// RGB Munsell sphere
-// This one doesn't work for some reason.
-
-#declare CSolid_RGBMunsell_Red = pigment
-{
-	function {-f_th(x,y,z)/pi/2}
-	color_map
-	{
-		[0 color srgb 0]
-		[1 color srgb x]
-	}
-}
-#declare CSolid_RGBMunsell_Green = pigment
-{
-	function {CSolid_Munsell_Function(x,y,z)}
-	pigment_map
-	{
-		[0 color srgb 0]
-		[1 color srgb y]
-	}
-	translate	+y
-	scale		y/2
-	scale		(1 + CSolid_Offset)
-}
-#declare CSolid_RGBMunsell_Blue = pigment
-{
-	gradient y
-	color_map
-	{
-		[1 srgb 0]
-		[0 srgb z]
-	}
-	scale		y * 2
-	translate	-y
-	scale		y * (1 + CSolid_Offset)
-	translate	-y * CSolid_Offset/2
-}
-#declare CSolid_RGBMunsell_Pigment = pigment
-{
-	average
-	pigment_map
-	{
-		[CSolid_RGBMunsell_Red]
-		[CSolid_RGBMunsell_Green]
-		[CSolid_RGBMunsell_Blue]
-	}
 }
