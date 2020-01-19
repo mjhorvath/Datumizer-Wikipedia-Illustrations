@@ -1,4 +1,4 @@
-// Title: Color solid pigment include v1.4.0
+// Title: Color solid pigment include v1.3.1
 // Author: Michael Horvath, http://isometricland.net
 // Created: 2008-06-22
 // Updated: 2020-01-19
@@ -15,6 +15,7 @@ color models are supported, as well as the following shapes.
 - cone (HSV), bottom vertex centered on the origin
 - double-cone (HSL), centered on the origin
 - parametric sphere (HSL, HSV, RGB), centered on the origin
+- sphere with ellipsoidal internals (HSL) similar to Johannes Itten's color sphere
 
 The names of the pigments are as follows.
 
@@ -22,13 +23,16 @@ The names of the pigments are as follows.
 - CSolid_HSLCylinder_Pigment
 - CSolid_HSLDblCone_Pigment
 - CSolid_HSLSphere_Pigment
+- CSolid_HSLEllSphere_Pigment
 - CSolid_HSVCube_Pigment
 - CSolid_HSVCone_Pigment
 - CSolid_HSVCylinder_Pigment
 - CSolid_HSVSphere_Pigment
+- CSolid_HSVEllSphere_Pigment
 - CSolid_RGBCube_Pigment
 - CSolid_RGBCylinder_Pigment
 - CSolid_RGBSphere_Pigment
+- CSolid_RGBEllSphere_Pigment
 
 The last one doesn't work yet for reasons I haven't been able to figure out.
 

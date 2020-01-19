@@ -1,6 +1,5 @@
-// Caption: Color solid pigment include v1.4.0
-// Authors: Michael Horvath
-// Website: http://isometricland.net
+// Caption: Color solid pigment include v1.3.1
+// Authors: Michael Horvath, http://isometricland.net
 // Created: 2008-06-22
 // Updated: 2020-01-19
 // This file is licensed under the terms of the CC-LGPL.
@@ -11,6 +10,7 @@
 // Functions & variables
 
 #declare CSolid_Offset = 0.000001;
+#declare CSolid_EllSphere_Function = function(x,y,z) {sqrt(pow(x,2) + pow(z,2)) / cos(asin(abs(y)))}
 #declare CSolid_DblCone_Function = function {sqrt(pow(x,2) + pow(z,2)) / (1-abs(y))}
 #declare CSolid_Cone_Function = function {sqrt(pow(x,2) + pow(z,2))/y}
 
@@ -247,6 +247,52 @@
 
 
 //------------------------------
+// HSL EllSphere sphere
+
+#declare CSolid_HSLEllSphere_Hue = pigment
+{
+	function {-f_th(x,y,z)/pi/2}
+	color_map
+	{
+		[0/6 srgb <1,0,0,>]
+		[1/6 srgb <1,1,0,>]
+		[2/6 srgb <0,1,0,>]
+		[3/6 srgb <0,1,1,>]
+		[4/6 srgb <0,0,1,>]
+		[5/6 srgb <1,0,1,>]
+		[6/6 srgb <1,0,0,>]
+	}
+}
+#declare CSolid_HSLEllSphere_Saturation = pigment
+{
+	function {CSolid_EllSphere_Function(x,y,z)}
+	pigment_map
+	{
+		[0 color srgb 1/2]
+		[1 CSolid_HSLEllSphere_Hue]
+	}
+	translate	+y
+	scale		y/2
+	scale		(1 + CSolid_Offset)
+}
+#declare CSolid_HSLEllSphere_Lightness = pigment
+{
+	gradient y
+	pigment_map
+	{
+		[0/2 color srgb 0]
+		[1/2 CSolid_HSLEllSphere_Saturation]
+		[2/2 color srgb 1]
+	}
+	scale		y * 2
+	translate	-y
+	scale		(1 + CSolid_Offset)
+	translate	-y * CSolid_Offset/2
+}
+#declare CSolid_HSLEllSphere_Pigment = pigment {CSolid_HSLEllSphere_Lightness}
+
+
+//------------------------------
 // HSV Cube
 
 #declare CSolid_HSVCube_Hue = pigment
@@ -412,6 +458,51 @@
 
 
 //------------------------------
+// HSV EllSphere sphere
+
+#declare CSolid_HSVEllSphere_Hue = pigment
+{
+	function {-f_th(x,y,z)/pi/2}
+	color_map
+	{
+		[0/6 srgb <1, 0, 0,>]
+		[1/6 srgb <1, 1, 0,>]
+		[2/6 srgb <0, 1, 0,>]
+		[3/6 srgb <0, 1, 1,>]
+		[4/6 srgb <0, 0, 1,>]
+		[5/6 srgb <1, 0, 1,>]
+		[6/6 srgb <1, 0, 0,>]
+	}
+}
+#declare CSolid_HSVEllSphere_WhiteToHue = pigment
+{
+	function {CSolid_EllSphere_Function(x,y,z)}
+	pigment_map
+	{
+		[0 color srgb 1]
+		[1 CSolid_HSVEllSphere_Hue]
+	}
+	translate	+y
+	scale		y/2
+	scale		(1 + CSolid_Offset)
+}
+#declare CSolid_HSVEllSphere_Value = pigment
+{
+	gradient y
+	pigment_map
+	{
+		[0 color srgb 0]
+		[1 CSolid_HSVEllSphere_WhiteToHue]
+	}
+	scale		y * 2
+	translate	-y
+	scale		(1 + CSolid_Offset)
+	translate	-y * CSolid_Offset/2
+}
+#declare CSolid_HSVEllSphere_Pigment = pigment {CSolid_HSVEllSphere_Value}
+
+
+//------------------------------
 // RGB Cube
 
 #declare CSolid_RGBCube_Red = pigment
@@ -541,4 +632,54 @@
 	}
 	scale		(1 + CSolid_Offset)
 	translate	-CSolid_Offset/2
+}
+
+
+//------------------------------
+// RGB EllSphere sphere
+// This one doesn't work for some reason.
+
+#declare CSolid_RGBEllSphere_Red = pigment
+{
+	function {-f_th(x,y,z)/pi/2}
+	color_map
+	{
+		[0 color srgb 0]
+		[1 color srgb x]
+	}
+}
+#declare CSolid_RGBEllSphere_Green = pigment
+{
+	function {CSolid_EllSphere_Function(x,y,z)}
+	pigment_map
+	{
+		[0 color srgb 0]
+		[1 color srgb y]
+	}
+	translate	+y
+	scale		y/2
+	scale		(1 + CSolid_Offset)
+}
+#declare CSolid_RGBEllSphere_Blue = pigment
+{
+	gradient y
+	color_map
+	{
+		[1 srgb 0]
+		[0 srgb z]
+	}
+	scale		y * 2
+	translate	-y
+	scale		y * (1 + CSolid_Offset)
+	translate	-y * CSolid_Offset/2
+}
+#declare CSolid_RGBEllSphere_Pigment = pigment
+{
+	average
+	pigment_map
+	{
+		[CSolid_RGBEllSphere_Red]
+		[CSolid_RGBEllSphere_Green]
+		[CSolid_RGBEllSphere_Blue]
+	}
 }
