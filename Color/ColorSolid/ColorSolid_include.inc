@@ -149,7 +149,7 @@
 
 
 //------------------------------
-// HSL Parametric sphere
+// HSL Parametric Sphere
 
 #declare CSolid_HSLSphere_Hue = pigment
 {
@@ -189,7 +189,7 @@
 
 
 //------------------------------
-// HSL Parametric sphere with hole
+// HSL Parametric Sphere with hole
 
 #declare CSolid_HSLSphereHole_Hue = pigment
 {
@@ -247,7 +247,7 @@
 
 
 //------------------------------
-// HSL EllSphere sphere
+// HSL Ellipsoidal Sphere
 
 #declare CSolid_HSLEllSphere_Hue = pigment
 {
@@ -458,7 +458,7 @@
 
 
 //------------------------------
-// HSV EllSphere sphere
+// HSV Ellipsoidal Sphere
 
 #declare CSolid_HSVEllSphere_Hue = pigment
 {
@@ -636,7 +636,7 @@
 
 
 //------------------------------
-// RGB EllSphere sphere
+// RGB Ellipsoidal Sphere
 // This one doesn't work for some reason.
 
 #declare CSolid_RGBEllSphere_Red = pigment
