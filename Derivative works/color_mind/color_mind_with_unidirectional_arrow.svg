@@ -18,13 +18,13 @@
    xml:space="preserve"
    style="overflow:visible"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="color_mind_with_one_arrow.svg"
+   sodipodi:docname="color_mind_with_unidirectional_arrow.svg"
    inkscape:export-filename="D:\Project Files\SVG\color_mind.png"
    inkscape:export-xdpi="180"
    inkscape:export-ydpi="180"><metadata
    id="metadata294"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><sodipodi:namedview
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
    borderopacity="1"
@@ -38,7 +38,7 @@
    id="namedview292"
    showgrid="false"
    inkscape:zoom="1.76"
-   inkscape:cx="225.80886"
+   inkscape:cx="288.97168"
    inkscape:cy="359.39578"
    inkscape:window-x="69"
    inkscape:window-y="-9"
@@ -969,6 +969,7 @@
      style="font-size:24px;line-height:1.25">Rage, self-righteousness (white)</tspan></text>
 
 
+
 <path
    sodipodi:type="arc"
    style="fill:none;stroke:#000000;stroke-width:4;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart)"
@@ -1014,6 +1015,7 @@
      style="font-size:24px;line-height:1.25">(bright hues)</tspan></text>
 
 
+
 <path
    style="fill:none;stroke:#000000;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:url(#Arrow1Mstart)"
    d="M 302.20171,259.28242 93.110794,163.82788"
@@ -1037,6 +1039,7 @@
      style="font-size:24px;line-height:1.25">Singularity (center, bindu)</tspan></text>
 
 
+
 <text
    xml:space="preserve"
    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:0%;font-family:Verdana;-inkscape-font-specification:Verdana;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
@@ -1047,7 +1050,8 @@
      id="tspan3427"
      x="326.79068"
      y="469.82806"
-     style="font-size:24px;line-height:1.25">Despair (black)</tspan></text>
+     style="font-size:24px;line-height:1.25">Despair, self-loathing (black)</tspan></text>
+
 
 
 </svg>

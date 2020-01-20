@@ -1,0 +1,23 @@
+1.17 - 2018-08-23
+* Renamed the "Munsell Sphere" macro to "Itten Sphere".
+* Resurrected the old Ellipsoid routine and renamed it "SGrid_Geodetic_Macro".
+
+1.16 - 2018-08-04
+* Use parametric formula for generating radius and longitude grid lines in 
+  SGrid_Ellipsoid_Macro.
+
+1.15 - 2018-08-03
+* Correct error in formula in SGrid_Ellipsoid_Macro.
+
+1.14 - 2018-08-03
+* I used the wrong implicit function for the hyperbolas in 
+  SGrid_Ellipsoid_Macro.
+
+1.13 - 2018-08-03
+* Use a different method for determining latitude in SGrid_Ellipsoid_Macro 
+  copied from "Confocal conic sections" on Wikipedia. This method replaces the 
+  truncated cones with hyperbolas.
+
+1.12 - 2018-07-24
+* Created SGrid_Ellipsoid_Macro for ellipsoids. This method models latitude 
+  based on equal intervals of geodetic latitude, which form truncated cones.
