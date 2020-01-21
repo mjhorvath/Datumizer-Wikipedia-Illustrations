@@ -473,7 +473,6 @@
 		SGrid_Sphere_thickness,		// The thickness of the grid lines.		(float)
 		SGrid_Sphere_offset,		// Determines whether the divisions are offset by half the amount. Sometimes necessary when doing cut-aways.	(boolian)
 		SGrid_Sphere_endcap,		// Determines whether borders are created at each end of the object. Ignored if the offset is turned on. 	(boolian)
-		SGrid_Sphere_hole,		// Put a hole in the middle?	(boolean)
 	)
 
 	#local SGrid_Sphere_bounds = sphere {0, SGrid_Sphere_radius}

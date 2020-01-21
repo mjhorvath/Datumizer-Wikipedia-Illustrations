@@ -131,7 +131,7 @@ camera
 }
 
 
-#declare CSolid_HSLSphere_Saturation_stepped = function { floor(6 * f_r(x,y,z))/6 + 1/12 };
+#declare CSolid_HSLSphere_Saturation_stepped = function { floor(6 * f_r(x,y,z))/6 + f_r(x,y,z)/12 };
 #declare CSolid_HSLSphere_Saturation = pigment
 {
 	function {CSolid_HSLSphere_Saturation_stepped(x,y,z)}
@@ -148,9 +148,9 @@ camera
 	function {CSolid_HSLSphere_Lightness_stepped(x,y,z)}
 	pigment_map
 	{
-		[0/2 color srgb 1]
+//		[0/2 color srgb 1]
 		[1/2 CSolid_HSLSphere_Saturation]
-		[2/2 color srgb 0]
+//		[2/2 color srgb 0]
 	}
 }
 #declare CSolid_HSLSphere_Pigment = pigment {CSolid_HSLSphere_Lightness}
@@ -170,7 +170,6 @@ camera
 		0.01,		// SphereGrid_thickness,	// The thickness of the grid lines. (float)
 		on,			// SphereGrid_offset,		// Determines whether the divisions are offset by half the amount (sometimes necessary when doing cut-aways at intervals matching the grid's divisions).	(boolian)
 		off,		// SGrid_Sphere_endcap,		// Determines whether borders are created at each end of the object. Ignored if the offset is turned on. 	(boolian)
-		off,		// SGrid_Sphere_hole,		// Put a hole in the middle?	(boolean)
 	)
 }
 

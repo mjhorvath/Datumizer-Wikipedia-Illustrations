@@ -171,7 +171,6 @@ camera
 		0.01,		// SphereGrid_thickness,	// The thickness of the grid lines. (float)
 		on,			// SphereGrid_offset,		// Determines whether the divisions are offset by half the amount (sometimes necessary when doing cut-aways at intervals matching the grid's divisions).	(boolian)
 		off,		// SGrid_Sphere_endcap,		// Determines whether borders are created at each end of the object. Ignored if the offset is turned on. 	(boolian)
-		off,		// SGrid_Sphere_hole,		// Put a hole in the middle?	(boolean)
 	)
 }
 
