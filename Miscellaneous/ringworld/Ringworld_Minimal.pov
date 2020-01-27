@@ -1,25 +1,26 @@
 // Caption: Ringworld Full-scale Scene with Extra Fog
-// Version: 2.2
+// Version: 2.3.0
 // Authors: Michael Horvath, based on Ringworld by Larry Niven
 // Website: http://isometricland.net
 // Created: 2013-10-16
-// Updated: 2018-08-10
+// Updated: 2020-01-26
 // This file is licensed under the terms of the CC-LGPL.
 // http://www.gnu.org/licenses/lgpl-2.1.html
 
 #version 3.7;
 
-#declare HPlanet_Water_Ratio			= 1/3;
+#declare HPlanet_Water_Ratio			= 4/9;
 #declare HPlanet_Seed_Value				= seed(808232374);
 
 #declare RWorld_Toggle_Sun_Object		= false;
-#declare RWorld_Toggle_Corona			= true;
+#declare RWorld_Toggle_Corona			= false;
 #declare RWorld_Toggle_Surface			= true;
+#declare RWorld_Toggle_Warps			= true;
 #declare RWorld_Toggle_Rim				= true;
 #declare RWorld_Toggle_Clouds			= true;
-#declare RWorld_Toggle_Atmosphere		= true;
-#declare RWorld_Toggle_Shadow_Squares	= true;
-#declare RWorld_Toggle_Radiosity		= true;
+#declare RWorld_Toggle_Atmosphere		= false;	// expensive
+#declare RWorld_Toggle_Shadow_Squares	= false;
+#declare RWorld_Toggle_Radiosity		= false;	// expensive
 #declare RWorld_Toggle_Camera_Mode		= 1;
 #declare RWorld_Toggle_Light_Mode		= 2;
 
@@ -40,6 +41,7 @@
 #declare RWorld_Atmosphere_Height		= 1;
 #declare RWorld_Clouds_Bottom			= 0.01;
 #declare RWorld_Clouds_Top				= 0.05;
+#declare RWorld_Warps_Number			= 1000;
 
 #include "CIE.inc"				// http://www.ignorancia.org/en/index.php?page=Lightsys
 #include "lightsys.inc"			// http://www.ignorancia.org/en/index.php?page=Lightsys
@@ -60,7 +62,7 @@
 #declare RWorld_Light_Point_Color		= Light_Color(RWorld_Light_Point_Temp,RWorld_Light_Point_Lumens);
 
 
-//------------------------------------------------------------------------------
+// ------1---------2---------3---------4---------5---------6---------7---------8
 // CAMERA
 
 
@@ -140,7 +142,7 @@
 #end
 
 
-//------------------------------------------------------------------------------
+// ------1---------2---------3---------4---------5---------6---------7---------8
 // MISC GRAPHICAL SETTINGS
 
 
@@ -176,13 +178,112 @@ sky_sphere
 }
 
 
-//------------------------------------------------------------------------------
+// ------1---------2---------3---------4---------5---------6---------7---------8
+// TEXTURE FUNCTIONS
+
+
+#declare HPlanet_Crackle_Function = function
+{
+	pigment
+	{
+		crackle form <1,0,0>
+		color_map
+		{
+			[0 rgb 0]
+			[1 rgb 1]
+		}
+		scale 1
+	}
+}
+
+#declare HPlanet_Granite_Function = function
+{
+	pigment
+	{
+		granite
+		color_map
+		{
+			[0 rgb 0]
+			[1 rgb 1]
+		}
+		warp
+		{
+			turbulence	3
+			lambda		3
+		}
+		scale 10
+	}
+}
+
+#declare HPlanet_Edge_Height_Land_Function = function
+{
+	pigment
+	{
+		gradient y
+		color_map
+		{
+			[ 0/16 rgb 0/2]
+			[ 2/16 rgb 1/2]
+//			[ 5/16 rgb 1/2]
+			[ 8/16 rgb 2/2]
+//			[ 9/16 rgb 1/2]
+			[14/16 rgb 1/2]
+			[16/16 rgb 0/2]
+		}
+		translate -y/2
+		scale 2
+	}
+}
+
+#declare HPlanet_Edge_Height_Cloud_Function = function
+{
+	pigment
+	{
+		gradient y
+		color_map
+		{
+			[ 0/16 rgb 2/2]
+			[ 7/16 rgb 0/2]
+			[ 8/16 rgb 2/2]
+			[ 9/16 rgb 0/2]
+			[16/16 rgb 2/2]
+		}
+		translate -y/2
+		scale 2
+	warp
+	{
+		turbulence 1
+	}
+	}
+}
+
+#declare HPlanet_Bozo_Cloud_Function = function
+{
+	pigment
+	{
+		bozo
+		turbulence 0.65
+		octaves 6
+		omega 0.7
+		lambda 2 
+		color_map
+		{
+			[ 0/16 rgb 0]
+			[ 1/16 rgb 0]
+			[16/16 rgb 1]
+		}
+		scale 1/10
+	}
+}
+
+
+// ------1---------2---------3---------4---------5---------6---------7---------8
 // TEXTURE MAPS
 
 
 #declare HPlanet_Blue_Texture = texture
 {
-	pigment {color rgb <000,000,050,>/255}
+	pigment {color rgb <000,032,128,>/255}
 
 	finish
 	{
@@ -244,239 +345,124 @@ sky_sphere
 }
 #declare HPlanet_White_Texture = texture
 {
-	pigment {color rgb <255,255,255,>/255}
+	pigment {color rgb <255,255,255,>/255*1.5}
 }
-
-#declare HPlanet_Altitiude_Texture_Map = texture_map
+#declare HPlanet_Bozo_Cloud_Color_Map = color_map
 {
-	[0															HPlanet_Blue_Texture]
-	[HPlanet_Water_Ratio * 97.5/100								HPlanet_Blue_Texture]
-	[HPlanet_Water_Ratio * 1/1									HPlanet_Teal_Texture]
-	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 0/6		HPlanet_Light_Green_Texture]
-	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 2/6		HPlanet_Dark_Green_Texture]
-	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 3/6		HPlanet_Dark_Tan_Texture]
-	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 4/6		HPlanet_Light_Tan_Texture]
-	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 4/6		HPlanet_White_Texture]
-	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 6/6		HPlanet_White_Texture]
-}
-
-#if (RWorld_Toggle_Atmosphere = true)
-	#declare HPlanet_Bozo_Cloud_Color_Map = color_map
-	{
-		[0.0 color rgb  <0.95, 0.95, 0.95>*0.5]
-		[0.1 color rgb  <0.85, 0.85, 0.85>*1.5]
-		[0.4 color rgbt 1]
-		[1.0 color rgbt 1]
-	}
-#else
-	#declare HPlanet_Bozo_Cloud_Color_Map = color_map
-	{
-		[0.0 color rgb  <0.95, 0.95, 0.95>*0.5]
-		[0.1 color rgb  <0.85, 0.85, 0.85>*1.5]
-		[0.4 color rgbt <0.10, 0.30, 1.00, 0.99>]
-		[1.0 color rgbt <0.10, 0.30, 1.00, 0.99>]
-//		[0.4 color rgbt 1 ]
-//		[1.0 color rgbt 1 ]
-	}
-#end
-
-
-//------------------------------------------------------------------------------
-// TEXTURE FUNCTIONS
-
-
-#declare HPlanet_Crackle_Function = function
-{
-	pigment
-	{
-		crackle form <1,0,0>
-		color_map
-		{
-			[0 rgb 0]
-			[1 rgb 1]
-		}
-		scale 1
-	}
-}
-
-#declare HPlanet_Granite_Function = function
-{
-	pigment
-	{
-		granite
-		color_map
-		{
-			[0 rgb 0]
-			[1 rgb 1]
-		}
-		warp
-		{
-			turbulence	0.75
-			lambda		3
-		}
-		scale 10
-	}
-}
-
-#declare HPlanet_Edge_Height_Land_Function = function
-{
-	pigment
-	{
-		gradient y
-		color_map
-		{
-			[ 0/16 rgb 0/2]
-			[ 2/16 rgb 1/2]
-			//[ 5/16 rgb 1/2]
-			[ 8/16 rgb 2/2]
-			//[ 9/16 rgb 1/2]
-			[14/16 rgb 1/2]
-			[16/16 rgb 0/2]
-		}
-		translate -y/2
-		scale 2
-	}
-}
-
-#declare HPlanet_Edge_Height_Cloud_Function = function
-{
-	pigment
-	{
-		gradient y
-		color_map
-		{
-			[ 0/16 rgb 2/2]
-			[ 7/16 rgb 0/2]
-			[ 8/16 rgb 2/2]
-			[ 9/16 rgb 0/2]
-			[16/16 rgb 2/2]
-		}
-		translate -y/2
-		scale 2
-	warp
-	{
-		turbulence 1
-	}
-	}
-}
-
-#declare HPlanet_Bozo_Cloud_Function = function
-{
-	pigment
-	{
-		bozo
-		turbulence 0.65
-		octaves 6
-		omega 0.7
-		lambda 2 
-		color_map
-		{
-			[0 rgb 0]
-			[1/16 rgb 0]
-			[1 rgb 1]
-		}
-		scale 1/10
-	}
+	[0.0 color rgb  <0.95, 0.95, 0.95>*0.5]
+	[0.1 color rgb  <0.85, 0.85, 0.85>*1.5]
+	[0.5 color rgbt 1]
+	[1.0 color rgbt 1]
 }
 
 
-//------------------------------------------------------------------------------
+// ------1---------2---------3---------4---------5---------6---------7---------8
 // FINAL TEXTURES
 
 
+#declare HPlanet_Altitiude_1_Texture_Map = texture_map
+{
+	[HPlanet_Water_Ratio *  0/16								HPlanet_Blue_Texture]
+	[HPlanet_Water_Ratio * 15/16								HPlanet_Blue_Texture]
+	[HPlanet_Water_Ratio * 16/16								HPlanet_Teal_Texture]
+	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 0/8		HPlanet_Light_Green_Texture]
+	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 1/8		HPlanet_Dark_Green_Texture]
+	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 4/8		HPlanet_Dark_Tan_Texture]
+	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 5/8		HPlanet_Light_Tan_Texture]
+	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 5/8		HPlanet_White_Texture]
+	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 8/8		HPlanet_White_Texture]
+}
+
 #declare HPlanet_Granite_Crackle_1_Texture = texture
 {
-	function {((1-HPlanet_Crackle_Function(x,y,z).green) * 2 + HPlanet_Granite_Function(x,y,z).green * 1 + HPlanet_Edge_Height_Land_Function(x,y,z).green * 3)/5 * -1}
-	texture_map
-	{
-		HPlanet_Altitiude_Texture_Map
-	}
-/*
-	#declare HPlanet_Warp_Count = 0;
-	#declare HPlanet_Warp_Total = 10000;
-	#while (HPlanet_Warp_Count < HPlanet_Warp_Total)
-		#declare HPlanet_Cyl_Radius = RWorld_Ring_Radius/(RWorld_Ring_Width/2);
-		#declare HPlanet_Cyl_Theta = rand(HPlanet_Seed_Value) * 2 * pi;
-		#declare HPlanet_Cyl_Height = floor(rand(HPlanet_Seed_Value) + 1/2) * 2 - 1;
-		#declare HPlanet_Cyl_Height = rand(HPlanet_Seed_Value) * 2 - 1;
-		#declare HPlanet_Hole_Radius = rand(HPlanet_Seed_Value) * 2;
-		warp
-		{
-			black_hole	<HPlanet_Cyl_Radius * cos(HPlanet_Cyl_Theta), HPlanet_Cyl_Height, HPlanet_Cyl_Radius * sin(HPlanet_Cyl_Theta)>, HPlanet_Hole_Radius
-			falloff		3/6
-			strength	1/24
-			inverse
-		}
-		#declare HPlanet_Warp_Count = HPlanet_Warp_Count + 1;
+	function {((1-HPlanet_Crackle_Function(x,y,z).green) * 3 + HPlanet_Granite_Function(x,y,z).green * 2 + HPlanet_Edge_Height_Land_Function(x,y,z).green * 5)/10 * -1}
+	texture_map {HPlanet_Altitiude_1_Texture_Map}
+	#if (RWorld_Toggle_Warps = true)
+		#declare HPlanet_Warp_Count = 0;
+		#declare HPlanet_Warp_Total = RWorld_Warps_Number;
+		#while (HPlanet_Warp_Count < HPlanet_Warp_Total)
+			#declare HPlanet_Cyl_Radius = RWorld_Ring_Radius/(RWorld_Ring_Width/2);
+			#declare HPlanet_Cyl_Theta = rand(HPlanet_Seed_Value) * 2 * pi;
+			#declare HPlanet_Cyl_Height = floor(rand(HPlanet_Seed_Value) + 1/2) * 2 - 1;
+			#declare HPlanet_Cyl_Height = rand(HPlanet_Seed_Value) * 2 - 1;
+			#declare HPlanet_Hole_Radius = rand(HPlanet_Seed_Value) * 2;
+			warp
+			{
+				black_hole	<HPlanet_Cyl_Radius * cos(HPlanet_Cyl_Theta), HPlanet_Cyl_Height, HPlanet_Cyl_Radius * sin(HPlanet_Cyl_Theta)>, HPlanet_Hole_Radius
+				falloff		3/6
+				strength	1/24
+				inverse
+			}
+			#declare HPlanet_Warp_Count = HPlanet_Warp_Count + 1;
+		#end
 	#end
-*/
+}
+
+
+#declare HPlanet_Altitiude_2_Texture_Map = texture_map
+{
+	[HPlanet_Water_Ratio *  0/16								HPlanet_Blue_Texture]
+	[HPlanet_Water_Ratio * 15/16								HPlanet_Blue_Texture]
+	[HPlanet_Water_Ratio * 16/16								HPlanet_Teal_Texture]
+	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 0/8		HPlanet_Granite_Crackle_1_Texture]
+	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 8/8		HPlanet_Granite_Crackle_1_Texture]
 }
 
 #declare HPlanet_Granite_Crackle_2_Texture = texture
 {
-	function {((1-HPlanet_Crackle_Function(x,y,z).green) * 2 + HPlanet_Granite_Function(x,y,z).green * 2)/3 * -1}
-	texture_map
-	{
-		[0															HPlanet_Blue_Texture]
-		[HPlanet_Water_Ratio * 97.5/100								HPlanet_Blue_Texture]
-		[HPlanet_Water_Ratio * 1/1									HPlanet_Teal_Texture]
-		[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 0/6		HPlanet_Granite_Crackle_1_Texture]
-		[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 6/6		HPlanet_Granite_Crackle_1_Texture]
-	}
-/*
-	#declare HPlanet_Warp_Count = 0;
-	#declare HPlanet_Warp_Total = 10000;
-	#while (HPlanet_Warp_Count < HPlanet_Warp_Total)
-		#declare HPlanet_Cyl_Radius = RWorld_Ring_Radius/(RWorld_Ring_Width/2);
-		#declare HPlanet_Cyl_Theta = rand(HPlanet_Seed_Value) * 2 * pi;
-		#declare HPlanet_Cyl_Height = rand(HPlanet_Seed_Value) * 2 - 1;
-		#declare HPlanet_Hole_Radius = rand(HPlanet_Seed_Value) / 10;
-		warp
-		{
-			black_hole	<HPlanet_Cyl_Radius * cos(HPlanet_Cyl_Theta), HPlanet_Cyl_Height, HPlanet_Cyl_Radius * sin(HPlanet_Cyl_Theta)>, HPlanet_Hole_Radius
-			falloff		3/6
-			strength	4/24
-			inverse
-		}
-		#declare HPlanet_Warp_Count = HPlanet_Warp_Count + 1;
+	function {((1-HPlanet_Crackle_Function(x,y,z).green) * 2 + HPlanet_Granite_Function(x,y,z).green * 2)/3 * -1}		// error here, but it looks good
+	texture_map {HPlanet_Altitiude_2_Texture_Map}
+	#if (RWorld_Toggle_Warps = true)
+		#declare HPlanet_Warp_Count = 0;
+		#declare HPlanet_Warp_Total = RWorld_Warps_Number;
+		#while (HPlanet_Warp_Count < HPlanet_Warp_Total)
+			#declare HPlanet_Cyl_Radius = RWorld_Ring_Radius/(RWorld_Ring_Width/2);
+			#declare HPlanet_Cyl_Theta = rand(HPlanet_Seed_Value) * 2 * pi;
+			#declare HPlanet_Cyl_Height = rand(HPlanet_Seed_Value) * 2 - 1;
+			#declare HPlanet_Hole_Radius = rand(HPlanet_Seed_Value) / 10;
+			warp
+			{
+				black_hole	<HPlanet_Cyl_Radius * cos(HPlanet_Cyl_Theta), HPlanet_Cyl_Height, HPlanet_Cyl_Radius * sin(HPlanet_Cyl_Theta)>, HPlanet_Hole_Radius
+				falloff		3/6
+				strength	4/24
+				inverse
+			}
+			#declare HPlanet_Warp_Count = HPlanet_Warp_Count + 1;
+		#end
 	#end
-*/
 }
 
 #declare HPlanet_Cloud_Edge_Pigment = pigment
 {
 	function {(HPlanet_Bozo_Cloud_Function(x,y,z).x * 3 + HPlanet_Edge_Height_Cloud_Function(x,y,z).x * 1)/4 * -1}
-	color_map
-	{
-		HPlanet_Bozo_Cloud_Color_Map
-	}
+	color_map {HPlanet_Bozo_Cloud_Color_Map}
 	warp
 	{
 		turbulence <1,0,1>
 	}
-/*
-	#declare HPlanet_Warp_Count = 0;
-	#declare HPlanet_Warp_Total = 10000;
-	#while (HPlanet_Warp_Count < HPlanet_Warp_Total)
-		#declare HPlanet_Cyl_Radius = RWorld_Ring_Radius/(RWorld_Ring_Width/2);
-		#declare HPlanet_Cyl_Theta = rand(HPlanet_Seed_Value) * 2 * pi;
-		#declare HPlanet_Cyl_Height = floor(rand(HPlanet_Seed_Value) + 1/2) * 2 - 1;
-		#declare HPlanet_Cyl_Height = rand(HPlanet_Seed_Value) * 2 - 1;
-		#declare HPlanet_Hole_Radius = rand(HPlanet_Seed_Value) * 1;
-		warp
-		{
-			black_hole	<HPlanet_Cyl_Radius * cos(HPlanet_Cyl_Theta), HPlanet_Cyl_Height, HPlanet_Cyl_Radius * sin(HPlanet_Cyl_Theta)>, HPlanet_Hole_Radius
-			falloff		3
-			strength	1/6
-			inverse
-		}
-		#declare HPlanet_Warp_Count = HPlanet_Warp_Count + 1;
+	#if (RWorld_Toggle_Warps = true)
+		#declare HPlanet_Warp_Count = 0;
+		#declare HPlanet_Warp_Total = RWorld_Warps_Number;
+		#while (HPlanet_Warp_Count < HPlanet_Warp_Total)
+			#declare HPlanet_Cyl_Radius = RWorld_Ring_Radius/(RWorld_Ring_Width/2);
+			#declare HPlanet_Cyl_Theta = rand(HPlanet_Seed_Value) * 2 * pi;
+			#declare HPlanet_Cyl_Height = floor(rand(HPlanet_Seed_Value) + 1/2) * 2 - 1;
+			#declare HPlanet_Cyl_Height = rand(HPlanet_Seed_Value) * 2 - 1;
+			#declare HPlanet_Hole_Radius = rand(HPlanet_Seed_Value) * 1;
+			warp
+			{
+				black_hole	<HPlanet_Cyl_Radius * cos(HPlanet_Cyl_Theta), HPlanet_Cyl_Height, HPlanet_Cyl_Radius * sin(HPlanet_Cyl_Theta)>, HPlanet_Hole_Radius
+				falloff		3
+				strength	1/6
+				inverse
+			}
+			#declare HPlanet_Warp_Count = HPlanet_Warp_Count + 1;
+		#end
 	#end
-*/
 }
 
 
-//------------------------------------------------------------------------------
+// ------1---------2---------3---------4---------5---------6---------7---------8
 // RINGWORLD
 
 
@@ -512,7 +498,6 @@ sky_sphere
 {
 	cylinder {<0,RWorld_Ring_Width/2,0>,		<0,-RWorld_Ring_Width/2,0>,		RWorld_Ring_Radius - RWorld_Clouds_Bottom}
 	cylinder {<0,RWorld_Ring_Width/2 + 1,0>,	<0,-RWorld_Ring_Width/2 - 1,0>,	RWorld_Ring_Radius - RWorld_Clouds_Top}
-	hollow		// should this be hollow?
 	texture
 	{
 		pigment {HPlanet_Cloud_Edge_Pigment}
@@ -577,7 +562,7 @@ sky_sphere
 }
 
 
-//------------------------------------------------------------------------------
+// ------1---------2---------3---------4---------5---------6---------7---------8
 // SUN & HELIOSPHERE
 
 
@@ -643,7 +628,7 @@ sky_sphere
 }
 
 
-//------------------------------------------------------------------------------
+// ------1---------2---------3---------4---------5---------6---------7---------8
 // LIGHTS
 
 
@@ -696,7 +681,7 @@ sky_sphere
 #end
 
 
-//------------------------------------------------------------------------------
+// ------1---------2---------3---------4---------5---------6---------7---------8
 // SHADOW SQUARES
 
 #declare RWorld_Shadow_Ring_Circum		= RWorld_Shadow_Ring_Radius * 2 * pi;
@@ -724,7 +709,7 @@ sky_sphere
 }
 
 
-//------------------------------------------------------------------------------
+// ------1---------2---------3---------4---------5---------6---------7---------8
 // choose objects to render
 
 

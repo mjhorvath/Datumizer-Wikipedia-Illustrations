@@ -1,9 +1,9 @@
 Caption         Ringworld
-Version         2.2
+Version         2.3.0
 Authors         Michael Horvath
 Website         http://isometricland.net
 Created         2013-10-13
-Updated         2018-08-10
+Updated         2020-01-26
 This file is licensed under the terms of the CC-LGPL.
 
 This scene is based on Larry Niven's Ringworld series of books. The dimensions 

@@ -1,5 +1,5 @@
 // Caption: Ringworld Full-scale Scene with Extra Fog
-// Version: 2.2
+// Version: 2.2.0
 // Authors: Michael Horvath, based on Ringworld by Larry Niven
 // Website: http://isometricland.net
 // Created: 2013-10-16
