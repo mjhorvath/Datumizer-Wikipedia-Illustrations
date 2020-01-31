@@ -27,8 +27,6 @@ global_settings
 }
 
 #include "ShapeGrid_macro.inc"
-//#include "ColorSolid_include.inc"
-#include "Axes_macro.inc"
 #include "functions.inc"
 #include "math.inc"
 #declare CSolid_cutout	= true;
@@ -79,9 +77,9 @@ sky_sphere
 camera
 {
 	#local CSolid_CameraDistance	= 10;
-	#local CSolid_ScreenArea		= 2;
+	#local CSolid_ScreenArea		= 2.125;
 	#local CSolid_AspectRatio		= image_width/image_height;
-	orthographic
+//	orthographic
 	location	-z * CSolid_CameraDistance
 	direction	+z * CSolid_CameraDistance
 	right		+x * CSolid_ScreenArea * CSolid_AspectRatio
@@ -98,9 +96,10 @@ camera
 
 #declare CSolid_Offset = 0.000001;
 
+#declare CSolid_Div = 6;
 #declare CSolid_HSLSphere_Hue = pigment
 {
-	function {-f_th(x,y,z)/pi/2}
+	function {-(f_th(x,y,z))/pi/2}
 	color_map
 	{
 		[00/12 srgb <1.0,0.0,0.0>]
@@ -128,11 +127,10 @@ camera
 		[11/12 srgb <1.0,0.0,0.5>]
 		[12/12 srgb <1.0,0.0,0.5>]
 	}
-	rotate +y * 15
 }
 
-
-#declare CSolid_HSLSphere_Saturation_stepped = function { floor(6 * f_r(x,y,z))/6 + 1/12 };
+#declare CSolid_Div = 6;
+#declare CSolid_HSLSphere_Saturation_stepped = function { floor(CSolid_Div * (f_r(x,y,z)))/CSolid_Div };
 #declare CSolid_HSLSphere_Saturation = pigment
 {
 	function {CSolid_HSLSphere_Saturation_stepped(x,y,z)}
@@ -143,15 +141,17 @@ camera
 	}
 	scale	(1 + CSolid_Offset)
 }
-#declare CSolid_HSLSphere_Lightness_stepped = function { floor(12 * f_ph(x,y,z)/pi)/12 + 1/24 };
+
+#declare CSolid_Div = 6;
+#declare CSolid_HSLSphere_Lightness_stepped = function { floor(CSolid_Div * (f_ph(x,y,z))/pi)/CSolid_Div};
 #declare CSolid_HSLSphere_Lightness = pigment
 {
 	function {CSolid_HSLSphere_Lightness_stepped(x,y,z)}
 	pigment_map
 	{
-//		[0/2 color srgb 1]
+		[0/2 color srgb 1]
 		[1/2 CSolid_HSLSphere_Saturation]
-//		[2/2 color srgb 0]
+		[2/2 color srgb 0]
 	}
 }
 #declare CSolid_HSLSphere_Pigment = pigment {CSolid_HSLSphere_Lightness}
@@ -169,7 +169,7 @@ camera
 		1,			// SphereGrid_radius,		// The radius of the sphere.	(float)
 		0,			// SphereGrid_center,		// The center coordinates of the sphere. (vector)
 		0.01,		// SphereGrid_thickness,	// The thickness of the grid lines. (float)
-		on,			// SphereGrid_offset,		// Determines whether the divisions are offset by half the amount (sometimes necessary when doing cut-aways at intervals matching the grid's divisions).	(boolian)
+		off,		// SphereGrid_offset,		// Determines whether the divisions are offset by half the amount (sometimes necessary when doing cut-aways at intervals matching the grid's divisions).	(boolian)
 		off,		// SGrid_Sphere_endcap,		// Determines whether borders are created at each end of the object. Ignored if the offset is turned on. 	(boolian)
 	)
 }
@@ -197,83 +197,10 @@ union
 					{
 						CSolid_Grid
 						color srgbt 1
-						color srgb 1
+						color srgbt 1
 					}
 				}
 			}
 		#end
 	}
 }
-
-#if (CSolid_labels = true)
-	polygon
-	{
-		4, <0, 0,>, <1, 0,>, <1, 1,>, <0, 1,>
-		pigment {image_map {png "CSolid_Hue_Round.png"}}
-		translate	<-0.5, -0.5>
-		scale		8/3
-		translate	-z * 0.000001
-		rotate		+x * 90
-		rotate		-y * 15
-		translate	+y * 1/6
-	}
-	#if (CSolid_cuthalf = true)
-		polygon
-		{
-			4, <0,0,>, <1,0,>, <1,1,>, <0,1,>
-			pigment {image_map {png "CSolid_Saturation_Straight.png"}}
-			translate	<-0.5,-0.5,>
-			scale		8/3
-			translate	-z * 0.000001
-			rotate		+z * 75
-			scale		+x * 6/7
-			translate	+x * 1/7
-			rotate		+y * 90
-		}
-	#else
-		polygon
-		{
-			4, <0,0,>, <1,0,>, <1,1,>, <0,1,>
-			pigment {image_map {png "CSolid_Saturation_Straight.png"}}
-			translate	<-0.5,-0.5,>
-			scale		8/3
-			translate	-z * 0.000001
-			rotate		+z * 45
-			scale		+x * 7/8
-			translate	+x * 1/8
-			rotate		+y * 90
-		}
-	#end
-	polygon
-	{
-		4, <0,0,>, <1,0,>, <1,1,>, <0,1,>
-		pigment {image_map {png "CSolid_Lightness_Round.png"}}
-		translate	<-0.5,-0.5,>
-		scale		8/3
-		rotate		+z * -15
-		translate	-z * 0.000001
-		rotate		+y * 75
-	}
-#end
-
-#if (CSolid_axes)
-	// the coordinate grid and axes
-	Axes_Macro
-	(
-		10,	// Axes_axesSize,	The distance from the origin to one of the grid's edges.	(float)
-		1,	// Axes_majUnit,	The size of each large-unit square.	(float)
-		10,	// Axes_minUnit,	The number of small-unit squares that make up a large-unit square.	(integer)
-		0.0005,	// Axes_thickRatio,	The thickness of the grid lines (as a factor of axesSize).	(float)
-		off,	// Axes_aBool,		Turns the axes on/off. (boolian)
-		on,	// Axes_mBool,		Turns the minor units on/off. (boolian)
-		off,	// Axes_xBool,		Turns the plane perpendicular to the x-axis on/off.	(boolian)
-		on,	// Axes_yBool,		Turns the plane perpendicular to the y-axis on/off.	(boolian)
-		off	// Axes_zBool,		Turns the plane perpendicular to the z-axis on/off.	(boolian)
-	)
-	object
-	{
-		Axes_Object
-		translate	-0.000001
-		translate	-y
-	}
-#end
