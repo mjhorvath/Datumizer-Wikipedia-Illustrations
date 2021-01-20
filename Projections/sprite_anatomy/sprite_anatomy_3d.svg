@@ -9,39 +9,28 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    version="1.1"
-   x="0px"
-   y="0px"
-   width="227.29111"
-   height="312.33047"
-   viewBox="0 0 227.29111 312.33047"
-   id="svg2"
-   inkscape:version="0.47 r22583"
+   width="400px"
+   height="550px"
+   viewBox="0 0 400 550"
+   id="svg967"
    sodipodi:docname="sprite_anatomy_3d.svg"
-   inkscape:export-filename="D:\Working\Wiki\sprite_anatomy_3d.png"
-   inkscape:export-xdpi="300"
-   inkscape:export-ydpi="300">
+   inkscape:export-filename="D:\GitHub\Mike-Wikipedia-Illustrations\Projections\sprite_anatomy\sprite_anatomy_3d.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
   <metadata
-     id="metadata421">
+     id="metadata973">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
-     id="defs419">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 180.5 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="654 : 180.5 : 1"
-       inkscape:persp3d-origin="327 : 120.33333 : 1"
-       id="perspective423" />
-  </defs>
+     id="defs971" />
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -51,505 +40,2061 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1302"
-     inkscape:window-height="746"
-     id="namedview417"
+     inkscape:window-width="1842"
+     inkscape:window-height="1171"
+     id="namedview969"
      showgrid="false"
-     inkscape:zoom="0.65373961"
-     inkscape:cx="280.83789"
-     inkscape:cy="137.82923"
-     inkscape:window-x="56"
-     inkscape:window-y="-8"
+     inkscape:zoom="0.42909091"
+     inkscape:cx="200"
+     inkscape:cy="275"
+     inkscape:window-x="69"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
-  <desc
-     id="desc6">Creator: FreeHEP Graphics2D Driver Producer: geogebra.d.a Revision: 1.10  Source:  Date: Friday, July 23, 2010 11:24:49 AM EDT</desc>
+     inkscape:current-layer="svg967" />
+  <title
+     id="title2" />
   <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     id="misc"
-     transform="translate(-46.162113,-5.9987465)" />
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     id="layer0"
-     transform="translate(-46.162113,-5.9987465)">
+     stroke-linejoin="miter"
+     stroke-dashoffset="0.0000"
+     stroke-dasharray="none"
+     stroke-width="1.0000"
+     stroke-miterlimit="10.000"
+     stroke-linecap="square"
+     id="g965">
     <g
-       id="g29"
-       transform="scale(0.51946113,0.51946113)">
+       id="misc" />
+    <!-- misc -->
+    <g
+       id="layer0">
       <g
-         style="fill:#999999;fill-opacity:0.10196078;fill-rule:nonzero;stroke:none"
-         id="g31">
-        <path
-           id="path33"
-           d="m 133.02055,33.875607 0,523.862063 349.24138,0 0,-523.862063 z" />
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g18">
+        <clipPath
+           id="clipc3a33ae8-14bc-4953-8156-d0e8030f64c4">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path5" />
+        </clipPath>
+        <g
+           clip-path="url(#clip1)"
+           id="g16">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#444444"
+             id="g14">
+            <path
+               d="M 739.50 321.00 L 739.50 342.00 C 739.50 343.38 740.62 344.50 742.00 344.50 L 763.00 344.50 C 764.38 344.50 765.50 343.38 765.50 342.00 L 765.50 321.00 C 765.50 319.62 764.38 318.50 763.00 318.50 L 742.00 318.50 C 740.62 318.50 739.50 319.62 739.50 321.00 z"
+               id="path8" />
+            <title
+               id="title10">Boolean Value v</title>
+            <desc
+               id="desc12">v = false</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip1 -->
       </g>
-      <!-- drawing style -->
-    </g>
-    <!-- transform -->
-    <g
-       id="g35"
-       transform="scale(0.51946113,0.51946113)">
+      <!-- transform -->
       <g
-         style="fill:none;stroke:#999999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-         id="g37">
-        <path
-           id="path39"
-           d="m 482.26194,33.875605 -349.24138,0" />
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g33">
+        <clipPath
+           id="clip0158d098-6b72-43bf-9be8-058cb9737b64">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path20" />
+        </clipPath>
+        <g
+           clip-path="url(#clip2)"
+           id="g31">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#ffffff"
+             id="g29">
+            <path
+               d="M 740.00 321.50 L 740.00 340.50 C 740.00 341.88 741.12 343.00 742.50 343.00 L 761.50 343.00 C 762.88 343.00 764.00 341.88 764.00 340.50 L 764.00 321.50 C 764.00 320.12 762.88 319.00 761.50 319.00 L 742.50 319.00 C 741.12 319.00 740.00 320.12 740.00 321.50 z"
+               id="path23" />
+            <title
+               id="title25">Boolean Value v</title>
+            <desc
+               id="desc27">v = false</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip2 -->
       </g>
-      <!-- drawing style -->
-    </g>
-    <!-- transform -->
-    <g
-       id="g41"
-       transform="scale(0.51946113,0.51946113)">
+      <!-- transform -->
       <g
-         style="fill:none;stroke:#999999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-         id="g43">
-        <path
-           id="path45"
-           d="m 482.26194,557.73767 0,-523.862065" />
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g48">
+        <clipPath
+           id="clip26ba8b33-7aad-4a16-ab08-ab2d36170ffc">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path35" />
+        </clipPath>
+        <g
+           clip-path="url(#clip3)"
+           id="g46">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#000000"
+             id="g44">
+            <path
+               d="M 774.92 335.00 L 774.92 326.41 L 778.17 326.41 Q 779.02 326.41 779.47 326.48 Q 780.11 326.59 780.54 326.89 Q 780.97 327.19 781.23 327.72 Q 781.48 328.25 781.48 328.89 Q 781.48 329.98 780.79 330.74 Q 780.09 331.50 778.27 331.50 L 776.06 331.50 L 776.06 335.00 L 774.92 335.00 z M 776.06 330.50 L 778.28 330.50 Q 779.39 330.50 779.85 330.09 Q 780.31 329.67 780.31 328.92 Q 780.31 328.39 780.04 328.01 Q 779.77 327.62 779.33 327.50 Q 779.03 327.42 778.27 327.42 L 776.06 327.42 L 776.06 330.50 z M 787.05 333.00 L 788.14 333.12 Q 787.89 334.08 787.19 334.61 Q 786.49 335.14 785.41 335.14 Q 784.05 335.14 783.25 334.30 Q 782.44 333.45 782.44 331.94 Q 782.44 330.38 783.25 329.51 Q 784.07 328.64 785.35 328.64 Q 786.60 328.64 787.39 329.48 Q 788.18 330.33 788.18 331.88 Q 788.18 331.97 788.18 332.16 L 783.54 332.16 Q 783.60 333.19 784.11 333.73 Q 784.63 334.27 785.41 334.27 Q 785.99 334.27 786.40 333.96 Q 786.82 333.66 787.05 333.00 z M 783.60 331.30 L 787.07 331.30 Q 787.00 330.50 786.68 330.11 Q 786.16 329.50 785.36 329.50 Q 784.63 329.50 784.14 329.98 Q 783.64 330.47 783.60 331.30 z M 789.46 335.00 L 789.46 328.78 L 790.41 328.78 L 790.41 329.72 Q 790.77 329.06 791.08 328.85 Q 791.38 328.64 791.76 328.64 Q 792.29 328.64 792.83 328.97 L 792.47 329.95 Q 792.08 329.72 791.71 329.72 Q 791.35 329.72 791.08 329.93 Q 790.80 330.14 790.69 330.52 Q 790.51 331.08 790.51 331.73 L 790.51 335.00 L 789.46 335.00 z M 793.47 327.62 L 793.47 326.41 L 794.53 326.41 L 794.53 327.62 L 793.47 327.62 z M 793.47 335.00 L 793.47 328.78 L 794.53 328.78 L 794.53 335.00 L 793.47 335.00 z M 796.14 335.00 L 796.14 328.78 L 797.07 328.78 L 797.07 329.66 Q 797.37 329.19 797.86 328.91 Q 798.34 328.64 798.96 328.64 Q 799.65 328.64 800.10 328.92 Q 800.54 329.20 800.71 329.72 Q 801.46 328.64 802.64 328.64 Q 803.57 328.64 804.07 329.15 Q 804.56 329.66 804.56 330.73 L 804.56 335.00 L 803.51 335.00 L 803.51 331.08 Q 803.51 330.45 803.41 330.17 Q 803.31 329.89 803.04 329.72 Q 802.78 329.55 802.40 329.55 Q 801.75 329.55 801.32 329.98 Q 800.89 330.42 800.89 331.39 L 800.89 335.00 L 799.82 335.00 L 799.82 330.95 Q 799.82 330.25 799.57 329.90 Q 799.31 329.55 798.73 329.55 Q 798.28 329.55 797.90 329.78 Q 797.53 330.02 797.36 330.47 Q 797.18 330.92 797.18 331.77 L 797.18 335.00 L 796.14 335.00 z M 810.38 333.00 L 811.48 333.12 Q 811.23 334.08 810.52 334.61 Q 809.82 335.14 808.74 335.14 Q 807.38 335.14 806.58 334.30 Q 805.77 333.45 805.77 331.94 Q 805.77 330.38 806.59 329.51 Q 807.40 328.64 808.68 328.64 Q 809.93 328.64 810.72 329.48 Q 811.51 330.33 811.51 331.88 Q 811.51 331.97 811.51 332.16 L 806.87 332.16 Q 806.93 333.19 807.45 333.73 Q 807.96 334.27 808.74 334.27 Q 809.32 334.27 809.73 333.96 Q 810.15 333.66 810.38 333.00 z M 806.93 331.30 L 810.40 331.30 Q 810.34 330.50 810.01 330.11 Q 809.49 329.50 808.70 329.50 Q 807.96 329.50 807.47 329.98 Q 806.98 330.47 806.93 331.30 z M 815.10 334.06 L 815.26 334.98 Q 814.81 335.08 814.46 335.08 Q 813.88 335.08 813.57 334.90 Q 813.26 334.72 813.13 334.42 Q 812.99 334.12 812.99 333.17 L 812.99 329.59 L 812.23 329.59 L 812.23 328.78 L 812.99 328.78 L 812.99 327.23 L 814.04 326.61 L 814.04 328.78 L 815.10 328.78 L 815.10 329.59 L 814.04 329.59 L 814.04 333.23 Q 814.04 333.69 814.10 333.81 Q 814.15 333.94 814.28 334.02 Q 814.40 334.09 814.63 334.09 Q 814.82 334.09 815.10 334.06 z M 820.39 333.00 L 821.48 333.12 Q 821.23 334.08 820.53 334.61 Q 819.83 335.14 818.75 335.14 Q 817.39 335.14 816.59 334.30 Q 815.78 333.45 815.78 331.94 Q 815.78 330.38 816.59 329.51 Q 817.41 328.64 818.69 328.64 Q 819.94 328.64 820.73 329.48 Q 821.52 330.33 821.52 331.88 Q 821.52 331.97 821.52 332.16 L 816.88 332.16 Q 816.94 333.19 817.45 333.73 Q 817.97 334.27 818.75 334.27 Q 819.33 334.27 819.74 333.96 Q 820.16 333.66 820.39 333.00 z M 816.94 331.30 L 820.41 331.30 Q 820.34 330.50 820.02 330.11 Q 819.50 329.50 818.70 329.50 Q 817.97 329.50 817.48 329.98 Q 816.98 330.47 816.94 331.30 z M 822.80 335.00 L 822.80 328.78 L 823.75 328.78 L 823.75 329.72 Q 824.11 329.06 824.42 328.85 Q 824.72 328.64 825.10 328.64 Q 825.63 328.64 826.17 328.97 L 825.81 329.95 Q 825.42 329.72 825.05 329.72 Q 824.69 329.72 824.42 329.93 Q 824.14 330.14 824.03 330.52 Q 823.85 331.08 823.85 331.73 L 823.85 335.00 L 822.80 335.00 z"
+               id="path38" />
+            <title
+               id="title40">Boolean Value v</title>
+            <desc
+               id="desc42">v = false</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip3 -->
       </g>
-      <!-- drawing style -->
-    </g>
-    <!-- transform -->
-    <g
-       id="g47"
-       transform="scale(0.51946113,0.51946113)">
+      <!-- transform -->
       <g
-         style="fill:none;stroke:#999999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-         id="g49">
-        <path
-           id="path51"
-           d="m 133.02056,557.73767 349.24138,0" />
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g63">
+        <clipPath
+           id="clip65a85508-6977-4b1d-9838-d48465915663">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path50" />
+        </clipPath>
+        <g
+           clip-path="url(#clip4)"
+           id="g61">
+          <g
+             fill-opacity=".098039"
+             fill-rule="evenodd"
+             stroke="none"
+             fill="#999999"
+             id="g59">
+            <path
+               d="M 39.920 137.59 L 39.920 616.15 L 359.28 616.15 L 359.28 137.59 z"
+               id="path53" />
+            <title
+               id="title55">Quadrilateral poly19</title>
+            <desc
+               id="desc57">Quadrilateral poly19: Polygon C, A, B, D</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip4 -->
       </g>
-      <!-- drawing style -->
-    </g>
-    <!-- transform -->
-    <g
-       id="g53"
-       transform="scale(0.51946113,0.51946113)">
+      <!-- transform -->
       <g
-         style="fill:none;stroke:#999999;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
-         id="g55">
-        <path
-           id="path57"
-           d="m 133.02056,33.875605 0,523.862065" />
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g78">
+        <clipPath
+           id="clipbfa42670-9974-460f-9f7a-f697954bcb4c">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path65" />
+        </clipPath>
+        <g
+           clip-path="url(#clip5)"
+           id="g76">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#999999"
+             id="g74">
+            <path
+               d="M 39.920 137.59 L 39.920 616.15"
+               id="path68" />
+            <title
+               id="title70">Segment c_3</title>
+            <desc
+               id="desc72">Segment c_3: Segment C, A</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip5 -->
       </g>
-      <!-- drawing style -->
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g93">
+        <clipPath
+           id="clip03d5b6d6-49dc-444a-8374-9ac04edb9799">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path80" />
+        </clipPath>
+        <g
+           clip-path="url(#clip6)"
+           id="g91">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#999999"
+             id="g89">
+            <path
+               d="M 39.920 616.15 L 359.28 616.15"
+               id="path83" />
+            <title
+               id="title85">Segment a_3</title>
+            <desc
+               id="desc87">Segment a_3: Segment A, B</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip6 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g108">
+        <clipPath
+           id="clipf65fa840-847d-477c-af8b-fef1812276d1">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path95" />
+        </clipPath>
+        <g
+           clip-path="url(#clip7)"
+           id="g106">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#999999"
+             id="g104">
+            <path
+               d="M 359.28 616.15 L 359.28 137.59"
+               id="path98" />
+            <title
+               id="title100">Segment b_3</title>
+            <desc
+               id="desc102">Segment b_3: Segment B, D</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip7 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g123">
+        <clipPath
+           id="clipbccc2413-b99c-4e74-a5ce-252b6634ea81">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path110" />
+        </clipPath>
+        <g
+           clip-path="url(#clip8)"
+           id="g121">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#999999"
+             id="g119">
+            <path
+               d="M 359.28 137.59 L 39.920 137.59"
+               id="path113" />
+            <title
+               id="title115">Segment d_2</title>
+            <desc
+               id="desc117">Segment d_2: Segment D, C</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip8 -->
+      </g>
+      <!-- transform -->
     </g>
-    <!-- transform -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.35433071,0,0,0.35433071,22.936897,11.598314)"
-     id="g120">
-    <clipPath
-       id="clip2">
-      <path
-         d="m -195.01276,-49.662814 0,1020.360194 1847.20376,0 0,-1020.360194 z"
-         id="path123" />
-    </clipPath>
+    <!-- layer0 -->
     <g
-       clip-path="url(#clip2)"
-       id="g125">
-      <image
-         x="0"
-         y="0"
-         width="512"
-         height="768"
-         xlink:href="data:image/PNG;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAMACAYAAABSD99OAABIJklEQVR42u3dWZcc5YHva3+JfY+7 9+52txls47YZBBpKEkhIIAuQkNGEQAgQQxlkDMIMZTzgeQRjwGZyT+ucG76DvoLuz0XdnYu9li7O 1V4rTkRKWWQVNURmRsQ7Pb+13oUo0SWnWhX/p1JZFV/6kiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJ kiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJ kiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJ kiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJ kiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJ kiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJ0mSf/Pjkyeb4nZAkqZzhv1Sf 6tq5BAKSJJUz/KvOh69/99Ifz+4HAUmSShj+5tTDP3lAQJKkgoYfBCRJKnj4QUCSpIKHHwQkSSp4 +EFAkqSChx8EJEkqePhBQJKkgocfBCRJKnj4QUCSpIKHHwQkSSp4+EFAkqSCh3/Veefpe910SJKk Uoa/OWseDwhIksrt3bP7Sxv+Vefti0cu+VMgSSpq+OtzqT7VX548UNzwv//aserio3uru277l8qf BklSUcO/3ilp+MfHnwpJUrHD35y3Hrtn5ZQw/AAgSTL8G5ychx8AJEmGf4uT4/ADgCTJ8CcEga6G HwAkSYY/AQh0PfwAIEky/BFDoK/hBwBJkuGPEAJ9Dz8ASJIMf0QQGGr4AUCSZPgjgMDQww8AkiTD HxACoYYfACRJhj8ABEIPPwBIkgz/gBDYdPhff7h6+eyBQYYfACRJhn+As/amQ2uH/6XH76t27ty5 cgBAkmT4Mxn+ydPchvjdC/d/YfjXHgCQJBn+DIa/Ob9/5K7qhfturfZ8839tOv4AIEky/JkN//gA gCTJ8Bc0/AAgSTL8BQ4/AEiSDH+Bww8AkiTDX+DwA4AkyfAXOPwAIEky/AUOPwBIkgx/gcMfAQCu 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 YII="
-         id="image127" />
+       id="layer1">
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g139">
+        <clipPath
+           id="clipc186035e-f502-482f-8dc2-5cfe486d090e">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path126" />
+        </clipPath>
+        <g
+           clip-path="url(#clip9)"
+           id="g137">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#444444"
+             id="g135">
+            <path
+               d="M 821.50 78.000 L 821.50 99.000 C 821.50 100.38 822.62 101.50 824.00 101.50 L 845.00 101.50 C 846.38 101.50 847.50 100.38 847.50 99.000 L 847.50 78.000 C 847.50 76.619 846.38 75.500 845.00 75.500 L 824.00 75.500 C 822.62 75.500 821.50 76.619 821.50 78.000 z"
+               id="path129" />
+            <title
+               id="title131">Boolean Value o</title>
+            <desc
+               id="desc133">o = false</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip9 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g154">
+        <clipPath
+           id="clipd2ff4a23-1992-458b-b47e-2d1f24beea2a">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path141" />
+        </clipPath>
+        <g
+           clip-path="url(#clip10)"
+           id="g152">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#ffffff"
+             id="g150">
+            <path
+               d="M 822.00 78.500 L 822.00 97.500 C 822.00 98.881 823.12 100.00 824.50 100.00 L 843.50 100.00 C 844.88 100.00 846.00 98.881 846.00 97.500 L 846.00 78.500 C 846.00 77.119 844.88 76.000 843.50 76.000 L 824.50 76.000 C 823.12 76.000 822.00 77.119 822.00 78.500 z"
+               id="path144" />
+            <title
+               id="title146">Boolean Value o</title>
+            <desc
+               id="desc148">o = false</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip10 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g169">
+        <clipPath
+           id="clipd3d13fa8-349f-4a1d-87fe-9249f7dc41e9">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path156" />
+        </clipPath>
+        <g
+           clip-path="url(#clip11)"
+           id="g167">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#000000"
+             id="g165">
+            <path
+               d="M 856.92 92.000 L 856.92 83.406 L 860.17 83.406 Q 861.02 83.406 861.47 83.484 Q 862.11 83.594 862.54 83.891 Q 862.97 84.188 863.23 84.719 Q 863.48 85.250 863.48 85.891 Q 863.48 86.984 862.79 87.742 Q 862.09 88.500 860.27 88.500 L 858.06 88.500 L 858.06 92.000 L 856.92 92.000 z M 858.06 87.500 L 860.28 87.500 Q 861.39 87.500 861.85 87.086 Q 862.31 86.672 862.31 85.922 Q 862.31 85.391 862.04 85.008 Q 861.77 84.625 861.33 84.500 Q 861.03 84.422 860.27 84.422 L 858.06 84.422 L 858.06 87.500 z M 864.41 88.891 Q 864.41 87.156 865.36 86.328 Q 866.16 85.641 867.32 85.641 Q 868.60 85.641 869.42 86.477 Q 870.24 87.312 870.24 88.797 Q 870.24 90.000 869.88 90.688 Q 869.52 91.375 868.82 91.758 Q 868.13 92.141 867.32 92.141 Q 866.02 92.141 865.21 91.305 Q 864.41 90.469 864.41 88.891 z M 865.49 88.891 Q 865.49 90.078 866.01 90.672 Q 866.54 91.266 867.32 91.266 Q 868.11 91.266 868.63 90.672 Q 869.14 90.078 869.14 88.859 Q 869.14 87.703 868.62 87.109 Q 868.10 86.516 867.32 86.516 Q 866.54 86.516 866.01 87.102 Q 865.49 87.688 865.49 88.891 z M 871.47 84.625 L 871.47 83.406 L 872.54 83.406 L 872.54 84.625 L 871.47 84.625 z M 871.47 92.000 L 871.47 85.781 L 872.54 85.781 L 872.54 92.000 L 871.47 92.000 z M 874.14 92.000 L 874.14 85.781 L 875.08 85.781 L 875.08 86.656 Q 875.77 85.641 877.06 85.641 Q 877.62 85.641 878.10 85.844 Q 878.58 86.047 878.81 86.375 Q 879.05 86.703 879.14 87.141 Q 879.19 87.438 879.19 88.172 L 879.19 92.000 L 878.14 92.000 L 878.14 88.219 Q 878.14 87.562 878.02 87.250 Q 877.89 86.938 877.58 86.742 Q 877.27 86.547 876.84 86.547 Q 876.17 86.547 875.68 86.977 Q 875.19 87.406 875.19 88.594 L 875.19 92.000 L 874.14 92.000 z M 883.11 91.062 L 883.27 91.984 Q 882.81 92.078 882.47 92.078 Q 881.89 92.078 881.58 91.898 Q 881.27 91.719 881.13 91.422 Q 881.00 91.125 881.00 90.172 L 881.00 86.594 L 880.24 86.594 L 880.24 85.781 L 881.00 85.781 L 881.00 84.234 L 882.05 83.609 L 882.05 85.781 L 883.11 85.781 L 883.11 86.594 L 882.05 86.594 L 882.05 90.234 Q 882.05 90.688 882.10 90.812 Q 882.16 90.938 882.28 91.016 Q 882.41 91.094 882.64 91.094 Q 882.83 91.094 883.11 91.062 z M 883.73 90.141 L 884.76 89.984 Q 884.85 90.609 885.25 90.938 Q 885.65 91.266 886.38 91.266 Q 887.10 91.266 887.45 90.977 Q 887.80 90.688 887.80 90.281 Q 887.80 89.922 887.49 89.719 Q 887.27 89.578 886.41 89.359 Q 885.26 89.062 884.81 88.852 Q 884.37 88.641 884.13 88.266 Q 883.90 87.891 883.90 87.422 Q 883.90 87.016 884.09 86.656 Q 884.27 86.297 884.60 86.062 Q 884.85 85.891 885.27 85.766 Q 885.70 85.641 886.20 85.641 Q 886.91 85.641 887.47 85.852 Q 888.02 86.062 888.29 86.422 Q 888.55 86.781 888.65 87.375 L 887.62 87.516 Q 887.55 87.047 887.22 86.773 Q 886.88 86.500 886.26 86.500 Q 885.54 86.500 885.23 86.742 Q 884.91 86.984 884.91 87.312 Q 884.91 87.516 885.04 87.672 Q 885.18 87.844 885.45 87.953 Q 885.60 88.016 886.38 88.219 Q 887.51 88.531 887.95 88.719 Q 888.38 88.906 888.63 89.266 Q 888.88 89.625 888.88 90.172 Q 888.88 90.703 888.58 91.164 Q 888.27 91.625 887.70 91.883 Q 887.12 92.141 886.38 92.141 Q 885.16 92.141 884.53 91.633 Q 883.90 91.125 883.73 90.141 z"
+               id="path159" />
+            <title
+               id="title161">Boolean Value o</title>
+            <desc
+               id="desc163">o = false</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip11 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(.62375, 0.0000, 0.0000, .62313, 39.920, 19.940)"
+         id="g182">
+        <clipPath
+           id="clip2b847876-67cc-4dae-a585-8bf66c65c8c3">
+          <path
+             d="M -64.000 -32.000 L -64.000 850.64 L 578.88 850.64 L 578.88 -32.000 z"
+             id="path171" />
+        </clipPath>
+        <g
+           clip-path="url(#clip12)"
+           id="g180">
+          <image
+             x="0"
+             y="0"
+             width="512"
+             height="768"
+             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAgAAAAMACAYAAABSD99OAABIJklEQVR42u3dWZcc5YHva3+JfY+7 9+52txls47YZBBpKEkhIIAuQkNGEQAgQQxlkDMIMZTzgeQRjwGZyT+ucG76DvoLuz0XdnYu9li7O 1V4rTkRKWWQVNURmRsQ7Pb+13oUo0SWnWhX/p1JZFV/6kiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJ kiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJ kiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJ kiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJ kiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJ kiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRJ0mSf/Pjkyeb4nZAkqZzhv1Sf 6tq5BAKSJJUz/KvOh69/99Ifz+4HAUmSShj+5tTDP3lAQJKkgoYfBCRJKnj4QUCSpIKHHwQkSSp4 +EFAkqSChx8EJEkqePhBQJKkgocfBCRJKnj4QUCSpIKHHwQkSSp4+EFAkqSCh3/Veefpe910SJKk Uoa/OWseDwhIksrt3bP7Sxv+Vefti0cu+VMgSSpq+OtzqT7VX548UNzwv//aserio3uru277l8qf BklSUcO/3ilp+MfHnwpJUrHD35y3Hrtn5ZQw/AAgSTL8G5ychx8AJEmGf4uT4/ADgCTJ8CcEga6G HwAkSYY/AQh0PfwAIEky/BFDoK/hBwBJkuGPEAJ9Dz8ASJIMf0QQGGr4AUCSZPgjgMDQww8AkiTD HxACoYYfACRJhj8ABEIPPwBIkgz/gBDYdPhff7h6+eyBQYYfACRJhn+As/amQ2uH/6XH76t27ty5 cgBAkmT4Mxn+ydPchvjdC/d/YfjXHgCQJBn+DIa/Ob9/5K7qhfturfZ8839tOv4AIEky/JkN//gA gCTJ8Bc0/AAgSTL8BQ4/AEiSDH+Bww8AkiTDX+DwA4AkyfAXOPwAIEky/AUOPwBIkgx/gcMfAQCu 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 YII="
+             id="image178">
+            <title
+               id="title174">Image pic1</title>
+            <desc
+               id="desc176">pic1</desc>
+          </image>
+        </g>
+        <!-- clip12 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g197">
+        <clipPath
+           id="clip1918ffc9-5b89-4984-b95a-0c5c01cc13fc">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path184" />
+        </clipPath>
+        <g
+           clip-path="url(#clip13)"
+           id="g195">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#444444"
+             id="g193">
+            <path
+               d="M 835.50 192.00 L 835.50 213.00 C 835.50 214.38 836.62 215.50 838.00 215.50 L 859.00 215.50 C 860.38 215.50 861.50 214.38 861.50 213.00 L 861.50 192.00 C 861.50 190.62 860.38 189.50 859.00 189.50 L 838.00 189.50 C 836.62 189.50 835.50 190.62 835.50 192.00 z"
+               id="path187" />
+            <title
+               id="title189">Boolean Value u</title>
+            <desc
+               id="desc191">u = true</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip13 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g212">
+        <clipPath
+           id="clip22633629-2070-4873-9480-1152539d8cdc">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path199" />
+        </clipPath>
+        <g
+           clip-path="url(#clip14)"
+           id="g210">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#ffffff"
+             id="g208">
+            <path
+               d="M 836.00 192.50 L 836.00 211.50 C 836.00 212.88 837.12 214.00 838.50 214.00 L 857.50 214.00 C 858.88 214.00 860.00 212.88 860.00 211.50 L 860.00 192.50 C 860.00 191.12 858.88 190.00 857.50 190.00 L 838.50 190.00 C 837.12 190.00 836.00 191.12 836.00 192.50 z"
+               id="path202" />
+            <title
+               id="title204">Boolean Value u</title>
+            <desc
+               id="desc206">u = true</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip14 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g227">
+        <clipPath
+           id="clip4851d2ae-facc-45b8-bdf5-ce7d59064e66">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path214" />
+        </clipPath>
+        <g
+           clip-path="url(#clip15)"
+           id="g225">
+          <g
+             stroke-linejoin="round"
+             stroke-width="4.0000"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#444444"
+             id="g223">
+            <path
+               d="M 840.50 204.50 L 845.50 209.50"
+               id="path217" />
+            <title
+               id="title219">Boolean Value u</title>
+            <desc
+               id="desc221">u = true</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip15 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g242">
+        <clipPath
+           id="clip593d9e10-b03c-49c4-9e2f-9ac9769ae290">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path229" />
+        </clipPath>
+        <g
+           clip-path="url(#clip16)"
+           id="g240">
+          <g
+             stroke-linejoin="round"
+             stroke-width="4.0000"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#444444"
+             id="g238">
+            <path
+               d="M 845.50 209.50 L 855.50 195.50"
+               id="path232" />
+            <title
+               id="title234">Boolean Value u</title>
+            <desc
+               id="desc236">u = true</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip16 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g257">
+        <clipPath
+           id="clipe34e3af1-7984-4fe8-a37c-8b0c53f94fce">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path244" />
+        </clipPath>
+        <g
+           clip-path="url(#clip17)"
+           id="g255">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#000000"
+             id="g253">
+            <path
+               d="M 870.95 206.00 L 870.95 197.41 L 877.16 197.41 L 877.16 198.42 L 872.09 198.42 L 872.09 201.05 L 876.84 201.05 L 876.84 202.06 L 872.09 202.06 L 872.09 204.98 L 877.36 204.98 L 877.36 206.00 L 870.95 206.00 z M 878.10 206.00 L 880.36 202.77 L 878.27 199.78 L 879.58 199.78 L 880.54 201.23 Q 880.80 201.66 880.97 201.94 Q 881.22 201.55 881.44 201.25 L 882.49 199.78 L 883.75 199.78 L 881.60 202.70 L 883.91 206.00 L 882.63 206.00 L 881.35 204.06 L 881.00 203.55 L 879.36 206.00 L 878.10 206.00 z M 887.10 205.06 L 887.25 205.98 Q 886.80 206.08 886.46 206.08 Q 885.88 206.08 885.57 205.90 Q 885.25 205.72 885.12 205.42 Q 884.99 205.12 884.99 204.17 L 884.99 200.59 L 884.22 200.59 L 884.22 199.78 L 884.99 199.78 L 884.99 198.23 L 886.04 197.61 L 886.04 199.78 L 887.10 199.78 L 887.10 200.59 L 886.04 200.59 L 886.04 204.23 Q 886.04 204.69 886.09 204.81 Q 886.14 204.94 886.27 205.02 Q 886.39 205.09 886.63 205.09 Q 886.82 205.09 887.10 205.06 z M 888.12 206.00 L 888.12 199.78 L 889.07 199.78 L 889.07 200.72 Q 889.43 200.06 889.74 199.85 Q 890.04 199.64 890.42 199.64 Q 890.95 199.64 891.49 199.97 L 891.13 200.95 Q 890.74 200.72 890.37 200.72 Q 890.01 200.72 889.74 200.93 Q 889.46 201.14 889.35 201.52 Q 889.17 202.08 889.17 202.73 L 889.17 206.00 L 888.12 206.00 z M 896.19 205.23 Q 895.60 205.73 895.06 205.94 Q 894.52 206.14 893.90 206.14 Q 892.87 206.14 892.32 205.64 Q 891.77 205.14 891.77 204.36 Q 891.77 203.91 891.97 203.52 Q 892.18 203.14 892.52 202.91 Q 892.87 202.69 893.29 202.58 Q 893.58 202.48 894.22 202.41 Q 895.49 202.27 896.10 202.05 Q 896.10 201.83 896.10 201.78 Q 896.10 201.12 895.80 200.86 Q 895.40 200.52 894.60 200.52 Q 893.87 200.52 893.51 200.77 Q 893.15 201.03 892.97 201.69 L 891.94 201.55 Q 892.08 200.89 892.41 200.48 Q 892.74 200.08 893.35 199.86 Q 893.96 199.64 894.76 199.64 Q 895.55 199.64 896.05 199.83 Q 896.55 200.02 896.79 200.30 Q 897.02 200.58 897.12 201.02 Q 897.16 201.28 897.16 201.98 L 897.16 203.39 Q 897.16 204.86 897.23 205.25 Q 897.30 205.64 897.51 206.00 L 896.40 206.00 Q 896.24 205.67 896.19 205.23 z M 896.10 202.88 Q 895.52 203.11 894.38 203.28 Q 893.72 203.38 893.46 203.49 Q 893.19 203.61 893.04 203.83 Q 892.90 204.05 892.90 204.33 Q 892.90 204.75 893.22 205.03 Q 893.54 205.31 894.15 205.31 Q 894.76 205.31 895.23 205.05 Q 895.71 204.78 895.93 204.31 Q 896.10 203.95 896.10 203.27 L 896.10 202.88 z M 898.38 204.14 L 899.41 203.98 Q 899.51 204.61 899.91 204.94 Q 900.30 205.27 901.04 205.27 Q 901.76 205.27 902.11 204.98 Q 902.46 204.69 902.46 204.28 Q 902.46 203.92 902.15 203.72 Q 901.93 203.58 901.07 203.36 Q 899.91 203.06 899.47 202.85 Q 899.02 202.64 898.79 202.27 Q 898.55 201.89 898.55 201.42 Q 898.55 201.02 898.74 200.66 Q 898.93 200.30 899.26 200.06 Q 899.51 199.89 899.93 199.77 Q 900.35 199.64 900.85 199.64 Q 901.57 199.64 902.12 199.85 Q 902.68 200.06 902.95 200.42 Q 903.21 200.78 903.30 201.38 L 902.27 201.52 Q 902.21 201.05 901.88 200.77 Q 901.54 200.50 900.91 200.50 Q 900.20 200.50 899.88 200.74 Q 899.57 200.98 899.57 201.31 Q 899.57 201.52 899.70 201.67 Q 899.84 201.84 900.10 201.95 Q 900.26 202.02 901.04 202.22 Q 902.16 202.53 902.60 202.72 Q 903.04 202.91 903.29 203.27 Q 903.54 203.62 903.54 204.17 Q 903.54 204.70 903.23 205.16 Q 902.93 205.62 902.35 205.88 Q 901.77 206.14 901.04 206.14 Q 899.82 206.14 899.19 205.63 Q 898.55 205.12 898.38 204.14 z"
+               id="path247" />
+            <title
+               id="title249">Boolean Value u</title>
+            <desc
+               id="desc251">u = true</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip17 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g272">
+        <clipPath
+           id="clipc9078fd7-30ff-464b-b617-e8c6ff6c5d8e">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path259" />
+        </clipPath>
+        <g
+           clip-path="url(#clip18)"
+           id="g270">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="evenodd"
+             stroke="none"
+             fill="#000000"
+             id="g268">
+            <path
+               d="M 230.28 620.33 L 221.92 627.30 L 235.86 623.12 z"
+               id="path262" />
+            <title
+               id="title264">Triangle poly1</title>
+            <desc
+               id="desc266">Triangle poly1: Polygon J_3, H_4, J_2</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip18 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g287">
+        <clipPath
+           id="clip5dfcf05e-f02c-4023-8d95-ac089dd19cfa">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path274" />
+        </clipPath>
+        <g
+           clip-path="url(#clip19)"
+           id="g285">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="evenodd"
+             stroke="none"
+             fill="#000000"
+             id="g283">
+            <path
+               d="M 367.65 551.72 L 381.60 547.54 L 373.23 554.50 z"
+               id="path277" />
+            <title
+               id="title279">Triangle poly2</title>
+            <desc
+               id="desc281">Triangle poly2: Polygon P_3, I_4, P_2</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip19 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g302">
+        <clipPath
+           id="clipad803c45-66be-42c9-b9d7-b1c84b277364">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path289" />
+        </clipPath>
+        <g
+           clip-path="url(#clip20)"
+           id="g300">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="evenodd"
+             stroke="none"
+             fill="#000000"
+             id="g298">
+            <path
+               d="M 73.517 578.25 L 87.464 582.43 L 79.096 575.46 z"
+               id="path292" />
+            <title
+               id="title294">Triangle poly3</title>
+            <desc
+               id="desc296">Triangle poly3: Polygon Z_2, W_1, Z_3</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip20 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g317">
+        <clipPath
+           id="clipd2009ff9-bbde-4a86-bf6f-55479a05c07d">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path304" />
+        </clipPath>
+        <g
+           clip-path="url(#clip21)"
+           id="g315">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="evenodd"
+             stroke="none"
+             fill="#000000"
+             id="g313">
+            <path
+               d="M 107.42 592.40 L 115.79 599.37 L 121.37 596.58 z"
+               id="path307" />
+            <title
+               id="title309">Triangle poly4</title>
+            <desc
+               id="desc311">Triangle poly4: Polygon Q_1, R_2, R_3</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip21 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g332">
+        <clipPath
+           id="clipe1e37197-94aa-45e0-9d5b-1840fa45acd1">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path319" />
+        </clipPath>
+        <g
+           clip-path="url(#clip22)"
+           id="g330">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="evenodd"
+             stroke="none"
+             fill="#000000"
+             id="g328">
+            <path
+               d="M 308.95 211.15 L 311.74 197.30 L 314.53 208.37 z"
+               id="path322" />
+            <title
+               id="title324">Triangle poly5</title>
+            <desc
+               id="desc326">Triangle poly5: Polygon H_2, A_1, H_3</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip22 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g347">
+        <clipPath
+           id="clipfac44a36-2ce3-4323-99a0-8a7036da8e76">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path334" />
+        </clipPath>
+        <g
+           clip-path="url(#clip23)"
+           id="g345">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="evenodd"
+             stroke="none"
+             fill="#000000"
+             id="g343">
+            <path
+               d="M 311.74 490.35 L 308.95 479.28 L 314.53 476.49 z"
+               id="path337" />
+            <title
+               id="title339">Triangle poly6</title>
+            <desc
+               id="desc341">Triangle poly6: Polygon B_1, I_2, I_3</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip23 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g362">
+        <clipPath
+           id="clip9ffc97fe-a76f-4a76-955d-6a32fb334a49">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path349" />
+        </clipPath>
+        <g
+           clip-path="url(#clip24)"
+           id="g360">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g358">
+            <path
+               d="M 39.920 536.39 L 199.60 616.15"
+               id="path352" />
+            <title
+               id="title354">Segment g</title>
+            <desc
+               id="desc356">Segment g: Segment E, N</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip24 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g377">
+        <clipPath
+           id="clipf7d9b572-e5fa-40ce-8f41-7c5ec48443f1">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path364" />
+        </clipPath>
+        <g
+           clip-path="url(#clip25)"
+           id="g375">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g373">
+            <path
+               d="M 199.60 616.15 L 359.28 536.39"
+               id="path367" />
+            <title
+               id="title369">Segment h</title>
+            <desc
+               id="desc371">Segment h: Segment N, F</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip25 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g392">
+        <clipPath
+           id="clipb4f29ca4-c789-4909-9cbb-c5a91d3480c2">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path379" />
+        </clipPath>
+        <g
+           clip-path="url(#clip26)"
+           id="g390">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g388">
+            <path
+               d="M 359.28 536.39 L 199.60 456.63"
+               id="path382" />
+            <title
+               id="title384">Segment i</title>
+            <desc
+               id="desc386">Segment i: Segment F, G</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip26 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g407">
+        <clipPath
+           id="clip8880e4dc-62ff-4cd6-b976-d693815bbb5e">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path394" />
+        </clipPath>
+        <g
+           clip-path="url(#clip27)"
+           id="g405">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g403">
+            <path
+               d="M 199.60 456.63 L 39.920 536.39"
+               id="path397" />
+            <title
+               id="title399">Segment j</title>
+            <desc
+               id="desc401">Segment j: Segment G, E</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip27 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g422">
+        <clipPath
+           id="clipa2c6be7b-12ec-4e3f-a04b-68da3c34a465">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path409" />
+        </clipPath>
+        <g
+           clip-path="url(#clip28)"
+           id="g420">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g418">
+            <path
+               d="M 109.78 278.23 L 269.46 198.47"
+               id="path412" />
+            <title
+               id="title414">Segment b</title>
+            <desc
+               id="desc416">Segment b: Segment O, U</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip28 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g437">
+        <clipPath
+           id="clipd6c56bed-d1a0-4eb4-9219-ed896f15e451">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path424" />
+        </clipPath>
+        <g
+           clip-path="url(#clip29)"
+           id="g435">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g433">
+            <path
+               d="M 269.46 198.47 L 289.42 208.44"
+               id="path427" />
+            <title
+               id="title429">Segment c</title>
+            <desc
+               id="desc431">Segment c: Segment U, V</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip29 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g452">
+        <clipPath
+           id="clipbda59d54-9f31-48ef-9ac9-3a24b59531b6">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path439" />
+        </clipPath>
+        <g
+           clip-path="url(#clip30)"
+           id="g450">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g448">
+            <path
+               d="M 109.78 278.23 L 129.74 288.20"
+               id="path442" />
+            <title
+               id="title444">Segment d</title>
+            <desc
+               id="desc446">Segment d: Segment O, M</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip30 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g467">
+        <clipPath
+           id="clipb31e0960-d858-4b42-8493-3ce3342836e5">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path454" />
+        </clipPath>
+        <g
+           clip-path="url(#clip31)"
+           id="g465">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g463">
+            <path
+               d="M 109.78 278.23 L 109.78 571.28"
+               id="path457" />
+            <title
+               id="title459">Segment e</title>
+            <desc
+               id="desc461">Segment e: Segment O, K</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip31 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g482">
+        <clipPath
+           id="clip6bfecea4-d418-4e27-8a26-8b88cc7ab2d1">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path469" />
+        </clipPath>
+        <g
+           clip-path="url(#clip32)"
+           id="g480">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g478">
+            <path
+               d="M 129.74 288.20 L 129.74 581.25"
+               id="path472" />
+            <title
+               id="title474">Segment k</title>
+            <desc
+               id="desc476">Segment k: Segment M, L</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip32 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g497">
+        <clipPath
+           id="clipf3ab2a11-e315-4f41-b45e-5cdc8b82bf64">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path484" />
+        </clipPath>
+        <g
+           clip-path="url(#clip33)"
+           id="g495">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g493">
+            <path
+               d="M 289.42 208.44 L 289.42 501.49"
+               id="path487" />
+            <title
+               id="title489">Segment l</title>
+            <desc
+               id="desc491">Segment l: Segment V, T</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip33 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g512">
+        <clipPath
+           id="clip8bfb153c-4c5d-4e47-81be-b401ec38ad6f">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path499" />
+        </clipPath>
+        <g
+           clip-path="url(#clip34)"
+           id="g510">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g508">
+            <path
+               d="M 109.78 571.28 L 269.46 491.52"
+               id="path502" />
+            <title
+               id="title504">Segment l_1</title>
+            <desc
+               id="desc506">Segment l_1: Segment K, S</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip34 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g527">
+        <clipPath
+           id="clip9f3706c4-bcf7-49cf-bb9a-e14a78909a8f">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path514" />
+        </clipPath>
+        <g
+           clip-path="url(#clip35)"
+           id="g525">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g523">
+            <path
+               d="M 129.74 581.25 L 289.42 501.49"
+               id="path517" />
+            <title
+               id="title519">Segment m_1</title>
+            <desc
+               id="desc521">Segment m_1: Segment L, T</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip35 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g542">
+        <clipPath
+           id="clip7636b68d-275c-4877-aabc-d54899ee9fbd">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path529" />
+        </clipPath>
+        <g
+           clip-path="url(#clip36)"
+           id="g540">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g538">
+            <path
+               d="M 129.74 288.20 L 289.42 208.44"
+               id="path532" />
+            <title
+               id="title534">Segment f</title>
+            <desc
+               id="desc536">Segment f: Segment M, V</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip36 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g557">
+        <clipPath
+           id="clipcb125520-df6a-44e3-a801-11be5e5001be">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path544" />
+        </clipPath>
+        <g
+           clip-path="url(#clip37)"
+           id="g555">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g553">
+            <path
+               d="M 269.46 491.52 L 269.46 198.47"
+               id="path547" />
+            <title
+               id="title549">Segment f_1</title>
+            <desc
+               id="desc551">Segment f_1: Segment S, U</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip37 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g572">
+        <clipPath
+           id="clipfa40e3dd-12df-4d65-b28d-41476b034303">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path559" />
+        </clipPath>
+        <g
+           clip-path="url(#clip38)"
+           id="g570">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g568">
+            <path
+               d="M 210.76 621.72 L 233.07 632.87"
+               id="path562" />
+            <title
+               id="title564">Segment m</title>
+            <desc
+               id="desc566">Segment m: Segment H_6, H_5</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip38 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g587">
+        <clipPath
+           id="clipdfaac78c-da98-438d-8251-99159188ce9a">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path574" />
+        </clipPath>
+        <g
+           clip-path="url(#clip39)"
+           id="g585">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g583">
+            <path
+               d="M 221.92 627.30 L 381.60 547.54"
+               id="path577" />
+            <title
+               id="title579">Segment n</title>
+            <desc
+               id="desc581">Segment n: Segment H_4, I_4</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip39 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g602">
+        <clipPath
+           id="clipc1621222-722e-4594-b9a6-d8c17bb4ada5">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path589" />
+        </clipPath>
+        <g
+           clip-path="url(#clip40)"
+           id="g600">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g598">
+            <path
+               d="M 370.44 541.96 L 392.75 553.11"
+               id="path592" />
+            <title
+               id="title594">Segment p</title>
+            <desc
+               id="desc596">Segment p: Segment I_6, I_5</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip40 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g617">
+        <clipPath
+           id="clip1ab095c8-762a-45bd-b799-4c44374f52bb">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path604" />
+        </clipPath>
+        <g
+           clip-path="url(#clip41)"
+           id="g615">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g613">
+            <path
+               d="M 76.306 588.00 L 98.622 576.86"
+               id="path607" />
+            <title
+               id="title609">Segment q</title>
+            <desc
+               id="desc611">Segment q: Segment W_2, W_3</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip41 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g632">
+        <clipPath
+           id="clipfc5a129c-8c23-4e47-bda0-12f2e7226033">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path619" />
+        </clipPath>
+        <g
+           clip-path="url(#clip42)"
+           id="g630">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g628">
+            <path
+               d="M 96.266 597.97 L 118.58 586.83"
+               id="path622" />
+            <title
+               id="title624">Segment r</title>
+            <desc
+               id="desc626">Segment r: Segment Q_2, Q_3</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip42 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g647">
+        <clipPath
+           id="clip6cfaeaff-4069-40a3-970a-692cb3593774">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path634" />
+        </clipPath>
+        <g
+           clip-path="url(#clip43)"
+           id="g645">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g643">
+            <path
+               d="M 87.464 582.43 L 107.42 592.40"
+               id="path637" />
+            <title
+               id="title639">Segment s</title>
+            <desc
+               id="desc641">Segment s: Segment W_1, Q_1</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip43 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g662">
+        <clipPath
+           id="clip65a2d068-336a-4309-a9fe-a9c2bec67b3a">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path649" />
+        </clipPath>
+        <g
+           clip-path="url(#clip44)"
+           id="g660">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g658">
+            <path
+               d="M 300.58 202.87 L 322.89 191.72"
+               id="path652" />
+            <title
+               id="title654">Segment t</title>
+            <desc
+               id="desc656">Segment t: Segment A_2, A_3</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip44 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g677">
+        <clipPath
+           id="clip4a0f3c68-246c-4bdc-872e-79a2b52a6bae">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path664" />
+        </clipPath>
+        <g
+           clip-path="url(#clip45)"
+           id="g675">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g673">
+            <path
+               d="M 300.58 495.92 L 322.89 484.77"
+               id="path667" />
+            <title
+               id="title669">Segment a_1</title>
+            <desc
+               id="desc671">Segment a_1: Segment B_2, B_3</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip45 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g692">
+        <clipPath
+           id="clipdd46bb29-6f86-40b0-84b6-f7dbb6f26de0">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path679" />
+        </clipPath>
+        <g
+           clip-path="url(#clip46)"
+           id="g690">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g688">
+            <path
+               d="M 311.74 197.30 L 311.74 490.35"
+               id="path682" />
+            <title
+               id="title684">Segment b_1</title>
+            <desc
+               id="desc686">Segment b_1: Segment A_1, B_1</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip46 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g707">
+        <clipPath
+           id="clipc91c0704-f568-4e11-960a-3c35e55fed12">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path694" />
+        </clipPath>
+        <g
+           clip-path="url(#clip47)"
+           id="g705">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity=".39216"
+             stroke="#000000"
+             id="g703">
+            <path
+               d="M 803.00 138.00 L 903.00 138.00"
+               id="path697" />
+            <title
+               id="title699">Number a</title>
+            <desc
+               id="desc701">a = 5</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip47 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g722">
+        <clipPath
+           id="clip643d306b-9e62-4493-97c2-2314170c441c">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path709" />
+        </clipPath>
+        <g
+           clip-path="url(#clip48)"
+           id="g720">
+          <g
+             fill-opacity=".39216"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#000000"
+             id="g718">
+            <path
+               d="M 862.00 138.50 C 862.00 143.19 858.19 147.00 853.50 147.00 C 848.81 147.00 845.00 143.19 845.00 138.50 C 845.00 133.81 848.81 130.00 853.50 130.00 C 858.19 130.00 862.00 133.81 862.00 138.50 z"
+               id="path712" />
+            <title
+               id="title714">Number a</title>
+            <desc
+               id="desc716">a = 5</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip48 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g737">
+        <clipPath
+           id="clipafcfc39c-e3a5-4646-a318-82adede1f6b9">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path724" />
+        </clipPath>
+        <g
+           clip-path="url(#clip49)"
+           id="g735">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity=".39216"
+             stroke="#000000"
+             id="g733">
+            <path
+               d="M 862.00 138.50 C 862.00 143.19 858.19 147.00 853.50 147.00 C 848.81 147.00 845.00 143.19 845.00 138.50 C 845.00 133.81 848.81 130.00 853.50 130.00 C 858.19 130.00 862.00 133.81 862.00 138.50 z"
+               id="path727" />
+            <title
+               id="title729">Number a</title>
+            <desc
+               id="desc731">a = 5</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip49 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g752">
+        <clipPath
+           id="clip43f4c9a0-eb6d-4a6c-8325-453cc2212bc1">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path739" />
+        </clipPath>
+        <g
+           clip-path="url(#clip50)"
+           id="g750">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#000000"
+             id="g748">
+            <path
+               d="M 859.00 138.50 C 859.00 141.54 856.54 144.00 853.50 144.00 C 850.46 144.00 848.00 141.54 848.00 138.50 C 848.00 135.46 850.46 133.00 853.50 133.00 C 856.54 133.00 859.00 135.46 859.00 138.50 z"
+               id="path742" />
+            <title
+               id="title744">Number a</title>
+            <desc
+               id="desc746">a = 5</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip50 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g767">
+        <clipPath
+           id="clip1f1e8031-8321-4e8f-870c-0da8c410fa4f">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path754" />
+        </clipPath>
+        <g
+           clip-path="url(#clip51)"
+           id="g765">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g763">
+            <path
+               d="M 859.00 138.50 C 859.00 141.54 856.54 144.00 853.50 144.00 C 850.46 144.00 848.00 141.54 848.00 138.50 C 848.00 135.46 850.46 133.00 853.50 133.00 C 856.54 133.00 859.00 135.46 859.00 138.50 z"
+               id="path757" />
+            <title
+               id="title759">Number a</title>
+            <desc
+               id="desc761">a = 5</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip51 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g782">
+        <clipPath
+           id="clipe54b732c-27d9-499d-9aad-4818445fd219">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path769" />
+        </clipPath>
+        <g
+           clip-path="url(#clip52)"
+           id="g780">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#000000"
+             id="g778">
+            <path
+               d="M 846.86 122.23 Q 846.27 122.73 845.73 122.94 Q 845.19 123.14 844.56 123.14 Q 843.53 123.14 842.98 122.64 Q 842.44 122.14 842.44 121.36 Q 842.44 120.91 842.64 120.52 Q 842.84 120.14 843.19 119.91 Q 843.53 119.69 843.95 119.58 Q 844.25 119.48 844.89 119.41 Q 846.16 119.27 846.77 119.05 Q 846.77 118.83 846.77 118.78 Q 846.77 118.12 846.47 117.86 Q 846.06 117.52 845.27 117.52 Q 844.53 117.52 844.17 117.77 Q 843.81 118.03 843.64 118.69 L 842.61 118.55 Q 842.75 117.89 843.08 117.48 Q 843.41 117.08 844.02 116.86 Q 844.62 116.64 845.42 116.64 Q 846.22 116.64 846.72 116.83 Q 847.22 117.02 847.45 117.30 Q 847.69 117.58 847.78 118.02 Q 847.83 118.28 847.83 118.98 L 847.83 120.39 Q 847.83 121.86 847.90 122.25 Q 847.97 122.64 848.17 123.00 L 847.06 123.00 Q 846.91 122.67 846.86 122.23 z M 846.77 119.88 Q 846.19 120.11 845.05 120.28 Q 844.39 120.38 844.12 120.49 Q 843.86 120.61 843.71 120.83 Q 843.56 121.05 843.56 121.33 Q 843.56 121.75 843.88 122.03 Q 844.20 122.31 844.81 122.31 Q 845.42 122.31 845.90 122.05 Q 846.38 121.78 846.59 121.31 Q 846.77 120.95 846.77 120.27 L 846.77 119.88 z M 858.35 117.95 L 852.68 117.95 L 852.68 116.97 L 858.35 116.97 L 858.35 117.95 z M 858.35 120.56 L 852.68 120.56 L 852.68 119.58 L 858.35 119.58 L 858.35 120.56 z M 862.85 120.75 L 863.96 120.66 Q 864.08 121.47 864.53 121.88 Q 864.97 122.28 865.62 122.28 Q 866.37 122.28 866.90 121.70 Q 867.43 121.12 867.43 120.19 Q 867.43 119.28 866.92 118.76 Q 866.41 118.23 865.58 118.23 Q 865.08 118.23 864.67 118.47 Q 864.26 118.70 864.02 119.06 L 863.04 118.94 L 863.87 114.53 L 868.15 114.53 L 868.15 115.53 L 864.71 115.53 L 864.26 117.84 Q 865.02 117.30 865.87 117.30 Q 866.99 117.30 867.76 118.08 Q 868.54 118.86 868.54 120.09 Q 868.54 121.25 867.87 122.11 Q 867.04 123.14 865.62 123.14 Q 864.44 123.14 863.70 122.48 Q 862.96 121.83 862.85 120.75 z"
+               id="path772" />
+            <title
+               id="title774">Number a</title>
+            <desc
+               id="desc776">a = 5</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip52 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g797">
+        <clipPath
+           id="clipd2e5ea9e-7cc0-4ae3-8e39-71daec173368">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path784" />
+        </clipPath>
+        <g
+           clip-path="url(#clip53)"
+           id="g795">
+          <g
+             stroke-linejoin="round"
+             stroke-width="5.0000"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity=".39216"
+             stroke="#000000"
+             id="g793">
+            <path
+               d="M 736.00 424.00 L 936.00 424.00"
+               id="path787" />
+            <title
+               id="title789">Number PixelsPerUnit</title>
+            <desc
+               id="desc791">PixelsPerUnit = 5</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip53 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g812">
+        <clipPath
+           id="clipc855f73d-479d-4d85-9ab7-accfd67276dd">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path799" />
+        </clipPath>
+        <g
+           clip-path="url(#clip54)"
+           id="g810">
+          <g
+             fill-opacity=".39216"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#000000"
+             id="g808">
+            <path
+               d="M 845.00 424.50 C 845.00 429.19 841.19 433.00 836.50 433.00 C 831.81 433.00 828.00 429.19 828.00 424.50 C 828.00 419.81 831.81 416.00 836.50 416.00 C 841.19 416.00 845.00 419.81 845.00 424.50 z"
+               id="path802" />
+            <title
+               id="title804">Number PixelsPerUnit</title>
+            <desc
+               id="desc806">PixelsPerUnit = 5</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip54 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g827">
+        <clipPath
+           id="clip2143d5a8-776d-4454-8e36-ab9e2f17d5cc">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path814" />
+        </clipPath>
+        <g
+           clip-path="url(#clip55)"
+           id="g825">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity=".39216"
+             stroke="#000000"
+             id="g823">
+            <path
+               d="M 845.00 424.50 C 845.00 429.19 841.19 433.00 836.50 433.00 C 831.81 433.00 828.00 429.19 828.00 424.50 C 828.00 419.81 831.81 416.00 836.50 416.00 C 841.19 416.00 845.00 419.81 845.00 424.50 z"
+               id="path817" />
+            <title
+               id="title819">Number PixelsPerUnit</title>
+            <desc
+               id="desc821">PixelsPerUnit = 5</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip55 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g842">
+        <clipPath
+           id="clip4ef374e2-550f-4f31-a025-8d18f8b4ece8">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path829" />
+        </clipPath>
+        <g
+           clip-path="url(#clip56)"
+           id="g840">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#000000"
+             id="g838">
+            <path
+               d="M 842.00 424.50 C 842.00 427.54 839.54 430.00 836.50 430.00 C 833.46 430.00 831.00 427.54 831.00 424.50 C 831.00 421.46 833.46 419.00 836.50 419.00 C 839.54 419.00 842.00 421.46 842.00 424.50 z"
+               id="path832" />
+            <title
+               id="title834">Number PixelsPerUnit</title>
+            <desc
+               id="desc836">PixelsPerUnit = 5</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip56 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g857">
+        <clipPath
+           id="clipd793eb23-e908-4a53-968d-bcdedb614e35">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path844" />
+        </clipPath>
+        <g
+           clip-path="url(#clip57)"
+           id="g855">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g853">
+            <path
+               d="M 842.00 424.50 C 842.00 427.54 839.54 430.00 836.50 430.00 C 833.46 430.00 831.00 427.54 831.00 424.50 C 831.00 421.46 833.46 419.00 836.50 419.00 C 839.54 419.00 842.00 421.46 842.00 424.50 z"
+               id="path847" />
+            <title
+               id="title849">Number PixelsPerUnit</title>
+            <desc
+               id="desc851">PixelsPerUnit = 5</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip57 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g872">
+        <clipPath
+           id="clip00394f76-74e0-47d2-a705-336a577b3597">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path859" />
+        </clipPath>
+        <g
+           clip-path="url(#clip58)"
+           id="g870">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#000000"
+             id="g868">
+            <path
+               d="M 825.92 409.00 L 825.92 400.41 L 829.17 400.41 Q 830.02 400.41 830.47 400.48 Q 831.11 400.59 831.54 400.89 Q 831.97 401.19 832.23 401.72 Q 832.48 402.25 832.48 402.89 Q 832.48 403.98 831.79 404.74 Q 831.09 405.50 829.27 405.50 L 827.06 405.50 L 827.06 409.00 L 825.92 409.00 z M 827.06 404.50 L 829.28 404.50 Q 830.39 404.50 830.85 404.09 Q 831.31 403.67 831.31 402.92 Q 831.31 402.39 831.04 402.01 Q 830.77 401.62 830.33 401.50 Q 830.03 401.42 829.27 401.42 L 827.06 401.42 L 827.06 404.50 z M 833.80 401.62 L 833.80 400.41 L 834.86 400.41 L 834.86 401.62 L 833.80 401.62 z M 833.80 409.00 L 833.80 402.78 L 834.86 402.78 L 834.86 409.00 L 833.80 409.00 z M 835.76 409.00 L 838.03 405.77 L 835.94 402.78 L 837.25 402.78 L 838.20 404.23 Q 838.47 404.66 838.64 404.94 Q 838.89 404.55 839.11 404.25 L 840.15 402.78 L 841.42 402.78 L 839.26 405.70 L 841.58 409.00 L 840.29 409.00 L 839.01 407.06 L 838.67 406.55 L 837.03 409.00 L 835.76 409.00 z M 846.72 407.00 L 847.81 407.12 Q 847.56 408.08 846.86 408.61 Q 846.15 409.14 845.08 409.14 Q 843.72 409.14 842.91 408.30 Q 842.11 407.45 842.11 405.94 Q 842.11 404.38 842.92 403.51 Q 843.73 402.64 845.01 402.64 Q 846.26 402.64 847.05 403.48 Q 847.84 404.33 847.84 405.88 Q 847.84 405.97 847.84 406.16 L 843.20 406.16 Q 843.26 407.19 843.78 407.73 Q 844.29 408.27 845.08 408.27 Q 845.65 408.27 846.07 407.96 Q 846.48 407.66 846.72 407.00 z M 843.26 405.30 L 846.73 405.30 Q 846.67 404.50 846.34 404.11 Q 845.83 403.50 845.03 403.50 Q 844.29 403.50 843.80 403.98 Q 843.31 404.47 843.26 405.30 z M 849.11 409.00 L 849.11 400.41 L 850.17 400.41 L 850.17 409.00 L 849.11 409.00 z M 851.38 407.14 L 852.42 406.98 Q 852.51 407.61 852.91 407.94 Q 853.31 408.27 854.04 408.27 Q 854.76 408.27 855.11 407.98 Q 855.46 407.69 855.46 407.28 Q 855.46 406.92 855.15 406.72 Q 854.93 406.58 854.07 406.36 Q 852.92 406.06 852.47 405.85 Q 852.03 405.64 851.79 405.27 Q 851.56 404.89 851.56 404.42 Q 851.56 404.02 851.74 403.66 Q 851.93 403.30 852.26 403.06 Q 852.51 402.89 852.93 402.77 Q 853.35 402.64 853.85 402.64 Q 854.57 402.64 855.13 402.85 Q 855.68 403.06 855.95 403.42 Q 856.21 403.78 856.31 404.38 L 855.28 404.52 Q 855.21 404.05 854.88 403.77 Q 854.54 403.50 853.92 403.50 Q 853.20 403.50 852.88 403.74 Q 852.57 403.98 852.57 404.31 Q 852.57 404.52 852.70 404.67 Q 852.84 404.84 853.10 404.95 Q 853.26 405.02 854.04 405.22 Q 855.17 405.53 855.60 405.72 Q 856.04 405.91 856.29 406.27 Q 856.54 406.62 856.54 407.17 Q 856.54 407.70 856.24 408.16 Q 855.93 408.62 855.35 408.88 Q 854.78 409.14 854.04 409.14 Q 852.82 409.14 852.19 408.63 Q 851.56 408.12 851.38 407.14 z M 857.93 409.00 L 857.93 400.41 L 861.18 400.41 Q 862.03 400.41 862.48 400.48 Q 863.12 400.59 863.55 400.89 Q 863.98 401.19 864.24 401.72 Q 864.49 402.25 864.49 402.89 Q 864.49 403.98 863.80 404.74 Q 863.10 405.50 861.28 405.50 L 859.07 405.50 L 859.07 409.00 L 857.93 409.00 z M 859.07 404.50 L 861.29 404.50 Q 862.40 404.50 862.86 404.09 Q 863.32 403.67 863.32 402.92 Q 863.32 402.39 863.05 402.01 Q 862.78 401.62 862.34 401.50 Q 862.04 401.42 861.28 401.42 L 859.07 401.42 L 859.07 404.50 z M 870.06 407.00 L 871.15 407.12 Q 870.90 408.08 870.20 408.61 Q 869.50 409.14 868.42 409.14 Q 867.06 409.14 866.26 408.30 Q 865.45 407.45 865.45 405.94 Q 865.45 404.38 866.26 403.51 Q 867.08 402.64 868.36 402.64 Q 869.61 402.64 870.40 403.48 Q 871.19 404.33 871.19 405.88 Q 871.19 405.97 871.19 406.16 L 866.54 406.16 Q 866.61 407.19 867.12 407.73 Q 867.64 408.27 868.42 408.27 Q 869.00 408.27 869.41 407.96 Q 869.83 407.66 870.06 407.00 z M 866.61 405.30 L 870.08 405.30 Q 870.01 404.50 869.69 404.11 Q 869.17 403.50 868.37 403.50 Q 867.64 403.50 867.15 403.98 Q 866.65 404.47 866.61 405.30 z M 872.47 409.00 L 872.47 402.78 L 873.42 402.78 L 873.42 403.72 Q 873.78 403.06 874.09 402.85 Q 874.39 402.64 874.77 402.64 Q 875.30 402.64 875.84 402.97 L 875.48 403.95 Q 875.09 403.72 874.72 403.72 Q 874.36 403.72 874.09 403.93 Q 873.81 404.14 873.70 404.52 Q 873.52 405.08 873.52 405.73 L 873.52 409.00 L 872.47 409.00 z M 882.25 400.41 L 883.39 400.41 L 883.39 405.38 Q 883.39 406.67 883.09 407.43 Q 882.79 408.19 882.03 408.66 Q 881.26 409.14 880.03 409.14 Q 878.82 409.14 878.05 408.73 Q 877.28 408.31 876.95 407.52 Q 876.62 406.73 876.62 405.38 L 876.62 400.41 L 877.76 400.41 L 877.76 405.36 Q 877.76 406.48 877.97 407.02 Q 878.18 407.55 878.69 407.84 Q 879.20 408.12 879.93 408.12 Q 881.18 408.12 881.71 407.55 Q 882.25 406.98 882.25 405.36 L 882.25 400.41 z M 885.15 409.00 L 885.15 402.78 L 886.08 402.78 L 886.08 403.66 Q 886.77 402.64 888.07 402.64 Q 888.63 402.64 889.11 402.84 Q 889.58 403.05 889.82 403.38 Q 890.05 403.70 890.15 404.14 Q 890.19 404.44 890.19 405.17 L 890.19 409.00 L 889.15 409.00 L 889.15 405.22 Q 889.15 404.56 889.02 404.25 Q 888.90 403.94 888.58 403.74 Q 888.27 403.55 887.85 403.55 Q 887.18 403.55 886.69 403.98 Q 886.19 404.41 886.19 405.59 L 886.19 409.00 L 885.15 409.00 z M 891.82 401.62 L 891.82 400.41 L 892.88 400.41 L 892.88 401.62 L 891.82 401.62 z M 891.82 409.00 L 891.82 402.78 L 892.88 402.78 L 892.88 409.00 L 891.82 409.00 z M 896.78 408.06 L 896.94 408.98 Q 896.49 409.08 896.14 409.08 Q 895.56 409.08 895.25 408.90 Q 894.94 408.72 894.81 408.42 Q 894.67 408.12 894.67 407.17 L 894.67 403.59 L 893.91 403.59 L 893.91 402.78 L 894.67 402.78 L 894.67 401.23 L 895.72 400.61 L 895.72 402.78 L 896.78 402.78 L 896.78 403.59 L 895.72 403.59 L 895.72 407.23 Q 895.72 407.69 895.78 407.81 Q 895.83 407.94 895.96 408.02 Q 896.08 408.09 896.31 408.09 Q 896.50 408.09 896.78 408.06 z M 906.70 403.95 L 901.03 403.95 L 901.03 402.97 L 906.70 402.97 L 906.70 403.95 z M 906.70 406.56 L 901.03 406.56 L 901.03 405.58 L 906.70 405.58 L 906.70 406.56 z M 911.20 406.75 L 912.31 406.66 Q 912.43 407.47 912.88 407.88 Q 913.32 408.28 913.96 408.28 Q 914.71 408.28 915.25 407.70 Q 915.78 407.12 915.78 406.19 Q 915.78 405.28 915.27 404.76 Q 914.76 404.23 913.93 404.23 Q 913.43 404.23 913.02 404.47 Q 912.61 404.70 912.37 405.06 L 911.39 404.94 L 912.21 400.53 L 916.50 400.53 L 916.50 401.53 L 913.06 401.53 L 912.61 403.84 Q 913.37 403.30 914.21 403.30 Q 915.34 403.30 916.11 404.08 Q 916.89 404.86 916.89 406.09 Q 916.89 407.25 916.21 408.11 Q 915.39 409.14 913.96 409.14 Q 912.79 409.14 912.05 408.48 Q 911.31 407.83 911.20 406.75 z"
+               id="path862" />
+            <title
+               id="title864">Number PixelsPerUnit</title>
+            <desc
+               id="desc866">PixelsPerUnit = 5</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip58 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g887">
+        <clipPath
+           id="clip3c9610e4-0034-4be4-b444-3d276eb471eb">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path874" />
+        </clipPath>
+        <g
+           clip-path="url(#clip59)"
+           id="g885">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#000000"
+             id="g883">
+            <path
+               d="M 322.88 342.00 L 322.88 339.94 L 319.16 339.94 L 319.16 338.97 L 323.08 333.41 L 323.94 333.41 L 323.94 338.97 L 325.09 338.97 L 325.09 339.94 L 323.94 339.94 L 323.94 342.00 L 322.88 342.00 z M 322.88 338.97 L 322.88 335.11 L 320.19 338.97 L 322.88 338.97 z M 327.80 337.34 Q 327.14 337.09 326.82 336.65 Q 326.50 336.20 326.50 335.59 Q 326.50 334.66 327.18 334.02 Q 327.86 333.38 328.97 333.38 Q 330.10 333.38 330.78 334.03 Q 331.47 334.69 331.47 335.62 Q 331.47 336.22 331.16 336.66 Q 330.85 337.09 330.21 337.34 Q 331.00 337.59 331.41 338.17 Q 331.81 338.75 331.81 339.55 Q 331.81 340.64 331.04 341.39 Q 330.27 342.14 328.99 342.14 Q 327.72 342.14 326.94 341.39 Q 326.16 340.64 326.16 339.52 Q 326.16 338.67 326.59 338.11 Q 327.02 337.55 327.80 337.34 z M 327.58 335.55 Q 327.58 336.16 327.98 336.55 Q 328.38 336.94 329.00 336.94 Q 329.61 336.94 330.00 336.55 Q 330.39 336.17 330.39 335.61 Q 330.39 335.03 329.99 334.63 Q 329.58 334.23 328.99 334.23 Q 328.38 334.23 327.98 334.62 Q 327.58 335.02 327.58 335.55 z M 327.25 339.52 Q 327.25 339.97 327.46 340.39 Q 327.67 340.81 328.10 341.05 Q 328.52 341.28 329.00 341.28 Q 329.75 341.28 330.24 340.80 Q 330.74 340.31 330.74 339.56 Q 330.74 338.80 330.24 338.30 Q 329.74 337.80 328.97 337.80 Q 328.22 337.80 327.74 338.29 Q 327.25 338.78 327.25 339.52 z"
+               id="path877" />
+            <title
+               id="title879">48</title>
+            <desc
+               id="desc881">text1 = â48â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip59 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g902">
+        <clipPath
+           id="clip8d44c956-b327-4f83-bbbc-1ca5bd48dc1a">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path889" />
+        </clipPath>
+        <g
+           clip-path="url(#clip60)"
+           id="g900">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#000000"
+             id="g898">
+            <path
+               d="M 310.50 595.73 L 311.56 595.59 Q 311.73 596.48 312.17 596.88 Q 312.61 597.28 313.23 597.28 Q 313.98 597.28 314.50 596.77 Q 315.02 596.25 315.02 595.48 Q 315.02 594.77 314.54 594.29 Q 314.06 593.81 313.33 593.81 Q 313.03 593.81 312.58 593.94 L 312.70 593.00 Q 312.81 593.02 312.88 593.02 Q 313.55 593.02 314.09 592.66 Q 314.62 592.31 314.62 591.58 Q 314.62 591.00 314.23 590.62 Q 313.84 590.23 313.22 590.23 Q 312.61 590.23 312.20 590.62 Q 311.78 591.02 311.67 591.78 L 310.61 591.59 Q 310.80 590.55 311.48 589.96 Q 312.17 589.38 313.19 589.38 Q 313.89 589.38 314.48 589.68 Q 315.08 589.98 315.39 590.50 Q 315.70 591.02 315.70 591.61 Q 315.70 592.16 315.41 592.62 Q 315.11 593.08 314.53 593.34 Q 315.28 593.52 315.70 594.07 Q 316.12 594.62 316.12 595.47 Q 316.12 596.59 315.30 597.38 Q 314.48 598.16 313.23 598.16 Q 312.11 598.16 311.36 597.48 Q 310.61 596.80 310.50 595.73 z M 322.72 596.98 L 322.72 598.00 L 317.03 598.00 Q 317.03 597.62 317.16 597.27 Q 317.38 596.69 317.85 596.12 Q 318.33 595.56 319.24 594.83 Q 320.64 593.67 321.13 593.00 Q 321.63 592.33 321.63 591.73 Q 321.63 591.11 321.17 590.68 Q 320.72 590.25 320.00 590.25 Q 319.24 590.25 318.78 590.70 Q 318.33 591.16 318.31 591.97 L 317.24 591.86 Q 317.35 590.64 318.07 590.01 Q 318.80 589.38 320.03 589.38 Q 321.27 589.38 321.99 590.06 Q 322.71 590.75 322.71 591.77 Q 322.71 592.28 322.49 592.77 Q 322.28 593.27 321.79 593.82 Q 321.30 594.38 320.17 595.33 Q 319.22 596.12 318.95 596.41 Q 318.67 596.70 318.50 596.98 L 322.72 596.98 z"
+               id="path892" />
+            <title
+               id="title894">32</title>
+            <desc
+               id="desc896">text2 = â32â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip60 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g917">
+        <clipPath
+           id="clipfd3844eb-2778-4b6e-8ebd-3bfb75a65351">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path904" />
+        </clipPath>
+        <g
+           clip-path="url(#clip61)"
+           id="g915">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#000000"
+             id="g913">
+            <path
+               d="M 84.875 600.00 L 84.875 597.94 L 81.156 597.94 L 81.156 596.97 L 85.078 591.41 L 85.938 591.41 L 85.938 596.97 L 87.094 596.97 L 87.094 597.94 L 85.938 597.94 L 85.938 600.00 L 84.875 600.00 z M 84.875 596.97 L 84.875 593.11 L 82.188 596.97 L 84.875 596.97 z"
+               id="path907" />
+            <title
+               id="title909">4</title>
+            <desc
+               id="desc911">text3 = â4â</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip61 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g932">
+        <clipPath
+           id="clipa05b30c5-c931-4887-a6c1-18ba51ea8d32">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path919" />
+        </clipPath>
+        <g
+           clip-path="url(#clip62)"
+           id="g930">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#ffffff"
+             id="g928">
+            <path
+               d="M 761.00 521.00 L 761.00 552.00 C 761.00 554.21 762.79 556.00 765.00 556.00 L 897.00 556.00 C 899.21 556.00 901.00 554.21 901.00 552.00 L 901.00 521.00 C 901.00 518.79 899.21 517.00 897.00 517.00 L 765.00 517.00 C 762.79 517.00 761.00 518.79 761.00 521.00 z"
+               id="path922" />
+            <title
+               id="title924">Button button1</title>
+            <desc
+               id="desc926">button1</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip62 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g947">
+        <clipPath
+           id="clip2a682a7c-c3d9-4e06-8eed-f8faea00cd90">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path934" />
+        </clipPath>
+        <g
+           clip-path="url(#clip63)"
+           id="g945">
+          <g
+             stroke-linejoin="round"
+             stroke-linecap="round"
+             fill="none"
+             stroke-opacity="1.0000"
+             stroke="#000000"
+             id="g943">
+            <path
+               d="M 761.50 521.50 L 761.50 552.50 C 761.50 554.71 763.29 556.50 765.50 556.50 L 897.50 556.50 C 899.71 556.50 901.50 554.71 901.50 552.50 L 901.50 521.50 C 901.50 519.29 899.71 517.50 897.50 517.50 L 765.50 517.50 C 763.29 517.50 761.50 519.29 761.50 521.50 z"
+               id="path937" />
+            <title
+               id="title939">Button button1</title>
+            <desc
+               id="desc941">button1</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip63 -->
+      </g>
+      <!-- transform -->
+      <g
+         transform="matrix(1.0000, 0.0000, 0.0000, 1.0000, -0.0000, -117.65)"
+         id="g962">
+        <clipPath
+           id="clip0d70cd9c-c7a0-420c-bd04-51e12d77d5f9">
+          <path
+             d="M 0.0000 117.65 L 0.0000 667.65 L 401.00 667.65 L 401.00 117.65 z"
+             id="path949" />
+        </clipPath>
+        <g
+           clip-path="url(#clip64)"
+           id="g960">
+          <g
+             fill-opacity="1.0000"
+             fill-rule="nonzero"
+             stroke="none"
+             fill="#000000"
+             id="g958">
+            <path
+               d="M 771.89 547.00 L 771.89 529.81 L 779.50 529.81 Q 781.80 529.81 782.99 530.28 Q 784.19 530.75 784.91 531.92 Q 785.62 533.09 785.62 534.50 Q 785.62 536.33 784.44 537.59 Q 783.25 538.84 780.78 539.19 Q 781.69 539.61 782.16 540.03 Q 783.16 540.95 784.05 542.33 L 787.03 547.00 L 784.17 547.00 L 781.89 543.42 Q 780.91 541.88 780.26 541.05 Q 779.61 540.23 779.10 539.91 Q 778.59 539.58 778.06 539.45 Q 777.67 539.38 776.80 539.38 L 774.16 539.38 L 774.16 547.00 L 771.89 547.00 z M 774.16 537.41 L 779.05 537.41 Q 780.61 537.41 781.48 537.08 Q 782.36 536.75 782.82 536.05 Q 783.28 535.34 783.28 534.50 Q 783.28 533.28 782.40 532.50 Q 781.52 531.72 779.59 531.72 L 774.16 531.72 L 774.16 537.41 z M 797.44 542.98 L 799.61 543.27 Q 799.10 545.17 797.71 546.23 Q 796.32 547.28 794.14 547.28 Q 791.41 547.28 789.81 545.60 Q 788.21 543.92 788.21 540.88 Q 788.21 537.73 789.82 536.00 Q 791.44 534.27 794.02 534.27 Q 796.52 534.27 798.11 535.97 Q 799.69 537.67 799.69 540.75 Q 799.69 540.94 799.68 541.31 L 790.39 541.31 Q 790.50 543.36 791.55 544.45 Q 792.60 545.55 794.16 545.55 Q 795.32 545.55 796.14 544.94 Q 796.96 544.33 797.44 542.98 z M 790.50 539.58 L 797.46 539.58 Q 797.32 538.02 796.66 537.22 Q 795.66 536.00 794.05 536.00 Q 792.60 536.00 791.61 536.98 Q 790.61 537.95 790.50 539.58 z M 801.41 543.28 L 803.51 542.95 Q 803.68 544.20 804.48 544.88 Q 805.29 545.55 806.73 545.55 Q 808.18 545.55 808.88 544.95 Q 809.59 544.36 809.59 543.56 Q 809.59 542.84 808.96 542.44 Q 808.54 542.16 806.80 541.72 Q 804.49 541.14 803.59 540.71 Q 802.70 540.28 802.23 539.52 Q 801.77 538.77 801.77 537.86 Q 801.77 537.03 802.16 536.32 Q 802.54 535.61 803.20 535.14 Q 803.68 534.78 804.53 534.52 Q 805.38 534.27 806.35 534.27 Q 807.82 534.27 808.93 534.69 Q 810.04 535.11 810.56 535.84 Q 811.09 536.56 811.29 537.77 L 809.23 538.05 Q 809.09 537.08 808.41 536.54 Q 807.74 536.00 806.51 536.00 Q 805.05 536.00 804.43 536.48 Q 803.80 536.97 803.80 537.61 Q 803.80 538.02 804.07 538.34 Q 804.32 538.69 804.88 538.91 Q 805.20 539.03 806.74 539.45 Q 808.98 540.05 809.86 540.43 Q 810.74 540.81 811.25 541.54 Q 811.76 542.27 811.76 543.34 Q 811.76 544.39 811.14 545.33 Q 810.52 546.27 809.37 546.77 Q 808.21 547.28 806.74 547.28 Q 804.32 547.28 803.05 546.27 Q 801.77 545.27 801.41 543.28 z M 822.79 542.98 L 824.96 543.27 Q 824.45 545.17 823.05 546.23 Q 821.66 547.28 819.49 547.28 Q 816.76 547.28 815.16 545.60 Q 813.55 543.92 813.55 540.88 Q 813.55 537.73 815.17 536.00 Q 816.79 534.27 819.37 534.27 Q 821.87 534.27 823.45 535.97 Q 825.04 537.67 825.04 540.75 Q 825.04 540.94 825.02 541.31 L 815.74 541.31 Q 815.85 543.36 816.90 544.45 Q 817.95 545.55 819.51 545.55 Q 820.66 545.55 821.48 544.94 Q 822.30 544.33 822.79 542.98 z M 815.85 539.58 L 822.80 539.58 Q 822.66 538.02 822.01 537.22 Q 821.01 536.00 819.40 536.00 Q 817.95 536.00 816.95 536.98 Q 815.96 537.95 815.85 539.58 z M 832.21 545.11 L 832.53 546.97 Q 831.64 547.17 830.93 547.17 Q 829.78 547.17 829.14 546.80 Q 828.51 546.44 828.25 545.84 Q 828.00 545.25 828.00 543.36 L 828.00 536.19 L 826.45 536.19 L 826.45 534.55 L 828.00 534.55 L 828.00 531.47 L 830.09 530.20 L 830.09 534.55 L 832.21 534.55 L 832.21 536.19 L 830.09 536.19 L 830.09 543.47 Q 830.09 544.38 830.21 544.63 Q 830.32 544.89 830.57 545.04 Q 830.82 545.19 831.29 545.19 Q 831.64 545.19 832.21 545.11 z M 846.13 547.00 L 839.47 529.81 L 841.93 529.81 L 846.39 542.30 Q 846.94 543.80 847.30 545.11 Q 847.69 543.70 848.22 542.30 L 852.86 529.81 L 855.19 529.81 L 848.46 547.00 L 846.13 547.00 z M 856.96 532.25 L 856.96 529.81 L 859.07 529.81 L 859.07 532.25 L 856.96 532.25 z M 856.96 547.00 L 856.96 534.55 L 859.07 534.55 L 859.07 547.00 L 856.96 547.00 z M 870.81 542.98 L 872.98 543.27 Q 872.47 545.17 871.08 546.23 Q 869.69 547.28 867.52 547.28 Q 864.78 547.28 863.18 545.60 Q 861.58 543.92 861.58 540.88 Q 861.58 537.73 863.20 536.00 Q 864.81 534.27 867.39 534.27 Q 869.89 534.27 871.48 535.97 Q 873.06 537.67 873.06 540.75 Q 873.06 540.94 873.05 541.31 L 863.77 541.31 Q 863.88 543.36 864.92 544.45 Q 865.97 545.55 867.53 545.55 Q 868.69 545.55 869.51 544.94 Q 870.33 544.33 870.81 542.98 z M 863.88 539.58 L 870.83 539.58 Q 870.69 538.02 870.03 537.22 Q 869.03 536.00 867.42 536.00 Q 865.97 536.00 864.98 536.98 Q 863.98 537.95 863.88 539.58 z M 877.93 547.00 L 874.13 534.55 L 876.30 534.55 L 878.29 541.73 L 879.02 544.41 Q 879.07 544.20 879.66 541.84 L 881.64 534.55 L 883.82 534.55 L 885.68 541.77 L 886.30 544.16 L 887.02 541.75 L 889.14 534.55 L 891.19 534.55 L 887.30 547.00 L 885.11 547.00 L 883.13 539.55 L 882.66 537.42 L 880.13 547.00 L 877.93 547.00 z"
+               id="path952" />
+            <title
+               id="title954">Button button1</title>
+            <desc
+               id="desc956">button1</desc>
+          </g>
+          <!-- drawing style -->
+        </g>
+        <!-- clip64 -->
+      </g>
+      <!-- transform -->
     </g>
-    <!-- clip2 -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g189">
-    <g
-       id="g191"
-       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
-      <path
-         d="m 341.19672,562.31342 -9.15149,7.62622 15.2525,-4.57575 z"
-         id="path193" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g195">
-    <g
-       id="g197"
-       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
-      <path
-         d="m 491.41342,487.20508 15.2525,-4.57575 -9.15149,7.62622 z"
-         id="path199" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g201">
-    <g
-       id="g203"
-       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
-      <path
-         d="m 169.76064,516.25183 15.25248,4.57575 -9.15149,-7.62623 z"
-         id="path205" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g207">
-    <g
-       id="g209"
-       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
-      <path
-         d="m 206.84071,531.74139 9.15149,7.62622 6.101,-3.05047 z"
-         id="path211" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g213">
-    <g
-       id="g215"
-       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
-      <path
-         d="m 427.21887,114.40527 3.05051,-15.167492 3.05047,12.116992 z"
-         id="path217" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g219">
-    <g
-       id="g221"
-       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
-      <path
-         d="m 430.26938,420.02707 -3.05051,-12.11701 6.10098,-3.0505 z"
-         id="path223" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g249">
-    <g
-       id="g251"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="m 133.02056,470.42733 174.62069,87.31034"
-         id="path253" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g255">
-    <g
-       id="g257"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="M 307.64125,557.73767 482.26194,470.42733"
-         id="path259" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g261">
-    <g
-       id="g263"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="M 482.26194,470.42733 307.64125,383.11698"
-         id="path265" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g267">
-    <g
-       id="g269"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="M 307.64125,383.11698 133.02056,470.42733"
-         id="path271" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g273">
-    <g
-       id="g275"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="M 209.41711,187.83632 384.0378,100.52598"
-         id="path277" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g279">
-    <g
-       id="g281"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="m 384.0378,100.52598 21.82759,10.91379"
-         id="path283" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g285">
-    <g
-       id="g287"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="m 209.41711,187.83632 21.82759,10.9138"
-         id="path289" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g291">
-    <g
-       id="g293"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="m 209.41711,187.83632 0,320.78928"
-         id="path295" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g297">
-    <g
-       id="g299"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="m 231.2447,198.75012 0,320.78928"
-         id="path301" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g303">
-    <g
-       id="g305"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="m 405.86539,111.43977 0,320.78928"
-         id="path307" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g309">
-    <g
-       id="g311"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="M 231.2447,519.5394 405.86539,432.22905"
-         id="path313" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g315">
-    <g
-       id="g317"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="M 231.2447,198.75012 405.86539,111.43977"
-         id="path319" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g321">
-    <g
-       id="g323"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="m 319.84324,563.83867 24.40398,12.20199"
-         id="path325" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g327">
-    <g
-       id="g329"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="M 332.04523,569.93967 506.66592,482.62932"
-         id="path331" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g333">
-    <g
-       id="g335"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="m 494.46393,476.52832 24.40398,12.202"
-         id="path337" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g339">
-    <g
-       id="g341"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="M 172.81113,526.92859 197.21512,514.7266"
-         id="path343" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g345">
-    <g
-       id="g347"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="m 194.63872,537.84239 24.40398,-12.202"
-         id="path349" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g351">
-    <g
-       id="g353"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="m 185.01313,520.8276 21.82758,10.91379"
-         id="path355" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g357">
-    <g
-       id="g359"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="M 418.06738,105.33878 442.47136,93.136785"
-         id="path361" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g363">
-    <g
-       id="g365"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="m 418.06738,426.12806 24.40398,-12.20199"
-         id="path367" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g369">
-    <g
-       id="g371"
-       style="fill:none;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1">
-      <path
-         d="m 430.26937,99.23778 0,320.78928"
-         id="path373" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g399">
-    <g
-       id="g401"
-       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
-      <path
-         d="m 437.65625,256.01562 1.01562,-0.0937 q 0.125,0.71875 0.49219,1.03907 0.36719,0.32031 0.92969,0.32031 0.48437,0 0.85156,-0.22656 0.36719,-0.22657 0.60156,-0.59375 0.23438,-0.36719 0.39063,-1 0.15625,-0.63282 0.15625,-1.28907 0,-0.0781 0,-0.21875 -0.3125,0.5 -0.85938,0.82032 -0.54687,0.32031 -1.1875,0.32031 -1.07812,0 -1.8125,-0.77344 Q 437.5,253.54692 437.5,252.2813 q 0,-1.3125 0.77344,-2.10938 0.77343,-0.79687 1.92968,-0.79687 0.82813,0 1.52344,0.45312 0.69531,0.45313 1.05469,1.28907 0.35937,0.83593 0.35937,2.41406 0,1.64062 -0.35156,2.61719 -0.35156,0.97656 -1.0625,1.48437 -0.71094,0.50781 -1.64844,0.50781 -1.01562,0 -1.65625,-0.55468 -0.64062,-0.55469 -0.76562,-1.57032 z m 4.3125,-3.79687 q 0,-0.90625 -0.47656,-1.4375 -0.47657,-0.53125 -1.16407,-0.53125 -0.70312,0 -1.22656,0.57031 -0.52344,0.57031 -0.52344,1.49219 0,0.8125 0.5,1.32812 0.5,0.51563 1.21875,0.51563 0.73438,0 1.20313,-0.51563 0.46875,-0.51562 0.46875,-1.42187 z m 7.67383,-0.70313 -1.04688,0.0781 q -0.14062,-0.625 -0.39062,-0.90625 -0.4375,-0.45313 -1.0625,-0.45313 -0.5,0 -0.89063,0.28125 -0.48437,0.375 -0.77343,1.07032 -0.28907,0.69531 -0.30469,1.97656 0.375,-0.57813 0.92969,-0.85938 0.55468,-0.28125 1.16406,-0.28125 1.04687,0 1.78906,0.78125 0.74219,0.78125 0.74219,2 0,0.8125 -0.35156,1.50782 -0.35157,0.69531 -0.96094,1.0625 -0.60938,0.36718 -1.375,0.36718 -1.32813,0 -2.15625,-0.96875 -0.82813,-0.96875 -0.82813,-3.1875 0,-2.5 0.92188,-3.625 0.79687,-0.98437 2.15625,-0.98437 1.01562,0 1.66406,0.57031 0.64844,0.57031 0.77344,1.57031 z m -4.29688,3.70313 q 0,0.54687 0.22657,1.03906 0.22656,0.49219 0.64062,0.75781 0.41406,0.26563 0.88281,0.26563 0.65625,0 1.14063,-0.53906 0.48437,-0.53907 0.48437,-1.46094 0,-0.89063 -0.47656,-1.40625 -0.47656,-0.51563 -1.19531,-0.51563 -0.71875,0 -1.21094,0.51563 -0.49219,0.51562 -0.49219,1.34375 z"
-         id="path403" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g405">
-    <g
-       id="g407"
-       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
-      <path
-         d="m 432.96875,530.51562 -1.04688,0.0781 q -0.14062,-0.625 -0.39062,-0.90625 -0.4375,-0.45313 -1.0625,-0.45313 -0.5,0 -0.89063,0.28125 -0.48437,0.375 -0.77343,1.07032 -0.28907,0.69531 -0.30469,1.97656 0.375,-0.57813 0.92969,-0.85938 0.55468,-0.28125 1.16406,-0.28125 1.04687,0 1.78906,0.78125 0.74219,0.78125 0.74219,2 0,0.8125 -0.35156,1.50782 -0.35157,0.69531 -0.96094,1.0625 -0.60938,0.36718 -1.375,0.36718 -1.32813,0 -2.15625,-0.96875 -0.82813,-0.96875 -0.82813,-3.1875 0,-2.5 0.92188,-3.625 0.79687,-0.98437 2.15625,-0.98437 1.01562,0 1.66406,0.57031 0.64844,0.57031 0.77344,1.57031 z m -4.29688,3.70313 q 0,0.54687 0.22657,1.03906 0.22656,0.49219 0.64062,0.75781 0.41406,0.26563 0.88281,0.26563 0.65625,0 1.14063,-0.53906 0.48437,-0.53907 0.48437,-1.46094 0,-0.89063 -0.47656,-1.40625 -0.47656,-0.51563 -1.19531,-0.51563 -0.71875,0 -1.21094,0.51563 -0.49219,0.51562 -0.49219,1.34375 z m 8.87696,2.78125 0,-2.0625 -3.71875,0 0,-0.96875 3.92187,-5.5625 0.85938,0 0,5.5625 1.15625,0 0,0.96875 -1.15625,0 0,2.0625 -1.0625,0 z m 0,-3.03125 0,-3.85938 -2.6875,3.85938 2.6875,0 z"
-         id="path409" />
-    </g>
-    <!-- drawing style -->
-  </g>
-  <g
-     style="stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-dashoffset:0"
-     transform="matrix(0.51946113,0,0,0.51946113,-46.162113,-5.9987465)"
-     id="g411">
-    <g
-       id="g413"
-       style="fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none">
-      <path
-         d="m 182.125,534.34375 q -0.65625,-0.25 -0.97656,-0.69531 -0.32032,-0.44532 -0.32032,-1.05469 0,-0.9375 0.67969,-1.57813 0.67969,-0.64062 1.78906,-0.64062 1.125,0 1.8125,0.65625 0.6875,0.65625 0.6875,1.59375 0,0.59375 -0.3125,1.03125 -0.3125,0.4375 -0.95312,0.6875 0.79687,0.25 1.20312,0.82812 0.40625,0.57813 0.40625,1.375 0,1.09375 -0.77343,1.84375 -0.77344,0.75 -2.05469,0.75 -1.26563,0 -2.04688,-0.75 -0.78125,-0.75 -0.78125,-1.875 0,-0.84375 0.42969,-1.40625 0.42969,-0.5625 1.21094,-0.76562 z m -0.21875,-1.79688 q 0,0.60938 0.39844,1 0.39843,0.39063 1.02343,0.39063 0.60938,0 1,-0.38281 0.39063,-0.38282 0.39063,-0.94532 0,-0.57812 -0.40625,-0.97656 -0.40625,-0.39844 -1,-0.39844 -0.60938,0 -1.00781,0.39063 -0.39844,0.39062 -0.39844,0.92187 z m -0.32813,3.96875 q 0,0.45313 0.21094,0.875 0.21094,0.42188 0.63281,0.65625 0.42188,0.23438 0.90625,0.23438 0.75,0 1.24219,-0.48438 0.49219,-0.48437 0.49219,-1.23437 0,-0.76563 -0.5,-1.26563 -0.5,-0.5 -1.26563,-0.5 -0.75,0 -1.23437,0.49219 -0.48438,0.49219 -0.48438,1.22656 z"
-         id="path415" />
-    </g>
-    <!-- drawing style -->
+    <!-- layer1 -->
   </g>
   <!-- default stroke -->
 </svg>

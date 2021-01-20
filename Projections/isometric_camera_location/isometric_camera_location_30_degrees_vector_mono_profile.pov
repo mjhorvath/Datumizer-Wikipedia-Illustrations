@@ -19,6 +19,8 @@ light_source
 	<0,0,0>
 	color rgb <1,1,1>
 	translate <-30,+30,-30>
+	parallel
+	point_at	0
 	shadowless
 }
 
@@ -28,6 +30,8 @@ light_source
 	color rgb <1,1,1>
 	translate <-30,+30,-30>
 	rotate y * 90
+	parallel
+	point_at	0
 	shadowless
 }
 

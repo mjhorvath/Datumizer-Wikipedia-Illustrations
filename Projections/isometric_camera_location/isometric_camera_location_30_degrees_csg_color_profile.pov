@@ -3,17 +3,17 @@
 #include "axes_macro.inc"		// http://lib.povray.org/searchcollection/index2.php?objectName=AxesAndGridMacro&contributorTag=SharkD
 #include "functions.inc"
 #include "math.inc"
-#include "screen.inc"			// requires the updated version available here: http://news.povray.org/povray.binaries.scene-files/thread/%3C4afccd8a%241%40news.povray.org%3E/
+#include "screen_mjh.inc"			// requires the updated version available here: http://news.povray.org/povray.binaries.scene-files/thread/%3C4afccd8a%241%40news.povray.org%3E/
 
-#declare sRadius = 1;
-#declare sCenter = 0;
-#declare MarkersScale = 6/5;
-#declare OuterRadius = 3 * MarkersScale;
-#declare InnerRadius = 0.02 * MarkersScale;
-#declare ArrowRadius = 0.05 * MarkersScale;
-#declare ArrowLength = 0.3 * MarkersScale;
-#declare RotateVert = 45;
-#declare RotateHorz = 30;
+#declare sRadius		= 1;
+#declare sCenter		= 0;
+#declare MarkersScale	= 6/5;
+#declare OuterRadius	= 3 * MarkersScale;
+#declare InnerRadius	= 0.02 * MarkersScale;
+#declare ArrowRadius	= 0.05 * MarkersScale;
+#declare ArrowLength	= 0.3 * MarkersScale;
+#declare RotateVert		= 45;
+#declare RotateHorz		= 30;
 
 //------------------------------------------------------------------------------Scenery
 
@@ -44,18 +44,20 @@ background {color srgb <096,144,255,>/255}
 light_source
 {
 	<-30,+30,-30,>
-	color srgb	1
+	color rgb	1
 	rotate		y * 330
 	parallel
+	point_at	0
 	shadowless
 }
 
 light_source
 {
 	<-30,+30,-30,>
-	color srgb	1
+	color rgb	1
 	rotate		y * 090
 	parallel
+	point_at	0
 	shadowless
 }
 
@@ -93,7 +95,7 @@ sky_sphere
 
 box
 {
-	sCenter, sRadius
+	sCenter, sCenter + sRadius
 	pigment {color srgbt <1,1,1,1/2>}
 //	hollow
 //	no_shadow
