@@ -6,7 +6,7 @@
 // PLANET ROTATIONS
 
 
-#declare Orrery_d = Orrery_StopDate;								// Julian day
+#declare Orrery_d = Orrery_ThisDate;								// Julian day
 #declare Orrery_T = Orrery_d / 36525;								// Julian century
 #declare Orrery_Alpha_0 = array[Orrery_PlanetsNumber]				// right ascension
 #declare Orrery_Delta_0 = array[Orrery_PlanetsNumber]				// declination
@@ -129,7 +129,7 @@
 
 
 
-#macro Orrery_PlaceSphere(Orrery_i, Orrery_LastDate)
+#macro Orrery_PlaceSphere(Orrery_i, Orrery_ThisDate)
 	#local Orrery_Temp_EquatorialRadiusMulti = Orrery_EquatorialRadius[Orrery_i] / Orrery_AU * Orrery_RadiusMulti;
 	#local Orrery_Temp_PolarRadiusRatio = Orrery_PolarRadius[Orrery_i] / Orrery_EquatorialRadius[Orrery_i];
 //	#local Orrery_Temp_EquatorialRadiusMulti = 0.1;
@@ -141,7 +141,7 @@
 	#local Orrery_SphereFinish = finish {}
 //	#local Orrery_SphereFinish = finish {ambient 0 diffuse 1 emission 16/128}			//1/128
 
-	#local Orrery_Temp_TValue						= (Orrery_LastDate - Orrery_J2000_Date)/36525;			// number of centuries past J2000.0
+	#local Orrery_Temp_TValue						= (Orrery_ThisDate - Orrery_J2000_Date)/36525;			// number of centuries past J2000.0
 
 	#local Orrery_Temp_SemiMajorAxis				= Orrery_SemiMajorAxis[Orrery_i]				+ Orrery_SemiMajorAxisCty[Orrery_i]				* Orrery_Temp_TValue;
 	#local Orrery_Temp_Eccentricity					= Orrery_Eccentricity[Orrery_i]					+ Orrery_EccentricityCty[Orrery_i]				* Orrery_Temp_TValue;
@@ -390,6 +390,7 @@
 			finish {ambient 0 diffuse 0 emission 1}
 		#elseif (Orrery_DecoMode = 2)
 			pigment {color srgb 0}
+			finish {ambient 0 diffuse 0 emission 1}
 		#end
 		no_shadow
 	}
@@ -418,7 +419,7 @@
 */
 #end
 
-#macro Orrery_TracePath(Orrery_i, Orrery_FirstDate, Orrery_LastDate, Orrery_StepSize)
+#macro Orrery_TracePath(Orrery_i, Orrery_ThisDate, Orrery_FirstDate, Orrery_LastDate, Orrery_StepsSize)
 	#local Orrery_Temp_EquatorialRadiusMulti = Orrery_EquatorialRadius[Orrery_i] / Orrery_AU * Orrery_RadiusMulti;
 //	#local Orrery_Temp_EquatorialRadiusMulti = 0.1;
 	#local Orrery_SphereColor = Orrery_Color[Orrery_i]/255;
@@ -426,9 +427,9 @@
 //	#local Orrery_SphereFinish = finish {ambient 0 diffuse 0 emission 1}
 //	#local Orrery_TrailRadius = Orrery_Temp_EquatorialRadiusMulti/4;
 
-	#local Orrery_StepsNum = floor((Orrery_LastDate - Orrery_FirstDate) / Orrery_StepSize);
-	#for (Orrery_j, 0, Orrery_StepsNum - 1, 1)
-		#local Orrery_StepDate							= Orrery_FirstDate + Orrery_j * Orrery_StepSize;
+	#local Orrery_StepsNumr = floor((Orrery_ThisDate - Orrery_FirstDate) / Orrery_StepsSize);
+	#for (Orrery_j, 0, Orrery_StepsNumr - 1, 1)
+		#local Orrery_StepDate							= Orrery_FirstDate + Orrery_j * Orrery_StepsSize;
 		#local Orrery_Temp_TValue						= (Orrery_StepDate - Orrery_J2000_Date)/36525;			// number of centuries past J2000.0
 	
 		#local Orrery_Temp_SemiMajorAxis				= Orrery_SemiMajorAxis[Orrery_i]				+ Orrery_SemiMajorAxisCty[Orrery_i]				* Orrery_Temp_TValue;
