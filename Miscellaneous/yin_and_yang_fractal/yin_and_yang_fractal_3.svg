@@ -21,8 +21,10 @@
 						<use id="s13" xlink:href="#eye" transform="rotate(360) scale(0.0625) translate(+2,0)" style="fill:#ffff00;"/>
 					</g>
 				</svg>
+				<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" additive="sum" begin="0.00s" dur="4.8s" repeatCount="3"/>
 			</g>
 		</svg>
+		<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" additive="sum" begin="0.00s" dur="4.8s" repeatCount="3"/>
 		<use id="s7" xlink:href="#net" transform="rotate(180) scale(1.0)" style="fill:#ffff00;"/>
 		<svg x="-1.5" y="-1" viewBox="-1 -1 2 2">
 			<g>
@@ -34,8 +36,10 @@
 						<use id="s13" xlink:href="#eye" transform="rotate(360) scale(0.0625) translate(+2,0)" style="fill:#ffff00;"/>
 					</g>
 				</svg>
+				<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" additive="sum" begin="0.00s" dur="4.8s" repeatCount="3"/>
 			</g>
 		</svg>
+		<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" additive="sum" begin="0.00s" dur="4.8s" repeatCount="3"/>
 	</g>
 	<text id="timertext" x="0" y="0" style="font-family:Verdana;font-size:0.4;display:none;">text</text>
 </svg>
