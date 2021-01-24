@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-1 -1 2 2" width="600" height="600">
+	<title>Ying and Yang fractal 3</title>
+	<desc></desc>
+	<defs>
+		<path id="fish" d="M -1.0 +0.0  A +1.0 +1.0 0 0,1 +1.0 +0.0  A +0.5 +0.5 0 0,1 +0.0 +0.0  A +0.5 +0.5 0 0,0 -1.0 +0.0"/>
+		<path id="net"  d="M -1.0 +0.0  A +1.0 +1.0 0 0,1 +1.0 +0.0  A +0.5 +0.5 0 0,1 +0.0 +0.0  A +0.5 +0.5 0 0,0 -1.0 +0.0  M +0.25 +0.0  A +0.25 +0.25 0 1,0 +0.75 +0.0  A +0.25 +0.25 0 1,0 +0.25 +0.0"/>
+		<path id="eye"  d="M -1.0 +0.0  A +1.0 +1.0 0 0,1 +1.0 +0.0  A +1.0 +1.0 0 0,1 -1.0 +0.0"/>
+	</defs>
+	<rect x="-1" y="-1" width="2" height="2" fill="none"/>
+	<g id="seed">
+		<use id="s0" xlink:href="#net" transform="rotate(360) scale(1.0)" style="fill:#0000ff;"/>
+		<svg x="-0.5" y="-1" viewBox="-1 -1 2 2">
+			<g>
+				<use id="s8" xlink:href="#net" transform="rotate(360) scale(0.25)" style="fill:#0000ff;"/>
+				<use id="s9" xlink:href="#net" transform="rotate(180) scale(0.25)" style="fill:#ffff00;"/>
+				<svg x="-1.0" y="-1" viewBox="-1 -1 2 2">
+					<g>
+						<use id="s12" xlink:href="#eye" transform="rotate(180) scale(0.0625) translate(+2,0)" style="fill:#0000ff;"/>
+						<use id="s13" xlink:href="#eye" transform="rotate(360) scale(0.0625) translate(+2,0)" style="fill:#ffff00;"/>
+					</g>
+				</svg>
+			</g>
+		</svg>
+		<use id="s7" xlink:href="#net" transform="rotate(180) scale(1.0)" style="fill:#ffff00;"/>
+		<svg x="-1.5" y="-1" viewBox="-1 -1 2 2">
+			<g>
+				<use id="s8" xlink:href="#net" transform="rotate(360) scale(0.25)" style="fill:#0000ff;"/>
+				<use id="s9" xlink:href="#net" transform="rotate(180) scale(0.25)" style="fill:#ffff00;"/>
+				<svg x="-1.0" y="-1" viewBox="-1 -1 2 2">
+					<g>
+						<use id="s12" xlink:href="#eye" transform="rotate(180) scale(0.0625) translate(+2,0)" style="fill:#0000ff;"/>
+						<use id="s13" xlink:href="#eye" transform="rotate(360) scale(0.0625) translate(+2,0)" style="fill:#ffff00;"/>
+					</g>
+				</svg>
+			</g>
+		</svg>
+	</g>
+	<text id="timertext" x="0" y="0" style="font-family:Verdana;font-size:0.4;display:none;">text</text>
+</svg>

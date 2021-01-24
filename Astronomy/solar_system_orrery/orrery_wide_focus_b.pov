@@ -28,7 +28,7 @@
 // GLOBAL PARAMETERS
 
 
-#declare Orrery_Scene				= 6;					// 0 = ignore this setting; note that this setting has changed in v3.5
+#declare Orrery_Scene				= 5;					// 0 = ignore this setting; note that this setting has changed in v3.5
 #declare Orrery_PlanetsFocus		= 0;					// 1 to 8, or 0 to disable
 #declare Orrery_PlanetsNumber		= 8;					// 8 currently
 #declare Orrery_DecoMode			= 2;					// 1 = black; 2 = gray
@@ -367,7 +367,7 @@ Screen_Object(Orrery_SunText, Orrery_SunCoo2D + <0.01,0.01>, 0, false, 0.01)
 // OVERLAY TEXT
 
 
-#local Orrery_DayString = concat("JD ", str(Orrery_LastDate,0,1));
+#local Orrery_DayString = concat("JD ", str(Orrery_ThisDate,0,1));
 #local Orrery_DayText = text
 {
 	ttf Orrery_TextFont Orrery_DayString, 0.001, <0,0>

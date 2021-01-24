@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-1 -1 2 2" width="600" height="600">
+	<title>Ying and Yang fractal 1</title>
+	<desc></desc>
+	<defs>
+		<path id="fish" d="M -1.0 +0.0  A 1.0  1.0 0 0,1 +1.0 +0.0  A 0.5  0.5 0 0,1 +0.0 +0.0  A 0.5  0.5 0 0,0 -1.0 +0.0"/>
+		<path id="net"  d="M -1.0 +0.0  A 0.5  0.5 0 0,0 +0.0 +0.0  A 0.5  0.5 0 0,0 +1.0 +0.0  A 1.0  1.0 0 0,1 -1.0 +0.0"/>
+	</defs>
+	<rect x="-1" y="-1" width="2" height="2" fill="none"/>
+	<g id="seed">
+		<use id="s0" xlink:href="#fish" transform="rotate(360) scale(1.0)" style="fill:#0000ff;"/>
+		<use id="s7" xlink:href="#net"  transform="rotate(360) scale(1.0)" style="fill:#ffff00;"/>
+		<svg x="-1.5" y="-1" viewBox="-1 -1 2 2">
+			<g>
+				<use id="s8" xlink:href="#fish" transform="rotate(360) scale(0.5)" style="fill:#808080;"/>
+				<use id="s9" xlink:href="#net"  transform="rotate(360) scale(0.5)" style="fill:#ffff00;"/>
+				<svg x="-1.25" y="-1" viewBox="-1 -1 2 2">
+					<g>
+						<use id="s10" xlink:href="#fish" transform="rotate(360) scale(0.25)" style="fill:#c0c040;"/>
+						<use id="s11" xlink:href="#net"  transform="rotate(360) scale(0.25)" style="fill:#ffff00;"/>
+						<svg x="-1.125" y="-1" viewBox="-1 -1 2 2">
+							<g>
+								<use id="s12" xlink:href="#fish" transform="rotate(360) scale(0.125)" style="fill:#e0e020;"/>
+								<use id="s13" xlink:href="#fish" transform="rotate(180) scale(0.125)" style="fill:#ffff00;"/>
+								<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" additive="sum" begin="0.00s" dur="4.8s" repeatCount="3"/>
+							</g>
+						</svg>
+						<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" additive="sum" begin="0.00s" dur="4.8s" repeatCount="3"/>
+					</g>
+				</svg>
+				<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" additive="sum" begin="0.00s" dur="4.8s" repeatCount="3"/>
+			</g>
+		</svg>
+		<animateTransform attributeName="transform" attributeType="XML" type="rotate" from="0" to="360" additive="sum" begin="0.00s" dur="4.8s" repeatCount="3"/>
+	</g>
+</svg>
