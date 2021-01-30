@@ -169,7 +169,7 @@ difference
 {
 	isosurface
 	{
-		function {f_normalized(x,y,z)-surf_thick/2}
+		function {f_normalized(x,y,z)}
 		accuracy		0.0001
 		max_gradient	12
 		all_intersections
@@ -179,7 +179,7 @@ difference
 	}
 	isosurface
 	{
-		function {f_normalized(x,y,z)+surf_thick/2}
+		function {f_normalized(x,y,z)+surf_thick}
 		accuracy		0.0001
 		max_gradient	12
 		all_intersections
