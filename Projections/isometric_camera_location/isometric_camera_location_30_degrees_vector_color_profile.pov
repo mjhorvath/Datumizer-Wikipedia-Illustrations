@@ -3,7 +3,7 @@
 #include "axes_macro.inc"		// http://lib.povray.org/searchcollection/index2.php?objectName=AxesAndGridMacro&contributorTag=SharkD
 #include "functions.inc"
 #include "math.inc"
-#include "screen_mjh.inc"			// requires the updated version available here: http://news.povray.org/povray.binaries.scene-files/thread/%3C4afccd8a%241%40news.povray.org%3E/
+#include "screen_mjh.inc"			// https://github.com/mjhorvath/POVRay-Updated-Screen-Inc
 
 #declare sRadius = 1;
 #declare sCenter = 0;
@@ -145,6 +145,7 @@ polygon
 	{
 		image_map {png "rotation_y_45_degrees_line_color.png"}
 	}
+	finish {ambient 0 diffuse 0 emission 1}
 	translate	<-1/2,-1/2,0>
 	translate	-z * 0.0001
 	scale		8 * MarkersScale
@@ -159,6 +160,7 @@ polygon
 	{
 		image_map {png "rotation_x_30_degrees_line_color.png"}
 	}
+	finish {ambient 0 diffuse 0 emission 1}
 	translate	<-1/2,-1/2,0>
 	translate	-z * 0.0001
 	scale		8 * MarkersScale

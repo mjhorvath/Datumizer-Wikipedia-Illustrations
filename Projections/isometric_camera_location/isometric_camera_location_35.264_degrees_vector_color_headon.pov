@@ -3,7 +3,7 @@
 #include "axes_macro.inc"		// http://lib.povray.org/searchcollection/index2.php?objectName=AxesAndGridMacro&contributorTag=SharkD
 #include "functions.inc"
 #include "math.inc"
-#include "screen_mjh.inc"			// requires the updated version available here: http://news.povray.org/povray.binaries.scene-files/thread/%3C4afccd8a%241%40news.povray.org%3E/
+#include "screen_mjh.inc"			// https://github.com/mjhorvath/POVRay-Updated-Screen-Inc
 
 #declare sRadius = 1;
 #declare sCenter = 0;
@@ -63,7 +63,7 @@ light_source
 
 #local cam_aspc =	image_width/image_height;		// obsolete. render square images only!
 #local cam_dist =	8;
-#local cam_area =	10/8;;							// was 3/2
+#local cam_area =	10/8;							// was 3/2
 #local cam_loca =	-z * cam_dist;
 #local cam_dirc =	+z;
 #local cam_rgvc =	+x * cam_area;
@@ -120,7 +120,7 @@ object
 	translate -0.0001
 //	no_shadow
 }
-/*
+
 cylinder
 {
 	+z * 3 * MarkersScale, 0, InnerRadius
@@ -137,33 +137,18 @@ sphere
 	rotate		+y * RotateVert
 }
 
-polygon
+#declare Screen_Label = polygon
 {
 	4, <0,1>, <1,1>, <1,0>, <0,0>
 	pigment
 	{
-		image_map {png "rotation_y_45_degrees_line_color.png"}
+		image_map {png "angle_labels_isometric.png"}
 	}
-	translate	<-1/2,-1/2,0>
-	translate	-z * 0.0001
-	scale		8 * MarkersScale
-	rotate		x * 90
-	rotate		y * 90
+	finish {ambient 0 diffuse 0 emission 1}
 }
 
-polygon
-{
-	4, <0,1>, <1,1>, <1,0>, <0,0>
-	pigment
-	{
-		image_map {png "rotation_x_35.264_degrees_line_color.png"}
-	}
-	translate	<-1/2,-1/2,0>
-	translate	-z * 0.0001
-	scale		8 * MarkersScale
-	rotate		y * 135
-}
-*/
+Screen_Object(Screen_Label, <0,0>, <0,0>, true, 1)
+
 
 /*
 		#local sphere_siz = 1;
