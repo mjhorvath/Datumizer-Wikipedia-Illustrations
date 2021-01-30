@@ -2,7 +2,7 @@
 // Authors: Michael Horvath, with formulas by And and Tor Olav Kristensen
 // Website: http://isometricland.net
 // Created: 2018-07-28
-// Updated: 2021-01-21
+// Updated: 2021-01-30
 // This file is licensed under the terms of the CC-LGPL.
 
 #version 3.7;
@@ -132,7 +132,6 @@ light_source
 	texture
 	{
 		pigment {color srgb <255,0,0>/255}
-		normal {agate 0.25 scale 0.15}
 		finish {phong 1} 
 		scale 1/4
 	}
@@ -176,8 +175,7 @@ difference
 		all_intersections
 		//evaluate P0, P1, min (P2, 1)
 		contained_by {sphere {0, 2}}
-//		material {MyGlassMat2}
-		material {MySolidMat1}
+		material {MySolidMat2}
 	}
 	isosurface
 	{
@@ -187,7 +185,6 @@ difference
 		all_intersections
 		//evaluate P0, P1, min (P2, 1)
 		contained_by {sphere {0, 2}}
-//		material {MyGlassMat2}
 		material {MySolidMat2}
 	}
 	plane
@@ -196,7 +193,6 @@ difference
 	}
 	rotate +y * 202.5
 	bounded_by {sphere {0, 2}}
-//	material {MyGlassMat1}
 	material {MySolidMat1}
 }
 
