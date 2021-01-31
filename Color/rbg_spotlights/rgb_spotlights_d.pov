@@ -128,13 +128,12 @@ camera
 //------------------------------------------------------------------------------Objects
 
 // http://news.povray.org/povray.binaries.images/thread/%3C4458a6b4%40news.povray.org%3E/
-#declare P_SCALE	= 1/8;					//Texture scale
 #declare N_SCALE	= 1/225/4;				//Brick scale
 #declare M			=  10.0 * N_SCALE;		//Mortar width and height
 #declare G			=   2.0 * N_SCALE;		//Mortar depth
 #declare W			= 215.0 * N_SCALE;		//Brick width
-#declare D			= 102.5 * N_SCALE;		//Brick depth
 #declare H			=  65.0 * N_SCALE;		//Brick height
+#declare D			= 102.5 * N_SCALE;		//Brick depth
 #declare R			=   8.0 * N_SCALE;		//Brick corner radius
 #declare P			=   2.0 * N_SCALE;		//Brick surface displacement depth
 #declare A			= 1;					//Brick max rotation angle
@@ -143,6 +142,18 @@ camera
 #declare OFFSET		= D;					//Distance away from scene center
 #declare BOXMAX		= 4;
 #declare BOXOBJS	= array[BOXMAX];
+#declare BOXTEX = texture
+{
+	pigment {color srgb 1}
+	finish {diffuse 1 phong 0.5 phong_size 40}
+//	normal {granite 1 scale M}
+}
+#declare GOUTEX = texture
+{
+	pigment {color srgb 1}
+	finish {diffuse 1 phong 0.5 phong_size 40}
+//	normal {granite 1 scale M}
+}
 
 #for (ia, 0, BOXMAX-1)
 	#debug concat("ia = ",str(ia,0,0),"\n")
@@ -161,7 +172,7 @@ camera
 			[0.4 rgb 0.0]
 			[1.0 rgb 1.0]
 		}
-		scale P_SCALE
+		scale N_SCALE * 100
 		rotate +x * ROTATX1
 		rotate +y * ROTATX1
 		rotate +z * ROTATX1
@@ -178,7 +189,11 @@ camera
 	//   smoothed = yes/no - smoothed triangles
 	//   sav = yes/no - saving .inc file
 	//   nam = string/string identifier - name of resulting mesh / .inc file
-	#local BOXOBJ = object {Weathered_Box(<-W,-H,-D>, <+W,+H,+D>, R, 320, ISOPIG, P, yes, no, "")}
+	#local BOXOBJ = object
+	{
+		Weathered_Box(<-W,-H,-D>, <+W,+H,+D>, R, 320, ISOPIG, P, yes, no, "")
+		texture {BOXTEX}
+	}
 	#declare BOXOBJS[ia] = BOXOBJ;
 #end
 
@@ -199,12 +214,6 @@ union
 			object
 			{
 				BOXOBJS[BOXNUM]
-				texture
-				{
-					pigment {color srgb 1}
-					finish {diffuse 1}
-//					finish {phong 1 phong_size 4*P_SCALE}
-				}
 				#if (rand(my_seed) < 0.5)
 					rotate +x * 180
 				#end
@@ -234,13 +243,13 @@ union
 #declare M = M;				//Mortar width and height
 #declare G = G;				//Mortar depth
 #declare W = W*16-G;		//Brick width
-#declare D = D*01-G;		//Brick depth
 #declare H = H*16-G;		//Brick height
+#declare D = D*01-G;		//Brick depth
 #declare ROUGH = ROUGH;		//Bump height
 #declare BUSY = BUSY;		//Bump period
 #declare OFFSET = OFFSET;	//Distance away from scene center
 #undef f_Height
-#local f_Height = function {f_wrinkles(x*BUSY, y*BUSY, z*BUSY) * 2}
+#declare f_Height = function {f_wrinkles(x*BUSY, y*BUSY, z*BUSY) * 2}
 
 isosurface
 {
@@ -250,7 +259,7 @@ isosurface
 		(
 			abs(x)-(W-ROUGH*f_Height(x, y, z)),
 			abs(y)-(H-ROUGH*f_Height(x, y, z)),
-			abs(z)-(D-ROUGH*f_Height(x, y, z)/2)
+			abs(z)-(D-ROUGH*f_Height(x, y, z))
 		)
 	}
 	contained_by
@@ -261,10 +270,5 @@ isosurface
 	accuracy 1e-5
 	//all_intersections
 	translate +z * OFFSET
-	texture
-	{
-		pigment {color srgb 1/2}
-		finish {diffuse 1}
-		normal {granite 1 scale 0.004*P_SCALE}
-	}
+	texture {GOUTEX}
 }
