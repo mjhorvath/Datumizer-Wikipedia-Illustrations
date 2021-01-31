@@ -130,7 +130,7 @@ camera
 // http://news.povray.org/povray.binaries.images/thread/%3C4458a6b4%40news.povray.org%3E/
 #declare N_SCALE	= 1/225/4;				//Brick scale
 #declare M			=  10.0 * N_SCALE;		//Mortar width and height
-#declare G			=   2.0 * N_SCALE;		//Mortar depth
+#declare G			=   1.0 * N_SCALE;		//Mortar depth
 #declare W			= 215.0 * N_SCALE;		//Brick width
 #declare H			=  65.0 * N_SCALE;		//Brick height
 #declare D			= 102.5 * N_SCALE;		//Brick depth
