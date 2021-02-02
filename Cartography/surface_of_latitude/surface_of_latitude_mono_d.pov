@@ -4,13 +4,46 @@
 
 #include "functions.inc"
 #include "math.inc"
-#include "screen.inc"			// http://news.povray.org/povray.binaries.scene-files/thread/%3C4afccd8a%241%40news.povray.org%3E/
-#include "ShapeGrid_macro.inc"	// http://lib.povray.org/searchcollection/index2.php?objectName=ShapeGrid&version=1.16&contributorTag=SharkD
+#include "screen_mjh.inc"			// https://github.com/mjhorvath/POVRay-Updated-Screen-Inc
+#include "ShapeGrid_macro.inc"		// https://github.com/mjhorvath/Mike-Wikipedia-Illustrations
 #include "shapes3.inc"
 
 #declare map_show_mode = 0;
 #declare sphere_scale = sind(45);
 #declare ring_latitude = 60;
+
+#macro SetClock2(StartTime, EndTime)
+    #local R = (clock - StartTime)/(EndTime - StartTime);
+    #local S = min(max(0, R), 1);
+    #local T = (1 - cos(S*pi))/2;
+    T
+#end
+
+#macro GetClock(tim_beg, tim_end)
+	#local time_adj = -1;
+	#switch (clock)
+		#range (0, tim_beg)
+			#local time_adj = 0;
+		#break
+		#range (tim_beg, tim_end)
+			#local t1 = clock - tim_beg;
+			#local t2 = tim_end - tim_beg;
+			#local time_adj = t1/t2;
+		#break
+		#range (tim_end, 1)
+			#local time_adj = 1;
+		#break
+		#else
+			// Do nothing
+		#break
+	#end
+	time_adj
+#end
+
+#declare Earth_time_spin	= SetClock2(0/3, 1/3);
+#declare Earth_time_fall	= SetClock2(1/3, 2/3);
+#declare Earth_time_rise	= SetClock2(2/3, 3/3);
+
 
 //------------------------------------------------------------------------------Scenery
 
@@ -39,7 +72,7 @@ global_settings
 	ambient_light	2
 }
 
-background {color srgb 3/4}
+background {color srgb 7/8}
 
 light_source
 {
@@ -47,6 +80,7 @@ light_source
 	color rgb	2
 	rotate		x * 330
 	parallel
+	point_at	0
 //	shadowless
 }
 
@@ -56,6 +90,7 @@ light_source
 	color rgb	2
 	rotate		y * 090
 	parallel
+	point_at	0
 //	shadowless
 }
 
@@ -79,28 +114,10 @@ Set_Camera_Transform(cam_tran)
 Set_Camera_Alt(cam_loca, cam_dirc, cam_rgvc, cam_upvc)
 
 
-#macro get_time(tim_beg, tim_end)
-	#local time_adj = -1;
-	#switch (clock)
-		#range (0, tim_beg)
-			#local time_adj = 0;
-		#break
-		#range (tim_beg, tim_end)
-			#local t1 = clock - tim_beg;
-			#local t2 = tim_end - tim_beg;
-			#local time_adj = t1/t2;
-		#break
-		#range (tim_end, 1)
-			#local time_adj = 1;
-		#break
-		#else
-			// Do nothing
-		#break
-	#end
-	time_adj
-#end
-
 //------------------------------------------------------------------------------CSG objects
+
+
+//--------------------------------------Earth
 
 #declare earthpigment = pigment
 {
@@ -189,19 +206,19 @@ Set_Camera_Alt(cam_loca, cam_dirc, cam_rgvc, cam_upvc)
 	pigment {color srgb 1/4}
 }
 
-#declare spheredrop_time = get_time(1/2, 1);
-object {earth_plug		translate +y * spheredrop_time * 1/4}
-object {earth_socket	translate -y * spheredrop_time * 3/4}
-//object {shape_of_intersection}
-//object {earth_surface}
-
-/*
-intersection
+object
 {
-	object {earth_surface}
-	object {plane_cut}
+	earth_socket
+	translate -y/2 * Earth_time_fall
+	translate +y/2 * Earth_time_rise
 }
-*/
+object
+{
+	earth_plug
+	translate +y/2 * Earth_time_fall
+	translate -y/2 * Earth_time_rise
+}
+
 
 //--------------------------------------Torus
 
@@ -212,7 +229,6 @@ intersection
 	pigment {color srgb <1,2/4,0>}
 }
 
-#declare circlearc_time = get_time(0, 1/2);
 #declare plane_wedge = object
 {
 	Segment_of_CylinderRing
@@ -220,17 +236,25 @@ intersection
 		1, // major radius
 		0, // minor radius  
 		2, // height H
-		360 * circlearc_time  // angle (in degrees)
+		360 * Earth_time_spin  // angle (in degrees)
 	)
 	translate -y
 	pigment {color srgb <1,2/4,0>}
 }
 
-#if (circlearc_time > 0)
+#if (Earth_time_spin > 0)
 	intersection
 	{
 		object {plane_wedge}
 		object {latitude_torus}
-		translate +y * spheredrop_time * 1/4
+		translate -y/2 * Earth_time_fall
+		translate +y/2 * Earth_time_rise
+	}
+	intersection
+	{
+		object {plane_wedge}
+		object {latitude_torus}
+		translate +y/2 * Earth_time_fall
+		translate -y/2 * Earth_time_rise
 	}
 #end
