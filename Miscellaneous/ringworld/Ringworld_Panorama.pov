@@ -3,7 +3,7 @@
 // Authors: Michael Horvath, based on Ringworld by Larry Niven
 // Website: http://isometricland.net
 // Created: 2013-10-16
-// Updated: 2020-02-05
+// Updated: 2020-02-06
 // This file is licensed under the terms of the CC-LGPL.
 // http://www.gnu.org/licenses/lgpl-2.1.html
 // Not using srgb colors here because they're old.
@@ -12,19 +12,19 @@
 
 #version 3.7;
 
-#declare HPlanet_Water_Ratio			= 71/100/2;				// Earth surface is 71% ocean
+#declare HPlanet_Water_Ratio			= 5/10;				// Earth surface is 71% ocean
 #declare HPlanet_Seed_Value				= seed(808232374);
 
-#declare RWorld_Toggle_Sun_Object		= false;
-#declare RWorld_Toggle_Corona			= true;		// somewhat expensive
-#declare RWorld_Toggle_Surface			= true;
-#declare RWorld_Toggle_Warps			= false;	// slightly expensive
-#declare RWorld_Toggle_Rim				= true;
-#declare RWorld_Toggle_Clouds			= true;
-#declare RWorld_Toggle_Atmosphere		= false;		// very expensive
-#declare RWorld_Toggle_Shadow_Squares	= true;
-#declare RWorld_Toggle_Radiosity		= true;		// somewhat expensive
-#declare RWorld_Toggle_Camera_Mode		= 8;
+#declare RWorld_Toggle_Sun_Object		= off;
+#declare RWorld_Toggle_Corona			= on;		// somewhat expensive
+#declare RWorld_Toggle_Surface			= on;
+#declare RWorld_Toggle_Warps			= on;		// slightly expensive
+#declare RWorld_Toggle_Rim				= on;
+#declare RWorld_Toggle_Clouds			= on;
+#declare RWorld_Toggle_Atmosphere		= on;		// very expensive
+#declare RWorld_Toggle_Shadow_Squares	= on;
+#declare RWorld_Toggle_Radiosity		= on;		// somewhat expensive
+#declare RWorld_Toggle_Camera_Mode		= 6;
 #declare RWorld_Toggle_Light_Mode		= 2;
 
 // 1 unit = 1000 miles
@@ -39,12 +39,14 @@
 #declare RWorld_Spill_Mtn_Height_2		= 0.04;
 #declare RWorld_Sun_Diameter			= 1000;
 #declare RWorld_Sun_Radius				= RWorld_Sun_Diameter/2;
-#declare RWorld_Corona_Scale			= 1;
+#declare RWorld_Corona_Scale			= 1/2;
 #declare RWorld_Corona_Radius			= RWorld_Ring_Radius * RWorld_Corona_Scale;
 #declare RWorld_Atmosphere_Height		= 1;
 #declare RWorld_Clouds_Bottom			= 0.01;
 #declare RWorld_Clouds_Top				= 0.05;
-#declare RWorld_Warps_Number			= 1000;
+#declare RWorld_Warps_Number			= 1024;
+#declare RWorld_Warps_Strength			= 1/12;
+#declare RWorld_Warps_Radius			= RWorld_Ring_Radius/(RWorld_Ring_Width/2);
 
 #include "CIE.inc"				// http://www.ignorancia.org/en/index.php?page=Lightsys
 #include "lightsys.inc"			// http://www.ignorancia.org/en/index.php?page=Lightsys
@@ -65,25 +67,28 @@
 #declare RWorld_Light_Point_Color		= Light_Color(RWorld_Light_Point_Temp,RWorld_Light_Point_Lumens);
 
 
-// ------1---------2---------3---------4---------5---------6---------7---------8
+//------2-------4-------6-------8-------10------12------14------16------18------20------22------
 // CAMERA
+// Should really transform the scene by the inverse rather than transform the camera due to rounding issues.
 
 
 #switch (RWorld_Toggle_Camera_Mode)
+	// isometric angle
 	#case (1)
 		#declare RWorld_Camera_Vertical		= 0;			//45;
 		#declare RWorld_Camera_Horizontal	= 30;			//asind(tand(30));
 		#declare RWorld_Camera_Aspect		= image_height/image_width;
 		#declare RWorld_Camera_Distance		= 10;
-		#declare RWorld_Camera_Translate	= <0,0,0>;
-		#declare RWorld_Camera_Scale		= RWorld_Ring_Radius * 1.1;
 
 		#declare RWorld_Camera_Up			= +y * 2 * RWorld_Camera_Aspect;
 		#declare RWorld_Camera_Right		= +x * 2;
 		#declare RWorld_Camera_Location		= -z * RWorld_Camera_Distance;
 		#declare RWorld_Camera_Direction	= +z * RWorld_Camera_Distance;
 		#declare RWorld_Camera_LookAt		= RWorld_Camera_Location + RWorld_Camera_Direction;
+
 		#declare RWorld_Camera_Rotate		= <RWorld_Camera_Horizontal,RWorld_Camera_Vertical,0,>;
+		#declare RWorld_Camera_Scale		= RWorld_Ring_Radius * 1.1;
+		#declare RWorld_Camera_Translate	= <0,0,0>;
 		#declare RWorld_Camera_Transform = transform
 		{
 			rotate		RWorld_Camera_Rotate
@@ -101,19 +106,21 @@
 			direction	RWorld_Camera_Direction
 			transform {RWorld_Camera_Transform}
 		}
-
 		#declare RWorld_Camera_Location	= vtransform(RWorld_Camera_Location,RWorld_Camera_Transform);
 		#declare RWorld_Camera_LookAt	= vtransform(RWorld_Camera_LookAt,RWorld_Camera_Transform);
 	#break
+	// perspective
 	#case (2)
 		camera
 		{
 			perspective
-			sky			y
+			sky			+y
 			location	<0,0,-RWorld_Ring_Radius*63/64>
-			look_at		<0,0,-RWorld_Ring_Radius>
+			look_at		<0,0,-RWorld_Ring_Radius*64/64>
+			rotate		+y * 360/40
 		}
 	#break
+	// perspective
 	#case (3)
 		camera
 		{
@@ -123,6 +130,7 @@
 			look_at		<1,0,-RWorld_Ring_Radius + 0.005>
 		}
 	#break
+	// perspective
 	#case (4)
 		camera
 		{
@@ -138,23 +146,66 @@
 		{
 			spherical
 			angle		360
-			sky			y
-			location	<RWorld_Ring_Radius*00/16,RWorld_Ring_Radius*01/16,RWorld_Ring_Radius*15/16>
-			look_at		<RWorld_Ring_Radius*00/16,RWorld_Ring_Radius*01/16,RWorld_Ring_Radius*00/16>
-			rotate		+y * 360/40
+			sky			+y
+			location	<RWorld_Ring_Radius*000/128,RWorld_Ring_Radius*000/128,RWorld_Ring_Radius*127/128>
+			look_at		<RWorld_Ring_Radius*000/128,RWorld_Ring_Radius*000/128,RWorld_Ring_Radius*128/128>
+			rotate		+y * 360/20/2
 		}
 	#break
-	// spherical
+	// cube map
 	#case (6)
+		#declare Camera_Up			= +y;
+		#declare Camera_Right		= +x;
+		#declare Camera_Direction	= +z/2;
+		#declare Camera_Location	= <RWorld_Ring_Radius*000/128,RWorld_Ring_Radius*000/128,RWorld_Ring_Radius*127/128>;
+		#declare Camera_LookAt		= Camera_Location + Camera_Direction;
+		#declare Camera_Translate	= <0,0,0>;
+		#declare Camera_Scale		= <1,1,1>;
+		#ifndef (view_direction)
+			#declare view_direction = frame_number;
+		#end
+		#switch (view_direction)
+			#case (0)
+				#declare Camera_Rotate	= <0,000,0,>;
+			#break
+			#case (1)
+				#declare Camera_Rotate	= <0,090,0,>;
+			#break
+			#case (2)
+				#declare Camera_Rotate	= <0,180,0,>;
+			#break
+			#case (3)
+				#declare Camera_Rotate	= <0,270,0,>;
+			#break
+			#case (4)
+				#declare Camera_Rotate	= <270,0,0,>;
+			#break
+			#case (5)
+				#declare Camera_Rotate	= <090,0,0,>;
+			#break
+		#end
+		#debug "\n"
+		#debug concat("frame_number = ", str(frame_number, 0, -1), "\n")
+		#debug concat("Camera_Rotate = <", vstr(3, Camera_Rotate, ",", 0, -1), ">\n")
+		#debug "\n"
+		#declare Camera_Transform = transform
+		{
+			rotate		Camera_Rotate
+			translate	Camera_Location
+			translate	Camera_Translate
+			scale		Camera_Scale
+			rotate		+y * 360/20/2
+		}
 		camera
 		{
-			spherical
-			angle		360
-			sky			y
-			location	<0,RWorld_Ring_Radius*0/16,RWorld_Ring_Radius*127/128>		//1023/1024
-			look_at		<0,RWorld_Ring_Radius*0/16,RWorld_Ring_Radius*128/128>		//1024/1024
-			rotate		+y * 360/40
+			up			Camera_Up
+			right		Camera_Right
+			location	0
+			direction	Camera_Direction
+			transform {Camera_Transform}
 		}
+		#declare Camera_Location	= vtransform(Camera_Location,Camera_Transform);
+		#declare Camera_LookAt		= vtransform(Camera_LookAt,Camera_Transform);
 	#break
 	// spherical
 	#case (7)
@@ -162,7 +213,7 @@
 		{
 			spherical
 			angle		360
-			sky			y
+			sky			+y
 			location	<RWorld_Ring_Radius*00/16,RWorld_Ring_Radius*01/16,RWorld_Ring_Radius*07/16>
 			look_at		<RWorld_Ring_Radius*00/16,RWorld_Ring_Radius*01/16,RWorld_Ring_Radius*00/16>
 			rotate		+y * 360/40
@@ -226,7 +277,7 @@
 #end
 
 
-// ------1---------2---------3---------4---------5---------6---------7---------8
+//------2-------4-------6-------8-------10------12------14------16------18------20------22------
 // MISC GRAPHICAL SETTINGS
 
 
@@ -252,6 +303,7 @@ global_settings
 	#end
 	charset			utf8
 	assumed_gamma	1
+//	max_trace_level	16
 }
 
 background {color rgb 0}
@@ -272,7 +324,7 @@ sky_sphere
 }
 
 
-// ------1---------2---------3---------4---------5---------6---------7---------8
+//------2-------4-------6-------8-------10------12------14------16------18------20------22------
 // TEXTURE FUNCTIONS
 
 
@@ -316,12 +368,10 @@ sky_sphere
 		gradient y
 		color_map
 		{
-			[ 0/16 rgb 0/2]
-			[ 2/16 rgb 1/2]
-//			[ 5/16 rgb 1/2]
-			[ 8/16 rgb 2/2]
-//			[ 9/16 rgb 1/2]
-			[14/16 rgb 1/2]
+			[00/16 rgb 0/2]
+			[06/16 rgb 1/2]
+			[08/16 rgb 2/2]
+			[10/16 rgb 1/2]
 			[16/16 rgb 0/2]
 		}
 		translate -y/2
@@ -336,18 +386,18 @@ sky_sphere
 		gradient y
 		color_map
 		{
-			[ 0/16 rgb 2/2]
-			[ 7/16 rgb 0/2]
-			[ 8/16 rgb 2/2]
-			[ 9/16 rgb 0/2]
+			[00/16 rgb 2/2]
+			[07/16 rgb 0/2]
+			[08/16 rgb 2/2]
+			[09/16 rgb 0/2]
 			[16/16 rgb 2/2]
 		}
 		translate -y/2
 		scale 2
-	warp
-	{
-		turbulence 1
-	}
+		warp
+		{
+			turbulence 1
+		}
 	}
 }
 
@@ -367,22 +417,21 @@ sky_sphere
 			[16/16 rgb 1]
 		}
 		scale 1/10
+//		scale y/2			// looks bad
 	}
 }
 
 
-// ------1---------2---------3---------4---------5---------6---------7---------8
-// TEXTURE MAPS
+//------2-------4-------6-------8-------10------12------14------16------18------20------22------
+// COLOR & TEXTURE MAPS
 
 
 #declare HPlanet_Blue_Texture = texture
 {
 	pigment {color rgb <000,032,128,>/255}
-
 	finish
 	{
-		//ambient 0.15
-		ambient 0
+		ambient 0.15
 		diffuse 0.2
 		brilliance 5.0
 		phong 1.0
@@ -401,11 +450,9 @@ sky_sphere
 #declare HPlanet_Teal_Texture = texture
 {
 	pigment {color rgb <034,180,180,>/255}
-
 	finish
 	{
-		//ambient 0.15
-		ambient 0
+		ambient 0.15
 		diffuse 0.2
 		brilliance 5.0
 		phong 1.0
@@ -440,6 +487,14 @@ sky_sphere
 #declare HPlanet_White_Texture = texture
 {
 	pigment {color rgb <255,255,255,>/255*1.5}
+	finish
+	{
+		ambient 0.1
+		diffuse 0.7
+		brilliance 0.8
+		specular 0.4
+		roughness 0.02
+	}
 }
 #declare HPlanet_Bozo_Cloud_Color_Map = color_map
 {
@@ -450,67 +505,63 @@ sky_sphere
 }
 
 
-// ------1---------2---------3---------4---------5---------6---------7---------8
+//------2-------4-------6-------8-------10------12------14------16------18------20------22------
 // FINAL TEXTURES
+// Unfortunately these cannot be used as height fields/isosurfaces.
 
 
 #declare HPlanet_Altitiude_1_Texture_Map = texture_map
 {
 	[HPlanet_Water_Ratio * 00/16								HPlanet_Blue_Texture]
-	[HPlanet_Water_Ratio * 15/16								HPlanet_Blue_Texture]
-	[HPlanet_Water_Ratio * 16/16								HPlanet_Teal_Texture]
+	[HPlanet_Water_Ratio * 31/32								HPlanet_Blue_Texture]
+	[HPlanet_Water_Ratio * 32/32								HPlanet_Teal_Texture]
 	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 0/8		HPlanet_Light_Green_Texture]
 	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 1/8		HPlanet_Dark_Green_Texture]
-	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 4/8		HPlanet_Dark_Tan_Texture]
-	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 5/8		HPlanet_Light_Tan_Texture]
-	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 5/8		HPlanet_White_Texture]
+	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 3/8		HPlanet_Dark_Tan_Texture]
+	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 4/8		HPlanet_Light_Tan_Texture]
+	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 4/8		HPlanet_White_Texture]
 	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 8/8		HPlanet_White_Texture]
 }
 
 #declare HPlanet_Granite_Crackle_1_Texture = texture
 {
-	function {((1-HPlanet_Crackle_Function(x,y,z).green) * 3 + HPlanet_Granite_Function(x,y,z).green * 2 + HPlanet_Edge_Height_Land_Function(x,y,z).green * 5)/10 * -1}
+	function {((1-HPlanet_Crackle_Function(x,y,z).green) * 1 + HPlanet_Granite_Function(x,y,z).green * 1)/2 * -1}
 	texture_map {HPlanet_Altitiude_1_Texture_Map}
-	#if (RWorld_Toggle_Warps = true)
-		#declare HPlanet_Warp_Count = 0;
+	#if (RWorld_Toggle_Warps = on)
 		#declare HPlanet_Warp_Total = RWorld_Warps_Number;
-		#while (HPlanet_Warp_Count < HPlanet_Warp_Total)
-			#declare HPlanet_Cyl_Radius = RWorld_Ring_Radius/(RWorld_Ring_Width/2);
+		#for (HPlanet_Warp_Count, 0, HPlanet_Warp_Total - 1)
+			#declare HPlanet_Cyl_Radius = RWorld_Warps_Radius;
 			#declare HPlanet_Cyl_Theta = rand(HPlanet_Seed_Value) * 2 * pi;
-			#declare HPlanet_Cyl_Height = floor(rand(HPlanet_Seed_Value) + 1/2) * 2 - 1;
 			#declare HPlanet_Cyl_Height = rand(HPlanet_Seed_Value) * 2 - 1;
 			#declare HPlanet_Hole_Radius = rand(HPlanet_Seed_Value) * 2;
 			warp
 			{
 				black_hole	<HPlanet_Cyl_Radius * cos(HPlanet_Cyl_Theta), HPlanet_Cyl_Height, HPlanet_Cyl_Radius * sin(HPlanet_Cyl_Theta)>, HPlanet_Hole_Radius
 				falloff		3/6
-				strength	1/24
+				strength	RWorld_Warps_Strength
 				inverse
 			}
-			#declare HPlanet_Warp_Count = HPlanet_Warp_Count + 1;
 		#end
 	#end
 }
 
-
 #declare HPlanet_Altitiude_2_Texture_Map = texture_map
 {
 	[HPlanet_Water_Ratio * 00/16								HPlanet_Blue_Texture]
-	[HPlanet_Water_Ratio * 15/16								HPlanet_Blue_Texture]
-	[HPlanet_Water_Ratio * 16/16								HPlanet_Teal_Texture]
+	[HPlanet_Water_Ratio * 31/32								HPlanet_Blue_Texture]
+	[HPlanet_Water_Ratio * 32/32								HPlanet_Teal_Texture]
 	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 0/8		HPlanet_Granite_Crackle_1_Texture]
 	[HPlanet_Water_Ratio + (1 - HPlanet_Water_Ratio) * 8/8		HPlanet_Granite_Crackle_1_Texture]
 }
 
 #declare HPlanet_Granite_Crackle_2_Texture = texture
 {
-	function {((1-HPlanet_Crackle_Function(x,y,z).green) * 2 + HPlanet_Granite_Function(x,y,z).green * 2)/3 * -1}		// error here, but it looks good
+	function {((1-HPlanet_Crackle_Function(x,y,z).green) * 1 + HPlanet_Granite_Function(x,y,z).green * 1 + HPlanet_Edge_Height_Land_Function(x,y,z).green * 1)/3 * -1}
 	texture_map {HPlanet_Altitiude_2_Texture_Map}
-	#if (RWorld_Toggle_Warps = true)
-		#declare HPlanet_Warp_Count = 0;
+	#if (RWorld_Toggle_Warps = on)
 		#declare HPlanet_Warp_Total = RWorld_Warps_Number;
-		#while (HPlanet_Warp_Count < HPlanet_Warp_Total)
-			#declare HPlanet_Cyl_Radius = RWorld_Ring_Radius/(RWorld_Ring_Width/2);
+		#for (HPlanet_Warp_Count, 0, HPlanet_Warp_Total - 1)
+			#declare HPlanet_Cyl_Radius = RWorld_Warps_Radius;
 			#declare HPlanet_Cyl_Theta = rand(HPlanet_Seed_Value) * 2 * pi;
 			#declare HPlanet_Cyl_Height = rand(HPlanet_Seed_Value) * 2 - 1;
 			#declare HPlanet_Hole_Radius = rand(HPlanet_Seed_Value) / 10;
@@ -518,10 +569,9 @@ sky_sphere
 			{
 				black_hole	<HPlanet_Cyl_Radius * cos(HPlanet_Cyl_Theta), HPlanet_Cyl_Height, HPlanet_Cyl_Radius * sin(HPlanet_Cyl_Theta)>, HPlanet_Hole_Radius
 				falloff		3/6
-				strength	4/24
+				strength	RWorld_Warps_Strength
 				inverse
 			}
-			#declare HPlanet_Warp_Count = HPlanet_Warp_Count + 1;
 		#end
 	#end
 }
@@ -534,30 +584,28 @@ sky_sphere
 	{
 		turbulence <1,0,1>
 	}
-	#if (RWorld_Toggle_Warps = true)
-		#declare HPlanet_Warp_Count = 0;
+	#if (RWorld_Toggle_Warps = on)
 		#declare HPlanet_Warp_Total = RWorld_Warps_Number;
-		#while (HPlanet_Warp_Count < HPlanet_Warp_Total)
-			#declare HPlanet_Cyl_Radius = RWorld_Ring_Radius/(RWorld_Ring_Width/2);
+		#for (HPlanet_Warp_Count, 0, HPlanet_Warp_Total - 1)
+			#declare HPlanet_Cyl_Radius = RWorld_Warps_Radius;
 			#declare HPlanet_Cyl_Theta = rand(HPlanet_Seed_Value) * 2 * pi;
-			#declare HPlanet_Cyl_Height = floor(rand(HPlanet_Seed_Value) + 1/2) * 2 - 1;
 			#declare HPlanet_Cyl_Height = rand(HPlanet_Seed_Value) * 2 - 1;
 			#declare HPlanet_Hole_Radius = rand(HPlanet_Seed_Value) * 1;
 			warp
 			{
 				black_hole	<HPlanet_Cyl_Radius * cos(HPlanet_Cyl_Theta), HPlanet_Cyl_Height, HPlanet_Cyl_Radius * sin(HPlanet_Cyl_Theta)>, HPlanet_Hole_Radius
 				falloff		3
-				strength	1/6
+				strength	RWorld_Warps_Strength
 				inverse
 			}
-			#declare HPlanet_Warp_Count = HPlanet_Warp_Count + 1;
 		#end
 	#end
 }
 
 
-// ------1---------2---------3---------4---------5---------6---------7---------8
+//------2-------4-------6-------8-------10------12------14------16------18------20------22------
 // RINGWORLD
+// These are not height fields/isosurfaces unfortunately.
 
 
 // surface
@@ -642,12 +690,13 @@ sky_sphere
 				density
 				{
 					// Reverse: It starts at 1.0 at the origin and decreases to a minimum value of 0.0 as it approaches a distance of 1 unit from the Y axis.
-					function {1-f_cylindrical(x,y,z)}
+					// not sure what the real rate of atmosphere density increase should be
+					function {1-f_cylindrical(x,y,z)*f_cylindrical(x,y,z)}
 					density_map
 					{
-						[0 rgb 0/10]
-						[1-RWorld_Atmosphere_Height/RWorld_Ring_Radius rgb 0/10]
-						[1 rgb 1/10]
+						[0 rgb 0]
+						[1-RWorld_Atmosphere_Height/RWorld_Ring_Radius*1 rgb 0]
+						[1 rgb 1/100]
 					}
 					scale RWorld_Ring_Radius
 				}
@@ -657,12 +706,14 @@ sky_sphere
 				absorption RWorld_Atmos_Color_Absorb
 				density
 				{
-					function {1-f_cylindrical(x,y,z)}
+					// Reverse: It starts at 1.0 at the origin and decreases to a minimum value of 0.0 as it approaches a distance of 1 unit from the Y axis.
+					// not sure what the real rate of atmosphere density increase should be
+					function {1-f_cylindrical(x,y,z)*f_cylindrical(x,y,z)}
 					density_map
 					{
-						[0 rgb 0/10]
-						[1-RWorld_Atmosphere_Height/RWorld_Ring_Radius rgb 0/10]
-						[1 rgb 1/10]
+						[0 rgb 0]
+						[1-RWorld_Atmosphere_Height/RWorld_Ring_Radius*1 rgb 0]
+						[1 rgb 1/100]
 					}
 					scale RWorld_Ring_Radius
 				}
@@ -672,7 +723,7 @@ sky_sphere
 }
 
 
-// ------1---------2---------3---------4---------5---------6---------7---------8
+//------2-------4-------6-------8-------10------12------14------16------18------20------22------
 // SUN & HELIOSPHERE
 
 
@@ -738,7 +789,7 @@ sky_sphere
 }
 
 
-// ------1---------2---------3---------4---------5---------6---------7---------8
+//------2-------4-------6-------8-------10------12------14------16------18------20------22------
 // LIGHTS
 
 
@@ -771,7 +822,7 @@ sky_sphere
 			RWorld_Light_Point_Color
 			area_light
 			x * RWorld_Sun_Diameter, y * RWorld_Sun_Diameter		// lights spread out across this distance (x * z)
-			5, 5													// total number of lights in grid (4x*4z = 16 lights)
+			RWorld_Light_Area_Theta_Num, RWorld_Light_Area_Phi_Num	// total number of lights in grid (4x*4z = 16 lights)
 			adaptive 1												// 0,1,2,3...
 			jitter													// adds random softening of light
 			circular												// make the shape of the light circular
@@ -792,7 +843,7 @@ sky_sphere
 #end
 
 
-// ------1---------2---------3---------4---------5---------6---------7---------8
+//------2-------4-------6-------8-------10------12------14------16------18------20------22------
 // SHADOW SQUARES
 
 #declare RWorld_Shadow_Ring_Circum		= RWorld_Shadow_Ring_Radius * 2 * pi;
@@ -828,28 +879,28 @@ sky_sphere
 }
 
 
-// ------1---------2---------3---------4---------5---------6---------7---------8
+//------2-------4-------6-------8-------10------12------14------16------18------20------22------
 // choose which objects to render
 
 
-#if (RWorld_Toggle_Surface = true)
+#if (RWorld_Toggle_Surface = on)
 	object {RWorld_Surface_Object}
 #end
-#if (RWorld_Toggle_Rim = true)
+#if (RWorld_Toggle_Rim = on)
 	object {RWorld_Rim_Object}
 #end
-#if (RWorld_Toggle_Clouds = true)
+#if (RWorld_Toggle_Clouds = on)
 	object {RWorld_Clouds_Object}
 #end
-#if (RWorld_Toggle_Atmosphere = true)
+#if (RWorld_Toggle_Atmosphere = on)
 	object {RWorld_Atmosphere_Object}
 #end
-#if (RWorld_Toggle_Sun_Object = true)
+#if (RWorld_Toggle_Sun_Object = on)
 	object {RWorld_Sun_Object}
 #end
-#if (RWorld_Toggle_Corona = true)
+#if (RWorld_Toggle_Corona = on)
 	object {RWorld_Corona_Object}
 #end
-#if (RWorld_Toggle_Shadow_Squares = true)
+#if (RWorld_Toggle_Shadow_Squares = on)
 	object {RWorld_Shadow_Square_Union}
 #end
