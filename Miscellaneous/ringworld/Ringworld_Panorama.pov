@@ -18,12 +18,12 @@
 #declare RWorld_Toggle_Sun_Object		= off;
 #declare RWorld_Toggle_Corona			= on;		// somewhat expensive
 #declare RWorld_Toggle_Surface			= on;
-#declare RWorld_Toggle_Warps			= on;		// slightly expensive
+#declare RWorld_Toggle_Warps			= off;		// slightly expensive
 #declare RWorld_Toggle_Rim				= on;
-#declare RWorld_Toggle_Clouds			= on;
-#declare RWorld_Toggle_Atmosphere		= on;		// very expensive
+#declare RWorld_Toggle_Clouds			= off;
+#declare RWorld_Toggle_Atmosphere		= off;		// very expensive
 #declare RWorld_Toggle_Shadow_Squares	= on;
-#declare RWorld_Toggle_Radiosity		= on;		// somewhat expensive
+#declare RWorld_Toggle_Radiosity		= off;		// somewhat expensive
 #declare RWorld_Toggle_Camera_Mode		= 6;
 #declare RWorld_Toggle_Light_Mode		= 2;
 
@@ -54,9 +54,9 @@
 #include "transforms.inc"
 
 #declare RWorld_Light_Area_Radius		= RWorld_Sun_Radius;
-#declare RWorld_Light_Area_Theta_Num	= 6;
+#declare RWorld_Light_Area_Theta_Num	= 2;		// was 6
 #declare RWorld_Light_Area_Theta_Dif	= 2 * pi/RWorld_Light_Area_Theta_Num;
-#declare RWorld_Light_Area_Phi_Num		= 6;
+#declare RWorld_Light_Area_Phi_Num		= 2;		// was 6
 #declare RWorld_Light_Area_Phi_Dif		= pi/RWorld_Light_Area_Phi_Num;
 #declare RWorld_Light_Area_Lumens		= 2/RWorld_Light_Area_Theta_Num/RWorld_Light_Area_Phi_Num;
 #declare RWorld_Light_Area_Temp			= Daylight(5800);
@@ -280,6 +280,13 @@
 //------2-------4-------6-------8-------10------12------14------16------18------20------22------
 // MISC GRAPHICAL SETTINGS
 
+
+#declare camera_off		= true;
+#declare effect_scale		= 1;
+#declare camera_location	= Camera_Location;
+#declare camera_look_at		= Camera_LookAt;
+#declare effect_location	= <0,0,0>;
+#include "Lens_Mod_New.inc"			// http://www.oocities.org/ccolefax/lenseffects.html
 
 global_settings
 {
@@ -691,7 +698,7 @@ sky_sphere
 				{
 					// Reverse: It starts at 1.0 at the origin and decreases to a minimum value of 0.0 as it approaches a distance of 1 unit from the Y axis.
 					// not sure what the real rate of atmosphere density increase should be
-					function {1-f_cylindrical(x,y,z)*f_cylindrical(x,y,z)}
+					function {1-pow(f_cylindrical(x,y,z),2)}
 					density_map
 					{
 						[0 rgb 0]
@@ -708,7 +715,7 @@ sky_sphere
 				{
 					// Reverse: It starts at 1.0 at the origin and decreases to a minimum value of 0.0 as it approaches a distance of 1 unit from the Y axis.
 					// not sure what the real rate of atmosphere density increase should be
-					function {1-f_cylindrical(x,y,z)*f_cylindrical(x,y,z)}
+					function {1-pow(f_cylindrical(x,y,z),2)}
 					density_map
 					{
 						[0 rgb 0]
@@ -831,7 +838,7 @@ sky_sphere
 		}
 	#break
 	#case (3)
-		// point light (not slow)
+		// single point light (not slow)
 		light_source
 		{
 			0
