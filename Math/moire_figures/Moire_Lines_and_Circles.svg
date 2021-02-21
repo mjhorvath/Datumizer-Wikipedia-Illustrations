@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="-2 -2 4 4" width="400" height="400">
+
+	<title>Lines and Circles Moire</title>
+	<desc></desc>
+	<style type="text/css">
+	<![CDATA[
+	]]>
+	</style>
+
+	<defs>
+		<g id="moire_circles">
+			<circle cx="0" cy="0" r="0.00" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.05" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.10" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.15" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.20" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.25" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.30" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.35" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.40" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.45" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.50" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.55" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.60" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.65" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.70" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.75" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.80" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.85" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.90" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="0.95" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.00" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.05" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.10" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.15" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.20" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.25" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.30" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.35" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.40" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.45" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.50" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.55" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.60" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.65" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.70" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.75" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.80" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.85" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.90" stroke="black" stroke-width="0.02" fill="none" />
+			<circle cx="0" cy="0" r="1.95" stroke="black" stroke-width="0.02" fill="none" />
+		</g>
+		<g id="moire_lines">
+			<line x1="-2" y1="2.95" x2="2" y2="2.95" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.90" x2="2" y2="2.90" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.85" x2="2" y2="2.85" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.80" x2="2" y2="2.80" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.75" x2="2" y2="2.75" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.70" x2="2" y2="2.70" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.65" x2="2" y2="2.65" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.60" x2="2" y2="2.60" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.55" x2="2" y2="2.55" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.50" x2="2" y2="2.50" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.45" x2="2" y2="2.45" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.40" x2="2" y2="2.40" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.35" x2="2" y2="2.35" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.30" x2="2" y2="2.30" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.25" x2="2" y2="2.25" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.20" x2="2" y2="2.20" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.15" x2="2" y2="2.15" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.10" x2="2" y2="2.10" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.05" x2="2" y2="2.05" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="2.00" x2="2" y2="2.00" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.95" x2="2" y2="1.95" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.90" x2="2" y2="1.90" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.85" x2="2" y2="1.85" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.80" x2="2" y2="1.80" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.75" x2="2" y2="1.75" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.70" x2="2" y2="1.70" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.65" x2="2" y2="1.65" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.60" x2="2" y2="1.60" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.55" x2="2" y2="1.55" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.50" x2="2" y2="1.50" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.45" x2="2" y2="1.45" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.40" x2="2" y2="1.40" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.35" x2="2" y2="1.35" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.30" x2="2" y2="1.30" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.25" x2="2" y2="1.25" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.20" x2="2" y2="1.20" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.15" x2="2" y2="1.15" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.10" x2="2" y2="1.10" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.05" x2="2" y2="1.05" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="1.00" x2="2" y2="1.00" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.95" x2="2" y2="0.95" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.90" x2="2" y2="0.90" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.85" x2="2" y2="0.85" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.80" x2="2" y2="0.80" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.75" x2="2" y2="0.75" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.70" x2="2" y2="0.70" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.65" x2="2" y2="0.65" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.60" x2="2" y2="0.60" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.55" x2="2" y2="0.55" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.50" x2="2" y2="0.50" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.45" x2="2" y2="0.45" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.40" x2="2" y2="0.40" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.35" x2="2" y2="0.35" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.30" x2="2" y2="0.30" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.25" x2="2" y2="0.25" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.20" x2="2" y2="0.20" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.15" x2="2" y2="0.15" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.10" x2="2" y2="0.10" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="0.05" x2="2" y2="0.05" stroke="black" stroke-width="0.02" fill="none" />
+
+			<line x1="-2" y1="0.00" x2="2" y2="0.00" stroke="black" stroke-width="0.02" fill="none" />
+
+			<line x1="-2" y1="-2.95" x2="2" y2="-2.95" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.90" x2="2" y2="-2.90" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.85" x2="2" y2="-2.85" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.80" x2="2" y2="-2.80" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.75" x2="2" y2="-2.75" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.70" x2="2" y2="-2.70" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.65" x2="2" y2="-2.65" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.60" x2="2" y2="-2.60" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.55" x2="2" y2="-2.55" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.50" x2="2" y2="-2.50" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.45" x2="2" y2="-2.45" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.40" x2="2" y2="-2.40" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.35" x2="2" y2="-2.35" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.30" x2="2" y2="-2.30" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.25" x2="2" y2="-2.25" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.20" x2="2" y2="-2.20" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.15" x2="2" y2="-2.15" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.10" x2="2" y2="-2.10" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.05" x2="2" y2="-2.05" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-2.00" x2="2" y2="-2.00" stroke="black" stroke-width="0.02" fill="none" />			
+			<line x1="-2" y1="-1.95" x2="2" y2="-1.95" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.90" x2="2" y2="-1.90" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.85" x2="2" y2="-1.85" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.80" x2="2" y2="-1.80" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.75" x2="2" y2="-1.75" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.70" x2="2" y2="-1.70" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.65" x2="2" y2="-1.65" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.60" x2="2" y2="-1.60" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.55" x2="2" y2="-1.55" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.50" x2="2" y2="-1.50" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.45" x2="2" y2="-1.45" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.40" x2="2" y2="-1.40" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.35" x2="2" y2="-1.35" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.30" x2="2" y2="-1.30" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.25" x2="2" y2="-1.25" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.20" x2="2" y2="-1.20" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.15" x2="2" y2="-1.15" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.10" x2="2" y2="-1.10" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.05" x2="2" y2="-1.05" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-1.00" x2="2" y2="-1.00" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.95" x2="2" y2="-0.95" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.90" x2="2" y2="-0.90" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.85" x2="2" y2="-0.85" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.80" x2="2" y2="-0.80" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.75" x2="2" y2="-0.75" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.70" x2="2" y2="-0.70" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.65" x2="2" y2="-0.65" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.60" x2="2" y2="-0.60" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.55" x2="2" y2="-0.55" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.50" x2="2" y2="-0.50" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.45" x2="2" y2="-0.45" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.40" x2="2" y2="-0.40" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.35" x2="2" y2="-0.35" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.30" x2="2" y2="-0.30" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.25" x2="2" y2="-0.25" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.20" x2="2" y2="-0.20" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.15" x2="2" y2="-0.15" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.10" x2="2" y2="-0.10" stroke="black" stroke-width="0.02" fill="none" />
+			<line x1="-2" y1="-0.05" x2="2" y2="-0.05" stroke="black" stroke-width="0.02" fill="none" />
+		</g>
+	</defs>
+
+	<use xlink:href="#moire_circles">
+	</use>
+	<use xlink:href="#moire_lines">
+		<animateTransform attributeName="transform" type="translate" values="0,1;0,-1;0,1" keyTimes="0.0;0.5;1.0" dur="30s" repeatCount="indefinite"/>
+	</use>
+</svg>

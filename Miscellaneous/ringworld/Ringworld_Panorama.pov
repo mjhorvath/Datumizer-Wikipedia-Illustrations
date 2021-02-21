@@ -7,7 +7,8 @@
 // This file is licensed under the terms of the CC-LGPL.
 // http://www.gnu.org/licenses/lgpl-2.1.html
 // Not using srgb colors here because they're old.
-// +KFI0 +KFF5 +KC
+// +KFI0 +KFF5
+// +KFI2 +KFF2
 // +wt11 +q11 +am2 +r4 -j
 
 #version 3.7;
@@ -18,12 +19,13 @@
 #declare RWorld_Toggle_Sun_Object		= off;
 #declare RWorld_Toggle_Corona			= on;		// somewhat expensive
 #declare RWorld_Toggle_Surface			= on;
-#declare RWorld_Toggle_Warps			= off;		// slightly expensive
+#declare RWorld_Toggle_Warps			= on;		// slightly expensive
 #declare RWorld_Toggle_Rim				= on;
-#declare RWorld_Toggle_Clouds			= off;
-#declare RWorld_Toggle_Atmosphere		= off;		// very expensive
+#declare RWorld_Toggle_Clouds			= on;
+#declare RWorld_Toggle_Atmosphere		= off;		// very expensive for very little effect (needs tweaking)
 #declare RWorld_Toggle_Shadow_Squares	= on;
-#declare RWorld_Toggle_Radiosity		= off;		// somewhat expensive
+#declare RWorld_Toggle_Radiosity		= on;		// somewhat expensive
+#declare RWorld_Toggle_Lens_Flare		= on;
 #declare RWorld_Toggle_Camera_Mode		= 6;
 #declare RWorld_Toggle_Light_Mode		= 2;
 
@@ -39,6 +41,7 @@
 #declare RWorld_Spill_Mtn_Height_2		= 0.04;
 #declare RWorld_Sun_Diameter			= 1000;
 #declare RWorld_Sun_Radius				= RWorld_Sun_Diameter/2;
+#declare RWorld_Sun_Location			= <0,0,0>;
 #declare RWorld_Corona_Scale			= 1/2;
 #declare RWorld_Corona_Radius			= RWorld_Ring_Radius * RWorld_Corona_Scale;
 #declare RWorld_Atmosphere_Height		= 1;
@@ -54,11 +57,11 @@
 #include "transforms.inc"
 
 #declare RWorld_Light_Area_Radius		= RWorld_Sun_Radius;
-#declare RWorld_Light_Area_Theta_Num	= 2;		// was 6
+#declare RWorld_Light_Area_Theta_Num	= 4;		// was 6
 #declare RWorld_Light_Area_Theta_Dif	= 2 * pi/RWorld_Light_Area_Theta_Num;
-#declare RWorld_Light_Area_Phi_Num		= 2;		// was 6
+#declare RWorld_Light_Area_Phi_Num		= 4;		// was 6
 #declare RWorld_Light_Area_Phi_Dif		= pi/RWorld_Light_Area_Phi_Num;
-#declare RWorld_Light_Area_Lumens		= 2/RWorld_Light_Area_Theta_Num/RWorld_Light_Area_Phi_Num;
+#declare RWorld_Light_Area_Lumens		= 1/RWorld_Light_Area_Theta_Num/RWorld_Light_Area_Phi_Num;
 #declare RWorld_Light_Area_Temp			= Daylight(5800);
 #declare RWorld_Light_Area_Color		= Light_Color(RWorld_Light_Area_Temp,RWorld_Light_Area_Lumens);
 
@@ -75,43 +78,43 @@
 #switch (RWorld_Toggle_Camera_Mode)
 	// isometric angle
 	#case (1)
-		#declare RWorld_Camera_Vertical		= 0;			//45;
-		#declare RWorld_Camera_Horizontal	= 30;			//asind(tand(30));
-		#declare RWorld_Camera_Aspect		= image_height/image_width;
-		#declare RWorld_Camera_Distance		= 10;
+		#declare Camera_Vertical	= 0;			//45;
+		#declare Camera_Horizontal	= 30;			//asind(tand(30));
+		#declare Camera_Aspect		= image_height/image_width;
+		#declare Camera_Distance	= 10;
 
-		#declare RWorld_Camera_Up			= +y * 2 * RWorld_Camera_Aspect;
-		#declare RWorld_Camera_Right		= +x * 2;
-		#declare RWorld_Camera_Location		= -z * RWorld_Camera_Distance;
-		#declare RWorld_Camera_Direction	= +z * RWorld_Camera_Distance;
-		#declare RWorld_Camera_LookAt		= RWorld_Camera_Location + RWorld_Camera_Direction;
+		#declare Camera_Up			= +y * 2 * RWorld_Camera_Aspect;
+		#declare Camera_Right		= +x * 2;
+		#declare Camera_Location	= -z * Camera_Distance;
+		#declare Camera_Direction	= +z * Camera_Distance;
+		#declare Camera_LookAt		= Camera_Location + Camera_Direction;
 
-		#declare RWorld_Camera_Rotate		= <RWorld_Camera_Horizontal,RWorld_Camera_Vertical,0,>;
-		#declare RWorld_Camera_Scale		= RWorld_Ring_Radius * 1.1;
-		#declare RWorld_Camera_Translate	= <0,0,0>;
-		#declare RWorld_Camera_Transform = transform
+		#declare Camera_Rotate		= <Camera_Horizontal,Camera_Vertical,0,>;
+		#declare Camera_Scale		= RWorld_Ring_Radius * 1.1;
+		#declare Camera_Translate	= <0,0,0>;
+		#declare Camera_Transform = transform
 		{
-			rotate		RWorld_Camera_Rotate
-			scale		RWorld_Camera_Scale
-			translate	RWorld_Camera_Translate
+			rotate		Camera_Rotate
+			scale		Camera_Scale
+			translate	Camera_Translate
 		}
 
-		camera
+		#declare Camera_Object = camera
 		{
 			perspective
 			//orthographic
-			up			RWorld_Camera_Up
-			right		RWorld_Camera_Right
-			location	RWorld_Camera_Location
-			direction	RWorld_Camera_Direction
-			transform {RWorld_Camera_Transform}
+			up			Camera_Up
+			right		Camera_Right
+			location	Camera_Location
+			direction	Camera_Direction
+			transform {Camera_Transform}
 		}
-		#declare RWorld_Camera_Location	= vtransform(RWorld_Camera_Location,RWorld_Camera_Transform);
-		#declare RWorld_Camera_LookAt	= vtransform(RWorld_Camera_LookAt,RWorld_Camera_Transform);
+		#declare Camera_Location	= vtransform(Camera_Location,Camera_Transform);
+		#declare Camera_LookAt		= vtransform(Camera_LookAt,Camera_Transform);
 	#break
 	// perspective
 	#case (2)
-		camera
+		#declare Camera_Object = camera
 		{
 			perspective
 			sky			+y
@@ -122,7 +125,7 @@
 	#break
 	// perspective
 	#case (3)
-		camera
+		#declare Camera_Object = camera
 		{
 			perspective
 			sky			z
@@ -132,7 +135,7 @@
 	#break
 	// perspective
 	#case (4)
-		camera
+		#declare Camera_Object = camera
 		{
 			perspective
 			sky			y
@@ -142,7 +145,7 @@
 	#break
 	// spherical
 	#case (5)
-		camera
+		#declare Camera_Object = camera
 		{
 			spherical
 			angle		360
@@ -152,7 +155,8 @@
 			rotate		+y * 360/20/2
 		}
 	#break
-	// cube map
+	// cube map, close to ring inner surface
+	// should really have a "pre" rotation and a "post" rotatation
 	#case (6)
 		#declare Camera_Up			= +y;
 		#declare Camera_Right		= +x;
@@ -196,7 +200,7 @@
 			scale		Camera_Scale
 			rotate		+y * 360/20/2
 		}
-		camera
+		#declare Camera_Object = camera
 		{
 			up			Camera_Up
 			right		Camera_Right
@@ -204,12 +208,12 @@
 			direction	Camera_Direction
 			transform {Camera_Transform}
 		}
-		#declare Camera_Location	= vtransform(Camera_Location,Camera_Transform);
-		#declare Camera_LookAt		= vtransform(Camera_LookAt,Camera_Transform);
+		#declare Camera_Location	= vtransform(<0,0,0>,Camera_Transform);
+		#declare Camera_LookAt		= vtransform(Camera_Direction,Camera_Transform);
 	#break
 	// spherical
 	#case (7)
-		camera
+		#declare Camera_Object = camera
 		{
 			spherical
 			angle		360
@@ -219,7 +223,8 @@
 			rotate		+y * 360/40
 		}
 	#break
-	// cube map
+	// cube map, closer to and above the sun
+	// should really have a "pre" rotation and a "post" rotatation
 	#case (8)
 		#declare Camera_Up			= +y;
 		#declare Camera_Right		= +x;
@@ -263,7 +268,7 @@
 			scale		Camera_Scale
 			rotate		+y * 360/20/2
 		}
-		camera
+		#declare Camera_Object = camera
 		{
 			up			Camera_Up
 			right		Camera_Right
@@ -271,8 +276,8 @@
 			direction	Camera_Direction
 			transform {Camera_Transform}
 		}
-		#declare Camera_Location	= vtransform(Camera_Location,Camera_Transform);
-		#declare Camera_LookAt		= vtransform(Camera_LookAt,Camera_Transform);
+		#declare Camera_Location	= vtransform(<0,0,0>,Camera_Transform);
+		#declare Camera_LookAt		= vtransform(Camera_Direction,Camera_Transform);
 	#break
 #end
 
@@ -280,13 +285,6 @@
 //------2-------4-------6-------8-------10------12------14------16------18------20------22------
 // MISC GRAPHICAL SETTINGS
 
-
-#declare camera_off		= true;
-#declare effect_scale		= 1;
-#declare camera_location	= Camera_Location;
-#declare camera_look_at		= Camera_LookAt;
-#declare effect_location	= <0,0,0>;
-#include "Lens_Mod_New.inc"			// http://www.oocities.org/ccolefax/lenseffects.html
 
 global_settings
 {
@@ -300,20 +298,20 @@ global_settings
 			error_bound		1
 			recursion_limit	1
 			normal			on
-			brightness		0.8
+			brightness		0.001
 			always_sample	no
 			gray_threshold	0.8
 			media			on
 		}
 	#else
-		ambient_light	0.005
+		ambient_light	0.001
 	#end
 	charset			utf8
 	assumed_gamma	1
-//	max_trace_level	16
+	max_trace_level	8		// default is 5
 }
 
-background {color rgb 0}
+background {color srgb 0}
 
 sky_sphere
 {
@@ -322,9 +320,9 @@ sky_sphere
 		bozo
 		color_map
 		{
-			[0.0 color rgb 3]
-			[0.2 color rgb 0]
-			[1.0 color rgb 0]
+			[0.0 color srgb 3]
+			[0.2 color srgb 0]
+			[1.0 color srgb 0]
 		}
 		scale 0.001
 	}
@@ -815,6 +813,7 @@ sky_sphere
 				{
 					<RWorld_Light_Area_X, RWorld_Light_Area_Y, RWorld_Light_Area_Z>
 					RWorld_Light_Area_Color
+					translate RWorld_Sun_Location
 				}
 				#declare RWorld_Light_Area_Phi = RWorld_Light_Area_Phi + RWorld_Light_Area_Phi_Dif;
 			#end
@@ -825,7 +824,7 @@ sky_sphere
 		// new area light code (less slow)
 		light_source
 		{
-			0
+			RWorld_Sun_Location
 			RWorld_Light_Point_Color
 			area_light
 			x * RWorld_Sun_Diameter, y * RWorld_Sun_Diameter		// lights spread out across this distance (x * z)
@@ -841,7 +840,7 @@ sky_sphere
 		// single point light (not slow)
 		light_source
 		{
-			0
+			RWorld_Sun_Location
 			RWorld_Light_Point_Color
 			point_at <0,0,0>
 			looks_like {RWorld_Sun_Object}
@@ -890,24 +889,50 @@ sky_sphere
 // choose which objects to render
 
 
-#if (RWorld_Toggle_Surface = on)
-	object {RWorld_Surface_Object}
-#end
-#if (RWorld_Toggle_Rim = on)
-	object {RWorld_Rim_Object}
-#end
-#if (RWorld_Toggle_Clouds = on)
-	object {RWorld_Clouds_Object}
-#end
-#if (RWorld_Toggle_Atmosphere = on)
-	object {RWorld_Atmosphere_Object}
-#end
-#if (RWorld_Toggle_Sun_Object = on)
-	object {RWorld_Sun_Object}
-#end
-#if (RWorld_Toggle_Corona = on)
-	object {RWorld_Corona_Object}
-#end
-#if (RWorld_Toggle_Shadow_Squares = on)
-	object {RWorld_Shadow_Square_Union}
+union
+{
+	#if (RWorld_Toggle_Surface = on)
+		object {RWorld_Surface_Object}
+	#end
+	#if (RWorld_Toggle_Rim = on)
+		object {RWorld_Rim_Object}
+	#end
+	#if (RWorld_Toggle_Clouds = on)
+		object {RWorld_Clouds_Object}
+	#end
+	#if (RWorld_Toggle_Atmosphere = on)
+		object {RWorld_Atmosphere_Object}
+	#end
+	#if (RWorld_Toggle_Sun_Object = on)
+		object {RWorld_Sun_Object}
+	#end
+	#if (RWorld_Toggle_Corona = on)
+		object {RWorld_Corona_Object}
+	#end
+	#if (RWorld_Toggle_Shadow_Squares = on)
+		object {RWorld_Shadow_Square_Union}
+	#end
+}
+
+camera
+{
+	Camera_Object
+}
+
+#if (RWorld_Toggle_Lens_Flare = on)
+	//#declare effect_always_on_top	= false;
+	#declare lens_scale			= 100;
+	#declare layer_separation	= 10;
+	#declare effect_scale		= 1/2;
+	#declare effect_intensity	= 1/32;
+	//#declare effect_brightness	= 1;
+	//#declare effect_type		= "RANDOM";
+	
+	#declare camera_off			= true;
+	#declare camera_sky			= Camera_Up;
+	#declare camera_direction	= Camera_Direction;
+	#declare camera_location	= Camera_Location;
+	#declare camera_look_at		= Camera_LookAt;
+	#declare effect_location	= RWorld_Sun_Location;
+	#include "Lens_mod_new.inc"			// http://www.oocities.org/ccolefax/lenseffects.html
 #end
