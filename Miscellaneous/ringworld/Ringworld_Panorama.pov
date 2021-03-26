@@ -3,7 +3,7 @@
 // Authors: Michael Horvath, based on Ringworld by Larry Niven
 // Website: http://isometricland.net
 // Created: 2013-10-16
-// Updated: 2020-02-06
+// Updated: 2020-03-08
 // This file is licensed under the terms of the CC-LGPL.
 // http://www.gnu.org/licenses/lgpl-2.1.html
 // Not using srgb colors here because they're old.
@@ -18,14 +18,14 @@
 
 #declare RWorld_Toggle_Sun_Object		= off;
 #declare RWorld_Toggle_Corona			= on;		// somewhat expensive
-#declare RWorld_Toggle_Surface			= on;
-#declare RWorld_Toggle_Warps			= on;		// slightly expensive
-#declare RWorld_Toggle_Rim				= on;
-#declare RWorld_Toggle_Clouds			= on;
+#declare RWorld_Toggle_Surface			= off;
+#declare RWorld_Toggle_Warps			= off;		// slightly expensive
+#declare RWorld_Toggle_Rim				= off;
+#declare RWorld_Toggle_Clouds			= off;
 #declare RWorld_Toggle_Atmosphere		= off;		// very expensive for very little effect (needs tweaking)
 #declare RWorld_Toggle_Shadow_Squares	= on;
 #declare RWorld_Toggle_Radiosity		= on;		// somewhat expensive
-#declare RWorld_Toggle_Lens_Flare		= on;
+#declare RWorld_Toggle_Lens_Flare		= off;
 #declare RWorld_Toggle_Camera_Mode		= 6;
 #declare RWorld_Toggle_Light_Mode		= 2;
 
@@ -42,8 +42,7 @@
 #declare RWorld_Sun_Diameter			= 1000;
 #declare RWorld_Sun_Radius				= RWorld_Sun_Diameter/2;
 #declare RWorld_Sun_Location			= <0,0,0>;
-#declare RWorld_Corona_Scale			= 1/2;
-#declare RWorld_Corona_Radius			= RWorld_Ring_Radius * RWorld_Corona_Scale;
+#declare RWorld_Corona_Radius			= RWorld_Ring_Radius/2;
 #declare RWorld_Atmosphere_Height		= 1;
 #declare RWorld_Clouds_Bottom			= 0.01;
 #declare RWorld_Clouds_Top				= 0.05;
@@ -61,7 +60,7 @@
 #declare RWorld_Light_Area_Theta_Dif	= 2 * pi/RWorld_Light_Area_Theta_Num;
 #declare RWorld_Light_Area_Phi_Num		= 4;		// was 6
 #declare RWorld_Light_Area_Phi_Dif		= pi/RWorld_Light_Area_Phi_Num;
-#declare RWorld_Light_Area_Lumens		= 1/RWorld_Light_Area_Theta_Num/RWorld_Light_Area_Phi_Num;
+#declare RWorld_Light_Area_Lumens		= 2/RWorld_Light_Area_Theta_Num/RWorld_Light_Area_Phi_Num;
 #declare RWorld_Light_Area_Temp			= Daylight(5800);
 #declare RWorld_Light_Area_Color		= Light_Color(RWorld_Light_Area_Temp,RWorld_Light_Area_Lumens);
 
@@ -777,7 +776,7 @@ sky_sphere
 		{
 			media
 			{
-				scattering {1, RWorld_Corona_Scale * 40 * RWorld_Light_Point_Color/RWorld_Corona_Radius}
+				scattering {1, 10*RWorld_Light_Point_Color/RWorld_Corona_Radius}
 				density
 				{
 					function {1/(x*x + y*y + z*z)/RWorld_Corona_Radius}
@@ -791,6 +790,12 @@ sky_sphere
 			}
 		}
 	}
+}
+
+#declare RWorld_Sun_Union = union
+{
+	object	{ RWorld_Sun_Object }
+	object	{ RWorld_Corona_Object }
 }
 
 
@@ -827,13 +832,13 @@ sky_sphere
 			RWorld_Sun_Location
 			RWorld_Light_Point_Color
 			area_light
-			x * RWorld_Sun_Diameter, y * RWorld_Sun_Diameter		// lights spread out across this distance (x * z)
+			+x * RWorld_Sun_Diameter, +y * RWorld_Sun_Diameter		// lights spread out across this distance (x * z)
 			RWorld_Light_Area_Theta_Num, RWorld_Light_Area_Phi_Num	// total number of lights in grid (4x*4z = 16 lights)
 			adaptive 1												// 0,1,2,3...
 			jitter													// adds random softening of light
 			circular												// make the shape of the light circular
 			orient													// orient light
-			looks_like {RWorld_Sun_Object}
+			looks_like {RWorld_Sun_Union}
 		}
 	#break
 	#case (3)
@@ -843,7 +848,7 @@ sky_sphere
 			RWorld_Sun_Location
 			RWorld_Light_Point_Color
 			point_at <0,0,0>
-			looks_like {RWorld_Sun_Object}
+			looks_like {RWorld_Sun_Union}
 		}
 	#break
 #end
