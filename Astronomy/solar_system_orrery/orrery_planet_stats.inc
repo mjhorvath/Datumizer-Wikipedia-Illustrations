@@ -6,10 +6,11 @@
 // PLANET ROTATIONS
 
 
-#declare Orrery_d = Orrery_ThisDate;								// Julian day
-#declare Orrery_T = Orrery_d / 36525;								// Julian century
-#declare Orrery_Alpha_0 = array[Orrery_PlanetsNumber]				// right ascension
-#declare Orrery_Delta_0 = array[Orrery_PlanetsNumber]				// declination
+#declare Orrery_PlanetsNumber		= 8;							// 8 currently
+#declare Orrery_d					= Orrery_ThisDate;				// Julian day
+#declare Orrery_T					= Orrery_d / 36525;				// Julian century
+#declare Orrery_Alpha_0				= array[Orrery_PlanetsNumber]	// right ascension
+#declare Orrery_Delta_0				= array[Orrery_PlanetsNumber]	// declination
 #declare Orrery_W = array[Orrery_PlanetsNumber]						// PMO
 
 #debug "\n"

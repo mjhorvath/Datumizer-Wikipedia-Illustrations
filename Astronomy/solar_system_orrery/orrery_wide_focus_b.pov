@@ -1,8 +1,7 @@
 // Title: Solar system orrery
-// Version: 3.5
 // Authors: Michael Horvath, http://isometricland.net
 // Created: 2018/09/15
-// Updated: 2021/01/21
+// Updated: 2021/04/17
 // This file is licensed under the terms of the CC-LGPL.
 // https://www.gnu.org/licenses/old-licenses/lgpl-2.1.html
 // +kfi0 +kff99 +kc
@@ -28,16 +27,15 @@
 // GLOBAL PARAMETERS
 
 
-#declare Orrery_Scene				= 5;					// 0 = ignore this setting; note that this setting has changed in v3.5
+#declare Orrery_Scene				= 6;					// 0 = ignore this setting; note that this setting has changed
 #declare Orrery_PlanetsFocus		= 0;					// 1 to 8, or 0 to disable
-#declare Orrery_PlanetsNumber		= 8;					// 8 currently
 #declare Orrery_DecoMode			= 2;					// 1 = black; 2 = gray
-#declare Orrery_InnerOuter			= 2;					// 1 = inner planets; 2 = outer planets
+#declare Orrery_InnerOuter			= 2;					// 1 = inner planets; 2 = outer planets; overridden later
 #declare Orrery_SunRadius			= 696000;				// km
 #declare Orrery_AU					= 149597870.691;		// km
 #declare Orrery_EccentricityMulti	= 1;					// not used currrently
 #declare Orrery_InclinationMulti	= 1;					// not used currrently
-#declare Orrery_Radiosity			= true;					// turn radiosity on/off
+#declare Orrery_Radiosity			= false;				// turn radiosity on/off, leaves noticeable artifacts that differ between each frame
 #declare Orrery_CameraMode			= 1;					// 1 = perspective; 2 = orthographic
 #declare Orrery_BitmapTextures		= true;					// use bitmap textures or solid colors?
 #declare Orrery_TextSize			= 0.04;					// size of on-screen text
@@ -85,7 +83,7 @@
 #if (Orrery_InnerOuter = 1)
 	#declare Orrery_SceneScale			= 4;															// AU, also camera radius
 	#declare Orrery_RadiusMulti			= 1024;															// multiplier, scale planetary radii by this amount otherwise they are tiny
-	#declare Orrery_LineThickness		= 1/32/2;														// AU, thickness of ecliptic grid lines and rings
+	#declare Orrery_LineThickness		= 1/32/2 * Orrery_SceneScale/4;									// AU, thickness of ecliptic grid lines and rings
 //	#declare Orrery_LineThickness		= Orrery_SceneScale * 1/40;										// AU, thickness of ecliptic grid lines and rings
 //	#declare Orrery_FirstDate			= 2458198.177083;												// a1. Julian days, A.D. 2018 Mar 20, 16:14:60.0 UT1 (Earth vernal equinox)
 //	#declare Orrery_FirstDate			= 2458384.579167;												// b1. Julian days, A.D. 2018 Sep 23, 01:54:00.0 UT1 (Earth autumnal equinox)
@@ -102,15 +100,16 @@
 //	#declare Orrery_LastDate			= 2458383.500000;												// f2. Julian days, A.D. 2018 Sep 22, 00:00:00.0 UT1 (random test day)
 //	#declare Orrery_LastDate			= 2451545.000000;												// g2. Julian days, A.D. 2000 Jan 01, 12 hours TDB (J2000.0 epoch)
 	#declare Orrery_LightRadius			= Orrery_SunRadius/Orrery_AU * Orrery_SceneScale * 4;			// AU, radius of the sun
-	#declare Orrery_RingDistance		= 1;															// AU, distance between ecliptic grid rings
+	#declare Orrery_RingDistance		= 1 * Orrery_SceneScale/8;										// AU, distance between ecliptic grid rings
 	#declare Orrery_TrailRadius			= Orrery_SceneScale/512;										// AU, radius of trail "dots" left behind each planet as it moves
 	#declare Orrery_TrailInterval		= 2;															// days, interval between each planetary movement trail "dot"
+	#declare Orrery_TrailingDigits		= 1;															// integer, number of digits after the zero when displaying the distance units
 #elseif (Orrery_InnerOuter = 2)
 	#local temp_time_1 = 2467131.13681;			// Julian days, WED, 03 SEP 2042 AT 10:17 EST (15:17 UTC) (Neptune at perihelion)
 	#local temp_time_2 = temp_time_1 - 164.788501027*365.25;	// Previous Neptune at perihelion
-	#declare Orrery_SceneScale			= 64;															// AU, also camera radius
+	#declare Orrery_SceneScale			= 4 * 16;														// AU, also camera radius
 	#declare Orrery_RadiusMulti			= 2048;															// multiplier, scale planetary radii by this amount otherwise they are tiny
-	#declare Orrery_LineThickness		= 1/32/2 * 8;													// AU, thickness of ecliptic grid lines and rings
+	#declare Orrery_LineThickness		= 1/32/2 * Orrery_SceneScale/4;									// AU, thickness of ecliptic grid lines and rings
 //	#declare Orrery_LineThickness		= Orrery_SceneScale * 1/40;										// AU, thickness of ecliptic grid lines and rings
 //	#declare Orrery_FirstDate			= 2455638.782232;												// a1. Julian days, A.D. 2011 Mar 18, 06:46:24.8 UT1 (Jupiter perihelion)
 //	#declare Orrery_FirstDate			= 2457801.804167;												// b1. Julian days, A.D. 2017 Feb 17, 07:18:00.0 UT1 (Jupiter aphelion)
@@ -125,9 +124,10 @@
 //	#declare Orrery_LastDate			= 2468906.793056;												// e2. Julian days, A.D. 2047 Jul 15, 07:02:00.0 UT1 (Saturn aphelion)
 	#declare Orrery_LastDate			= temp_time_1;													// f2. Julian days, WED, 03 SEP 2042 AT 10:17 EST (15:17 UTC) (Neptune at perihelion)
 	#declare Orrery_LightRadius			= Orrery_SunRadius/Orrery_AU * Orrery_SceneScale * 4;			// AU, radius of the sun
-	#declare Orrery_RingDistance		= 1 * 8;														// AU, distance between ecliptic grid rings
+	#declare Orrery_RingDistance		= 1 * Orrery_SceneScale/8;										// AU, distance between ecliptic grid rings
 	#declare Orrery_TrailRadius			= Orrery_SceneScale/512;										// AU, radius of trail "dots" left behind each planet as it moves
-	#declare Orrery_TrailInterval		= 100;															// days, interval between each planetary movement trail "dot"
+	#declare Orrery_TrailInterval		= 200;															// days, interval between each planetary movement trail "dot"
+	#declare Orrery_TrailingDigits		= 0;															// integer, number of digits after the zero when displaying the distance units
 #end
 
 #if (Orrery_Animation = true)
@@ -191,14 +191,14 @@ global_settings
 	max_trace_level	50
 	charset			utf8
 	ambient_light	0
-/*
-	// creates noticeable artifacts that differ with each frame
-	radiosity
-	{
-		Rad_Settings(Radiosity_Final, off, off)
-//		brightness 1/4
-	}
-*/
+	// leaves noticeable artifacts that differ between each frame
+	#if (Orrery_Radiosity = true)
+		radiosity
+		{
+			Rad_Settings(Radiosity_Final, off, off)
+//			brightness 1/4
+		}
+	#end
 }
 
 
@@ -367,10 +367,10 @@ Screen_Object(Orrery_SunText, Orrery_SunCoo2D + <0.01,0.01>, 0, false, 0.01)
 // OVERLAY TEXT
 
 
-#local Orrery_DayString = concat("JD ", str(Orrery_ThisDate,0,1));
-#local Orrery_DayText = text
+#local Orrery_JDayString = concat("JD ", str(Orrery_ThisDate, 0, 1));
+#local Orrery_JDayText = text
 {
-	ttf Orrery_TextFont Orrery_DayString, 0.001, <0,0>
+	ttf Orrery_TextFont Orrery_JDayString, 0.001, <0,0>
 	scale Orrery_TextSize
 	#if (Orrery_DecoMode = 1)
 		pigment {color srgb 3/4}
@@ -381,7 +381,39 @@ Screen_Object(Orrery_SunText, Orrery_SunCoo2D + <0.01,0.01>, 0, false, 0.01)
 	no_shadow
 }
 
-Screen_Object(Orrery_DayText, <0.74,0.02>, <0.02,0.02>, false, 0.01)
+Screen_Object(Orrery_JDayText, <0.74,0.02>, <0.02,0.02>, false, 0.01)
+
+#local Orrery_AUnitsString = concat(str(Orrery_RingDistance, 0, Orrery_TrailingDigits), " AU");
+#local Orrery_AUnitsText = text
+{
+	ttf Orrery_TextFont Orrery_AUnitsString, 0.001, <0,0>
+	scale Orrery_TextSize
+	#if (Orrery_DecoMode = 1)
+		pigment {color srgb 3/4}
+		finish {ambient 0 diffuse 0 emission 1}
+	#elseif (Orrery_DecoMode = 2)
+		pigment {color srgb 0}
+	#end
+	no_shadow
+}
+
+Screen_Object(Orrery_AUnitsText, <0.02,0.02>, <0.02,0.02>, false, 0.01)
+
+#local Orrery_DUnitsString = concat(str(Orrery_TrailInterval, 0, 0), " Days");
+#local Orrery_DUnitsText = text
+{
+	ttf Orrery_TextFont Orrery_DUnitsString, 0.001, <0,0>
+	scale Orrery_TextSize
+	#if (Orrery_DecoMode = 1)
+		pigment {color srgb 3/4}
+		finish {ambient 0 diffuse 0 emission 1}
+	#elseif (Orrery_DecoMode = 2)
+		pigment {color srgb 0}
+	#end
+	no_shadow
+}
+
+Screen_Object(Orrery_DUnitsText, <0.02,0.06>, <0.02,0.02>, false, 0.01)
 
 
 //------------------------------------------------------------------------------
