@@ -106,7 +106,7 @@
 	#declare Orrery_TrailingDigits		= 1;															// integer, number of digits after the zero when displaying the distance units
 #elseif (Orrery_InnerOuter = 2)
 	#local temp_time_1 = 2467131.13681;			// Julian days, WED, 03 SEP 2042 AT 10:17 EST (15:17 UTC) (Neptune at perihelion)
-	#local temp_time_2 = temp_time_1 - 164.788501027*365.25;	// Previous Neptune at perihelion
+	#local temp_time_2 = 2467131.13681 - 164.788501027*365.25;	// Previous Neptune at perihelion
 	#declare Orrery_SceneScale			= 4 * 16;														// AU, also camera radius
 	#declare Orrery_RadiusMulti			= 2048;															// multiplier, scale planetary radii by this amount otherwise they are tiny
 	#declare Orrery_LineThickness		= 1/32/2 * Orrery_SceneScale/4;									// AU, thickness of ecliptic grid lines and rings
