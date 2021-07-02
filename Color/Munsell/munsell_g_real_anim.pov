@@ -1,8 +1,8 @@
 // Caption: Munsell 1943 color solid cylinder (all swatches, but normalized to fit in constraints of output format)
 // Authors: Michael Horvath, with lots of help from the POV-Ray community
-// Version: 1.4
+// Version: 1.5
 // Created: 2009-11-10
-// Updated: 2019-02-27
+// Updated: 2021-06-18
 // Website: http://isometricland.net
 // Instructions: Render as a cyclical animation. Create one additional frame for when "clock" equals 0.0, and one additional frame for when "clock" equals 1.0.
 // This file is licensed under the terms of the CC-LGPL.
@@ -16,6 +16,7 @@
 #version 3.7
 #include "functions.inc"
 #include "math.inc"
+#include "transforms.inc"
 #include "ColorMine.inc"	// https://github.com/mjhorvath/ColorMine
 
 
@@ -56,6 +57,8 @@
 #declare Muns_gap_width		= 1/30;		// this is actually 1/2 the true gap
 #declare Muns_hue_adjust	= Muns_slice_angle * (4 + 0);		// was 4 + 5
 #declare Muns_color_clamp	= 1;
+#declare Muns_depth_map		= false;
+#declare Muns_show_labels	= false;
 
 #declare Muns_time_spin		= SetClock2(0/3, 1/3);
 #declare Muns_time_wipe		= SetClock2(1/3, 2/3);
@@ -88,7 +91,11 @@ global_settings
 
 }
 
-background {color srgb 1}
+#if (Muns_depth_map = false)
+	background {color srgb 1}
+#else
+	background {color srgb 0}
+#end
 
 
 light_source
@@ -113,61 +120,97 @@ light_source
 
 camera
 {
-	#local Muns_cam_view		= 3;	// 0 = isometric; 1 = overhead; 2 = front or side; 3 = custom
-	#local Muns_cam_aspectratio	= image_width/image_height;
+	#declare Muns_cam_view			= 0;	// 0 = isometric; 1 = overhead; 2 = front or side; 3 = custom
+	#declare Muns_cam_aspectratio	= image_width/image_height;
 	#switch (Muns_cam_view)
 		#case (0)
-			#local Muns_cam_distance	= 128;
-			#local Muns_cam_planesize	= 22;
-			//orthographic
-			location	-z * Muns_cam_distance
-			direction	+z * Muns_cam_distance
-			right		+x * Muns_cam_planesize
-			up			+y * Muns_cam_planesize/Muns_cam_aspectratio
-			rotate		+x * asind(tand(30))
-			rotate		-y * 045
-			rotate		+y * 180
-			translate	+y * Muns_cam_distance/64
+			#declare Muns_cam_projection	= 1;
+			#declare Muns_cam_distance		= 128;
+			#declare Muns_cam_planesize		= 32;
+			#declare Muns_cam_location		= -z * Muns_cam_distance;
+			#declare Muns_cam_direction		= +z * Muns_cam_distance;
+			#declare Muns_cam_up			= +y * Muns_cam_planesize/Muns_cam_aspectratio;
+			#declare Muns_cam_right			= +x * Muns_cam_planesize;
+			#declare Muns_cam_transform 	= transform
+			{
+				rotate		+x * asind(tand(30))
+				rotate		-y * 045
+				rotate		+y * 180
+				translate	+y * Muns_cam_distance/64
+			}
 		#break
 		#case (1)
-			#local Muns_cam_distance	= 128;
-			#local Muns_cam_planesize	= 42;
-			orthographic
-			location	-z * Muns_cam_distance
-			direction	+z * Muns_cam_distance
-			right		+x * Muns_cam_planesize
-			up			+y * Muns_cam_planesize/Muns_cam_aspectratio
-			rotate		+x * 090
-			rotate		+y * 090
+			#declare Muns_cam_projection	= 0;
+			#declare Muns_cam_distance		= 128;
+			#declare Muns_cam_planesize		= 42;
+			#declare Muns_cam_location		= -z * Muns_cam_distance;
+			#declare Muns_cam_direction		= +z * Muns_cam_distance;
+			#declare Muns_cam_up			= +y * Muns_cam_planesize/Muns_cam_aspectratio;
+			#declare Muns_cam_right			= +x * Muns_cam_planesize;
+			#declare Muns_cam_transform 	= transform
+			{
+				rotate		+x * 090
+				rotate		+y * 090
+			}
 		#break
 		#case (2)
-			#local Muns_cam_distance	= 128;
-			#local Muns_cam_planesize	= 42;
-			orthographic
-			location	-z * Muns_cam_distance
-			direction	+z * Muns_cam_distance
-			right		+x * Muns_cam_planesize
-			up			+y * Muns_cam_planesize/Muns_cam_aspectratio
-			rotate		+x * 000
-			rotate		+y * 090
+			#declare Muns_cam_projection	= 0;
+			#declare Muns_cam_distance		= 128;
+			#declare Muns_cam_planesize		= 42;
+			#declare Muns_cam_location		= -z * Muns_cam_distance;
+			#declare Muns_cam_direction		= +z * Muns_cam_distance;
+			#declare Muns_cam_up			= +y * Muns_cam_planesize/Muns_cam_aspectratio;
+			#declare Muns_cam_right			= +x * Muns_cam_planesize;
+			#declare Muns_cam_transform 	= transform
+			{
+				rotate		+x * 000
+				rotate		+y * 090
+			}
 		#break
 		#case (3)
-			#local Muns_cam_distance	= 128;
-			#local Muns_cam_planesize	= 42;
-			orthographic
-			location	-z * Muns_cam_distance
-			direction	+z * Muns_cam_distance
-			right		+x * Muns_cam_planesize
-			up			+y * Muns_cam_planesize/Muns_cam_aspectratio
-			rotate		+x * 090
-			rotate		+y * 090
-			#if (clock <= 1/2)
-				rotate		+z * (045 * Muns_time_tilt1)
-			#elseif (clock <= 2/2)
-				rotate		+z * (045 * Muns_time_tilt2 + 045)
-			#end
+			#declare Muns_cam_projection	= 0;
+			#declare Muns_cam_distance		= 128;
+			#declare Muns_cam_planesize		= 42;
+			#declare Muns_cam_location		= -z * Muns_cam_distance;
+			#declare Muns_cam_direction		= +z * Muns_cam_distance;
+			#declare Muns_cam_up			= +y * Muns_cam_planesize/Muns_cam_aspectratio;
+			#declare Muns_cam_right			= +x * Muns_cam_planesize;
+			#declare Muns_cam_transform 	= transform
+			{
+				rotate		+x * 090
+				rotate		+y * 090
+				#if (clock <= 1/2)
+					rotate		+z * (045 * Muns_time_tilt1)
+				#elseif (clock <= 2/2)
+					rotate		+z * (045 * Muns_time_tilt2 + 045)
+				#end
+			}
 		#break
 	#end
+	#if (Muns_cam_projection = 0)
+		orthographic
+	#else
+		perspective
+	#end
+	location	Muns_cam_location
+	direction	Muns_cam_direction
+	right		Muns_cam_right
+	up			Muns_cam_up
+	transform {Muns_cam_transform}
+
+	#declare Muns_cam_location	= vtransform(Muns_cam_location, Muns_cam_transform);
+	#declare Muns_cam_direction	= vtransform(Muns_cam_direction, Muns_cam_transform);
+	#declare Muns_cam_lookat	= Muns_cam_location + Muns_cam_direction;
+
+	#declare CAMERAPOS    = Muns_cam_location;
+	#declare CAMERALOOKAT = Muns_cam_lookat;
+	#declare CAMERADIST   = VDist(CAMERALOOKAT, CAMERAPOS);
+	#declare CAMERAFRONT  = vnormalize(CAMERALOOKAT - CAMERAPOS);
+	#declare CAMERAFRONTX = CAMERAFRONT.x;
+	#declare CAMERAFRONTY = CAMERAFRONT.y;
+	#declare CAMERAFRONTZ = CAMERAFRONT.z;
+	#declare DEPTHMIN = 50;
+	#declare DEPTHMAX = 150;
 }
 
 
@@ -3005,13 +3048,46 @@ camera
 
 #declare Muns_object_finish = finish {emission 0.3 diffuse 1}
 #declare Muns_object_finish = finish {}
+#declare Muns_no_finish = finish {diffuse 0 emission 1 ambient 0 specular 0}
+
+// http://paulbourke.net/reconstruction/depthmap2/
+#declare clipped_scaled_gradient = function(x, y, z, gradx, grady, gradz, gradmin, gradmax)
+{
+	clip(((x * gradx + y * grady + z * gradz) - gradmin) / (gradmax - gradmin), 0, 1)
+}
+
+#declare my_gradient_1 = function(x, y, z, gradx, grady, gradz, gradscale)
+{
+	atan((x * gradx + y * grady + z * gradz)/gradscale)/(pi/2)
+}
+
+#declare my_gradient_2 = function(x, y, z, gradx, grady, gradz, gradmin, gradmax)
+{
+	clip(((x * gradx + y * grady + z * gradz) - gradmin) / (gradmax - gradmin), 0, 1)
+}
+
+#declare Muns_depth_pigment = pigment
+{
+	function
+	{
+//		clipped_scaled_gradient(x, y, z, CAMERAFRONTX, CAMERAFRONTY, CAMERAFRONTZ, DEPTHMIN, DEPTHMAX)
+		my_gradient_1(x, y, z, CAMERAFRONTX, CAMERAFRONTY, CAMERAFRONTZ, 128)
+//		my_gradient_2(x, y, z, CAMERAFRONTX, CAMERAFRONTY, CAMERAFRONTZ, DEPTHMIN, DEPTHMAX)
+	}
+	color_map
+	{
+		[0 color rgb <1,1,1>]
+		[1 color rgb <0,0,0>]
+	}
+	translate CAMERAPOS
+}
 
 union
 {
 	union
 	{
 		#if (Muns_minimal_scene = false)
-			// outer colored cylinders
+			// outer saturated cylinders
 			#local Muns_coo_count = 0;
 			#local Muns_coo_max = 2734;
 			#while (Muns_coo_count < Muns_coo_max)
@@ -3056,16 +3132,18 @@ union
 							rotate		+y * Muns_param_h
 						}
 					}
-					texture
-					{
-						pigment {color srgb Muns_coo_RGB}
-						finish {Muns_object_finish}
-					}
+					#if (Muns_depth_map = false)
+						texture
+						{
+							pigment {color srgb Muns_coo_RGB}
+							finish {Muns_object_finish}
+						}
+					#end
 				}
 				#local Muns_coo_count = Muns_coo_count + 1;
 			#end
 	
-			// innermost neutral cylinders
+			// innermost unsaturated cylinders
 			#local Muns_coo_count = 0;
 			#local Muns_coo_max = 11;
 			#while (Muns_coo_count < Muns_coo_max)
@@ -3088,11 +3166,13 @@ union
 						rotate		+y * Muns_param_h
 					}
 					object {Muns_wipe_object}
-					texture
-					{
-						pigment {color srgb Muns_coo_RGB}
-						finish {Muns_object_finish}
-					}
+					#if (Muns_depth_map = false)
+						texture
+						{
+							pigment {color srgb Muns_coo_RGB}
+							finish {Muns_object_finish}
+						}
+					#end
 				}
 				#local Muns_coo_count = Muns_coo_count + 1;
 			#end
@@ -3120,47 +3200,59 @@ union
 		#end
 
 		// hue circle markers
-		difference
-		{
-			polygon
+		#if (Muns_show_labels = true)
+			difference
 			{
-				4, <0, 0,>, <1, 0,>, <1, 1,>, <0, 1,>
-				pigment {image_map {png "munsell_horizontal_cross_section_38_trans.png"}}
-				translate	-x/2
-				translate	-y/2
-				scale		+x * 2100/1950 * 39
-				scale		+y * 2100/1950 * 39
-				rotate		+x * 90
-				rotate		+y * Muns_slice_angle * 22
-				translate	-y * 12/2
-				translate	-y * 0.0001
+				polygon
+				{
+					4, <0, 0,>, <1, 0,>, <1, 1,>, <0, 1,>
+					pigment {image_map {png "munsell_horizontal_cross_section_38_trans.png"}}
+					translate	-x/2
+					translate	-y/2
+					scale		+x * 2100/1950 * 39
+					scale		+y * 2100/1950 * 39
+					rotate		+x * 90
+					rotate		+y * Muns_slice_angle * 22
+					translate	-y * 12/2
+					translate	-y * 0.0001
+				}
+				object {Muns_text_cutout}
+				no_shadow
+				no_reflection
 			}
-			object {Muns_text_cutout}
-			no_shadow
-			no_reflection
-		}
+		#end
 
 		rotate		+y * Muns_hue_adjust
 	}
 
 	// chroma and value markers
-	difference
-	{
-		polygon
+	#if (Muns_show_labels = true)
+		difference
 		{
-			4, <0, 0,>, <1, 0,>, <1, 1,>, <0, 1,>
-			pigment {image_map {png "munsell_vertical_cross_section_38_trans.png"}}
-			translate	-x/2
-			translate	-y/2
-			scale		+x * 2100/1950 * 39
-			scale		+y * 700/550 * 11
-			rotate		+y * 090
-			translate	-x * 0.0001
+			polygon
+			{
+				4, <0, 0,>, <1, 0,>, <1, 1,>, <0, 1,>
+				pigment {image_map {png "munsell_vertical_cross_section_38_trans.png"}}
+				translate	-x/2
+				translate	-y/2
+				scale		+x * 2100/1950 * 39
+				scale		+y * 700/550 * 11
+				rotate		+y * 090
+				translate	-x * 0.0001
+			}
+			object {Muns_text_cutout}
+			no_shadow
+			no_reflection
 		}
-		object {Muns_text_cutout}
-		no_shadow
-		no_reflection
-	}
+	#end
 
 	rotate		+y * (180 * Muns_time_spin + 180)
+
+	#if (Muns_depth_map = true)
+		texture
+		{
+			pigment {Muns_depth_pigment}
+			finish {Muns_no_finish}
+		}
+	#end
 }
